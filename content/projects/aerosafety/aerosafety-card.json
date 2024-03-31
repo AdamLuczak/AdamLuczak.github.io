@@ -1,0 +1,17 @@
+{
+    "title": "Automatic Multifocal System for Ground Based Inflight Airplane Recording",
+    "image": null,
+    "description": "Currently available systems offer a limited set of functionalities mentioned in the previous section. Among the better known ones are the systems that support automatic tracking of objects by the means of GPS localization like the one advertised on [1]. As evidenced by the published movies the system is lacking in two main aspects: automatic focusing – often the tracked object finds itself out of focus and field of view – each time only either one – a more detailed zoomed view or a more general view of the object and surroundings is available.",
+    "authors": 
+    {
+        "First A. Author": {},
+        "Second B. Author": {},
+        "Third C. Author": {}
+    },
+    "tags": 
+    {
+        "GPS localization": {},
+        "automatic tracking": {},
+        "video monitoring": {}
+    }
+}

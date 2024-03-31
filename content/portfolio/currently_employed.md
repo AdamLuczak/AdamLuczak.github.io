@@ -1,0 +1,1 @@
+![img-logo](./images/stopka_ogolna-01.png)

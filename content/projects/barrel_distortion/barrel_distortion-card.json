@@ -1,0 +1,19 @@
+{
+    "title": "Enhancing Surveillance with Barrel Distortion in Multifocal Image Acquisition",
+    "image": null,
+    "description": "This innovative method improves video monitoring and surveillance by employing distortions characteristic of fisheye lenses. It allows for seamless zooming and the capture of multiple images at different angles from a single camera, enriching the visual data available for surveillance systems.",
+    "authors": 
+    {
+        "Adam Łuczak"           : {},
+        "Sławomir Maćkowiak"    : {},
+        "Damian Karwowski"      : {},
+        "Tomasz Grajek"         : {}
+    },
+    "tags": 
+    {
+        "barrel distortion"     : {},
+        "fisheye lens"          : {},
+        "surveillance systems"  : {},
+        "multiresolution"       : {}
+    }
+}
