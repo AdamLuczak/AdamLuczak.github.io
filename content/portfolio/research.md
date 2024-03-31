@@ -9,3 +9,4 @@ Holder of 5 US patents, with 2 of them also registered in Europe, contributing t
 ###Publications
 Co-author of 74 publications, including conference papers and journal articles, disseminating significant research findings in [Tu możesz dodać główne dziedziny Twoich publikacji].
 
+[<p style="text-align: right;">more info -></p>](content/portfolio/research_extended.md)
