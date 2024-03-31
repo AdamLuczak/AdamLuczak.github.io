@@ -1,0 +1,135 @@
+@import url('./styles/fonts.css');
+@import url('./styles/highlight.css');
+@import url('./styles/normalize.css');
+
+:root {
+    /* typography */
+    --ff-poppins: 'Poppins', sans-serif;
+  
+    /* solid */
+    
+    --jet: hsl(0, 0%, 22%);
+    --onyx: hsl(240, 1%, 17%);
+    --eerie-black-1: hsl(240, 2%, 13%);
+    --eerie-black-2: hsl(240, 2%, 12%);
+    --smoky-black: hsl(0, 0%, 7%);
+    --white-1: hsl(0, 0%, 100%);
+    --white-2: hsl(0, 0%, 98%);
+    --orange-yellow-crayola: hsl(45, 100%, 72%);
+    --vegas-gold: hsl(45, 54%, 58%);
+    --light-gray: hsl(0, 0%, 84%);
+    --light-gray-70: hsla(0, 0%, 84%, 0.7);
+    --bittersweet-shimmer: hsl(0, 43%, 51%);
+
+    /* font-size */
+    --fs-1: 24px;
+    --fs-2: 18px;
+    --fs-3: 17px;
+    --fs-4: 16px;
+    --fs-5: 15px;
+    --fs-6: 14px;
+    --fs-7: 13px;
+    --fs-8: 11px;
+  
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+  
+    /* transition */
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease-in-out;
+}
+
+/* body { background: var(--smoky-black); }
+
+body::-webkit-scrollbar { width: 20px; }
+
+body::-webkit-scrollbar-track { background: var(--smoky-black); }
+
+body::-webkit-scrollbar-thumb {
+  border: 5px solid var(--smoky-black);
+  background: hsla(0, 0%, 100%, 0.1);
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+              inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+}
+
+body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
+
+body::-webkit-scrollbar-button { height: 60px; }
+
+*/
+
+main {
+  max-width: 1600px; /* Standardowa maksymalna szerokość */
+  margin: 0 auto; /* Automatyczne marginesy z lewej i prawej strony, co wyśrodkuje kontener */
+  padding: 20px; /* Opcjonalne wewnętrzne odstępy */
+}
+
+.sidebar {
+  width: 100%; /* Domyślnie na małych ekranach zajmuje 100% szerokości */
+  padding: 15px 0; /* Dodaje odstęp na górze i na dole kolumny */
+  box-sizing: border-box; /* Upewnij się, że padding nie zwiększa szerokości */
+}
+
+/* Dla ekranów szerszych niż 768px */
+@media (min-width: 450px) 
+{
+  .sidebar {
+      width: 450px; /* Szerokość dla większych ekranów */
+  }
+}
+
+.markdown-1 
+{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; /* Zapewnia, że padding nie zwiększa szerokości kontenera */
+}
+
+.markdown-1 .img-full-width 
+{
+    width: calc(100% + 20px);
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.markdown-1 .img-icon 
+{
+    width: 48px;
+    height: 48px;
+    /* display: block; */
+    padding: 8px;
+    margin: 0 auto;
+} 
+
+.markdown-1 .img-logo
+{
+  width: calc(100%);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+
+
+.markdown-dark-1 
+{
+    background-color: #252525;/*linear-gradient(#3a3a39, #2c2c2c);*/
+    padding: 10px; /* Dodatkowe wewnętrzne odstępy */
+    margin-bottom: 20px; /* Dodaje margines na dole każdej karty */
+}
+
+.markdown-light-1
+{
+    background-color: #f4f4f4;
+    padding: 10px; /* Dodatkowe wewnętrzne odstępy */
+    margin-bottom: 20px; /* Dodaje margines na dole każdej karty */
+}
