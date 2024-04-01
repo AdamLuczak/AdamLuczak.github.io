@@ -30,3 +30,8 @@ Experienced in designing over 40 different PCBs using Altium Designer, Eagle, an
 
 ### 3D Printing and Modeling
 Proficient in 3D printing, slicer software operation, and 3D modeling with OpenSCAD and Fusion360, capable of creating and preparing models for production.
+
+### System Tools
+Linux/Bash: Proficiency in automation using Bash scripts.
+Docker: Knowledge of application containerization and image management.
+Git: Familiarity with source code management and collaboration in teams using Git.
