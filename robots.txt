@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://adamluczak.github.io/sitemap.xml
