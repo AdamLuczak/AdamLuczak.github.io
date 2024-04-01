@@ -16,16 +16,15 @@
     <main>
         <aside class="sidebar" data-sidebar>
             <div class="container-fluid">
-                <!-- <div class="row flex-nowrap"> -->
+                <div class="row flex-nowrap">
                     <div id="left-column">
                     </div>
-                <!-- </div> -->
+                </div>
             </div>
         </aside>
 
         <div class="main-content">
-            <div class="col bg-secondary">
-                <!-- Kolejne projekty można dodać tutaj -->
+            <div id="main-column" class="col bg-secondary">
             </div>
         </div>
 
@@ -36,27 +35,66 @@
 
     <script>
 
-    function processImages(container) {
+
+    async function fetchMdContent(url) 
+    {
+        const response = await fetch(url);
+        if (!response.ok) 
+        {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return await response.text();
+    }
+
+    function processCardContainer(container) 
+    {
         const images = container.querySelectorAll('img');
         images.forEach(img => 
         {
-            // take alt name and add as className
             img.classList.add(img.alt);
+        });
+
+        const links = container.querySelectorAll('a');
+        links.forEach(link => 
+        {
+            if (link.href.endsWith('.md')) 
+            {
+                console.info('Found markdown link', link.href)
+                const styleName = link.textContent;
+                
+                link.addEventListener('click', function(event) 
+                {
+                    event.preventDefault();
+                    fetchMdContent(link.href)
+                        .then(mdContent => 
+                        {
+                            const converter = new showdown.Converter();
+                            const html      = converter.makeHtml(mdContent);
+
+                            let     cardContainer   = document.createElement('div');
+                            cardContainer.className = 'markdown-1 markdown-dark-1';
+                            cardContainer.innerHTML = html;
+
+                            ref = document.getElementById("main-column");
+                            if (ref) ref.appendChild(cardContainer);
+                        });
+                });
+            }
         });
     }
 
     function loadHtmlContent(path, elementId) 
     {
-    fetch(path)
-        .then(response => response.text())
-        .then(data => {
-        const container = document.getElementById(elementId);
-        // Zamiast dodawać do innerHTML, używamy nowego diva jako kontenera dla każdej karty
-        const cardContainer = document.createElement('div');
-        cardContainer.innerHTML = data;
-        container.appendChild(cardContainer);
-        })
-        .catch(err => console.error('Failed to load page content', err));
+        fetch(path)
+            .then(response => response.text())
+            .then(data => 
+            {
+                const container = document.getElementById(elementId);
+                const cardContainer = document.createElement('div');
+                cardContainer.innerHTML = data;
+                container.appendChild(cardContainer);
+            })
+            .catch(err => console.error('Failed to load page content', err));
     }
 
     function loadMarkdownContent(path, elementId, className) 
@@ -70,16 +108,14 @@
             .then(response => response.text())
             .then(markdown => {
                 const converter = new showdown.Converter();
-                const html = converter.makeHtml(markdown);
+                const html      = converter.makeHtml(markdown);
                 cardContainer.className = className[0];
                 for (let i = 1; i < className.length; i++) {
                     cardContainer.classList.add(className[i]);
                 }
                 cardContainer.innerHTML = html;
 
-                // Teraz, gdy HTML został dodany, możesz przeszukać obrazy w cardContainer
-                processImages(cardContainer);
-
+                processCardContainer(cardContainer);
             })
             .catch(err => console.error('Failed to load markdown content', err));
     }

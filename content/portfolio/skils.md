@@ -16,8 +16,11 @@ Specialized in AI, neural networks, and prompt engineering, offering advanced ca
 ### NodeJS, Websockets, REST API 
 Experienced in server-side development, real-time communication, and building scalable network applications. Proficient in worker multithreading for efficient parallel processing.
 
-### ChatGPT 
-Proficient in using ChatGPT API, making function calls, and developing bots, enabling advanced conversational AI applications.
+### ChatGPT & AI Tools
+Utilizing **ChatGPT API** for function calls, bot development (Python/JS), and creating local bots for Discord.
+Experience in **prompt engineering** with platforms like **ChatGPT**, **Midjourney**, **Leonardo.ai**, adapting to enhance AI interactions.
+Experienced with AI tools like Whisper, DALL-E for processing images, video, audio, and data files.
+
 
 ### Hardware | FPGA
 Skilled in hardware design and simulation with Verilog, SystemVerilog, and VHDL, focusing on digital system development and FPGA programming.

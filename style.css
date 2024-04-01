@@ -63,23 +63,34 @@ body::-webkit-scrollbar-button { height: 60px; }
 */
 
 main {
-  max-width: 1600px; /* Standardowa maksymalna szerokość */
-  margin: 0 auto; /* Automatyczne marginesy z lewej i prawej strony, co wyśrodkuje kontener */
-  padding: 20px; /* Opcjonalne wewnętrzne odstępy */
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex; /* Use flexbox to lay out children side by side */
+  flex-wrap: wrap; /* Allows items to wrap as needed */
 }
 
-.sidebar {
-  width: 100%; /* Domyślnie na małych ekranach zajmuje 100% szerokości */
-  padding: 15px 0; /* Dodaje odstęp na górze i na dole kolumny */
-  box-sizing: border-box; /* Upewnij się, że padding nie zwiększa szerokości */
+.sidebar, .main-content {
+  padding: 15px;
+  box-sizing: border-box;
 }
 
-/* Dla ekranów szerszych niż 768px */
-@media (min-width: 450px) 
-{
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
   .sidebar {
-      width: 450px; /* Szerokość dla większych ekranów */
+      flex: 1; /* Allows the sidebar to grow */
+      max-width: 25%; /* Sidebar takes up to 25% of the parent container */
   }
+
+  .main-content {
+      flex: 3; /* Allows main content to grow and fill the space */
+      max-width: 75%; /* Main content takes up to 75% of the parent container */
+  }
+}
+
+.main-content {
+  float: left;
+  width: 75%; /* Lub inną wartość */
 }
 
 .markdown-1 
