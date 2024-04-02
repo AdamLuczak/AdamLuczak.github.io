@@ -36,10 +36,9 @@
         </aside>
 
         <div class="main-content">
-            <div id="main-column" class="col bg-secondary">
-            </div>
+          <div id="main-column" class="col bg-secondary">
+          </div>
         </div>
-
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -80,7 +79,7 @@
                     fetchMdContent(link.href)
                         .then(mdContent => 
                         {
-                            const converter = new showdown.Converter();
+                            const converter = new showdown.Converter({tables: true});
                             const html      = converter.makeHtml(mdContent);
 
                             let     cardContainer   = document.createElement('div');
@@ -92,6 +91,23 @@
                         });
                 });
             }
+            else if (link.href.startsWith('copy:'))
+            {
+              link.addEventListener('click', function(event) 
+              {
+                event.preventDefault();
+                const textToCopy = this.getAttribute('href').slice(5);
+                
+                navigator.clipboard.writeText(textToCopy).then(() => 
+                {
+                    console.log('Tekst skopiowany do schowka: ', textToCopy);
+                })
+                .catch(err => 
+                {
+                    console.error('Błąd podczas kopiowania: ', err);
+                });
+              });
+            };
         });
     }
 
@@ -119,7 +135,7 @@
         fetch(path)
             .then(response => response.text())
             .then(markdown => {
-                const converter = new showdown.Converter();
+                const converter = new showdown.Converter({tables: true});
                 const html      = converter.makeHtml(markdown);
                 cardContainer.className = className[0];
                 for (let i = 1; i < className.length; i++) {
@@ -137,6 +153,8 @@
     loadMarkdownContent('content/portfolio/skils.md', 'left-column', ['markdown-1','markdown-dark-1']);
     loadMarkdownContent('content/portfolio/research.md', 'left-column', ['markdown-1','markdown-dark-1']);
     loadMarkdownContent('content/portfolio/education.md', 'left-column', ['markdown-1','markdown-dark-1']);
+
+    loadMarkdownContent('content/research/research_articles.md', 'main-column', ['markdown-1','markdown-dark-1']);
 
     </script>
 
