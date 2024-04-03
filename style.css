@@ -65,7 +65,7 @@ body::-webkit-scrollbar-button { height: 60px; }
 main {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px;
   display: flex; /* Use flexbox to lay out children side by side */
   flex-wrap: wrap; /* Allows items to wrap as needed */
 }
@@ -75,6 +75,8 @@ main {
   padding: 15px;
   box-sizing: border-box;
   width: 100%; /* Domyślnie zajmują 100% szerokości */
+  margin: 0 auto; /* Centruje treść i usuwa marginesy z boków */
+  padding: 15px; /* Dostosuj w zależności od potrzeb */
 }
 
 /* Dostosowania dla ekranów szerszych niż 600px */
