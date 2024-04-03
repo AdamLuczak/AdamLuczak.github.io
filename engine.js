@@ -57,7 +57,9 @@ function processCardContainer(container)
 {
     const images = container.querySelectorAll('img');
 
-    // Add class to images based on alt text, format is 'class:alt'
+    // ..........................................................................
+    // Add class to images based on alt text, format is 'class1:class2: ... :alt'
+    // ..........................................................................
 
     images.forEach(img => 
     {
@@ -72,6 +74,34 @@ function processCardContainer(container)
 
         img.classList.add(...classes);
     });
+
+    // ..........................................................................
+    // Add class to link based on link text, format is 'class1:class2: ... :text'
+    // ..........................................................................
+
+
+    const a_sect = container.querySelectorAll('a');
+    a_sect.forEach(a => 
+    {
+        // check if a has href
+        if(a.href) 
+        {
+            console.info('Processing link', a.href, 'with text', a.textContent);
+            const section   = a.textContent.split(':', 2);
+            // add last section as text
+            const text      = section[section.length - 1];
+            const classes   = section.slice(0, section.length - 1);
+
+            console.info('Adding classes', classes, 'to link', a.href, 'with text', text);
+
+            a.textContent = text;
+            a.classList.add(...classes);
+        }
+    });
+
+    // ..........................................................................
+    // capture clicks on markdown links and fetch content and convert to HTML
+    // ..........................................................................
 
     const links = container.querySelectorAll('a');
     links.forEach(link => 
@@ -99,23 +129,6 @@ function processCardContainer(container)
                     });
             });
         }
-        else if (link.href.startsWith('copy:'))
-        {
-          link.addEventListener('click', function(event) 
-          {
-            event.preventDefault();
-            const textToCopy = this.getAttribute('href').slice(5);
-            
-            navigator.clipboard.writeText(textToCopy).then(() => 
-            {
-                console.log('Tekst skopiowany do schowka: ', textToCopy);
-            })
-            .catch(err => 
-            {
-                console.error('Błąd podczas kopiowania: ', err);
-            });
-          });
-        };
     });
 }
 

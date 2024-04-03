@@ -72,8 +72,6 @@ main {
 
 .sidebar, .main-content 
 {
-  /* padding: 15px;
-  box-sizing: border-box; */
   width: 100%; /* Domyślnie zajmują 100% szerokości */
   margin: 0 auto; /* Centruje treść i usuwa marginesy z boków */
   padding: 15px; /* Dostosuj w zależności od potrzeb */
@@ -127,7 +125,6 @@ main {
 {
     width: 48px;
     height: 48px;
-    /* display: block; */
     padding: 8px;
     margin: 0 auto;
 } 
