@@ -70,27 +70,32 @@ main {
   flex-wrap: wrap; /* Allows items to wrap as needed */
 }
 
-.sidebar, .main-content {
+.sidebar, .main-content 
+{
   padding: 15px;
   box-sizing: border-box;
+  width: 100%; /* Domyślnie zajmują 100% szerokości */
 }
 
-/* Adjustments for larger screens */
-@media (min-width: 768px) {
+/* Dostosowania dla ekranów szerszych niż 600px */
+@media (min-width: 700px) {
   .sidebar {
-      flex: 1; /* Allows the sidebar to grow */
-      max-width: 25%; /* Sidebar takes up to 25% of the parent container */
+    flex: 0 0 400px; /* Sidebar ma stałą szerokość 400px, nie rośnie i nie kurczy się */
+    max-width: 400px; /* Zapobiega przekroczeniu szerokości 400px */
   }
 
   .main-content {
-      flex: 3; /* Allows main content to grow and fill the space */
-      max-width: 75%; /* Main content takes up to 75% of the parent container */
+    flex-grow: 1; /* Pozwala głównej treści na wzrost i wypełnienie dostępnej przestrzeni */
+    flex-basis: calc(100% - 400px); /* Zajmuje pozostałą przestrzeń minus szerokość sidebaru */
   }
 }
 
-.main-content {
-  float: left;
-  width: 75%; /* Lub inną wartość */
+/* Dostosowania dla ekranów węższych niż 600px */
+@media (max-width: 600px) {
+  .sidebar, .main-content {
+    width: 100%; /* Używa viewport width, zamiast %, dla szerokości */
+    flex-basis: 100%; /* Ustawia bazową szerokość na 100%, co pozwala na auto-dostosowanie */
+  }
 }
 
 .markdown-1 
