@@ -90,6 +90,10 @@ main {
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* Dostosowania dla ekranów węższych niż 600px */
 @media (max-width: 600px) {
   .sidebar, .main-content {
