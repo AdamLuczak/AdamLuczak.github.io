@@ -166,6 +166,9 @@ main {
     margin-bottom: 20px; /* Dodaje margines na dole każdej karty */
 }
 
+/* ============================================================ */
+/* nav bar                                                      */
+/* ============================================================ */
 
 .navbar {
   background-color: var(--onyx);
@@ -215,4 +218,21 @@ main {
   -webkit-user-select: none; /* Wersja dla przeglądarek opartych na WebKit, np. Safari */
   -moz-user-select: none; /* Wersja dla przeglądarek Mozilla, np. Firefox */
   -ms-user-select: none; /* Wersja dla przeglądarek Microsoft, np. Edge */
+}
+
+.grid-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-tile {
+  width: calc(50% - 10px); /* Odejmujemy 10px, aby uwzględnić marginesy */
+  margin-bottom: 20px; /* Margines dolny dla odstępu pomiędzy wierszami */
+}
+
+@media (max-width: 620px) { /* Dostosowanie dla ekranów poniżej 620px, aby każdy kafelek miał 300px + marginesy */
+  .grid-tile {
+    width: 100%; /* Kafelki na pełną szerokość dla mniejszych ekranów */
+  }
 }

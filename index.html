@@ -38,11 +38,11 @@
 
           <nav class="navbar">
             <ul id="menu-items">
-                <li><a data-target="content/empty.md">Latest Projects</a></li>
-                <li><a data-target="content/empty.md">Applications</a></li>
-                <li><a data-target="content/empty.md">Projects</a></li>
-                <li><a data-target="content/research/research_articles.md">Articles</a></li>
-                <li><a data-target="content/research/research_patents.md">Patents</a></li>
+                <li><a data-type="exclusive" data-target="content/empty.md">Latest Projects</a></li>
+                <li><a data-type="exclusive" data-target="content/empty.md">Applications</a></li>
+                <li><a data-type="list"      data-target="content/empty.md">Projects</a></li>
+                <li><a data-type="exclusive" data-target="content/research/research_articles.md">Articles</a></li>
+                <li><a data-type="exclusive" data-target="content/research/research_patents.md">Patents</a></li>
             </ul>
         </nav>
 
@@ -60,15 +60,17 @@
       {
         const menuItems = document.querySelectorAll('#menu-items a');
 
-        const savedMenu = localStorage.getItem('activeMenu');
+        const data_file = localStorage.getItem('activeMenu');
+        const data_type = localStorage.getItem('activeMenu');
         
-        if (savedMenu) 
+        if (data_file) 
         {
-            loadMarkdownContentExclusive(savedMenu, 'main-column', ['markdown-1', 'markdown-dark-1']); // Załaduj zawartość
+            if (data_type === 'exclusive') {loadMarkdownContentExclusive(data_file, 'main-column', ['markdown-1', 'markdown-dark-1']);} 
+            else if (data_type === 'list') {loadMarkdownContent(data_file, 'main-column', ['markdown-1', 'markdown-dark-1']);}
 
             menuItems.forEach(item => 
             {
-              if (item.getAttribute('data-target') === savedMenu) 
+              if (item.getAttribute('data-target') === data_file) 
               {
                 item.classList.add('active');
               }
@@ -85,11 +87,14 @@
 
             this.classList.add('active');
 
-            const markdownFile = this.getAttribute('data-target');
+            const data_file   = this.getAttribute('data-target');
+            const data_type   = this.getAttribute('data-type');
 
-            localStorage.setItem('activeMenu', markdownFile); 
+            localStorage.setItem('activeMenu_file', data_file); 
+            localStorage.setItem('activeMenu_type', data_type); 
 
-            loadMarkdownContentExclusive(markdownFile, 'main-column', ['markdown-1', 'markdown-dark-1']);
+            if (data_type === 'exclusive') {loadMarkdownContentExclusive(data_file, 'main-column', ['markdown-1', 'markdown-dark-1']);} 
+            else if (data_type === 'list') {loadMarkdownContent(data_file, 'main-column', ['markdown-1', 'markdown-dark-1']);}
           });
         });
       });
