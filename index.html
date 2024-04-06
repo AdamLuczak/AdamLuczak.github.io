@@ -87,7 +87,6 @@
             this.classList.add('active');
             const markdownFile = this.getAttribute('data-target');
             localStorage.setItem('activeMenu', markdownFile); 
-            document.getElementById('debug').innerHTML = markdownFile;
             loadMarkdownContentExclusive(markdownFile, 'main-column', ['markdown-1', 'markdown-dark-1']);
           });
         });
