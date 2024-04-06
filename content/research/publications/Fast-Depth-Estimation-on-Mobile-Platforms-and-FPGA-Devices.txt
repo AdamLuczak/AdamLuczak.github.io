@@ -1,0 +1,1 @@
+﻿﻿﻿﻿﻿﻿﻿M. Domański, J. Konieczny, M. Kurc, A. Łuczak, J. Siast, O. Stankiewicz, K. Wegner, “Fast Depth Estimation on Mobile Platforms and FPGA Devices”, 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video, 3DTV- Con 2015, Lisbon, Portugal, 8-10 July 2015, 

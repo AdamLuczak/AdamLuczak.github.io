@@ -25,14 +25,27 @@
     <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
 <body>
-    <div id="viewport-width" style="color:white;">Szerokość viewportu: </div>
     <main>
-        <aside class="sidebar" data-sidebar>
-          <div id="left-column">
+      
+      <aside class="sidebar" data-sidebar>
+        <div id="debug" style="background:black; color: white">
+        </div>
+            <div id="left-column">
           </div>
         </aside>
 
         <div class="main-content">
+
+          <nav class="navbar">
+            <ul id="menu-items">
+                <li><a data-target="content/portfolio/latest_projects.md">Latest Projects</a></li>
+                <li><a data-target="content/portfolio/projects.md">Applications</a></li>
+                <li><a data-target="content/portfolio/projects.md">Projects</a></li>
+                <li><a data-target="content/research/research_articles.md">Articles</a></li>
+                <li><a data-target="content/research/research_patents.md">Patents</a></li>
+            </ul>
+        </nav>
+
           <div id="main-column" class="bg-secondary">
           </div>
         </div>
@@ -43,19 +56,43 @@
     <script src="engine.js"></script>
 
     <script>
-      function updateViewportWidth() {
-        // Pobiera aktualną szerokość viewportu
-        var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-        
-        // Aktualizuje tekst w divie #viewport-width
-        document.getElementById('viewport-width').innerHTML = 'Szerokość viewportu: ' + width + 'px';
-      }
-    
-      // Aktualizuje szerokość viewportu przy ładowaniu strony
-      window.onload = updateViewportWidth;
-    
-      // Aktualizuje szerokość viewportu przy zmianie rozmiaru okna
-      window.onresize = updateViewportWidth;
+      document.addEventListener('DOMContentLoaded', function() 
+      {
+        const menuItems = document.querySelectorAll('#menu-items a');
+
+        const savedMenu = localStorage.getItem('activeMenu');
+        if (savedMenu) 
+        {
+            document.getElementById('debug').innerHTML = savedMenu; // Wyświetlenie zapamiętanego menu
+            loadMarkdownContentExclusive(savedMenu, 'main-column', ['markdown-1', 'markdown-dark-1']); // Załaduj zawartość
+
+            menuItems.forEach(item => 
+            {
+              if (item.getAttribute('data-target') === savedMenu) 
+              {
+                item.classList.add('active');
+              }
+            });
+        }
+
+        menuItems.forEach(item => 
+        {
+          item.addEventListener('click', function(e) 
+          {
+            e.preventDefault();
+
+            menuItems.forEach(link => {link.classList.remove('active');});
+
+            // Dodaj klasę 'active' do klikniętego elementu
+            this.classList.add('active');
+            const markdownFile = this.getAttribute('data-target');
+            localStorage.setItem('activeMenu', markdownFile); 
+            document.getElementById('debug').innerHTML = markdownFile;
+            loadMarkdownContentExclusive(markdownFile, 'main-column', ['markdown-1', 'markdown-dark-1']);
+          });
+        });
+      });
+
     </script>
 
     <script>
@@ -65,8 +102,6 @@
     loadMarkdownContent('content/portfolio/skils.md', 'left-column', ['markdown-1','markdown-dark-1']);
     loadMarkdownContent('content/portfolio/research.md', 'left-column', ['markdown-1','markdown-dark-1']);
     loadMarkdownContent('content/portfolio/education.md', 'left-column', ['markdown-1','markdown-dark-1']);
-
-    loadMarkdownContent('content/research/research_articles.md', 'main-column', ['markdown-1','markdown-dark-1']);
 
     </script>
 

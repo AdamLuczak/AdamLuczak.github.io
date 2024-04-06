@@ -1,1 +1,1 @@
-![img-logo:vbionic_logo](./images/stopka_ogolna-01.png)
+![img-logo:vbionic_logo](/images/stopka_ogolna-01.png)

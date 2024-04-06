@@ -26,9 +26,21 @@ function loadHtmlContent(path, elementId)
         .catch(err => console.error('Failed to load page content', err));
 }
 
+function loadMarkdownContentExclusive(path, elementId, className) 
+{
+    const   container       = document.getElementById(elementId);
+    while (container.firstChild) 
+    {
+        container.removeChild(container.firstChild);
+    }
+    
+    loadMarkdownContent(path, elementId, className)
+}
+
 function loadMarkdownContent(path, elementId, className) 
 {
     const   container       = document.getElementById(elementId);
+
     let     cardContainer   = document.createElement('div');
 
             container.appendChild(cardContainer);

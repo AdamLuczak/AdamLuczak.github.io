@@ -4,43 +4,16 @@
 IEEE Transactions on Very Large Scale Integration (VLSI) Systems  
 Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.pdf) |
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](copy:publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.txt)
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.txt)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.bibtex)
 
 ### New results in free-viewpoint television systems for horizontal virtual navigation
 
 > Marek Domański, Maciej Bartkowiak, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, ***Adam Łuczak***, Dawid Mieloch, Jarosław Samelak, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner
 2016 IEEE International Conference on Multimedia and Expo ICME 2016, Seattle, USA, 11-15 July 2016  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.pdf) |
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/New-results-in-free-viewpoint-television-systems)
-
-### A system and method for object dimension estimation using 3D models
-
-> Marek Domański, Tomasz Grajek, Krzysztof Klimaszewski, ***Adam Łuczak***, Robert Ratajczak, Krzysztof Wegner  
-Patent office: USPTO, Status: granted, Application number: US 14/690484, Filling date: 20.04.2015,  
-Patent number: US 9430850, Date of Patent: 30.08.2016  
-</i><i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/USPTO-A-system-and-method-for-object-dimension-estimation-using-3D-models.txt)
-
-### A system and a method for tracking objects
-> ***Adam Łuczak***, Sławomir Maćkowiak, Marek Domański, Jakub Siast, Tomasz Grajek  
-Patent office: USPTO, Status: granted, Application number: US 14/664862, Filling date: 22.03.2015,  
-Publication number: US 2016/0275695, Publication date: 22.09.2016, Patent number: US 9672634, Date of Patent: 06.06.2017  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/USPTO-A-system-and-a-method-for-tracking-objects.txt)
-
-### An image processing apparatus and method
-> Jacek Konieczny, Marek Domański, Jakub Siast, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
-Patent office: EPO, Status: granted, Application number: EP 15741506.8, Filling date: 03.07.2015, 
-Publication number: EP 3304489, Publication date: 11.04.2018, Patent number: EP 3304489, Date of Patent: 17.04.2019  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...)  | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/EPO-An-image-processing-apparatus-and-method.txt)
-
-### An image processing apparatus and method
-> Jacek Konieczny, Marek Domański, Olgierd Stankiewicz, Krzysztof Wegner, ***Adam Łuczak***  
-Patent office: EPO, Status: granted, Application number: EP 15741505.0, Filling date: 03.07.2015,  
-Publication number: EP 3304488, Publication date: 11.04.2018, Patent number: EP 3304488, Date of Patent: 01.05.2019  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/EPO-An-image-processing-apparatus-and-method.txt)
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.txt)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.bibtex)
 
 ### Methods of High Efficiency Compression for Transmission of Spatial Representation of Motion Scenes
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Łukasz Kowalski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Robert Ratajczak, Jarosław Samelak, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  
@@ -101,13 +74,16 @@ ISO/IEC JTC1/SC29/WG11 MPEG2015, M35842, Geneva, Switzerland, 14-20 February 201
 ### Realizacja eksperymentalnego systemu telewizji swobodnego punktu widzenia z łukowym ustawieniem kamer
 > Adrian Dziembowski, Agnieszka Kuehn, ***Adam Łuczak***, Dawid Mieloch, Krzysztof Wegner  
 Przegląd Telekomunikacyjny, No. 6/2014, June 2014, pp. 161-164  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.pdf) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation (txt)](./publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.txt)
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation (BibTeX)](./publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.bibtex)
+
 
 ### FTV: Poznan Laboratory - a test light-field sequence from Poznan University of Technology
 > Marek Domański, Krzysztof Klimaszewski, Maciej Kurc, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC 1/SC 29/WG 11, m35071, Strasbourg, France, 20-24 October 2014  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.txt)
 
 ### Poznan Blocks – a multiview video test sequence and camera parameters for Free Viewpoint Television
 > Marek Domański, Adrian Dziembowski, Agnieszka Kuehn, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  

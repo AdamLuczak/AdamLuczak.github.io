@@ -159,3 +159,53 @@ main {
     margin-bottom: 20px; /* Dodaje margines na dole każdej karty */
 }
 
+
+.navbar {
+  background-color: var(--onyx);
+  overflow: hidden;
+  padding: 0; /* Usuwa domyślny padding */
+  margin-bottom: 20px; /* Dodaje margines na dole każdej karty */
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Zajmuje pełną dostępną szerokość */
+}
+
+.navbar li {
+  flex: 1; /* Każdy element 'li' będzie zajmował równą część kontenera */
+  text-align: center; /* Opcjonalnie, aby tekst był centrowany */
+}
+
+.navbar li a {
+  display: flex;
+  align-items: center; /* Centruje tekst w pionie */
+  justify-content: center; /* Centruje tekst w poziomie */
+  color: var(--white-1);
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0; /* Usuwa margines */
+}
+
+.navbar li a.active {
+  background-color: hsl(45, 54%, 58%);
+  color: black;
+}
+
+.navbar li a:not(.active):hover 
+{
+  background-color: hsla(0, 0%, 84%, 0.7); /* Jasne tło */
+  color: var(--white-1); /* Ciemny tekst */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a {
+  user-select: none;
+  -webkit-user-select: none; /* Wersja dla przeglądarek opartych na WebKit, np. Safari */
+  -moz-user-select: none; /* Wersja dla przeglądarek Mozilla, np. Firefox */
+  -ms-user-select: none; /* Wersja dla przeglądarek Microsoft, np. Edge */
+}
