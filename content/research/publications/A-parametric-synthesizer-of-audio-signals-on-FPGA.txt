@@ -1,0 +1,1 @@
+﻿﻿﻿﻿﻿﻿﻿J. Borko, G. Dulnik, A. Grzelka, A. Łuczak, A. Paszkowski, “A parametric synthesizer of audio signals on FPGA”, Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 367-369, ISSN: 0032-4140, 
