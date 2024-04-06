@@ -12,7 +12,7 @@
 
 ### An Image Processing Apparatus and Method
 - **EP 3304488** - Issued 1 May 2019  
-  This invention selects depth information for image fragments, computing similarity measures based on depth information value candidates.  
+  This invention selects depth information for image fragments, computing similarity measures based on depth information value candidates.   
   <i class="fa-solid fa-scroll custom-icon"></i>[View Patent]()
 
 ### An Image Processing Apparatus and Method
