@@ -53,7 +53,9 @@ function loadMarkdownContent(path, elementId, className)
             const baseUrl   = path.substring(0, path.lastIndexOf('/'));
             const converter = new showdown.Converter({
                                                         extensions: [createShowdownExtension(baseUrl)],
-                                                        tables: true
+                                                        tables: true,
+                                                        emoji: true,
+                                                        underline: true
                                                     });            
             const html      = converter.makeHtml(markdown);
             console.info("=====================================")
@@ -141,7 +143,9 @@ function processCardContainer(container)
                         const baseUrl   = link.href.substring(0, link.href.lastIndexOf('/'));
                         const converter = new showdown.Converter({
                                                                     extensions: [createShowdownExtension(baseUrl)],
-                                                                    tables: true
+                                                                    tables: true,
+                                                                    emoji: true,
+                                                                    underline: true            
                                                                 });
                         const html      = converter.makeHtml(mdContent);
                         console.info("=====================================")

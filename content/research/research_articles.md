@@ -6,7 +6,7 @@
 IEEE Transactions on Very Large Scale Integration (VLSI) Systems  
 Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.pdf) |
-<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.txt)
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.txt) |
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.bibtex)
 
 ### New results in free-viewpoint television systems for horizontal virtual navigation
@@ -14,25 +14,32 @@ Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210
 > Marek Domański, Maciej Bartkowiak, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, ***Adam Łuczak***, Dawid Mieloch, Jarosław Samelak, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner
 2016 IEEE International Conference on Multimedia and Expo ICME 2016, Seattle, USA, 11-15 July 2016  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.pdf) |
-<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.txt)
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.txt) |
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.bibtex)
 
 ### Methods of High Efficiency Compression for Transmission of Spatial Representation of Motion Scenes
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Łukasz Kowalski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Robert Ratajczak, Jarosław Samelak, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  
 IEEE International Conference on Multimedia and Expo ICME 2015, Torino, Italy, June 29-July 3 2015  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.pdf) |  
-<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)(publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.txt)
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)(publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.bibtex)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.pdf) | 
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.txt) |
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.bibtex)
 
 ### A parametric synthesizer of audio signals on FPGA
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 367-369, ISSN: 0032-4140  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.pdf) | 
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.bibtex)
 
 ### A remote programming module of FPGA boards
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 373-375, ISSN: 0032-4140  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-remote-programming-module-of-FPGA-boards.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/A-remote-programming-module-of-FPGA-boards.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-remote-programming-module-of-FPGA-boards.pdf) | 
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/A-remote-programming-module-of-FPGA-boards.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-remote-programming-module-of-FPGA-boards.bibtex)
+
+
+=========================================================
 
 ### Gigabit Ethernet interface with embedded lossless data encoder on FPGA
 > Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***  

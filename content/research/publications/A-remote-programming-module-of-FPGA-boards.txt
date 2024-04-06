@@ -1,1 +1,1 @@
-﻿﻿﻿﻿﻿﻿﻿J. Borko, G. Dulnik, A. Grzelka, A. Łuczak, A. Paszkowski, “A remote programming module of FPGA boards”, Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 373-375, ISSN: 0032-4140, 
+﻿﻿J. Borko, G. Dulnik, A. Grzelka, A. Łuczak, A. Paszkowski, “A remote programming module of FPGA boards”, Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 373-375, ISSN: 0032-4140, 
