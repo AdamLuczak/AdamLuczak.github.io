@@ -82,18 +82,20 @@ ISO/IEC JTC1/SC29/WG11 MPEG2015, M36565, Warsaw, Poland, 20-27 June 2015
 ### Poznan University of Technology test multiview video sequences acquired with circular camera arrangement – “Poznan Team” and “Poznan Blocks” sequences
 > Marek Domański, Adrian Dziembowski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M35846, Geneva, Switzerland, 14-20 February 2015  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.pdf) |
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.txt)
 
 ### Comments on further standardization for free-viewpoint television
 > Marek Domański, Adrian Dziembowski, Krzysztof Klimaszewski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M35842, Geneva, Switzerland, 14-20 February 2015  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.txt)
 
 ### Fast Depth Estimation on Mobile Platforms and FPGA Devices
 > Marek Domański, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video, 3DTV- Con 2015, Lisbon, Portugal, 8-10 July 2015  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.pdf) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.txt)
 
 
 ### Realizacja eksperymentalnego systemu telewizji swobodnego punktu widzenia z łukowym ustawieniem kamer
