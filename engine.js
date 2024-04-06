@@ -35,11 +35,20 @@ function loadMarkdownContent(path, elementId, className)
 
     fetch(path)
         .then(response => response.text())
-        .then(markdown => {
-            const converter = new showdown.Converter({tables: true});
+        .then(markdown => 
+        {
+            console.info("=====================================")
+            const baseUrl   = path.substring(0, path.lastIndexOf('/'));
+            const converter = new showdown.Converter({
+                                                        extensions: [createShowdownExtension(baseUrl)],
+                                                        tables: true
+                                                    });            
             const html      = converter.makeHtml(markdown);
+            console.info("=====================================")
             cardContainer.className = className[0];
-            for (let i = 1; i < className.length; i++) {
+
+            for (let i = 1; i < className.length; i++) 
+            {
                 cardContainer.classList.add(className[i]);
             }
             cardContainer.innerHTML = html;
@@ -95,14 +104,6 @@ function processCardContainer(container)
 
             a.textContent = text;
             a.classList.add(...classes);
-
-            // change relative link, if link starts with ./ or ../, add base url
-
-            if (a.href.startsWith('./') || a.href.startsWith('../')) 
-            {
-                console.info(window.location.href, a.href);
-                a.href = new URL(a.href, window.location.href); 
-            }
         }
     });
 
@@ -124,8 +125,14 @@ function processCardContainer(container)
                 fetchMdContent(link.href)
                     .then(mdContent => 
                     {
-                        const converter = new showdown.Converter({tables: true});
+                        console.info("=====================================")
+                        const baseUrl   = link.href.substring(0, link.href.lastIndexOf('/'));
+                        const converter = new showdown.Converter({
+                                                                    extensions: [createShowdownExtension(baseUrl)],
+                                                                    tables: true
+                                                                });
                         const html      = converter.makeHtml(mdContent);
+                        console.info("=====================================")
 
                         let     cardContainer   = document.createElement('div');
                         cardContainer.className = 'markdown-1 markdown-dark-1';
@@ -141,3 +148,42 @@ function processCardContainer(container)
 
 //================================================================================
 
+function createShowdownExtension(baseUrl) 
+{
+    return [
+        {
+            type: 'lang',
+            regex: /\[([^\]]+)\]\((?!http)([^)]+)\)/g,
+            replace: function(match, text, link) 
+            {
+                // if link starts with ./ or ../ then it is a relative link
+
+                console.info('Processing link', link, 'with text', text, 'and baseUrl', baseUrl)
+
+                if (link.startsWith('./')) 
+                {
+                    return '[' + text + '](' + baseUrl + '/' + link + ')';
+                }
+                else if (link.startsWith('../')) 
+                {
+                    let   linkUp     = link
+                    let   baseUrlUp  = baseUrl
+                    
+                    while(linkUp.startsWith('../'))
+                    {
+                        linkUp      = linkUp.substring(0, linkUp.lastIndexOf('/'));
+                        baseUrlUp   = baseUrlUp.substring(0, baseUrl.lastIndexOf('/'));
+                    }
+                    
+                    return '[' + text + '](' + baseUrlUp + '/' + linkUp + ')';
+                }
+                else
+                {
+                    return '[' + text + '](' + link + ')';
+                }
+            }
+        }
+    ];
+}
+
+//================================================================================

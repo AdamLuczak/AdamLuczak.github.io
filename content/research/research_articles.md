@@ -3,7 +3,7 @@
 > Jakub Siast, ***Adam Łuczak***, Marek Domański  
 IEEE Transactions on Very Large Scale Integration (VLSI) Systems  
 Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[rel-link:Full text](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.pdf) |
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.pdf) |
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](copy:publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.txt)
 
 ### New results in free-viewpoint television systems for horizontal virtual navigation
@@ -19,7 +19,7 @@ Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210
 Patent office: USPTO, Status: granted, Application number: US 14/690484, Filling date: 20.04.2015,  
 Patent number: US 9430850, Date of Patent: 30.08.2016  
 </i><i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/USPTO-A-system-and-method-for-object-dimension-estimation-using-3D-models.txt)
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/USPTO-A-system-and-method-for-object-dimension-estimation-using-3D-models.txt)
 
 ### A system and a method for tracking objects
 > ***Adam Łuczak***, Sławomir Maćkowiak, Marek Domański, Jakub Siast, Tomasz Grajek  
@@ -50,28 +50,28 @@ IEEE International Conference on Multimedia and Expo ICME 2015, Torino, Italy, J
 ### A parametric synthesizer of audio signals on FPGA
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 367-369, ISSN: 0032-4140  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.txt)
 
 ### A remote programming module of FPGA boards
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 373-375, ISSN: 0032-4140  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/A-remote-programming-module-of-FPGA-boards.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/A-remote-programming-module-of-FPGA-boards.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-remote-programming-module-of-FPGA-boards.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/A-remote-programming-module-of-FPGA-boards.txt)
 
 ### Gigabit Ethernet interface with embedded lossless data encoder on FPGA
 > Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***  
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 364-366, ISSN: 0032-4140  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.txt)
 
 ### A Practical Approach to Acquisition and Processing of Free Viewpoint Video
 > Marek Domański, Adrian Dziembowski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 31st Picture Coding Symposium PCS 2015, Cairns, Australia, 31 May - 3 June 2015, pp. 10-14  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.txt)
 
 ### Video and depth multiview test sequences acquired with circular camera arrangement – “Poznan Service” and “Poznan People”
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M36569, Warsaw, Poland, 20-27 June 2015  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.pdf) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.txt)
 
 ### Freeview Navigation (FN) anchor generation using 3D-HEVC with depth for "Poznan Blocks" sequence
 > Marek Domański, Krzysztof Klimaszewski, Adrian Dziembowski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
