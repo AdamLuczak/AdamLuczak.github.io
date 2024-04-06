@@ -8,7 +8,7 @@
 ### Image Processing Apparatus and Method
 - **US 10504234** - Issued 10 Dec 2019  
   An apparatus that calculates similarity measures for image fragments to determine depth information, using signal processing logic.  
-  <i class="fa-solid fa-file-contract custom-icon"></i>[View Patent](./publications/US-10504234.pdf)
+  <i class="fa-solid fa-scroll custom-icon"></i></i>[View Patent](./publications/US-10504234.pdf)
 
 ### An Image Processing Apparatus and Method
 - **EP 3304488** - Issued 1 May 2019  
