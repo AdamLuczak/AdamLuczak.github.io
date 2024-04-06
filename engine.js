@@ -79,7 +79,6 @@ function processCardContainer(container)
     // Add class to link based on link text, format is 'class1:class2: ... :text'
     // ..........................................................................
 
-
     const a_sect = container.querySelectorAll('a');
     a_sect.forEach(a => 
     {

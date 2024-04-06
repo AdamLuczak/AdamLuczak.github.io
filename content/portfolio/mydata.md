@@ -3,7 +3,7 @@
 
 # <center> Adam Łuczak, Ph.D
 
-<center> Senior Programmer at **vBionic** | Embedded Systems Expert | iOS/macOS Applications | Neural Networks & Prompt Engineering Specialist |Experienced in PCB Design
+<center> Senior Software Engineer & Programmer at **vBionic** | Embedded Systems Expert | iOS/macOS Applications | Neural Networks & Prompt Engineering Specialist |Experienced in PCB Design
 
 ![img-icon:GitHub_icon](./icons/social_media_white/Github_white.svg) [GitHub](https://github.com/AdamLuczak)
 ![img-icon:LinkedIN_icon](./icons/social_media_white/LinkedIN_white.svg) [LinkedIn](https://www.linkedin.com/in/adamłuczak)

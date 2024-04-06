@@ -103,6 +103,11 @@ main {
   }
 }
 
+.custom-icon {
+  font-size: 14px; /* Zwiększ rozmiar ikony */
+  padding: 4px; /* Dodaj padding wokół ikony */
+}
+
 .markdown-1 
 {
     width: 100%;
