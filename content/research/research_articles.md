@@ -3,7 +3,7 @@
 > Jakub Siast, ***Adam Łuczak***, Marek Domański  
 IEEE Transactions on Very Large Scale Integration (VLSI) Systems  
 Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](rel:./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.pdf) |
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](<rel>./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.pdf) |
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](copy:publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.txt)
 
 ### New results in free-viewpoint television systems for horizontal virtual navigation
