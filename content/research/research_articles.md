@@ -45,7 +45,7 @@ Publication number: EP 3304488, Publication date: 11.04.2018, Patent number: EP 
 ### Methods of High Efficiency Compression for Transmission of Spatial Representation of Motion Scenes
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Łukasz Kowalski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Robert Ratajczak, Jarosław Samelak, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  
 IEEE International Conference on Multimedia and Expo ICME 2015, Torino, Italy, June 29-July 3 2015  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.pdf) | <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.txt)
 
 ### A parametric synthesizer of audio signals on FPGA
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
