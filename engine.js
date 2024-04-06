@@ -95,6 +95,14 @@ function processCardContainer(container)
 
             a.textContent = text;
             a.classList.add(...classes);
+
+            // change relative link, if link starts with ./ or ../, add base url
+
+            if (a.href.startsWith('./') || a.href.startsWith('../')) 
+            {
+                console.info(window.location.href, a.href);
+                a.href = new URL(a.href, window.location.href); 
+            }
         }
     });
 
