@@ -61,9 +61,9 @@
         const menuItems = document.querySelectorAll('#menu-items a');
 
         const savedMenu = localStorage.getItem('activeMenu');
+        
         if (savedMenu) 
         {
-            document.getElementById('debug').innerHTML = savedMenu; // Wyświetlenie zapamiętanego menu
             loadMarkdownContentExclusive(savedMenu, 'main-column', ['markdown-1', 'markdown-dark-1']); // Załaduj zawartość
 
             menuItems.forEach(item => 
@@ -83,10 +83,12 @@
 
             menuItems.forEach(link => {link.classList.remove('active');});
 
-            // Dodaj klasę 'active' do klikniętego elementu
             this.classList.add('active');
+
             const markdownFile = this.getAttribute('data-target');
+
             localStorage.setItem('activeMenu', markdownFile); 
+
             loadMarkdownContentExclusive(markdownFile, 'main-column', ['markdown-1', 'markdown-dark-1']);
           });
         });
