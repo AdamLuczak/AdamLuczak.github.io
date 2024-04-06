@@ -1,5 +1,5 @@
 ## Patents
-
+ 
 ### Image Processing Apparatus and Method
 - **US 10593056** - Issued 17 Mar 2020  
   An apparatus for selecting depth information values from digital image fragments, utilizing parallel processing.  
