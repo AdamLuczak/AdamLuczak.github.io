@@ -16,7 +16,8 @@ Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210
 2016 IEEE International Conference on Multimedia and Expo ICME 2016, Seattle, USA, 11-15 July 2016  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.pdf) |
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.txt) |
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.ris)
 
 ### Methods of High Efficiency Compression for Transmission of Spatial Representation of Motion Scenes
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Łukasz Kowalski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Robert Ratajczak, Jarosław Samelak, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  

@@ -1,0 +1,39 @@
+﻿﻿TY  - CONF
+TI  - New results in free-viewpoint television systems for horizontal virtual navigation
+T2  - 2016 IEEE International Conference on Multimedia and Expo (ICME)
+SP  - 1
+EP  - 6
+AU  - M. Domański
+AU  - M. Bartkowiak
+AU  - A. Dziembowski
+AU  - T. Grajek
+AU  - A. Grzelka
+AU  - A. Łuczak
+AU  - D. Mieloch
+AU  - J. Samelak
+AU  - O. Stankiewicz
+AU  - J. Stankowski
+AU  - K. Wegner
+PY  - 2016
+KW  - Cameras
+KW  - Servers
+KW  - Rendering (computer graphics)
+KW  - Microphones
+KW  - Streaming media
+KW  - Navigation
+KW  - Estimation
+KW  - virtual navigation
+KW  - free-viewpoint television
+KW  - multiview video
+DO  - 10.1109/ICME.2016.7552993
+JO  - 2016 IEEE International Conference on Multimedia and Expo (ICME)
+IS  - 
+SN  - 1945-788X
+VO  - 
+VL  - 
+JA  - 2016 IEEE International Conference on Multimedia and Expo (ICME)
+Y1  - 11-15 July 2016
+AB  - The paper presents the concept of a practical free-viewpoint television system with purely optical depth estimation. The system consists of camera modules that contain pairs or triples of cameras together with the respective microphones. The camera modules can be sparsely located in arbitrary positions around a scene. Each camera module is equivalent to a video camera with a depth sensor and microphones. The hardware requirements, the video and audio processing algorithms and the preliminary experimental results are reported. In particular, for such systems, a compression technique is discussed that is more efficient than the new 3D-HEVC technology. A set of new test sequences obtained with the use of camera pairs are presented.
+ER  - 
+
+
