@@ -80,8 +80,6 @@ ISO/IEC JTC1/SC29/WG11 MPEG2015, M35842, Geneva, Switzerland, 14-20 February 201
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation(Text)](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.bib)
 
-=========================================================
-
 ### Fast Depth Estimation on Mobile Platforms and FPGA Devices
 > Marek Domański, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video, 3DTV- Con 2015, Lisbon, Portugal, 8-10 July 2015  
