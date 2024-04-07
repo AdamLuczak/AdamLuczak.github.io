@@ -113,14 +113,16 @@ ISO/IEC JTC 1/SC 29/WG 11, M32243, San Jose, USA, January 2014
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.ris)
 
-=============================
-
-
 ### Depth Map’s 2D Histogram Assisted Occlusion Handling in Video Object Tracking
 > ***Adam Łuczak***, Sławomir Maćkowiak, Jakub Siast
 Lecture Notes in Computer Science, Proceedings of International Conference on Computer Vision and Graphics ICCVG 2014, 
 Warsaw, Poland, 15-17 September 2014, pp. 400-408  
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](./publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.ris)
+
+==============================
 
 ### Experiments on acquisition and processing of video for free-viewpoint television
 > Marek Domański, Adrian Dziembowski, Agnieszka Kuehn, Maciej Kurc, Adam Łuczak, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  3DTV Conference 2014, Budapest, Hungary, 2-4 July 2014  
