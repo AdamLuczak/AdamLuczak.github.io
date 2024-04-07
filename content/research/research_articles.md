@@ -110,7 +110,8 @@ ISO/IEC JTC 1/SC 29/WG 11, m35071, Strasbourg, France, 20-24 October 2014
 ISO/IEC JTC 1/SC 29/WG 11, M32243, San Jose, USA, January 2014  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.txt)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (BibTeX)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.ris)
 
 =============================
 
