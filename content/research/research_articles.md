@@ -56,16 +56,17 @@ Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 364-366, ISSN:
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M36569, Warsaw, Poland, 20-27 June 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.pdf) | 
-<i class="fa-solid fa-quote-left custom-icon"></i>[Citation](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.txt) | 
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.bibtex)
-
-=========================================================
 
 ### Freeview Navigation (FN) anchor generation using 3D-HEVC with depth for "Poznan Blocks" sequence
 > Marek Domański, Krzysztof Klimaszewski, Adrian Dziembowski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M36565, Warsaw, Poland, 20-27 June 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.pdf) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.txt)
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.bibtex)
+
+=========================================================
 
 ### Poznan University of Technology test multiview video sequences acquired with circular camera arrangement – “Poznan Team” and “Poznan Blocks” sequences
 > Marek Domański, Adrian Dziembowski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
