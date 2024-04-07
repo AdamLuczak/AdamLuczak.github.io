@@ -121,15 +121,6 @@ Warsaw, Poland, 15-17 September 2014, pp. 400-408
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.txt)
 
-### A method for processing wide angle images with barrel distortion and a surveillance system
-> ***Adam Łuczak***, Sławomir Maćkowiak  
-Patent office: USPTO, Status: granted  
-Application number: US 13964114, Filling date: 12.08.2013  
-Publication number: US 2014/0043477A1, Publication date: 13.02.2014  
-Patent number: US 9413927, Date of Patent: 9.08.2016  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/USPTO-A-method-for-processing-wide-angle-images-with-barrel-distortion-and-a-surveillance-system.txt)  
-
 ### Poznański kodek obrazów trójwymiarowych
 > Marek Domański, Tomasz Grajek, Damian Karwowski, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Robert Ratajczak, Jakub Siast, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  
 Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 81-83  
