@@ -78,7 +78,8 @@ ISO/IEC JTC1/SC29/WG11 MPEG2015, M35846, Geneva, Switzerland, 14-20 February 201
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M35842, Geneva, Switzerland, 14-20 February 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation(Text)](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.ris)
 
 ### Fast Depth Estimation on Mobile Platforms and FPGA Devices
 > Marek Domański, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
