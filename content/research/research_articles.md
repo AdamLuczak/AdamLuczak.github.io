@@ -82,28 +82,29 @@ ISO/IEC JTC1/SC29/WG11 MPEG2015, M35842, Geneva, Switzerland, 14-20 February 201
 
 =========================================================
 
-
 ### Fast Depth Estimation on Mobile Platforms and FPGA Devices
 > Marek Domański, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video, 3DTV- Con 2015, Lisbon, Portugal, 8-10 July 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.bib) | 
-<i class="fa-solid fa-book custom-icon"></i>[Citation (BibTeX)](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.ris)
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.ris)
 
 ### Realizacja eksperymentalnego systemu telewizji swobodnego punktu widzenia z łukowym ustawieniem kamer
 > Adrian Dziembowski, Agnieszka Kuehn, ***Adam Łuczak***, Dawid Mieloch, Krzysztof Wegner  
 Przegląd Telekomunikacyjny, No. 6/2014, June 2014, pp. 161-164  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Realizacja-eksperymentalnego-systemu-telewizji-swobodnego-punktu-widzenia-z-lukowym-ustawieniem-kamer.ris)
 
 ### FTV: Poznan Laboratory - a test light-field sequence from Poznan University of Technology
-> Marek Domański, Krzysztof Klimaszewski, Maciej Kurc, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
+> Marek Domański, Krzysztof Klimaszewski, Maciej Kurc, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner 
 ISO/IEC JTC 1/SC 29/WG 11, m35071, Strasbourg, France, 20-24 October 2014  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](./publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/m35071-FTV-Poznan-Laboratory---a-test-light-field-sequence-from-Poznan-University-of-Technology.ris)
 
 ### Poznan Blocks – a multiview video test sequence and camera parameters for Free Viewpoint Television
 > Marek Domański, Adrian Dziembowski, Agnieszka Kuehn, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
@@ -111,7 +112,7 @@ ISO/IEC JTC 1/SC 29/WG 11, M32243, San Jose, USA, January 2014
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.bib) | 
-<i class="fa-solid fa-book custom-icon"></i>[Citation (BibTeX)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.ris)
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/M32243-Poznan-Blocks---a-multiview-video-test-sequence-and-camera-parameters-for-Free-Viewpoint-Television.ris)
 
 =============================
 
