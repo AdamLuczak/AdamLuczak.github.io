@@ -1,0 +1,36 @@
+﻿﻿TY  - CONF
+TI  - Fast depth estimation on mobile platforms and FPGA devices
+T2  - 2015 3DTV-Conference: The True Vision - Capture, Transmission and Display of 3D Video (3DTV-CON)
+SP  - 1
+EP  - 4
+AU  - M. Domański
+AU  - J. Konieczny
+AU  - M. Kurc
+AU  - A. Łuczak
+AU  - J. Siast
+AU  - O. Stankiewicz
+AU  - K. Wegner
+PY  - 2015
+KW  - Estimation
+KW  - Field programmable gate arrays
+KW  - Mobile handsets
+KW  - Real-time systems
+KW  - Three-dimensional displays
+KW  - Graphics processing units
+KW  - depth estimation
+KW  - mobile application
+KW  - 3D imaging on mobile
+KW  - disparity on mobile
+KW  - FPGA-based disparity estimation
+DO  - 10.1109/3DTV.2015.7169365
+JO  - 2015 3DTV-Conference: The True Vision - Capture, Transmission and Display of 3D Video (3DTV-CON)
+IS  - 
+SN  - 2161-203X
+VO  - 
+VL  - 
+JA  - 2015 3DTV-Conference: The True Vision - Capture, Transmission and Display of 3D Video (3DTV-CON)
+Y1  - 8-10 July 2015
+AB  - In this paper, we propose a fast technique for real-time depth estimation that is implementable on mobile devices like smartphones and tablets. Moreover, the FPGA-based implementations of this technique are also reported. The idea of this technique is to use small-block matching and exploit the recently estimated disparity values in order to enhance spatial consistency of the output disparity map. Using the Middlebury stereoscopic test images, the proposed real-time technique is compared to other techniques known from the references. The obtained results demonstrate high efficiency of the proposed technique implemented both on mobile platforms and FPGA devices.
+ER  - 
+
+

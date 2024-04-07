@@ -88,7 +88,8 @@ ISO/IEC JTC1/SC29/WG11 MPEG2015, M35842, Geneva, Switzerland, 14-20 February 201
 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video, 3DTV- Con 2015, Lisbon, Portugal, 8-10 July 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (BibTeX)](./publications/Fast-Depth-Estimation-on-Mobile-Platforms-and-FPGA-Devices.ris)
 
 ### Realizacja eksperymentalnego systemu telewizji swobodnego punktu widzenia z łukowym ustawieniem kamer
 > Adrian Dziembowski, Agnieszka Kuehn, ***Adam Łuczak***, Dawid Mieloch, Krzysztof Wegner  
