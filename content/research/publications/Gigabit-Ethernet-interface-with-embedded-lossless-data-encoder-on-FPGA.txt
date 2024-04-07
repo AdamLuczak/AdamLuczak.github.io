@@ -1,1 +1,1 @@
-﻿﻿﻿﻿﻿﻿﻿G. Dulnik, A. Grzelka, A. Łuczak, “Gigabit Ethernet interface with embedded lossless data encoder on FPGA”, Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 364-366, ISSN: 0032-4140, 
+﻿﻿G. Dulnik, A. Grzelka, A. Łuczak, “Gigabit Ethernet interface with embedded lossless data encoder on FPGA”, Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 364-366, ISSN: 0032-4140, 
