@@ -7,7 +7,8 @@ IEEE Transactions on Very Large Scale Integration (VLSI) Systems
 Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.pdf) |
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.txt) |
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.bib) |
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.ris)
 
 ### New results in free-viewpoint television systems for horizontal virtual navigation
 

@@ -1,0 +1,34 @@
+﻿﻿TY  - JOUR
+TI  - RingNet: A Memory-Oriented Network-On-Chip Designed for FPGA
+T2  - IEEE Transactions on Very Large Scale Integration (VLSI) Systems
+SP  - 1284
+EP  - 1297
+AU  - J. Siast
+AU  - A. Łuczak
+AU  - M. Domański
+PY  - 2019
+KW  - Field programmable gate arrays
+KW  - Table lookup
+KW  - Random access memory
+KW  - Throughput
+KW  - Routing
+KW  - Switches
+KW  - Lattices
+KW  - Distributed memory
+KW  - lookup table RAM (LUTRAM)
+KW  - fairness
+KW  - field-programmable gate array (FPGA)
+KW  - network-on-chip (NoC)
+KW  - virtual cut-through
+DO  - 10.1109/TVLSI.2019.2899575
+JO  - IEEE Transactions on Very Large Scale Integration (VLSI) Systems
+IS  - 6
+SN  - 1557-9999
+VO  - 27
+VL  - 27
+JA  - IEEE Transactions on Very Large Scale Integration (VLSI) Systems
+Y1  - June 2019
+AB  - In this paper, we identify the general requirements for network-on-chips (NoCs) and the general characteristics of field-programmable gate arrays (FPGAs) from leading producers. Based on the analysis provided, an FPGA-oriented NoC called RingNet is proposed. As a distinctive feature, RingNet uses communication through a centrally placed memory that aims at preventing network congestions and limiting the network buffer requirements. Optimal utilization of FPGA resources is one of the goals of RingNet development. Especially buffers are implemented in distributed RAM available in FPGAs, and the virtual cut-through is used as an efficient switching technique for FPGA. Simulations prove guaranteed throughput, predictable latency, and fair network access provided by RingNet. Synthesis results for sample FPGAs from Xilinx, Intel, and Lattice prove the universality of RingNet. The provided analysis of NoC implementations leads to the conclusion that RingNet needs fewer resources and supports higher clock frequencies than the widely used AXI4 architecture.
+ER  - 
+
+
