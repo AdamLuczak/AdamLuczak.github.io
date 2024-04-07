@@ -45,15 +45,15 @@ Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 364-366, ISSN:
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.bibtex)
 
-=========================================================
-
-
 ### A Practical Approach to Acquisition and Processing of Free Viewpoint Video
 > Marek Domański, Adrian Dziembowski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 31st Picture Coding Symposium PCS 2015, Cairns, Australia, 31 May - 3 June 2015, pp. 10-14  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.bibtex)
+
+=========================================================
+
 
 ### Video and depth multiview test sequences acquired with circular camera arrangement – “Poznan Service” and “Poznan People”
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
