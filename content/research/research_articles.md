@@ -7,7 +7,7 @@ IEEE Transactions on Very Large Scale Integration (VLSI) Systems
 Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.pdf) |
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.txt) |
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.bibtex)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/RingNet-A-Memory-Oriented-Network-On-Chip-Designed-for-FPGA.bib)
 
 ### New results in free-viewpoint television systems for horizontal virtual navigation
 
@@ -15,70 +15,73 @@ Vol. 27, No. 6, June 2019, pp. 1284-1297, ISSN: 1063-8210
 2016 IEEE International Conference on Multimedia and Expo ICME 2016, Seattle, USA, 11-15 July 2016  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.pdf) |
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.txt) |
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.bibtex)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/New-results-in-free-viewpoint-television-systems-for-horizontal-virtual-navigation.bib)
 
 ### Methods of High Efficiency Compression for Transmission of Spatial Representation of Motion Scenes
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Łukasz Kowalski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Robert Ratajczak, Jarosław Samelak, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  
 IEEE International Conference on Multimedia and Expo ICME 2015, Torino, Italy, June 29-July 3 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.txt) |
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.bibtex)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.bib)
 
 ### A parametric synthesizer of audio signals on FPGA
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 367-369, ISSN: 0032-4140  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.bibtex)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.bib)
 
 ### A remote programming module of FPGA boards
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 373-375, ISSN: 0032-4140  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-remote-programming-module-of-FPGA-boards.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/A-remote-programming-module-of-FPGA-boards.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-remote-programming-module-of-FPGA-boards.bibtex)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-remote-programming-module-of-FPGA-boards.bib)
 
 ### Gigabit Ethernet interface with embedded lossless data encoder on FPGA
 > Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***  
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 364-366, ISSN: 0032-4140  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.bibtex)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.bib)
 
 ### A Practical Approach to Acquisition and Processing of Free Viewpoint Video
 > Marek Domański, Adrian Dziembowski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 31st Picture Coding Symposium PCS 2015, Cairns, Australia, 31 May - 3 June 2015, pp. 10-14  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.bibtex)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.bib)
 
 ### Video and depth multiview test sequences acquired with circular camera arrangement – “Poznan Service” and “Poznan People”
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M36569, Warsaw, Poland, 20-27 June 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.bibtex)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M36569-Video-and-depth-multiview-test-sequences-acquired-with-circular-camera-arrangement---Poznan-Service-and-Poznan-People.bib)
 
 ### Freeview Navigation (FN) anchor generation using 3D-HEVC with depth for "Poznan Blocks" sequence
 > Marek Domański, Krzysztof Klimaszewski, Adrian Dziembowski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M36565, Warsaw, Poland, 20-27 June 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.pdf) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.bibtex)
-
-=========================================================
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.bib)
 
 ### Poznan University of Technology test multiview video sequences acquired with circular camera arrangement – “Poznan Team” and “Poznan Blocks” sequences
 > Marek Domański, Adrian Dziembowski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M35846, Geneva, Switzerland, 14-20 February 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.pdf) |
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.txt)
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.txt) |
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.bib)
 
 ### Comments on further standardization for free-viewpoint television
 > Marek Domański, Adrian Dziembowski, Krzysztof Klimaszewski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M35842, Geneva, Switzerland, 14-20 February 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.pdf) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.txt)
+<i class="fa-solid fa-quote-left custom-icon"></i>[Citation](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M35842-Comments-on-further-standardization-for-free-viewpoint-television.bib)
+
+=========================================================
+
 
 ### Fast Depth Estimation on Mobile Platforms and FPGA Devices
 > Marek Domański, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
