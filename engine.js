@@ -2,16 +2,18 @@
 // Fetches markdown content and converts it to HTML 
 //================================================================================
 
-async function fetchMdContent(url)
+async function fetchMdContent(url) 
 {
-    const response = await fetch(url);
+    const urlWithTimestamp  = `${url}?${new Date().getTime()}`;
+    const response          = await fetch(urlWithTimestamp, {cache: "no-store"});
+
     if (!response.ok) 
     {
         throw new Error(`HTTP error! status: ${response.status}`);
     }
+    
     return await response.text();
 }
-
 function loadHtmlContent(path, elementId) 
 {
     fetch(path)
