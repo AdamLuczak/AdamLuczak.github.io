@@ -1,0 +1,42 @@
+TY  - CONF
+TI  - Experiments on acquisition and processing of video for free-viewpoint television
+T2  - 2014 3DTV-Conference: The True Vision - Capture, Transmission and Display of 3D Video (3DTV-CON)
+SP  - 1
+EP  - 4
+AU  - M. Domański
+AU  - A. Dziembowski
+AU  - A. Kuehn
+AU  - M. Kurc
+AU  - A. Łuczak
+AU  - D. Mieloch
+AU  - J. Siast
+AU  - O. Stankiewicz
+AU  - K. Wegner
+PY  - 2014
+KW  - Cameras
+KW  - Estimation
+KW  - Streaming media
+KW  - TV
+KW  - Wireless communication
+KW  - Calibration
+KW  - Three-dimensional displays
+KW  - FTV
+KW  - multi-view
+KW  - depth
+KW  - rectification
+KW  - view synthesis
+KW  - circular setup
+KW  - test video
+KW  - frame grabber
+DO  - 10.1109/3DTV.2014.6874727
+JO  - 2014 3DTV-Conference: The True Vision - Capture, Transmission and Display of 3D Video (3DTV-CON)
+IS  - 
+SN  - 2161-203X
+VO  - 
+VL  - 
+JA  - 2014 3DTV-Conference: The True Vision - Capture, Transmission and Display of 3D Video (3DTV-CON)
+Y1  - 2-4 July 2014
+AB  - The paper describes an experimental multiview video produc-tion, processing and delivery chain developed at Poznan Univer-sity of Technology for research on free-viewpoint television. The multiview-video acquisition system consists of HD camera units with wireless synchronization, wireless control, video stor-age and power supply units. Therefore no cabling is needed in the system, which is important for shooting real-world events. The system is mostly used for nearly circular setup of cameras but the locations of cameras are arbitrary, and the procedures for system calibration and multiview video correction are consid-ered. The paper deals also with adoption for circular camera arrangement of the techniques implemented in Depth Estimation Reference Software and View Synthesis Reference Software.
+ER  - 
+
+

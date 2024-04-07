@@ -1,0 +1,2 @@
+M. Domański et al., "Experiments on acquisition and processing of video for free-viewpoint television," 2014 3DTV-Conference: The True Vision - Capture, Transmission and Display of 3D Video (3DTV-CON), Budapest, Hungary, 2014, pp. 1-4, doi: 10.1109/3DTV.2014.6874727. keywords: {Cameras;Estimation;Streaming media;TV;Wireless communication;Calibration;Three-dimensional displays;FTV;multi-view;depth;rectification;view synthesis;circular setup;test video;frame grabber},
+

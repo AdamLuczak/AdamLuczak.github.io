@@ -122,12 +122,14 @@ Warsaw, Poland, 15-17 September 2014, pp. 400-408
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.ris)
 
-==============================
-
 ### Experiments on acquisition and processing of video for free-viewpoint television
 > Marek Domański, Adrian Dziembowski, Agnieszka Kuehn, Maciej Kurc, Adam Łuczak, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  3DTV Conference 2014, Budapest, Hungary, 2-4 July 2014  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.pdf) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](./publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publicationsExperiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.ris)
+
+==============================
 
 ### Poznański kodek obrazów trójwymiarowych
 > Marek Domański, Tomasz Grajek, Damian Karwowski, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Robert Ratajczak, Jakub Siast, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  
