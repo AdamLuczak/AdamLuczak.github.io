@@ -152,7 +152,9 @@ Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 81-83
 ### Telewizja swobodnego punktu widzenia
 > Marek Domański, ***Adam Łuczak***, Krzysztof Klimaszewski  
 Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 84-86  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Telewizja-swobodnego-punktu-widzenia.txt)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text]() | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Telewizja-swobodnego-punktu-widzenia.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Telewizja-swobodnego-punktu-widzenia.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Telewizja-swobodnego-punktu-widzenia.ris)
 
 
