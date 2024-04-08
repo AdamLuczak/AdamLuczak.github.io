@@ -40,7 +40,8 @@ Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 367-369, ISSN:
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 373-375, ISSN: 0032-4140  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-remote-programming-module-of-FPGA-boards.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/A-remote-programming-module-of-FPGA-boards.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-remote-programming-module-of-FPGA-boards.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-remote-programming-module-of-FPGA-boards.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-remote-programming-module-of-FPGA-boards.ris)
 
 ### Gigabit Ethernet interface with embedded lossless data encoder on FPGA
 > Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***  
