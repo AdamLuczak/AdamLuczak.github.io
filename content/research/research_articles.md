@@ -56,7 +56,8 @@ Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 364-366, ISSN:
 31st Picture Coding Symposium PCS 2015, Cairns, Australia, 31 May - 3 June 2015, pp. 10-14  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-Practical-Approach-to-Acquisition-and-Processing-of-Free-Viewpoint-Video.ris)
 
 ### Video and depth multiview test sequences acquired with circular camera arrangement – “Poznan Service” and “Poznan People”
 > Marek Domański, Adrian Dziembowski, Tomasz Grajek, Adam Grzelka, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  

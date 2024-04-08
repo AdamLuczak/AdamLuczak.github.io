@@ -1,0 +1,31 @@
+﻿﻿TY  - CONF
+TI  - A practical approach to acquisition and processing of free viewpoint video
+T2  - 2015 Picture Coding Symposium (PCS)
+SP  - 10
+EP  - 14
+AU  - M. Domański
+AU  - A. Dziembowski
+AU  - D. Mieloch
+AU  - A. Łuczak
+AU  - O. Stankiewicz
+AU  - K. Wegner
+PY  - 2015
+KW  - Cameras
+KW  - TV
+KW  - Calibration
+KW  - ISO
+KW  - Estimation
+KW  - Accuracy
+KW  - Optimization
+DO  - 10.1109/PCS.2015.7170037
+JO  - 2015 Picture Coding Symposium (PCS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 Picture Coding Symposium (PCS)
+Y1  - 31 May-3 June 2015
+AB  - We deal with the processing of multiview video acquired by the use of practical thus relatively simple acquisition systems that have a limited number of cameras located around a scene on independent tripods. The real-camera locations are nearly arbitrary as it would be required in the real-world Free-Viewpoint Television systems. The appropriate test video sequences are also reported. We describe a family of original extensions and adaptations of the multiview video processing algorithms adapted to arbitrary camera positions around a scene. The techniques constitute the video processing chain for Free-Viewpoint Television as they are aimed at estimating the parameters of such a multi-camera system, video correction, depth estimation and virtual view synthesis. Moreover, we demonstrate the need for new compression technology capable of efficient compression of sparse convergent views. The experimental results for processing the proposed test sequences are reported.
+ER  - 
+
+
