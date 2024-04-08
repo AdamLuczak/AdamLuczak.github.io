@@ -72,7 +72,8 @@ ISO/IEC JTC1/SC29/WG11 MPEG2015, M36569, Warsaw, Poland, 20-27 June 2015
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M36565, Warsaw, Poland, 20-27 June 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/M36565-Freeview-Navigation-FN-anchor-generation-using-3D-HEVC-with-depth-for-Poznan-Blocks-sequence.ris)
 
 ### Poznan University of Technology test multiview video sequences acquired with circular camera arrangement – “Poznan Team” and “Poznan Blocks” sequences
 > Marek Domański, Adrian Dziembowski, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
