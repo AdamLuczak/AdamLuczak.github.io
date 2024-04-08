@@ -80,7 +80,8 @@ ISO/IEC JTC1/SC29/WG11 MPEG2015, M36565, Warsaw, Poland, 20-27 June 2015
 ISO/IEC JTC1/SC29/WG11 MPEG2015, M35846, Geneva, Switzerland, 14-20 February 2015  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.pdf) |
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.txt) |
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/M35846-Poznan-University-of-Technology-test-multiview-video-sequences-acquired-with-circular-camera-arrangement---Poznan-Team-and-Poznan-Blocks-sequences.ris)
 
 ### Comments on further standardization for free-viewpoint television
 > Marek Domański, Adrian Dziembowski, Krzysztof Klimaszewski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
