@@ -25,7 +25,7 @@ IEEE International Conference on Multimedia and Expo ICME 2015, Torino, Italy, J
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.txt) |
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.bib) | 
-<i class="fa-solid fa-book custom-icon"></i>[Citation (BibTeX)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.ris)
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Methods-of-High-Efficiency-Compression-for-Transmission-of-Spatial-Representation-of-Motion-Scenes.ris)
 
 ### A parametric synthesizer of audio signals on FPGA
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
@@ -33,7 +33,7 @@ Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 367-369, ISSN:
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.bib) | 
-<i class="fa-solid fa-book custom-icon"></i>[Citation (BibTeX)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.ris)
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-parametric-synthesizer-of-audio-signals-on-FPGA.ris)
 
 ### A remote programming module of FPGA boards
 > Jacek Borko, Grzegorz Dulnik, Adam Grzelka, ***Adam Łuczak***, Adam Paszkowski  
