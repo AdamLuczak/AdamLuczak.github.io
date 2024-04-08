@@ -48,7 +48,8 @@ Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 373-375, ISSN:
 Measurement Automation Monitoring, Vol. 61, No. 7, July 2015, pp. 364-366, ISSN: 0032-4140  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.pdf) | 
 <i class="fa-solid fa-quote-left custom-icon"></i>[Citation (Text)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.bib)
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Gigabit-Ethernet-interface-with-embedded-lossless-data-encoder-on-FPGA.ris)
 
 ### A Practical Approach to Acquisition and Processing of Free Viewpoint Video
 > Marek Domański, Adrian Dziembowski, Dawid Mieloch, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
