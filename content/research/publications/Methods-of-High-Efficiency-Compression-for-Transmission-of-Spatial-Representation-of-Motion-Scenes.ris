@@ -1,0 +1,43 @@
+﻿﻿TY  - CONF
+TI  - Methods of high efficiency compression for transmission of spatial representation of motion scenes
+T2  - 2015 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)
+SP  - 1
+EP  - 4
+AU  - M. Domański
+AU  - A. Dziembowski
+AU  - T. Grajek
+AU  - A. Grzelka
+AU  - Ł. Kowalski
+AU  - M. Kurc
+AU  - A. Luczak
+AU  - D. Mieloch
+AU  - R. Ratajczak
+AU  - J. Samelak
+AU  - O. Stankiewicz
+AU  - J. Stankowski
+AU  - K. Wegner
+PY  - 2015
+KW  - Cameras
+KW  - Servers
+KW  - Rendering (computer graphics)
+KW  - Bit rate
+KW  - Three-dimensional displays
+KW  - Indexes
+KW  - Calibration
+KW  - Multiview video
+KW  - free-viewpoint video
+KW  - free navigation
+KW  - 3D video compression
+KW  - interview prediction
+DO  - 10.1109/ICMEW.2015.7169834
+JO  - 2015 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)
+Y1  - 29 June-3 July 2015
+AB  - The paper reports the hitherto obtained results of the research project that deals with scene representations that are suitable for free navigation around the scene. These scene representations are acquired from a limited number of cameras located around the scene. The project is aimed at the development of an efficient compression technology and the experimental environment for testing such technology. The paper reports some new multiview test sequences with the circular camera arrangement, including the hybrid ones that have been acquired using also the depth sensors. Finally, the paper also briefly reports the recent results of the new compression technology being under development. This technology outperforms the state-of-the-art 3D-HEVC.
+ER  - 
+
+
