@@ -144,7 +144,7 @@ Warsaw, Poland, 15-17 September 2014, pp. 400-408
 ### Poznański kodek obrazów trójwymiarowych
 > Marek Domański, Tomasz Grajek, Damian Karwowski, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Robert Ratajczak, Jakub Siast, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  
 Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 81-83  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text]() | 
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/empty) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Poznanski-kodek-obrazow-trojwymiarowych.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Poznanski-kodek-obrazow-trojwymiarowych.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Poznanski-kodek-obrazow-trojwymiarowych.ris)
@@ -152,7 +152,7 @@ Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 81-83
 ### Telewizja swobodnego punktu widzenia
 > Marek Domański, ***Adam Łuczak***, Krzysztof Klimaszewski  
 Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 84-86  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text]() | 
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/empty) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Telewizja-swobodnego-punktu-widzenia.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Telewizja-swobodnego-punktu-widzenia.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Telewizja-swobodnego-punktu-widzenia.ris)
