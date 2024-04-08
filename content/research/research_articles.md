@@ -139,8 +139,6 @@ Warsaw, Poland, 15-17 September 2014, pp. 400-408
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publicationsExperiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.ris)
 
-==============================
-
 ### Poznański kodek obrazów trójwymiarowych
 > Marek Domański, Tomasz Grajek, Damian Karwowski, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Robert Ratajczak, Jakub Siast, Olgierd Stankiewicz, Jakub Stankowski, Krzysztof Wegner  
 Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 81-83  
