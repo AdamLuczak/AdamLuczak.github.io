@@ -157,7 +157,7 @@ Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 84-86
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Telewizja-swobodnego-punktu-widzenia.ris)
 
 ### A Large Barrel Distortion in an Acquisition System for Multifocal Images Extraction
-> Adam Łuczak, Slawomir Mackowiak, Damian Karwowski, Tomasz Grajek
+> ***Adam Łuczak***, Slawomir Mackowiak, Damian Karwowski, Tomasz Grajek  
 Lecture notes in computer science. 2012. 7594. 164-171  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.txt) | 
