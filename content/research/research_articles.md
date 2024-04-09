@@ -164,7 +164,7 @@ IEEE Transactions on Circuits and Systems for Video Technology, Vol. 10, No. 7, 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Spatio-Temporal-Scalability-for-MPEG.ris)
 
 # On improving MPEG Spatial Scalability
-Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak,
+> Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak,
 IEEE International Conference on Image Processing, Vancouver, Canada, 10-13 September 2000, pp. 848-851
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/On-improving-MPEG-Spatial-Scalability.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/On-improving-MPEG-Spatial-Scalability.txt) | 
@@ -172,7 +172,7 @@ IEEE International Conference on Image Processing, Vancouver, Canada, 10-13 Sept
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/On-improving-MPEG-Spatial-Scalability.ris)
 
 # Spatio-Temporal Scalable Video Codecs with MPEG-Compatible Base Layer
->Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński, Ulrich Benzler
+> Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński, Ulrich Benzler
 Picture Coding Symposium, Portland, USA, 1999, pp. 45-48
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Spatio-Temporal-Scalable-Video-Codecs-with-MPEG-Compatible-Base-Layer.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Spatio-Temporal-Scalable-Video-Codecs-with-MPEG-Compatible-Base-Layer.txt) | 
@@ -188,5 +188,5 @@ Bulletin of the Polish Academy of Sciences. Technical Sciences, Vol. 47, No. 3, 
 Visual Communication and Image Processing, 1999, pp. 1018-1025
 
 # MPEG-2 Compatible Hierarchical Video Coders with B-frame Data Partitioning
-Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak
+> Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak
 6th International Workshop on Systems, Signals and Image Processing, Bratislava, Slovakia, 1999, pp. 34-37
