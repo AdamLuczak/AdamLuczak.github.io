@@ -1,0 +1,16 @@
+TY  - JOUR
+TI  - MPEG-Based Scalable Video Codec with 3-D Subband Decomposition
+JF  - Bulletin of the Polish Academy of Sciences. Technical Sciences
+AU  - Domański, M.
+AU  - Łuczak, A.
+AU  - Maćkowiak, S.
+AU  - Świerczyński, R.
+VL  - Vol. 47, nr 3
+SP  - 247
+EP  - 253
+PY  - 1999
+AB  - The MPEG-2 video coding standard provides the functionality of spatial scalability in an inefficient way. Therefore solutions based on subband decomposition gained a lot of interest very recently. In particular, this paper deals with scalable (hierarchical) coding of video at bitrates in the range af about 2-6 Mbps. The solution proposed in the paper is based on both temporal and spatial resolution reduction performed for data transmitted in a base layer. The basic idea is to employ three-dimensional subband decomposition. The assumption is that the base layer is encoded fully MPEG-2 compatible. Bitstreams related to high spatial frequencies are encoded using a technique that exploits mutual dependencies between low- and high-spatial-frequency subbands. The technique is implemented as a C++ program with about 12 980 lines of code.
+KW  - MPEG-2
+KW  - spatio-temporal scalability
+KW  - 3-D subband decomposition
+ER  - 

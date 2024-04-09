@@ -1,0 +1,1 @@
+﻿﻿﻿﻿﻿﻿﻿M. Domański, A. Łuczak, S. Maćkowiak, “Scalable MPEG Video Coding with improved B-frame prediction”, Proceedings of IEEE International Symposium Circuits and Systems ISCAS 2000, Geneva, Switzerland, 28-31 May 2000, pp. 273-276, 

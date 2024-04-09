@@ -157,12 +157,24 @@ Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 84-86
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Telewizja-swobodnego-punktu-widzenia.ris)
 
 ### A Large Barrel Distortion in an Acquisition System for Multifocal Images Extraction
-> Luczak, Adam & Mackowiak, Slawomir & Karwowski, Damian & Grajek, Tomasz  
-Lecture notes in computer science. 7594. 164-171  
+> Adam Łuczak, Slawomir Mackowiak, Damian Karwowski, Tomasz Grajek
+Lecture notes in computer science. 2012. 7594. 164-171  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.ris)
+
+ ### Wykorzystanie silnego zniekształcenia beczkowego do uzyskania płynnej zmiany ogniskowej
+> ***Adam Łuczak***, Sławomi Maćkowiak  
+Przegląd Telekomunikacyjny, nr 4/2012, vol. LXXXV, ss. 302-305, 2012  
+
+### Architecture of Algorithmically Optimized MPEG-4 AVC/H.264 Video Encoder
+> T. Grajek, D. Karwowski, A. Łuczak, S. Maćkowiak, M. Domański  
+Computer Vision and Graphics, L. Bolc et al. (ed.) vol. 7594, pp. 79-86, Springer 2012.  
+
+### Diamond scanning order of image blocks for massively parallel HEVC compression
+> T. Grajek, D. Karwowski, A. Łuczak, S. Maćkowiak  
+Computer Vision and Graphics, L. Bolc et al. (ed.) vol.7594, pp. 172-179, Springer 2012  
 
 ### Spatio-Temporal Scalability for MPEG
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
@@ -195,6 +207,14 @@ Picture Coding Symposium, Portland, USA, 1999, pp. 45-48
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Spatio-Temporal-Scalable-Video-Codecs-with-MPEG-Compatible-Base-Layer.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Spatio-Temporal-Scalable-Video-Codecs-with-MPEG-Compatible-Base-Layer.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Spatio-Temporal-Scalable-Video-Codecs-with-MPEG-Compatible-Base-Layer.ris)
+
+### Video Coding with Spatio-Temporal Scalability for applications in heterogeneous communication networks
+> Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
+Proceedings of IWSSIP'2000 7th. Int. Workshop on Systems, Signals and Image Processing, str.127-130, Maribor 2000.  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.ris)
 
 ### MPEG-Based Scalable Video Codec with 3-D Subband Decomposition
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński  
