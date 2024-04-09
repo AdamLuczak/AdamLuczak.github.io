@@ -1,0 +1,1 @@
+Bartkowiak, M., Łuczak, A. (2001). A Simple Algorithm for Ordering and Compression of Vector Codebooks. In: Skarbek, W. (eds) Computer Analysis of Images and Patterns. CAIP 2001. Lecture Notes in Computer Science, vol 2124. Springer, Berlin, Heidelberg. https://doi.org/10.1007/3-540-44692-3_13

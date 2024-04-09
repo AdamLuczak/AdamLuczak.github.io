@@ -268,10 +268,6 @@ A simple Algorithm for Ordering and Compression of Vector Codebooks,
 9th International Conference on Computer Analysis of Images and Patterns, Springer, Warsaw, Poland, 5-7 September 2001, pp. 103-109,
 EndNoteCitation
 
-
-
-
-
 ===============================
 
 ### Spatio-Temporal Scalability for MPEG
@@ -326,3 +322,6 @@ Visual Communication and Image Processing, 1999, pp. 1018-1025
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
 6th International Workshop on Systems, Signals and Image Processing, Bratislava, Slovakia, 1999, pp. 34-37  
 
+### Hybrid coding of video with spatio-temporal scalability using subband decomposition
+> Marek Domański, Adam Łuczak, Sławomir Maćkowiak, Roger Świerczyński  
+Signal Processing IX: Theories and Applications, Athens, Greece, 1998, pp. 53-56  
