@@ -176,6 +176,104 @@ Computer Vision and Graphics, L. Bolc et al. (ed.) vol. 7594, pp. 79-86, Springe
 > T. Grajek, D. Karwowski, A. Łuczak, S. Maćkowiak  
 Computer Vision and Graphics, L. Bolc et al. (ed.) vol.7594, pp. 172-179, Springer 2012  
 
+=============================
+
+Marta Stępniewska, Adam Łuczak, Jakub Siast,
+Network-on-Multi-Chip(NoMC)for multi-FPGA multimedia systems,
+13th Euromicro Conference on Digital System Design, Lille, France, 1-3 September 2010,
+Full textEndNoteCitation
+
+Marta Stępniewska, Olgierd Stankiewicz, Adam Łuczak, Jakub Siast,
+Embedded debugging for NoCs,
+17th International Conference on Mixed Design of Integrated Circuits and Systems, Wrocław, Poland, 24-26 June 2010,
+Full textEndNoteCitation
+
+Marek Domański, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, Adam Łuczak, Olgierd Stankiewicz, Krzysztof Wegner,
+An experimental Free-view Television System,
+1st International Conference on Image Processing & Communications (IPC), Bydgoszcz, Polska, September 2009, pp. 175-184,
+Full textEndNoteCitation
+
+Adam Łuczak, Paweł Garstecki, Olgierd Stankiewicz, Marta Stępniewska,
+Network-On-Chip Based Architecture of H. 264 Video Decoder,
+International Conference on Signals and Electronic Systems, Krakow, Poland, 14-17 September 2008,
+Full textEndNoteCitation
+
+Olgierd Stankiewicz, Adam Łuczak,
+Flexible processor architecture optimized for advanced coding algorithms,
+Picture Coding Symposium 2007, Lisbon, Portugal, November 7-9 2007,
+EndNoteCitation
+
+Paweł Garstecki, Adam Łuczak, Tomasz Żernicki,
+A bit-serial architecture forH.264/AVC interframe decoding,
+European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 September 2006,
+EndNoteCitation
+
+Marta Stępniewska, Adam Łuczak,
+Reconfigurable architecture of AVC/H.264 Integer Transform,
+European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 September 2006,
+EndNoteCitation
+
+Marta Stępniewska, Adam Łuczak,
+A Bit-serial Architecture for H.264/AVC Encoder,
+IEEE Intenational Symposium on Circuits and Systems ISCAS 2006, 2006,
+EndNoteCitation
+
+Olgierd Stankiewicz, Adam Łuczak, Antoni Roszak,
+Temporal noise reduction for preprocessing of video streams in monitoring systems,
+International Conference on Signals and Electronic Systems ICSES'06, Łódź, 18-20 września 2006, pp. 231-234,
+EndNoteCitation
+
+Paweł Garstecki, Adam Łuczak,
+A Flexible Architecture for Image Reconstruction in H.264/AVC Decoders,
+European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005,
+EndNoteCitation
+
+Adam Łuczak, Marek Domański,
+Hybrid Video Coder Modeling using Histograms of Transform Coefficients,
+5th International Workshop on Image Analysis for Multimedia Interactive Services, Lisboa, Portugal, 21-23 April 2004,
+EndNoteCitation
+
+Łukasz Błaszak, Marek Domański, Rafał Lange, Adam Łuczak,
+Response to SVC CE2 tasks: testing of SNR scalability technologies,
+Redmond, USA, 19-23 July 2004,
+EndNoteCitation
+
+Adam Łuczak, Marek Domański,
+Cosine Transform Analysis with Applications to MPEG-2 Video Coder Control,
+International Workshop on Systems, Signals and Image Processing, Poznań, Poland, 13-15 September 2004, pp. 279-282,
+EndNoteCitation
+
+Adam Łuczak, Marek Domański,
+MPEG Video Bitrate Control Using Coder Modeling,
+Picture Coding Symposium, Saint Malo, France, 23-25 April 2003, pp. 93-98,
+EndNoteCitation
+
+Marek Domański, Adam Łuczak,
+Simple Global Model of an MPEG-2 Bitstream,
+Proceedings of IEEE International Conference on Multimedia and Expo ICME'2002, Lausanne, Switzerland, 26-29 August 2002,
+EndNoteCitation
+
+Marek Domański, Adam Łuczak,
+Modeling of bitstreams produced by hybrid video coders,
+Proceedings of ISCE'2002, Erfurt, Germany, 23-26 September 2002,
+EndNoteCitation
+
+Łukasz Błaszak, Marek Domański, Adam Łuczak, Sławomir Maćkowiak,
+Spatio-Temporal Scalability in DCT-based Hybrid Video Coders,
+MPEG 2002, ISO/IEC JTC1/SC29/WG11 MPEG2002/M8672, Klagenfurt, Austria, July 2002,
+Full textEndNoteCitation
+
+Maciej Bartkowiak, Adam Łuczak,
+A simple Algorithm for Ordering and Compression of Vector Codebooks,
+9th International Conference on Computer Analysis of Images and Patterns, Springer, Warsaw, Poland, 5-7 September 2001, pp. 103-109,
+EndNoteCitation
+
+
+
+
+
+===============================
+
 ### Spatio-Temporal Scalability for MPEG
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
 IEEE Transactions on Circuits and Systems for Video Technology, Vol. 10, No. 7, October 2000, pp. 1088-1093  
