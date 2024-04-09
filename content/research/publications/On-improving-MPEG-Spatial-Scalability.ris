@@ -1,0 +1,28 @@
+TY  - CONF
+TI  - On improving MPEG spatial scalability
+T2  - Proceedings 2000 International Conference on Image Processing (Cat. No.00CH37101)
+SP  - 848
+EP  - 850
+PY  - 2000
+KW  - Scalability
+KW  - Video codecs
+KW  - Bit rate
+KW  - Interpolation
+KW  - TV
+KW  - System testing
+KW  - Nonhomogeneous media
+KW  - Transform coding
+KW  - Video coding
+KW  - Video sequences
+DO  - 10.1109/ICIP.2000.5286958
+JO  - Proceedings 2000 International Conference on Image Processing (Cat. No.00CH37101)
+IS  - 
+SN  - 1522-4880
+VO  - 2
+VL  - 2
+JA  - Proceedings 2000 International Conference on Image Processing (Cat. No.00CH37101)
+Y1  - 10-13 Sept. 2000
+AB  - The paper describes video codecs that provide the functionality of spatio-temporal scalability that enables construction of highly scalable video codecs. The coder exploits wavelet decomposition for intraframe coding and combined temporal prediction and spatial interpolation for P- and B-frames. In a two-layer system, the bitrate overhead measured relative to the single layer MPEG-2 bitstream varies about 10% for progressive television test sequences. The base layer bitstream constitutes about 40% of the overall bitstream. In multilayer systems, the bitrate ratio of consecutive layers is about 1:2.5. The base layer encoder is fully compatible with the MPEG-2 video coding standard. The paper comprises experimental results obtained for a two-layer system for progressive video sequence compression.
+ER  - 
+
+
