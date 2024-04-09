@@ -252,9 +252,9 @@ MPEG 2002, ISO/IEC JTC1/SC29/WG11 MPEG2002/M8672, Klagenfurt, Austria, July 2002
 
 ===============================
 
-### Maciej Bartkowiak, Adam Łuczak,
-A simple Algorithm for Ordering and Compression of Vector Codebooks,
-9th International Conference on Computer Analysis of Images and Patterns, Springer, Warsaw, Poland, 5-7 September 2001, pp. 103-109,
+### A simple Algorithm for Ordering and Compression of Vector Codebooks  
+> Maciej Bartkowiak, ***Adam Łuczak***  
+9th International Conference on Computer Analysis of Images and Patterns, Springer, Warsaw, Poland, 5-7 September 2001, pp. 103-109  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-Simple-Algorithm-for-Ordering-and-Compression-of-Vector-Codebooks.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Simple-Algorithm-for-Ordering-and-Compression-of-Vector-Codebooks.bib) | 
