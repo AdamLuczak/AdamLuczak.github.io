@@ -151,8 +151,14 @@ Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 81-83
 > Marek Domański, ***Adam Łuczak***, Krzysztof Klimaszewski  
 Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 84-86  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (SigmaNot)](https://sigma-not.pl/czasopisma-59-przeglad-telekomunikacyjny.html) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](publications/Telewizja-swobodnego-punktu-widzenia.txt) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Telewizja-swobodnego-punktu-widzenia.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Telewizja-swobodnego-punktu-widzenia.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Telewizja-swobodnego-punktu-widzenia.ris)
 
-
+#Spatio-Temporal Scalability for MPEG
+> Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak,
+IEEE Transactions on Circuits and Systems for Video Technology, Vol. 10, No. 7, October 2000, pp. 1088-1093
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (IEEEXplore)](https://ieeexplore.ieee.org/abstract/document/875513) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Spatio-Temporal-Scalability-for-MPEG.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Spatio-Temporal-Scalability-for-MPEG.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Spatio-Temporal-Scalability-for-MPEG.ris)
