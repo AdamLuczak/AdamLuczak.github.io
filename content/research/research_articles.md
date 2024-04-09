@@ -133,7 +133,7 @@ Warsaw, Poland, 15-17 September 2014, pp. 400-408
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.ris)
 
 ### Experiments on acquisition and processing of video for free-viewpoint television
-> Marek Domański, Adrian Dziembowski, Agnieszka Kuehn, Maciej Kurc, Adam Łuczak, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
+> Marek Domański, Adrian Dziembowski, Agnieszka Kuehn, Maciej Kurc, ***Adam Łuczak***, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
 3DTV Conference 2014, Budapest, Hungary, 2-4 July 2014  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](./publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.txt) | 
@@ -164,107 +164,93 @@ Lecture notes in computer science. 2012. 7594. 164-171
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.ris)
 
- ### Wykorzystanie silnego zniekształcenia beczkowego do uzyskania płynnej zmiany ogniskowej
+==================
+
+### Wykorzystanie silnego zniekształcenia beczkowego do uzyskania płynnej zmiany ogniskowej
 > ***Adam Łuczak***, Sławomi Maćkowiak  
 Przegląd Telekomunikacyjny, nr 4/2012, vol. LXXXV, ss. 302-305, 2012  
 
 ### Architecture of Algorithmically Optimized MPEG-4 AVC/H.264 Video Encoder
-> T. Grajek, D. Karwowski, A. Łuczak, S. Maćkowiak, M. Domański  
+> T. Grajek, D. Karwowski, ***A. Łuczak***, S. Maćkowiak, M. Domański  
 Computer Vision and Graphics, L. Bolc et al. (ed.) vol. 7594, pp. 79-86, Springer 2012.  
 
 ### Diamond scanning order of image blocks for massively parallel HEVC compression
-> T. Grajek, D. Karwowski, A. Łuczak, S. Maćkowiak  
+> T. Grajek, D. Karwowski, ***A. Łuczak***, S. Maćkowiak  
 Computer Vision and Graphics, L. Bolc et al. (ed.) vol.7594, pp. 172-179, Springer 2012  
 
-=============================
-
-Internet based subjective assessment of image quality experiment  
-Tomasz Grzywalski, Adam Łuczak, Ryszard Stasiński  
+### Internet based subjective assessment of image quality experiment  
+> Tomasz Grzywalski, Adam Łuczak, Ryszard Stasiński  
 18th International Conference on Systems, Signals and Image Processing IWSSIP 2011, Sarajevo, Bosnia and Herzegovina, 16-18 June 2011  
 
-Network-on-Multi-Chip(NoMC)for multi-FPGA multimedia systems  
-Marta Stępniewska, Adam Łuczak, Jakub Siast  
+### Network-on-Multi-Chip(NoMC)for multi-FPGA multimedia systems  
+> Marta Stępniewska, Adam Łuczak, Jakub Siast  
 13th Euromicro Conference on Digital System Design, Lille, France, 1-3 September 2010  
 
-Embedded debugging for NoCs  
-Marta Stępniewska, Olgierd Stankiewicz, Adam Łuczak, Jakub Siast  
+### Embedded debugging for NoCs  
+> Marta Stępniewska, Olgierd Stankiewicz, Adam Łuczak, Jakub Siast  
 17th International Conference on Mixed Design of Integrated Circuits and Systems, Wrocław, Poland, 24-26 June 2010  
 
-An experimental Free-view Television System  
-Marek Domański, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, Adam Łuczak, Olgierd Stankiewicz, Krzysztof Wegner  
+### An experimental Free-view Television System  
+> Marek Domański, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, Adam Łuczak, Olgierd Stankiewicz, Krzysztof Wegner  
 1st International Conference on Image Processing & Communications (IPC), Bydgoszcz, Polska, September 2009, pp. 175-184  
 
-Network-On-Chip Based Architecture of H. 264 Video Decoder  
-Adam Łuczak, Paweł Garstecki, Olgierd Stankiewicz, Marta Stępniewska  
+### Network-On-Chip Based Architecture of H. 264 Video Decoder  
+> Adam Łuczak, Paweł Garstecki, Olgierd Stankiewicz, Marta Stępniewska  
 International Conference on Signals and Electronic Systems, Krakow, Poland, 14-17 September 2008  
 
-
-Flexible processor architecture optimized for advanced coding algorithms  
-Olgierd Stankiewicz, Adam Łuczak  
+### Flexible processor architecture optimized for advanced coding algorithms  
+> Olgierd Stankiewicz, Adam Łuczak  
 Picture Coding Symposium 2007, Lisbon, Portugal, November 7-9 2007  
 
-
-A bit-serial architecture forH.264/AVC interframe decoding  
-Paweł Garstecki, Adam Łuczak, Tomasz Żernicki  
+### A bit-serial architecture forH.264/AVC interframe decoding  
+> Paweł Garstecki, Adam Łuczak, Tomasz Żernicki  
 European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 September 2006  
 
-
-Reconfigurable architecture of AVC/H.264 Integer Transform  
-Marta Stępniewska, Adam Łuczak  
+### Reconfigurable architecture of AVC/H.264 Integer Transform  
+> Marta Stępniewska, Adam Łuczak  
 European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 September 2006  
 
-
-A Bit-serial Architecture for H.264/AVC Encoder  
-Marta Stępniewska, Adam Łuczak  
+### A Bit-serial Architecture for H.264/AVC Encoder  
+> Marta Stępniewska, Adam Łuczak  
 IEEE Intenational Symposium on Circuits and Systems ISCAS 2006, 2006  
 
-
-Temporal noise reduction for preprocessing of video streams in monitoring systems  
-Olgierd Stankiewicz, Adam Łuczak, Antoni Roszak  
+### Temporal noise reduction for preprocessing of video streams in monitoring systems  
+> Olgierd Stankiewicz, Adam Łuczak, Antoni Roszak  
 International Conference on Signals and Electronic Systems ICSES'06, Łódź, 18-20 września 2006, pp. 231-234  
 
-
-A Flexible Architecture for Image Reconstruction in H.264/AVC Decoders  
-Paweł Garstecki, Adam Łuczak  
+### A Flexible Architecture for Image Reconstruction in H.264/AVC Decoders  
+> Paweł Garstecki, Adam Łuczak  
 European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005  
 
-
-Hybrid Video Coder Modeling using Histograms of Transform Coefficients  
-Adam Łuczak, Marek Domański  
+### Hybrid Video Coder Modeling using Histograms of Transform Coefficients  
+> Adam Łuczak, Marek Domański  
 5th International Workshop on Image Analysis for Multimedia Interactive Services, Lisboa, Portugal, 21-23 April 2004  
 
-
-Response to SVC CE2 tasks: testing of SNR scalability technologies  
-Łukasz Błaszak, Marek Domański, Rafał Lange, Adam Łuczak  
+### Response to SVC CE2 tasks: testing of SNR scalability technologies  
+> Łukasz Błaszak, Marek Domański, Rafał Lange, Adam Łuczak  
 Redmond, USA, 19-23 July 2004  
 
-
-Cosine Transform Analysis with Applications to MPEG-2 Video Coder Control  
-Adam Łuczak, Marek Domański  
+### Cosine Transform Analysis with Applications to MPEG-2 Video Coder Control  
+> Adam Łuczak, Marek Domański  
 International Workshop on Systems, Signals and Image Processing, Poznań, Poland, 13-15 September 2004, pp. 279-282  
 
-
-MPEG Video Bitrate Control Using Coder Modeling  
-Adam Łuczak, Marek Domański  
+### MPEG Video Bitrate Control Using Coder Modeling  
+> Adam Łuczak, Marek Domański  
 Picture Coding Symposium, Saint Malo, France, 23-25 April 2003, pp. 93-98  
 
-
-Simple Global Model of an MPEG-2 Bitstream  
-Marek Domański, Adam Łuczak  
+### Simple Global Model of an MPEG-2 Bitstream  
+> Marek Domański, Adam Łuczak  
 Proceedings of IEEE International Conference on Multimedia and Expo ICME'2002, Lausanne, Switzerland, 26-29 August 2002  
 
-
-Modeling of bitstreams produced by hybrid video coders  
-Marek Domański, Adam Łuczak  
+### Modeling of bitstreams produced by hybrid video coders  
+> Marek Domański, Adam Łuczak  
 Proceedings of ISCE'2002, Erfurt, Germany, 23-26 September 2002  
 
-
-Spatio-Temporal Scalability in DCT-based Hybrid Video Coders  
-Łukasz Błaszak, Marek Domański, Adam Łuczak, Sławomir Maćkowiak  
+### Spatio-Temporal Scalability in DCT-based Hybrid Video Coders  
+> Łukasz Błaszak, Marek Domański, Adam Łuczak, Sławomir Maćkowiak  
 MPEG 2002, ISO/IEC JTC1/SC29/WG11 MPEG2002/M8672, Klagenfurt, Austria, July 2002  
 
 ===============================
-
 
 ### Maciej Bartkowiak, Adam Łuczak,
 A simple Algorithm for Ordering and Compression of Vector Codebooks,
@@ -314,6 +300,8 @@ Proceedings of IWSSIP'2000 7th. Int. Workshop on Systems, Signals and Image Proc
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.ris)
 
+=============
+
 ### MPEG-Based Scalable Video Codec with 3-D Subband Decomposition
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński  
 Bulletin of the Polish Academy of Sciences. Technical Sciences, Vol. 47, No. 3, Warsaw, Poland, 1999, pp. 247-253  
@@ -329,3 +317,5 @@ Visual Communication and Image Processing, 1999, pp. 1018-1025
 ### Hybrid coding of video with spatio-temporal scalability using subband decomposition
 > Marek Domański, Adam Łuczak, Sławomir Maćkowiak, Roger Świerczyński  
 Signal Processing IX: Theories and Applications, Athens, Greece, 1998, pp. 53-56  
+
+===============
