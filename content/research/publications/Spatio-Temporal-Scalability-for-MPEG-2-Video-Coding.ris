@@ -1,0 +1,31 @@
+TY  - JOUR
+TI  - Spatio-temporal scalability for MPEG video coding
+T2  - IEEE Transactions on Circuits and Systems for Video Technology
+SP  - 1088
+EP  - 1093
+AU  - M. Domanski
+AU  - A. Luczak
+AU  - S. Mackowiak
+PY  - 2000
+KW  - Scalability
+KW  - Video coding
+KW  - Spatial resolution
+KW  - Video compression
+KW  - Image resolution
+KW  - Signal resolution
+KW  - Bit rate
+KW  - Transform coding
+KW  - Information retrieval
+KW  - Image retrieval
+DO  - 10.1109/76.875513
+JO  - IEEE Transactions on Circuits and Systems for Video Technology
+IS  - 7
+SN  - 1558-2205
+VO  - 10
+VL  - 10
+JA  - IEEE Transactions on Circuits and Systems for Video Technology
+Y1  - Oct. 2000
+AB  - The existing and standardized solutions for spatial scalability are not satisfactory, therefore new approaches are very actively being explored. The goal of this paper is to improve spatial scalability of MPEG-2 for progressive video. In order to avoid problems with too large bitstreams of the base layer produced by some of the hitherto proposed spatially scalable coders, spatio-temporal scalability is proposed for video compression systems. It is assumed that a coder produces two bitstreams, where the base-layer bitstream corresponds to pictures with reduced both spatial and temporal resolution while the enhancement layer bitstream is used to transmit the information needed to retrieve images with full spatial and temporal resolution. In the base layer, temporal resolution reduction is obtained by B-frame data partitioning, i.e., by placing each second frame (B-frame) in the enhancement layer. Subband (wavelet) analysis is used to provide spatial decomposition of the signal. Full compatibility with the MPEG-2 standard is ensured in the base layer, as compared to single-layer MPEG-2 encoding at bit rates below 6 Mbits/s, the bitrate overhead for scalability is less than 15% in most cases.
+ER  - 
+
+

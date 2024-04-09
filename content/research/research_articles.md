@@ -133,7 +133,8 @@ Warsaw, Poland, 15-17 September 2014, pp. 400-408
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Depth-Maps-2D-Histogram-Assisted-Occlusion-Handling-in-Video-Object-Tracking.ris)
 
 ### Experiments on acquisition and processing of video for free-viewpoint television
-> Marek Domański, Adrian Dziembowski, Agnieszka Kuehn, Maciej Kurc, Adam Łuczak, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  3DTV Conference 2014, Budapest, Hungary, 2-4 July 2014  
+> Marek Domański, Adrian Dziembowski, Agnieszka Kuehn, Maciej Kurc, Adam Łuczak, Dawid Mieloch, Jakub Siast, Olgierd Stankiewicz, Krzysztof Wegner  
+3DTV Conference 2014, Budapest, Hungary, 2-4 July 2014  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation (Text)](./publications/Experiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publicationsExperiments-on-acquisition-and-processing-of-video-for-free-viewpoint-television.bib) | 
@@ -155,6 +156,12 @@ Przegląd Telekomunikacyjny, No. 2-3, February/March 2013, pp. 84-86
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Telewizja-swobodnego-punktu-widzenia.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Telewizja-swobodnego-punktu-widzenia.ris)
 
+### A Large Barrel Distortion in an Acquisition System for Multifocal Images Extraction
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.ris)
+
 ### Spatio-Temporal Scalability for MPEG
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
 IEEE Transactions on Circuits and Systems for Video Technology, Vol. 10, No. 7, October 2000, pp. 1088-1093  
@@ -170,6 +177,14 @@ IEEE International Conference on Image Processing, Vancouver, Canada, 10-13 Sept
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/On-improving-MPEG-Spatial-Scalability.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/On-improving-MPEG-Spatial-Scalability.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/On-improving-MPEG-Spatial-Scalability.ris)
+
+### Spatio-Temporal Scalability for MPEG-2 Video Coding,
+> Marek Domański, Adam Łuczak, Sławomir Maćkowiak  
+X European Signal Processing Conference: Theories and Applications Eusipco 2000, Tampere, Finland, 4-8 September 2000  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Spatio-Temporal-Scalability-for-MPEG-2-Video-Coding.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Spatio-Temporal-Scalability-for-MPEG-2-Video-Coding.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Spatio-Temporal-Scalability-for-MPEG-2-Video-Coding.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Spatio-Temporal-Scalability-for-MPEG-2-Video-Coding.ris)
 
 ### Spatio-Temporal Scalable Video Codecs with MPEG-Compatible Base Layer
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński, Ulrich Benzler  
@@ -190,3 +205,4 @@ Visual Communication and Image Processing, 1999, pp. 1018-1025
 ### MPEG-2 Compatible Hierarchical Video Coders with B-frame Data Partitioning
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
 6th International Workshop on Systems, Signals and Image Processing, Bratislava, Slovakia, 1999, pp. 34-37  
+
