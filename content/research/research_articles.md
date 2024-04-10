@@ -212,11 +212,15 @@ Computer Vision and Graphics, L. Bolc et al. (ed.) vol.7594, pp. 172-179, Spring
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Embedded-debugging-for-NoCs.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Embedded-debugging-for-NoCs.ris)
 
-==
-
 ### An experimental Free-view Television System  
 > Marek Domański, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 1st International Conference on Image Processing & Communications (IPC), Bydgoszcz, Polska, September 2009, pp. 175-184  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/An-experimental-Free-view-Television-System.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/An-experimental-Free-view-Television-System.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/An-experimental-Free-view-Television-System.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/An-experimental-Free-view-Television-System.ris)
+
+===============================
 
 ### Network-On-Chip Based Architecture of H. 264 Video Decoder  
 > ***Adam Łuczak***, Paweł Garstecki, Olgierd Stankiewicz, Marta Stępniewska  
