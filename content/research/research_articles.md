@@ -294,13 +294,21 @@ Picture Coding Symposium, Portland, USA, 1999, pp. 45-48
 
 ### Video Coding with Spatio-Temporal Scalability for applications in heterogeneous communication networks
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
-Proceedings of IWSSIP'2000 7th. Int. Workshop on Systems, Signals and Image Processing, str.127-130, Maribor 2000.  
+Proceedings of IWSSIP'2000 7th. Int. Workshop on Systems, Signals and Image Processing, pp.127-130, Maribor 2000.  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.ris)
 
-=============
+### Spatio-temporal scalability using modified MPEG-2 predictive video coding
+> ***Adam Łuczak***, Sławomir Maćkowiak, Marek Domański  
+X European Signal Processing Conference: Theories and Applications Eusipco 2000, Finland, 4-8 September 2000, pp. 1-4  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Video-Coding-with-Spatio-Temporal-Scalability-for-applications-in-heterogeneous-communication-networks.ris)
+
+====
 
 ### MPEG-Based Scalable Video Codec with 3-D Subband Decomposition
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński  

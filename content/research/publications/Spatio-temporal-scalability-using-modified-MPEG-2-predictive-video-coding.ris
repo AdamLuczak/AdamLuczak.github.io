@@ -1,0 +1,28 @@
+TY  - CONF
+TI  - Spatio-temporal scalability using modified MPEG-2 predictive video coding
+T2  - 2000 10th European Signal Processing Conference
+SP  - 1
+EP  - 4
+AU  - A. Łuczak
+AU  - S. Maćkowiak
+AU  - M. Domański
+PY  - 2000
+KW  - Transform coding
+KW  - Scalability
+KW  - Standards
+KW  - Video coding
+KW  - Bit rate
+KW  - Encoding
+KW  - Spatial resolution
+DO  - 
+JO  - 2000 10th European Signal Processing Conference
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2000 10th European Signal Processing Conference
+Y1  - 4-8 Sept. 2000
+AB  - The paper describes spatio-temporally scalable MPEG video coders proposed. Such an encoder produces two bitstreams: base layer bitstream which represents a video sequence with low spatial and temporal resolution and an enhancement layer bitstream which provides additional data needed for reproduction of pictures with full resolution and full temporal frequency. The bitrate overhead measured relative to the single layer MPEG-2 bitstream varies between 2% and 22% for progressive television test sequences. The base layer bitstream constitutes 34–40% of the overall bitstream. The base layer encoder is fully compatible with the MPEG-2 video coding standard. The enhancement layer encoder is a modified version of that used by MPEG-2 for spatial scalability.
+ER  - 
+
+
