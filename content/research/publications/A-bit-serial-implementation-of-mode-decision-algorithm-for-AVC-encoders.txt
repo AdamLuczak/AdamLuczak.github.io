@@ -1,0 +1,1 @@
+P. Garstecki, A. Luczak and M. Stepniewska, "A bit-serial implementation of mode decision algorithm for AVC encoders," 2006 IEEE International Symposium on Circuits and Systems, Kos, Greece, 2006, pp. 4 pp.-3845

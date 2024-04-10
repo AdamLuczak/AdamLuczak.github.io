@@ -1,0 +1,31 @@
+TY  - CONF
+TI  - A bit-serial implementation of mode decision algorithm for AVC encoders
+T2  - 2006 IEEE International Symposium on Circuits and Systems
+SP  - 4 pp.
+EP  - 3845
+AU  - P. Garstecki
+AU  - A. Luczak
+AU  - M. Stepniewska
+PY  - 2006
+KW  - Automatic voltage control
+KW  - Decoding
+KW  - Arithmetic
+KW  - Streaming media
+KW  - Cost function
+KW  - Field programmable gate arrays
+KW  - Wireless communication
+KW  - Hardware design languages
+KW  - Video compression
+KW  - Encoding
+DO  - 10.1109/ISCAS.2006.1693466
+JO  - 2006 IEEE International Symposium on Circuits and Systems
+IS  - 
+SN  - 2158-1525
+VO  - 
+VL  - 
+JA  - 2006 IEEE International Symposium on Circuits and Systems
+Y1  - 21-24 May 2006
+AB  - The paper presents a new and efficient architecture for H.264/AVC video encoder control. The architecture of mode decision and cost estimation module is implemented with the use of bit-serial arithmetic and provides pipelined processing of image blocks. The module is designed to support FPGA devices. It has been shown that the design is capable to perform at a very low clock speed, thus it is a suitable solution for wireless communications. The proposed modules have been implemented in Verilog HDL and synthesized for a Xilinx Virtex II family device
+ER  - 
+
+

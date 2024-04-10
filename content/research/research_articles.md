@@ -266,6 +266,13 @@ European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 Septembe
 > Marta Stępniewska, ***Adam Łuczak***  
 IEEE Intenational Symposium on Circuits and Systems ISCAS 2006, 2006  
 
+### A bit-serial implementation of mode decision algorithm for AVC encoders
+P. Garstecki, ***A. Luczak***, M. Stepniewska  
+IEEE International Symposium on Circuits and Systems, Kos, Greece, 2006, pp. 4 pp.-3845  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-bit-serial-implementation-of-mode-decision-algorithm-for-AVC-encoders.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-bit-serial-implementation-of-mode-decision-algorithm-for-AVC-encoders.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-bit-serial-implementation-of-mode-decision-algorithm-for-AVC-encoders.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-bit-serial-implementation-of-mode-decision-algorithm-for-AVC-encoders.ris)
 
 ### Temporal noise reduction for preprocessing of video streams in monitoring systems  
 > Olgierd Stankiewicz, ***Adam Łuczak***, Antoni Roszak  
