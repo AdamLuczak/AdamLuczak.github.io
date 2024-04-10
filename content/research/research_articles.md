@@ -188,6 +188,14 @@ Computer Vision and Graphics, L. Bolc et al. (ed.) vol.7594, pp. 172-179, Spring
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Diamond-scanning-order-of-image-blocks-for-massively-parallel-HEVC-compression.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Diamond-scanning-order-of-image-blocks-for-massively-parallel-HEVC-compression.ris)
 
+### Network-on-Multi-Chip (NoMC) with monitoring and debugging support
+> ***Adam Łuczak***, Marta Stępniewska, Jakub Siast, Marek Domański, Olgierd Stankiewicz, Maciej Kurc, Jacek Konieczny  
+Journal of Telecommunications and Information Technology, No. 3/2011, 2011, pp. 81-81  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Network-on-Multi-Chip-NoMC-with-monitoring-and-debugging-support.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Network-on-Multi-Chip-NoMC-with-monitoring-and-debugging-support.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Network-on-Multi-Chip-NoMC-with-monitoring-and-debugging-support.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Network-on-Multi-Chip-NoMC-with-monitoring-and-debugging-support.ris)
+
 ### Internet based subjective assessment of image quality experiment  
 > Tomasz Grzywalski, ***Adam Łuczak***, Ryszard Stasiński  
 18th International Conference on Systems, Signals and Image Processing IWSSIP 2011, Sarajevo, Bosnia and Herzegovina, 16-18 June 2011  
