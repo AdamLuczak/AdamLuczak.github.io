@@ -1,0 +1,882 @@
+%PDF-1.2%גדֿ׃
+1 0 obj[ /CalRGB << /WhitePoint [ 0.9505 1 1.089 ] /Gamma [ 1.8 1.8 1.8 ] /Matrix [ 0.4497 0.2446 0.0252 0.3163 0.672 0.1412 0.1845 0.0833 0.9227 ] >> ]endobj2 0 obj<< /Type /Page /Parent 14 0 R /Resources 4 0 R /Contents 3 0 R /Thumb 457 0 R >> endobj3 0 obj<< /Length 6789 >> stream
+BT/T1 1 Tf17.04 0 0 17.04 183.12 731.52 Tm0 Tr0 g0 Tc0 Tw[(HYBRID CODING OF)41( )13(VIDEO)]TJ-3.31 -1.141 TD[( )13(WITH SP)69(A)69(TIO-TEMPORAL)55( SCALABILITY)]TJ1.465 -1.141 TD(USING SUBBAND DECOMPOSITION)Tj/T2 1 Tf13.92 0 0 13.92 79.44 653.04 Tm(Marek Doma\361ski*,  Adam \243uczak,  S\263awomir Ma\346kowiak,  Roger \214wierczy\361ski)Tj/T3 1 Tf10.08 0 0 10.08 234.72 640.56 Tm(* IEEE and EURASIP member)Tj/T4 1 Tf12 0 0 12 221.52 621.12 Tm(Pozna\361 University of Technology,)Tj-3.38 -1.16 TD(Institute of Electronics and Telecommunications,)Tj1.44 -1.16 TD(Piotrowo 3A, 60-965, Pozna\361, POLAND)Tj-0.9 -1.16 TD(Tel.:  +48 61 8782762;  fax:  +48 61 8782572)Tj-3.1 -1.16 TD(e-mail: {domanski, aluczak,  smack, roger}@et.put.poznan.pl)Tj/T5 1 Tf10.08 0 0 10.08 135.6 524.4 Tm(ABSTRACT)Tj/T6 1 Tf-9.238 -1.738 TD0.333 Tw[(The )23(paper )23(deals with scalable \(hierarchical\) coding of)]TJ0 -1.143 TD0.357 Tw[(video at bitrates in the range of about 2-5 )-24(Mbps. )-24(A)]TJT*0.214 Tw[(practical )24(goal )24(is )24(to )24(obtain comparable bitrates in a base)]TJT*0.071 Tw[(layer and an enhancement layer. The solution proposed )-24(in)]TJT*[(the paper is based on both temporal )-24(and )-24(spatial )-24(resolution)]TJT*0.119 Tw[(reduction )24( )24(performed )24(for )24(data transmitted in a base layer.)]TJT*[(Two principal variants are presented: )-24(systems )-24(with )-24(three-)]TJT*0.167 Tw(dimensional filter banks for spatio-temporal analysis and)TjT*0.595 Tw[(systems where some B-frames are )-24(allocated )-24(to )-24(an)]TJT*0.119 Tw[(enhancement layer but subband analysis is )-24(purely )-24(spatial.)]TJT*0.333 Tw[(The )23(assumption )23(is )23(that a base layer is fully MPEG-2)]TJT*0.143 Tw[(compatible. )24(Bitstreams related to high spatial frequencies)]TJT*0.048 Tw[(are encoded either using DCT-based MPEG-like coding )-23(or)]TJT*0.31 Tw[(a technique that exploits mutual dependencies )-23(between)]TJT*0 Tw(low- and high-spatial-frequency subchannels.)Tj/T7 1 Tf11.04 0 0 11.04 42.48 327.12 Tm(1    INTRODUCTION)Tj/T6 1 Tf10.08 0 0 10.08 42.48 309.36 Tm0.048 Tw[(The )24(paper )24(deals )24(with multiresolution video coding where a)]TJT*0.238 Tw[(low resolution image is decodable from base )-24(layer )-24(data)]TJT*0.071 Tw[(while )23(a )23(full resolution image can be obtained from data of)]TJT*0.405 Tw[(both )24(base )24(and enhancement layers. Such compression)]TJT*0.024 Tw(techniques are of great interest because of their prospective)TjT*0.381 Tw[(applications )24(in error-resilient video coding and multi-)]TJT*0 Tw(standard video transmission.)Tj1.119 -1.143 TD0.024 Tw[(The )24(functionality of spatial scalability is provided by the)]TJ-1.119 -1.143 TD0.357 Tw[(MPEG-2 video coding standard [1]. )-24(Unfortunately, )-24(its)]TJT*0.643 Tw[(implementation )24(based on pyramid decomposition is)]TJT*0.024 Tw[(inefficient. Therefore there were many attempts to )-24(improve)]TJT*0.476 Tw(the scalable multiresolution coding of video. Among)TjT*0.238 Tw(various proposals, application of subband decomposition)TjT*0.024 Tw[(should )24(be )24(considered )24(as very promising [e.g. 3,4]. The idea)]TJT*0.31 Tw[(is )24(to )24(split )24(each image into four spatial subbands. The)]TJT*0 Tw(subband of lowest frequencies constitutes a base layer while)TjT*0.333 Tw[(the )23(other )23(three subbands are jointly transmitted in an)]TJT*0.071 Tw[(enhancement )23(layer. Nevertheless this approach often leads)]TJT*0.024 Tw[(to )24(allocation of much higher bitrates to a base layer than to)]TJ26.714 41.905 TD0.524 Tw[(an enhancement layer which )-24(is )-24(disadvantageous )-24(for)]TJ0 -1.143 TD0 Tw(practical applications.)Tj1.119 -1.143 TD0.119 Tw(In order to avoid the above mentioned problem spatio-)Tj-1.119 -1.143 TD0.5 Tw[(temporal scalability is proposed. Here, a )-24(base )-24(layer)]TJT*0.143 Tw[(corresponds to the bitstream of the pictures with )-24(reduced)]TJT*0.238 Tw[(both spatial and temporal )-24(frequencies. )-24(An )-24(enhancement)]TJT*0.405 Tw[(layer is used to transmit the information )-24(needed )-24(for)]TJT*0.071 Tw(restoration of the full spatial and temporal resolution. The)TjT*0.595 Tw(assumption is that a base layer is fully MPEG-2)TjT*(compatible.)Tj1.119 -1.143 TD0.333 Tw[(There are two basic variants of )-24(the )-24(spatio-temporal)]TJ-1.119 -1.143 TD0 Tw(scalable system considered in the paper.)Tj/T7 1 Tf11.04 0 0 11.04 311.76 379.2 Tm[(2  )-261(SYSTEMS WITH THREE-DIMENSIONAL   )]TJ1.283 -1.152 TD(SUBBAND ANALYSIS)Tj/T6 1 Tf10.08 0 0 10.08 323.04 345.6 Tm0.357 Tw[(The input video sequence is analyzed )-24(by )-24(temporal,)]TJ-1.119 -1.143 TD0.167 Tw[(horizontal and vertical filter banks )-23(\(Fig.1\). )-23(For )-23(temporal)]TJT*0.119 Tw[(analysis, very simple linear-phase two-tap filters )-24(are )-24(used)]TJT*0.333 Tw[(similarly as in pure three-dimensional subband )-24(coding)]TJT*([8,9])Tj7 -1.833 TD0 Tw(H \( z \)  =  0.5 \( 1 )Tj/T8 1 Tf7.071 0 TD(\261)Tj/T6 1 Tf0.548 0 TD( z )Tj/T9 1 Tf6.48 0 0 6.48 468.72 285.6 Tm-0.043 Tc(-1 )Tj/T6 1 Tf10.08 0 0 10.08 475.92 281.04 Tm0 Tc(\),)Tj-15.167 -1.452 TD0.238 Tw[(where "+" and "-" correspond to )-24(low- )-24(and )-24(high-pass)]TJ-1.119 -1.143 TD0.286 Tw[(filters, respectively. This filter bank has a very )-24(simple)]TJT*0.262 Tw[(implementation )24(and )24(exhibits )24(small group delay \(half of)]TJT*0.071 Tw[(sampling period\) resulting in small )-24(system )-24(response )-24(times)]TJT*0.119 Tw[(which are very critical for applications. )-24(It )-24(enables )-24(perfect)]TJT*0 Tw(reconstruction in very practical DFT arrangements.)Tj1.119 -1.143 TD0.238 Tw[(Temporal )24(analysis results in two subbands L)]TJ/T9 1 Tf6.48 0 0 6.48 516.96 195.84 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 518.88 197.28 Tm[( and H)]TJ/T9 1 Tf6.48 0 0 6.48 550.8 195.84 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 311.76 185.76 Tm0.119 Tw[(which )24(are )24(partitioned )24(into four spatial subbands \(LL, LH,)]TJT*0.024 Tw[(HL )24(and )24(HH\) )24(each. For spatial analysis, both horizontal and)]TJT*0.452 Tw[(vertical, separable nonrecursive )-24(half-band )-24(linear-phase)]TJT*0.048 Tw[(filters in polyphase implementation are used. Linear )-23(phase)]TJT*0.548 Tw[(is assumed here because of motion estimation )-23(and)]TJT*(compensation.)Tj1.119 -1.143 TD0.167 Tw[(The )24(three-dimensional analysis results in eight spatio-)]TJ-1.119 -1.143 TD0.048 Tw[(temporal subbands. Three high-spatial-frequency )-23(subbands)]TJT*[(\(LH, HL and HH\) in the high-temporal-frequency )-23(subband)]TJETendstreamendobj4 0 obj<< /ProcSet [ /PDF /Text /ImageB ] /ColorSpace << /DefaultRGB 1 0 R >> /Font << /T1 5 0 R /T2 6 0 R /T3 7 0 R /T4 8 0 R /T5 9 0 R /T6 10 0 R /T7 11 0 R /T8 12 0 R /T9 13 0 R >> >> endobj5 0 obj<< /Name /T1 /Type /Font /Subtype /Type3 /FontBBox [ 0 -1 69 48 ] /FontMatrix [ 0.0141 0 0 0.0141 0 0 ] /FirstChar 32 /LastChar 89 /Encoding 39 0 R /CharProcs 40 0 R /Widths [ 18 0 0 0 0 0 0 0 0 0 0 0 0 24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51 48 51 51 47 43 55 55 28 0 0 47 67 51 55 43 0 51 39 47 51 50 71 0 51 ] >> endobj6 0 obj<< /Name /T2 /Type /Font /Subtype /Type3 /FontBBox [ 0 -12 52 39 ] /FontMatrix [ 0.0172 0 0 0.0172 0 0 ] /FirstChar 32 /LastChar 241 /Encoding 64 0 R /CharProcs 65 0 R /Widths [ 15 0 0 0 0 0 0 0 0 0 27 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41 0 0 42 0 0 0 0 0 0 0 0 52 0 0 0 0 39 32 0 0 0 0 0 0 0 0 0 0 0 0 0 26 0 26 29 26 0 28 0 15 0 29 0 43 0 29 0 0 19 23 0 28 0 42 0 28 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26 0 0 0 0 0 0 0 0 0 0 28 ] >> endobj7 0 obj<< /Name /T3 /Type /Font /Subtype /Type3 /FontBBox [ -7 -9 39 28 ] /FontMatrix [ 0.0238 0 0 0.0238 0 0 ] /FirstChar 32 /LastChar 121 /Encoding 94 0 R /CharProcs 95 0 R /Widths [ 11 0 0 0 0 0 31 0 0 0 21 0 0 14 11 0 0 0 21 21 0 0 21 0 0 0 14 0 0 0 0 0 0 26 26 28 30 26 25 30 30 14 0 0 0 35 0 0 25 0 26 21 23 30 25 0 0 0 0 0 0 0 0 0 0 21 21 19 21 19 12 21 21 12 0 0 12 30 21 21 21 0 16 16 12 21 19 26 0 19 ] >> endobj8 0 obj<< /Name /T4 /Type /Font /Subtype /Type3 /FontBBox [ -1 -12 44 35 ] /FontMatrix [ 0.02 0 0 0.02 0 0 ] /FirstChar 32 /LastChar 241 /Encoding 142 0 R /CharProcs 143 0 R /Widths [ 13 0 0 0 0 0 0 0 0 0 0 28 13 17 13 0 25 25 25 25 25 25 25 25 25 25 14 14 0 0 0 0 45 35 0 0 36 31 0 0 0 17 0 0 30 0 36 36 28 0 0 0 31 36 0 0 0 0 0 0 0 0 0 0 0 22 0 22 25 22 15 25 25 12 0 25 12 38 25 26 25 0 17 18 14 25 24 36 24 23 22 24 0 24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 ] >> endobj9 0 obj<< /Name /T5 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 31 28 ] /FontMatrix [ 0.0238 0 0 0.0238 0 0 ] /FirstChar 65 /LastChar 84 /Encoding 198 0 R /CharProcs 199 0 R /Widths [ 30 29 30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 23 28 ] >> endobj10 0 obj<< /Name /T6 /Type /Font /Subtype /Type3 /FontBBox [ -4 -9 39 29 ] /FontMatrix [ 0.0238 0 0 0.0238 0 0 ] /FirstChar 32 /LastChar 241 /Encoding 206 0 R /CharProcs 207 0 R /Widths [ 11 0 17 0 0 0 33 0 14 14 0 24 11 14 11 12 21 21 21 21 21 21 21 21 21 21 12 0 0 24 0 0 0 29 27 28 29 26 23 30 29 14 16 30 25 37 30 30 23 30 27 23 26 29 30 39 0 30 0 14 0 14 0 0 0 19 20 18 21 18 13 21 22 12 11 21 12 33 22 20 21 21 15 16 12 21 20 28 21 19 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23 0 0 0 0 0 0 0 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 ] >> endobj11 0 obj<< /Name /T7 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 45 31 ] /FontMatrix [ 0.0217 0 0 0.0217 0 0 ] /FirstChar 32 /LastChar 89 /Encoding 285 0 R /CharProcs 286 0 R /Widths [ 12 0 0 0 0 0 0 0 0 0 0 0 0 15 0 0 0 23 23 23 23 23 23 0 0 0 0 0 0 0 0 0 0 33 31 33 33 31 27 36 36 18 0 36 31 43 33 36 27 0 33 26 31 33 0 46 34 33 ] >> endobj12 0 obj<< /Name /T8 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 23 26 ] /FontMatrix [ 0.0238 0 0 0.0238 0 0 ] /FirstChar 32 /LastChar 177 /Encoding 317 0 R /CharProcs 318 0 R /Widths [ 11 0 0 0 0 0 0 0 0 0 0 0 0 23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23 ] >> endobj13 0 obj<< /Name /T9 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 9 18 ] /FontMatrix [ 0.04 0 0 0.04 0 0 ] /FirstChar 32 /LastChar 116 /Encoding 322 0 R /CharProcs 323 0 R /Widths [ 7 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 ] >> endobj14 0 obj<< /Type /Pages /Kids [ 2 0 R 15 0 R 31 0 R 36 0 R ] /Count 4 /MediaBox [ 0 0 595 842 ] >> endobj15 0 obj<< /Type /Page /Parent 14 0 R /Resources 17 0 R /Contents 16 0 R /Thumb 459 0 R >> endobj16 0 obj<< /Length 21525 >> stream
+BT/T6 1 Tf10.08 0 0 10.08 42.48 750 Tm0 Tr0 g(H)Tj/T9 1 Tf6.48 0 0 6.48 49.44 748.56 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 51.36 750 Tm0.262 Tw[( are discarded as they correspond to )-24(the )-24(information)]TJ-0.881 -1.143 TD0.214 Tw[(being irrelevant for the human visual system. )-24(Therefore)]TJT*0 Tw(five subbands are encoded \(see Fig.2\):)Tj/T8 1 Tf1.119 -1.214 TD(- )Tj/T6 1 Tf1.405 0 TD0.31 Tw[(In )24(a )24(base )24(layer )24(- the spatial subband LL of the)]TJ0 -1.143 TD0 Tw(temporal subband L)Tj/T9 1 Tf6.48 0 0 6.48 148.56 701.76 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 150.48 703.2 Tm( .)Tj/T8 1 Tf-9.595 -1.214 TD(- )Tj/T6 1 Tf1.405 0 TD[(The enhancement layer includes the spatial )-24(subbands)]TJ0 -1.143 TD0.119 Tw[(LH, )24(HL )24(and HH from the temporal subband L)]TJ/T9 1 Tf6.48 0 0 6.48 262.8 678 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 264.72 679.44 Tm[( and)]TJ-19.524 -1.143 TD0 Tw(the spatial subband LL of the temporal subband H)Tj/T9 1 Tf6.48 0 0 6.48 270.24 666.48 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 272.16 667.92 Tm(.)Tj-21.667 -1.143 TD0.333 Tw[(The base layer is produced by an )-24(MPEG-2 )-24(motion)]TJ-1.119 -1.143 TD0.167 Tw[(compensated )24(coder. )24(Motion vectors obtained for the base)]TJT*0.214 Tw(layer \(subband LL/L)Tj/T9 1 Tf6.48 0 0 6.48 129.6 631.92 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 131.52 633.36 Tm0.238 Tw[( \) are used also for the other four)]TJ-8.833 -1.143 TD0 Tw(subbands from the enhancement layer.)Tj1.119 -1.143 TD0.405 Tw[(There are several possibile methods to )-24(encode )-24(the)]TJ-1.119 -1.143 TD0.881 Tw(enhancement layer. DCT-based motion-compensated)TjT*0 Tw(MPEG-like coding is one of possible solutions.)Tj1.119 -1.143 TD0.095 Tw[(Motion vectors are supplied to all four subbands )-24(of )-24(the)]TJ-1.119 -1.143 TD0.167 Tw[(enhancement layer. Nevertheless the gain obtained )-23(using)]TJT*0.095 Tw(motion compensation in the subbands of L)Tj/T9 1 Tf6.48 0 0 6.48 220.32 551.28 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 222.24 552.72 Tm[( - LH, HL and)]TJ-17.833 -1.143 TD0.119 Tw[(first )24(of )24(all )24(in )24(HH )24(is poor. A better but more sophisticated)]TJT*0.071 Tw(solution consists in spatial synthesis of subbands and joint)TjT*0 Tw(motion compensation for all subbands.)Tj1.119 -1.143 TD0.024 Tw[(Quantization )24(tables )24(for the LL subbands in L)]TJ/T9 1 Tf6.48 0 0 6.48 236.64 505.2 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 238.56 506.64 Tm[( and H)]TJ/T9 1 Tf6.48 0 0 6.48 266.16 505.2 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 268.08 506.64 Tm[( are)]TJ-22.381 -1.143 TD0.476 Tw(similar to standard MPEG-2 tables. Nevertheless for)TjT*0.214 Tw[(higher )24(base layer compression ratios, it is reasonable to)]TJT*0.381 Tw[(include DCT-coefficient updates into )-24(the )-24(enhancement)]TJT*0.786 Tw[(layer. )24(Otherwise )24(rough quantization of the DCT)]TJT*0.119 Tw(coefficients in the base layer would prevent the system to)Tj26.714 29.857 TD0.024 Tw[(reach )24(better )24(coding fidelity even by fine quantization in the)]TJ0 -1.143 TD0 Tw(enhancement layer.)Tj1.119 -1.143 TD0.31 Tw[(The LH, HL and HH subbands )-23(\(from )-23(L)]TJ/T9 1 Tf6.48 0 0 6.48 503.04 725.52 Tm(t)Tj/T6 1 Tf10.08 0 0 10.08 504.96 726.96 Tm0.333 Tw(\) need flat)Tj-19.167 -1.143 TD0 Tw(quantization tables.)TjET0 G1 i 0 J 0 j 0.72 w 10 M []0 d362.16 559.2 30.24 -30.24 reSBT/T10 1 Tf7.2 0 0 7.2 372.72 542.88 Tm-0.052 Tc(LH)TjET392.4 559.2 30.24 -30.24 reSBT/T10 1 Tf7.2 0 0 7.2 402.48 542.88 Tm-0.058 Tc(HH)TjET362.16 528.96 30.24 -30.24 reSBT/T10 1 Tf7.2 0 0 7.2 373.2 512.88 Tm-0.052 Tc(LL)TjET392.4 528.96 30.24 -30.24 reSBT/T10 1 Tf7.2 0 0 7.2 402.96 512.88 Tm-0.058 Tc(HL)TjET0.498 g453.12 559.2 30 -30.24 ref*q453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 528.24 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 528.24 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 532.08 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 532.08 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 535.92 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 535.92 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 539.76 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 539.76 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 543.6 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 543.6 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 547.44 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 547.44 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 551.28 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 551.28 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 555.12 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 555.12 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 558.96 Tm0 Tr0 g0 Tc(AAAA)TjETQBT/T11 1 Tf0.24 0 0 -0.24 467.28 528.24 Tm0 Tr0 g0 Tc(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjT*(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 467.28 558.96 Tm0 Tr0 g0 Tc(AAAA)Tj64 128 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)TjT*(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)TjETQ0 G1 i 0 J 0 j 0.72 w 10 M []0 d453.12 559.2 30 -30.24 reS453.12 528.96 30 -30.24 reSBT/T10 1 Tf7.2 0 0 7.2 464.16 512.88 Tm0 Tr0.004 0 0 rg-0.052 Tc(LL)TjET362.16 690 60.48 -60.24 reS453.12 690 60.48 -60.24 reS382.32 599.52 20.16 -20.16 reSBT/T12 1 Tf12.72 0 0 12.72 387.84 585.6 Tm(\345)TjET473.28 599.52 19.92 -20.16 reSBT/T12 1 Tf12.72 0 0 12.72 478.56 585.6 Tm(\345)TjET1 J 1 j 392.4 629.52 m392.4 601.44 lS0 g0.24 w 394.08 602.4 m390.48 602.4 l392.4 599.52 l394.08 602.4 lB*0.72 w 483.36 629.52 m483.36 601.44 lS0.24 w 485.28 602.16 m481.68 602.16 l483.36 599.52 l485.28 602.16 lB*0.72 w 392.4 629.52 m471.36 590.16 lS0.24 w 471.6 592.32 m469.92 589.2 l473.28 589.44 l471.6 592.32 lB*0.72 w 483.36 629.52 m404.4 590.16 lS0.24 w 405.84 589.2 m404.16 592.32 l402.48 589.44 l405.84 589.2 lB*BT/T10 1 Tf7.2 0 0 7.2 378.24 611.28 Tm0.004 0 0 rg-0.051 Tc[(1/)-75(2)]TJ15.067 -0.567 TD[(1/)-75(2)]TJ-10.633 -3.333 TD-0.015 Tc0 Tw[( )-39(1)37(/)13(2)-3382(-)1( 1/2)]TJ/T13 1 Tf9.84 0 0 9.84 387.6 564.96 Tm(L)Tj/T14 1 Tf6.48 0 0 6.48 392.88 563.52 Tm(t)Tj/T13 1 Tf9.84 0 0 9.84 479.04 564.96 Tm(H)Tj/T14 1 Tf6.48 0 0 6.48 486.24 563.52 Tm(t)TjET0.498 g453.12 559.2 30 -30.24 ref*q453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 528.24 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 528.24 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 532.08 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 532.08 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 535.92 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 535.92 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 539.76 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 539.76 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 543.6 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 543.6 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 547.44 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 547.44 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 551.28 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 551.28 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 555.12 Tm0 Tr0 g(A)TjETQBT/T11 1 Tf0.24 0 0 -0.24 455.76 555.12 Tm0 Tr0 g0 Tc(AAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 451.92 558.96 Tm0 Tr0 g0 Tc(AAAA)TjETQBT/T11 1 Tf0.24 0 0 -0.24 467.28 528.24 Tm0 Tr0 g0 Tc(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjT*(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjETq453.12 559.2 30 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 467.28 558.96 Tm0 Tr0 g0 Tc(AAAA)Tj64 128 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)TjT*(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)TjETQ0 G1 i 0 J 0 j 0.72 w 10 M []0 d453.12 559.2 30 -30.24 reS0.498 g483.36 528.96 30.24 -30.24 ref*q483.36 528.96 30.24 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 482.64 497.52 Tm0 Tr0 g0 Tc(AAAA)TjETQBT/T11 1 Tf0.24 0 0 -0.24 482.64 501.36 Tm0 Tr0 g0 Tc(AAAA)Tj0 -16 TD(AAAA)TjT*(AAAA)TjT*(AAAA)TjT*(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjETq483.36 528.96 30.24 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 482.64 528.24 Tm0 Tr0 g0 Tc(AAAA)Tj64 128 TD(AAAA)TjETQBT/T11 1 Tf0.24 0 0 -0.24 498 501.36 Tm0 Tr0 g0 Tc(AAAA)Tj0 -16 TD(AAAA)TjT*(AAAA)TjT*(AAAA)TjT*(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjETq483.36 528.96 30.24 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 498 528.24 Tm0 Tr0 g0 Tc(AAAA)Tj64 128 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)TjT*(A)TjT*(A)TjT*(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)TjETQ0 G1 i 0 J 0 j 0.72 w 10 M []0 d483.36 528.96 30.24 -30.24 reS0.498 g483.36 559.2 30.24 -30.24 ref*BT/T11 1 Tf0.24 0 0 -0.24 482.64 528.24 Tm0 Tr0 g0 Tc(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjT*(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjETq483.36 559.2 30.24 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 482.64 558.96 Tm0 Tr0 g0 Tc(AAAA)TjETQBT/T11 1 Tf0.24 0 0 -0.24 498 528.24 Tm0 Tr0 g0 Tc(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjT*(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)Tj0 -16 TD(AAAA)TjETq483.36 559.2 30.24 -30.24 reW* nBT/T11 1 Tf0.24 0 0 -0.24 498 558.96 Tm0 Tr0 g0 Tc(AAAA)Tj64 128 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)TjT*(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)Tj0 -16 TD(A)TjETQ0 G1 i 0 J 0 j 0.72 w 10 M []0 d483.36 559.2 30.24 -30.24 reSBT/T18 1 Tf7.2 0 0 7.2 376.56 667.44 Tm0 Tr0.004 0 0 rg( )Tj/T19 1 Tf8.4 0 0 8.4 378.48 667.68 Tm0.057 Tc[(F)64(r)108(am)137(e )]TJ/T20 1 Tf3.229 0 TD(i)Tj/T19 1 Tf6.8 -0.257 TD[(F)64(r)108(am)137(e )]TJ/T20 1 Tf3.229 0 TD-0.041 Tc(i )Tj/T19 1 Tf0.486 0 TD-0.005 Tc(+1)Tj/T6 1 Tf10.08 0 0 10.08 337.2 477.6 Tm0 g0 Tc0 Tw(Figure 1: Three-dimensional subband analysis.)Tj-16.952 -38.262 TD(Figure 2: Scalable system with three-dimensional subband analysis.)TjET1 g1 J 1 j 0.96 w 179.52 315.6 m179.52 289.92 l187.92 289.92 l179.52 315.6 lf*179.52 315.6 m179.52 289.92 l187.92 289.92 lS0 g0.24 w 186.96 292.56 m186.96 287.52 l191.04 289.92 l186.96 292.56 lB*0 J 0 j 0.96 w 191.04 165.12 330.48 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 208.08 153.12 Tm(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITH)Tj/T21 1 Tf2.526 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 446.16 153.12 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 449.04 153.12 Tm(ESTIMATION)Tj/T23 1 Tf10.08 0 0 10.08 543.6 364.56 Tm(E)Tj-0.024 -1.167 TD(N)TjT*(H)Tj0.024 -1.167 TD(A)Tj-0.024 -1.167 TD(N)TjT*(C)Tj0.024 -1.167 TD(E)Tj-0.071 -1.167 TD(M)Tj0.071 -1.167 TD(E)Tj-0.024 -1.167 TD(N)Tj0.048 -1.167 TD(T)Tj0.048 -2.333 TD(L)Tj-0.071 -1.167 TD(A)TjT*(Y)TjT*(E)Tj-0.024 -1.167 TD(R)TjET1 J 1 j 150.96 250.08 m187.92 250.08 lS0.24 w 186.96 252.72 m186.96 247.68 l191.04 250.08 l186.96 252.72 lB*BT/T21 1 Tf9.12 0 0 9.12 160.56 254.88 Tm(HH)TjET0.96 w 150.96 218.64 m187.92 218.64 lS0.24 w 186.96 221.04 m186.96 216.24 l191.04 218.64 l186.96 221.04 lB*BT/T21 1 Tf9.12 0 0 9.12 160.56 223.44 Tm(LH)TjET0.96 w 150.96 190.08 m187.92 190.08 lS0.24 w 186.96 192.72 m186.96 187.68 l191.04 190.08 l186.96 192.72 lB*BT/T21 1 Tf9.12 0 0 9.12 160.56 194.88 Tm(HL)TjET0.96 w 521.52 287.04 m529.92 287.04 lS0.24 w 528.96 289.68 m528.96 284.64 l533.04 287.04 l528.96 289.68 lB*0.96 w 150.96 158.88 m187.92 158.88 lS0.24 w 186.96 161.52 m186.96 156.48 l191.04 158.88 l186.96 161.52 lB*BT/T21 1 Tf9.12 0 0 9.12 160.56 163.44 Tm(LL)TjET0 J 0 j 0.96 w 82.56 255.84 68.4 -105.36 reSBT/T21 1 Tf9.12 0 0 9.12 98.16 222.24 Tm(SPATIAL)Tj-0.342 -2.316 TD(SUBBAND)Tj-0.053 -2.316 TD(ANALYSIS)TjET182.4 181.92 0.96 -0.48 ref*185.52 181.92 0.96 -0.48 ref*1 J 1 j 0.24 w 187.44 184.08 m187.44 179.28 l191.04 181.68 l187.44 184.08 lB*0 J 0 j 0.96 w 191.04 255.84 330.48 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 198.48 243.84 Tm(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITHOUT)Tj/T21 1 Tf4.632 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 455.76 243.84 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 458.64 243.84 Tm(ESTIMATION)TjET179.28 137.04 0.48 -0.96 ref*179.28 139.92 0.48 -0.96 ref*179.28 142.8 0.48 -0.96 ref*179.28 145.68 0.48 -0.96 ref*179.28 148.56 0.48 -0.96 ref*179.28 151.44 0.48 -0.96 ref*179.28 154.32 0.48 -0.96 ref*179.28 157.2 0.48 -0.96 ref*179.28 160.08 0.48 -0.96 ref*179.28 162.96 0.48 -0.96 ref*179.28 165.84 0.48 -0.96 ref*179.28 168.72 0.48 -0.96 ref*179.28 171.6 0.48 -0.96 ref*179.28 174.72 0.48 -0.96 ref*179.28 177.6 0.48 -0.96 ref*179.28 180.48 0.48 -0.96 ref*179.28 183.36 0.48 -0.96 ref*179.28 186.24 0.48 -0.96 ref*179.28 189.12 0.48 -0.96 ref*179.28 192 0.48 -0.96 ref*179.28 194.88 0.48 -0.96 ref*179.28 197.76 0.48 -0.96 ref*179.28 200.64 0.48 -0.96 ref*179.28 203.52 0.48 -0.96 ref*179.28 206.4 0.48 -0.96 ref*179.28 209.28 0.48 -0.96 ref*180.48 210.48 0.96 -0.48 ref*183.36 210.48 1.2 -0.48 ref*186.48 210.48 0.96 -0.48 ref*1 J 1 j 0.24 w 187.44 212.64 m187.44 207.84 l191.04 210.24 l187.44 212.64 lB*438.72 147.36 0.48 -0.96 ref*438.72 144.48 0.48 -0.96 ref*438.72 141.6 0.48 -0.96 ref*438.72 138.72 0.48 -0.96 ref*438.72 135.84 0.48 -0.96 ref*438.72 132.96 0.48 -0.96 ref*438.72 130.08 0.48 -0.96 ref*441.36 128.16 m436.56 128.16 l438.96 124.56 l441.36 128.16 lB*0.96 w 521.52 247.2 m529.92 247.2 lS0.24 w 528.96 249.6 m528.96 244.8 l533.04 247.2 l528.96 249.6 lB*0.96 w 521.52 215.76 m529.92 215.76 lS0.24 w 528.96 218.4 m528.96 213.36 l533.04 215.76 l528.96 218.4 lB*0.96 w 521.52 184.56 m529.92 184.56 lS0.24 w 528.96 186.96 m528.96 181.92 l533.04 184.56 l528.96 186.96 lB*4.08 w 538.56 375.36 m538.56 170.16 lS541.44 117.84 m421.92 117.84 lS179.52 136.32 0.96 -0.48 ref*182.4 136.32 0.96 -0.48 ref*185.28 136.32 0.96 -0.48 ref*188.16 136.32 0.96 -0.48 ref*191.04 136.32 0.96 -0.48 ref*193.92 136.32 0.96 -0.48 ref*196.8 136.32 0.96 -0.48 ref*199.68 136.32 0.96 -0.48 ref*202.56 136.32 0.96 -0.48 ref*205.44 136.32 0.96 -0.48 ref*208.32 136.32 0.96 -0.48 ref*211.2 136.32 0.96 -0.48 ref*214.08 136.32 0.96 -0.48 ref*216.96 136.32 0.96 -0.48 ref*219.84 136.32 0.96 -0.48 ref*222.72 136.32 0.96 -0.48 ref*225.6 136.32 0.96 -0.48 ref*228.48 136.32 0.96 -0.48 ref*231.36 136.32 0.96 -0.48 ref*234.24 136.32 0.96 -0.48 ref*237.12 136.32 0.96 -0.48 ref*240 136.32 0.96 -0.48 ref*242.88 136.32 0.96 -0.48 ref*245.76 136.32 0.96 -0.48 ref*248.64 136.32 0.96 -0.48 ref*251.52 136.32 0.96 -0.48 ref*254.4 136.32 0.96 -0.48 ref*257.28 136.32 0.96 -0.48 ref*260.16 136.32 0.96 -0.48 ref*263.04 136.32 0.96 -0.48 ref*265.92 136.32 0.96 -0.48 ref*268.8 136.32 0.96 -0.48 ref*271.68 136.32 0.96 -0.48 ref*274.56 136.32 0.96 -0.48 ref*277.44 136.32 0.96 -0.48 ref*280.32 136.32 0.96 -0.48 ref*283.2 136.32 0.96 -0.48 ref*286.08 136.32 0.96 -0.48 ref*288.96 136.32 0.96 -0.48 ref*291.84 136.32 0.96 -0.48 ref*294.72 136.32 0.96 -0.48 ref*297.6 136.32 0.96 -0.48 ref*300.48 136.32 0.96 -0.48 ref*303.36 136.32 0.96 -0.48 ref*306.24 136.32 0.96 -0.48 ref*309.36 136.32 0.96 -0.48 ref*312.24 136.32 0.96 -0.48 ref*315.12 136.32 0.96 -0.48 ref*318 136.32 0.96 -0.48 ref*320.88 136.32 0.96 -0.48 ref*323.76 136.32 0.96 -0.48 ref*326.64 136.32 0.96 -0.48 ref*329.52 136.32 0.96 -0.48 ref*332.4 136.32 0.96 -0.48 ref*335.28 136.32 0.96 -0.48 ref*338.16 136.32 0.96 -0.48 ref*341.04 136.32 0.96 -0.48 ref*343.92 136.32 0.96 -0.48 ref*346.8 136.32 0.96 -0.48 ref*349.68 136.32 0.96 -0.48 ref*352.56 136.32 0.96 -0.48 ref*355.44 136.32 0.96 -0.48 ref*358.32 136.32 0.96 -0.48 ref*361.2 136.32 0.96 -0.48 ref*364.08 136.32 0.96 -0.48 ref*366.96 136.32 0.96 -0.48 ref*369.84 136.32 0.96 -0.48 ref*372.72 136.32 0.96 -0.48 ref*375.6 136.32 0.96 -0.48 ref*378.48 136.32 0.96 -0.48 ref*381.36 136.32 0.96 -0.48 ref*384.24 136.32 0.96 -0.48 ref*387.12 136.32 0.96 -0.48 ref*390 136.32 0.96 -0.48 ref*392.88 136.32 0.96 -0.48 ref*395.76 136.32 0.96 -0.48 ref*398.64 136.32 0.96 -0.48 ref*401.52 136.32 0.96 -0.48 ref*404.4 136.32 0.96 -0.48 ref*407.28 136.32 0.96 -0.48 ref*410.16 136.32 0.96 -0.48 ref*413.04 136.32 0.96 -0.48 ref*415.92 136.32 0.96 -0.48 ref*418.8 136.32 0.96 -0.48 ref*421.68 136.32 0.96 -0.48 ref*424.56 136.32 m424.56 135.84 l425.52 135.84 l425.52 136.32 l424.56 136.32 lf*427.44 136.32 0.96 -0.48 ref*430.32 136.32 0.96 -0.48 ref*433.2 136.32 0.96 -0.48 ref*436.08 136.32 0.96 -0.48 ref*179.52 150.72 0.96 -0.48 ref*182.4 150.72 0.96 -0.48 ref*185.52 150.72 0.96 -0.48 ref*0.24 w 187.44 153.12 m187.44 147.6 l191.04 150.48 l187.44 153.12 lB*179.28 211.2 0.48 -0.96 ref*179.28 214.08 0.48 -0.96 ref*179.28 216.96 0.48 -0.96 ref*179.28 219.84 0.48 -0.96 ref*179.28 222.72 0.48 -0.96 ref*179.28 225.6 0.48 -0.96 ref*179.28 228.48 0.48 -0.96 ref*179.28 231.36 0.48 -0.96 ref*179.28 234.24 0.48 -0.96 ref*179.28 237.12 0.48 -0.96 ref*179.28 240 0.48 -0.96 ref*179.28 242.88 0.48 -0.96 ref*179.28 246 0.48 -1.2 ref*179.28 248.88 0.48 -0.96 ref*179.28 251.76 0.48 -0.96 ref*179.28 254.64 0.48 -0.96 ref*179.28 257.52 0.48 -0.96 ref*179.28 260.4 0.48 -0.96 ref*179.28 263.28 0.48 -0.96 ref*179.28 266.16 0.48 -0.96 ref*179.28 269.04 0.48 -0.96 ref*179.28 271.92 0.48 -0.96 ref*179.28 274.8 0.48 -0.96 ref*179.28 277.68 0.48 -0.96 ref*179.28 280.56 0.48 -0.96 ref*179.52 241.92 0.96 -0.48 ref*182.4 241.92 0.96 -0.48 ref*185.52 241.92 0.96 -0.48 ref*187.44 243.84 m187.44 239.28 l191.04 241.68 l187.44 243.84 lB*BT/T21 1 Tf9.12 0 0 9.12 317.28 123.6 Tm(MOTION)Tj/T24 1 Tf4 0 TD( )Tj/T21 1 Tf0.263 0 TD(VECTORS)TjET0 J 0 j 0.96 w 191.04 224.4 330.48 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 198.48 212.4 Tm(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITHOUT)Tj/T21 1 Tf4.632 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 455.76 212.4 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 458.64 212.4 Tm(ESTIMATION)TjET191.04 193.68 330.48 -17.28 reSBT/T21 1 Tf9.12 0 0 9.12 198.48 181.68 Tm(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITHOUT)Tj/T21 1 Tf4.632 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 455.76 181.68 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 458.64 181.68 Tm(ESTIMATION)TjET1 g1 J 1 j 74.16 315.6 m74.16 204.48 l79.68 204.48 l74.16 315.6 lf*74.16 315.6 m74.16 204.48 l79.68 204.48 lS0 g0.24 w 78.72 206.88 m78.72 201.84 l82.56 204.48 l78.72 206.88 lB*BT/T23 1 Tf10.08 0 0 10.08 447.12 103.68 Tm0.095 Tc(BASE LAYER)TjET0 J 0 j 0.96 w 65.52 389.76 m133.92 389.76 l133.92 315.6 l65.52 315.6 lsBT/T21 1 Tf9.12 0 0 9.12 74.88 368.16 Tm0 Tc(TEMPORAL)Tj0.342 -2.316 TD(SUBBAND)Tj-0.053 -2.316 TD(ANALYSIS)TjET191.04 295.68 330.48 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 198.48 283.68 Tm(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITHOUT)Tj/T21 1 Tf4.632 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 455.76 283.68 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 458.64 283.68 Tm(ESTIMATION)Tj-41.289 2.132 TD(L)Tj/T25 1 Tf6 0 0 6 87.12 302.16 Tm(t)TjET1 g1 J 1 j 133.92 378.24 m176.64 378.24 l176.64 369.84 l133.92 378.24 lf*133.92 378.24 m176.64 378.24 l176.64 369.84 lS0 g0.24 w 179.28 371.04 m174.24 371.04 l176.64 366.96 l179.28 371.04 lB*BT/T21 1 Tf9.12 0 0 9.12 149.76 393.12 Tm(H)Tj/T25 1 Tf6 0 0 6 156.24 392.16 Tm(t)TjET0 J 0 j 0.96 w 145.44 366.96 91.2 -51.36 reSBT/T21 1 Tf9.12 0 0 9.12 172.32 345.36 Tm(SPATIAL)Tj-1.079 -2.316 TD(DECIMATION)TjET179.52 281.76 0.96 -0.48 ref*182.4 281.76 0.96 -0.48 ref*185.52 281.76 0.96 -0.48 ref*1 J 1 j 0.24 w 187.44 283.68 m187.44 279.12 l191.04 281.52 l187.44 283.68 lB*BT/T23 1 Tf10.08 0 0 10.08 87.36 428.64 Tm(INPUT)TjET0.96 w 99.84 415.44 m99.84 392.88 lS0.24 w 102.24 393.84 m97.2 393.84 l99.84 389.76 l102.24 393.84 lB*4.08 w 122.64 424.08 m79.92 424.08 lS1 g0.96 w 521.52 156.48 m530.16 156.48 l530.16 128.16 l521.52 156.48 lf*521.52 156.48 m530.16 156.48 l530.16 128.16 lS0 g0.24 w 532.56 129.12 m527.52 129.12 l530.16 125.28 l532.56 129.12 lB*endstreamendobj17 0 obj<< /ProcSet [ /PDF /Text /ImageB ] /ColorSpace << /DefaultRGB 1 0 R >> /Font << /T6 10 0 R /T8 12 0 R /T9 13 0 R /T10 18 0 R /T11 19 0 R /T12 20 0 R /T13 21 0 R /T14 22 0 R /T18 23 0 R /T19 24 0 R /T20 25 0 R /T21 26 0 R /T22 27 0 R /T23 28 0 R /T24 29 0 R /T25 30 0 R >> >> endobj18 0 obj<< /Name /T10 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 20 22 ] /FontMatrix [ 0.0345 0 0 0.0345 0 0 ] /FirstChar 32 /LastChar 76 /Encoding 328 0 R /CharProcs 329 0 R /Widths [ 8 0 0 0 0 0 0 0 0 0 0 0 0 10 0 8 0 17 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 0 0 0 17 ] >> endobj19 0 obj<< /Name /T11 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 16 16 ] /FontMatrix [ 1 0 0 -1 0 0 ] /FirstChar 65 /LastChar 65 /Encoding 434 0 R /CharProcs 435 0 R /Widths [ 16 ] >> endobj20 0 obj<< /Name /T12 /Type /Font /Subtype /Type3 /FontBBox [ 1 -5 37 37 ] /FontMatrix [ 0.0185 0 0 0.0185 0 0 ] /FirstChar 229 /LastChar 229 /Encoding 437 0 R /CharProcs 438 0 R /Widths [ 38 ] >> endobj21 0 obj<< /Name /T13 /Type /Font /Subtype /Type3 /FontBBox [ 3 0 27 30 ] /FontMatrix [ 0.0238 0 0 0.0238 0 0 ] /FirstChar 72 /LastChar 76 /Encoding 337 0 R /CharProcs 338 0 R /Widths [ 30 0 0 0 23 ] >> endobj22 0 obj<< /Name /T14 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 7 20 ] /FontMatrix [ 0.04 0 0 0.04 0 0 ] /FirstChar 116 /LastChar 116 /Encoding 440 0 R /CharProcs 441 0 R /Widths [ 8 ] >> endobj23 0 obj<< /Name /T18 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 0 0 ] /FontMatrix [ 0.0345 0 0 0.0345 0 0 ] /FirstChar 32 /LastChar 32 /Encoding 443 0 R /CharProcs 444 0 R /Widths [ 8 ] >> endobj24 0 obj<< /Name /T19 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 27 21 ] /FontMatrix [ 0.0303 0 0 0.0303 0 0 ] /FirstChar 32 /LastChar 114 /Encoding 341 0 R /CharProcs 342 0 R /Widths [ 10 0 0 0 0 0 0 0 0 0 0 20 0 0 0 0 0 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 0 0 0 18 0 0 0 0 0 0 0 29 0 0 0 0 12 ] >> endobj25 0 obj<< /Name /T20 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 9 25 ] /FontMatrix [ 0.0303 0 0 0.0303 0 0 ] /FirstChar 32 /LastChar 105 /Encoding 351 0 R /CharProcs 352 0 R /Widths [ 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 ] >> endobj26 0 obj<< /Name /T21 /Type /Font /Subtype /Type3 /FontBBox [ 0 -6 28 27 ] /FontMatrix [ 0.0263 0 0 0.0263 0 0 ] /FirstChar 32 /LastChar 89 /Encoding 355 0 R /CharProcs 356 0 R /Widths [ 11 0 0 0 0 0 0 0 0 0 0 0 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 25 27 27 25 23 30 27 11 0 0 21 31 27 30 25 0 27 25 23 27 25 0 0 25 ] >> endobj27 0 obj<< /Name /T22 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 35 27 ] /FontMatrix [ 0.0263 0 0 0.0263 0 0 ] /FirstChar 72 /LastChar 87 /Encoding 380 0 R /CharProcs 381 0 R /Widths [ 27 11 0 0 0 0 0 30 0 0 0 0 23 27 0 35 ] >> endobj28 0 obj<< /Name /T23 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 32 30 ] /FontMatrix [ 0.0238 0 0 0.0238 0 0 ] /FirstChar 32 /LastChar 89 /Encoding 388 0 R /CharProcs 389 0 R /Widths [ 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 28 30 0 28 0 0 30 12 0 0 23 35 30 0 28 0 30 28 26 30 0 0 0 28 ] >> endobj29 0 obj<< /Name /T24 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 0 0 ] /FontMatrix [ 0.0263 0 0 0.0263 0 0 ] /FirstChar 32 /LastChar 32 /Encoding 446 0 R /CharProcs 447 0 R /Widths [ 10 ] >> endobj30 0 obj<< /Name /T25 /Type /Font /Subtype /Type3 /FontBBox [ 0 0 7 18 ] /FontMatrix [ 0.04 0 0 0.04 0 0 ] /FirstChar 116 /LastChar 116 /Encoding 449 0 R /CharProcs 450 0 R /Widths [ 7 ] >> endobj31 0 obj<< /Type /Page /Parent 14 0 R /Resources 33 0 R /Contents 32 0 R /Thumb 461 0 R >> endobj32 0 obj<< /Length 15305 >> stream
+BT/T6 1 Tf10.08 0 0 10.08 213.12 450.48 Tm0 Tr0 g0 Tc0 Tw(Figure 3: Second variant of a scalable coder.)Tj/T7 1 Tf11.04 0 0 11.04 42.48 408.96 Tm[(3)-1435(INCORPORATION OF B-FRAMES INTO )]TJ1.935 -1.152 TD(AN ENHANCEMENT LAYER)Tj/T6 1 Tf10.08 0 0 10.08 53.76 378.48 Tm0.262 Tw[(In )24(the )24(design )24(of an alternative scalable system, it is)]TJ-1.119 -1.143 TD0.095 Tw(assumed that every second input frame is coded as the B-)TjT*[(frame )24(and )24(is )24(never )24(used for other frames prediction. Thus)]TJT*0.19 Tw[(these frames need not to be sent )-24(in )-24(the )-24(base )-24(layer. )-24(The)]TJT*0 Tw(enhancement layer includes \(see Fig.3\):)Tj/T8 1 Tf0 -1.214 TD(- )Tj/T6 1 Tf1.405 0 TD(each even frame being a B-frame,)Tj/T8 1 Tf-1.405 -1.214 TD(- )Tj/T6 1 Tf1.405 0 TD(the LH, HL, HH spatial subbands from the odd frames.)Tj-1.405 -1.143 TD0.333 Tw[(The )23(base )23(layer )23(includes )23(the subband LL from half of)]TJT*(frames.)Tj1.119 -1.143 TD0.071 Tw[(The spatial subbands as well as the B-frames )-24(are )-24(coded)]TJ-1.119 -1.143 TD0.119 Tw(in the standard hybrid DCT-based coders. Motion vectors)TjT*0.548 Tw[(obtained for the LL subband )-23(are )-23(used )-23(for )-23(motion)]TJT*0.333 Tw[(compensation of other spatial subbands. )-24(Following )-24(the)]TJT*0.048 Tw(suggestion of [5] the intraframe coding of the HH subband)TjT*0.786 Tw[(is )24(considered )24(as an option using spatial vector)]TJT*(quantization.)Tj1.119 -1.143 TD0.071 Tw[(Special quantization tables are calculated for )-24(individual)]TJ-1.119 -1.143 TD(subbands.)Tj/T7 1 Tf11.04 0 0 11.04 42.48 151.2 Tm0 Tw[(4)-1435(CODING EXPLOITING INTER-SUBBAND )]TJ1.935 -1.152 TD(CORRELATION)Tj/T6 1 Tf10.08 0 0 10.08 53.76 120.72 Tm0.214 Tw[(In )24(both )24(above )24(described systems, a video sequence at)]TJ-1.119 -1.143 TD0.19 Tw(input to the spatial analysis filter bank is a sequence of)TjT*0.286 Tw(pictures similar to those in the source video sequence.)TjT*0.095 Tw[(Usually pictures showing natural scenes )-24(exhibit )-24(very )-24(high)]TJ26.714 32.714 TD0.476 Tw[(cross-correlation )24(between sub-images corresponding to)]TJ0 -1.143 TD0.214 Tw[(different subbands of the spatial spectrum.  Therefore a)]TJT*[(technique originally successfully applied for still )-24(images)]TJT*0.071 Tw[([10] )23(can be adopted for efficient encoding of the subbands)]TJT*0 Tw(HL, LH and HH \(Fig. 4\).)Tj1.119 -1.143 TD0.19 Tw(This technique exploits an observation that images of)Tj-1.119 -1.143 TD0.095 Tw(natural scenes exhibit power spectra which decay more or)TjT*0.143 Tw[(less uniformly for increasing frequencies. Therefore, )-24( )-24(the)]TJT*0.262 Tw(portions of the high-frequency sub-images where signal)TjT*0.024 Tw[(values )24(are )24(substantial )24( )24(correspond usually to the portions of)]TJT*0.19 Tw[(the )23(low-frequency )23(sub-image where some changes occur.)]TJT*0.31 Tw[(Most )24(of )24(the )24(portions of the high-frequency sub-images)]TJT*0.286 Tw(exhibit only small signal values. Therefore a quantizer)TjT*0.119 Tw[(with )24(a )24(dead-zone produces a lot of zeros. We need not to)]TJT*0.024 Tw[(transmit )24(all )24(of them and we can use the low-frequency sub-)]TJT*0.119 Tw[(image to identify the positions of )-24(the )-24("active" )-24(portions )-24(of)]TJT*0 Tw(the high-frequency sub-images.)TjET0 G1 i 0 J 0 j 0.72 w 10 M []0 d312 198.96 52.8 -31.68 reSq313.2 197.76 m363.84 197.76 l363.84 168.24 l313.2 168.24 lW nBT/T26 1 Tf7.44 0 0 7.44 320.4 186.48 Tm0 Tr0 g-0.057 Tc[(SUBBA)-26(N)-41(D)]TJETQq313.2 197.76 m363.84 197.76 l363.84 168.24 l313.2 168.24 lW nBT/T26 1 Tf7.44 0 0 7.44 320.16 178.08 Tm0 Tr0 g-0.053 Tc[(ANALYS)-22(I)13(S)]TJETQ0 G1 i 0 J 0 j 0.72 w 10 M []0 d418.32 198 52.8 -31.44 reSBT/T26 1 Tf7.44 0 0 7.44 427.44 181.2 Tm0 Tr0 g-0.068 Tc[(M)-46(ASK)-37(I)-8(N)-8(G)]TJET1 J 1 j 365.52 195.84 m415.92 195.84 lS0.24 w 415.2 197.76 m415.2 193.92 l418.32 195.84 l415.2 197.76 lB*BT/T27 1 Tf7.44 0 0 7.44 380.64 198.72 Tm-0.097 Tc(HH)TjET0.72 w 365.52 183.36 m415.92 183.36 lS0.24 w 415.2 185.04 m415.2 181.44 l418.32 183.36 l415.2 185.04 lB*BT/T27 1 Tf7.44 0 0 7.44 381.36 186 Tm-0.086 Tc(HL)TjET0 J 0 j 0.72 w 416.4 140.88 52.56 -31.44 reSBT/T26 1 Tf7.44 0 0 7.44 425.76 128.64 Tm-0.044 Tc(ACTIVITY)Tj-0.194 -1.161 TD-0.053 Tc[(ANALYS)-22(I)13(S)]TJET1 J 1 j 340.08 166.32 m340.08 124.08 l414 124.08 lS0.24 w 413.28 125.76 m413.28 122.4 l416.4 124.08 l413.28 125.76 lB*0.72 w 443.76 140.88 m443.76 164.16 lS0.24 w 441.84 163.44 m445.68 163.44 l443.76 166.32 l441.84 163.44 lB*0 J 0 j 0.72 w 486 198 27.36 -31.44 reSBT/T26 1 Tf7.44 0 0 7.44 494.4 181.2 Tm-0.099 Tc(VQ)TjET1 J 1 j 471.36 195.84 m483.84 195.84 lS0.24 w 483.12 197.76 m483.12 193.92 l486 195.84 l483.12 197.76 lB*0.72 w 471.36 183.36 m483.84 183.36 lS0.24 w 483.12 185.04 m483.12 181.44 l486 183.36 l483.12 185.04 lB*0.72 w 365.52 170.4 m415.92 170.4 lS0.24 w 415.2 172.32 m415.2 168.72 l418.32 170.4 l415.2 172.32 lB*BT/T27 1 Tf7.44 0 0 7.44 381.36 173.28 Tm-0.086 Tc(LH)TjET0.72 w 471.36 170.4 m483.84 170.4 lS0.24 w 483.12 172.32 m483.12 168.72 l486 170.4 l483.12 172.32 lB*0.72 w 469.2 124.08 m481.68 124.08 lS0.24 w 480.96 125.76 m480.96 122.4 l484.08 124.08 l480.96 125.76 lB*0 J 0 j 0.72 w 484.08 140.88 52.56 -31.44 reSBT/T26 1 Tf7.44 0 0 7.44 495.84 128.64 Tm-0.05 Tc[(M)-28(PEG-2)]TJ0.129 -1.161 TD-0.07 Tc[(C)31(O)-102(DER)]TJET1 J 1 j 536.88 124.08 m549.36 124.08 lS0.24 w 548.64 125.76 m548.64 122.4 l551.76 124.08 l548.64 125.76 lB*0.72 w 513.6 183.36 m549.36 183.36 lS0.24 w 548.64 185.04 m548.64 181.44 l551.76 183.36 l548.64 185.04 lB*BT/T27 1 Tf7.44 0 0 7.44 381.84 128.88 Tm-0.075 Tc(LL)Tj/T6 1 Tf10.08 0 0 10.08 323.04 88.08 Tm0 Tc0.19 Tw[(Figure )23(4: )23(Coding exploiting inter-subband correlation.)]TJ/T23 1 Tf21.881 64.048 TD(E)Tj-0.024 -1.167 TD(N)TjT*(H)Tj0.024 -1.167 TD(A)Tj-0.024 -1.167 TD(N)TjT*(C)Tj0.024 -1.167 TD(E)Tj-0.071 -1.167 TD(M)Tj0.071 -1.167 TD(E)Tj-0.024 -1.167 TD(N)Tj0.048 -1.167 TD(T)Tj0.048 -2.333 TD(L)Tj-0.071 -1.167 TD(A)TjT*(Y)TjT*(E)Tj-0.024 -1.167 TD(R)TjET0 J 0 j 0.96 w 191.04 533.76 330.48 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 208.08 521.76 Tm0 Tw(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITH)Tj/T21 1 Tf2.526 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 446.16 521.76 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 449.04 521.76 Tm(ESTIMATION)TjET1 g1 J 1 j 521.52 525.12 m530.16 525.12 l530.16 496.8 l521.52 525.12 lf*521.52 525.12 m530.16 525.12 l530.16 496.8 lS0 g0.24 w 532.56 497.76 m527.52 497.76 l530.16 493.92 l532.56 497.76 lB*0.96 w 150.96 619.2 m187.92 619.2 lS0.24 w 186.96 621.84 m186.96 616.8 l191.04 619.2 l186.96 621.84 lB*BT/T21 1 Tf9.12 0 0 9.12 160.56 623.76 Tm(HH)TjET0.96 w 150.96 587.76 m187.92 587.76 lS0.24 w 186.96 590.16 m186.96 585.12 l191.04 587.76 l186.96 590.16 lB*BT/T21 1 Tf9.12 0 0 9.12 160.56 592.56 Tm(LH)TjET0.96 w 150.96 559.2 m187.92 559.2 lS0.24 w 186.96 561.84 m186.96 556.8 l191.04 559.2 l186.96 561.84 lB*BT/T21 1 Tf9.12 0 0 9.12 160.56 564 Tm(HL)TjET0.96 w 521.52 684.72 m529.92 684.72 lS0.24 w 528.96 687.12 m528.96 682.32 l533.04 684.72 l528.96 687.12 lB*0.96 w 150.96 528 m187.92 528 lS0.24 w 186.96 530.64 m186.96 525.6 l191.04 528 l186.96 530.64 lB*BT/T21 1 Tf9.12 0 0 9.12 160.56 532.56 Tm(LL)TjET0 J 0 j 0.96 w 82.56 624.96 68.4 -105.36 reSBT/T21 1 Tf9.12 0 0 9.12 98.16 591.36 Tm(SPATIAL)Tj-0.342 -2.316 TD(SUBBAND)Tj-0.053 -2.316 TD(ANALYSIS)TjET182.4 551.04 0.96 -0.48 ref*185.52 551.04 0.96 -0.48 ref*1 J 1 j 0.24 w 187.44 553.2 m187.44 548.4 l191.04 550.8 l187.44 553.2 lB*0 J 0 j 0.96 w 191.04 624.96 330.48 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 198.48 612.96 Tm(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITHOUT)Tj/T21 1 Tf4.632 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 455.76 612.96 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 458.64 612.96 Tm(ESTIMATION)TjET193.92 693.36 327.6 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 300.24 681.36 Tm(FULL - FRAME MPEG CODER)TjET1 J 1 j 0.72 w 88.32 684.72 m191.28 684.72 lS0.24 w 190.32 687.12 m190.32 682.32 l193.92 684.72 l190.32 687.12 lB*0 J 0 j 0.96 w 42.72 693.36 45.6 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 47.52 681.36 Tm(BUFFER)TjET179.28 506.16 0.48 -0.96 ref*179.28 509.04 0.48 -0.96 ref*179.28 511.92 0.48 -0.96 ref*179.28 514.8 0.48 -0.96 ref*179.28 517.68 0.48 -0.96 ref*179.28 520.56 0.48 -0.96 ref*179.28 523.44 0.48 -0.96 ref*179.28 526.32 0.48 -0.96 ref*179.28 529.2 0.48 -0.96 ref*179.28 532.08 0.48 -0.96 ref*179.28 534.96 0.48 -0.96 ref*179.28 537.84 0.48 -0.96 ref*179.28 540.72 0.48 -0.96 ref*179.28 543.84 0.48 -0.96 ref*179.28 546.72 0.48 -0.96 ref*179.28 548.64 m179.76 548.64 l179.76 549.6 l179.28 549.6 l179.28 548.64 lf*179.28 552.48 0.48 -0.96 ref*179.28 555.36 0.48 -0.96 ref*179.28 558.24 0.48 -0.96 ref*179.28 561.12 0.48 -0.96 ref*179.28 564 0.48 -0.96 ref*179.28 566.88 0.48 -0.96 ref*179.28 569.76 0.48 -0.96 ref*179.28 572.64 0.48 -0.96 ref*179.28 575.52 0.48 -0.96 ref*179.28 578.4 0.48 -0.96 ref*180.48 579.6 0.96 -0.48 ref*183.36 579.6 1.2 -0.48 ref*186.48 579.6 0.96 -0.48 ref*1 J 1 j 0.24 w 187.44 581.76 m187.44 576.96 l191.04 579.36 l187.44 581.76 lB*438.72 516.48 0.48 -0.96 ref*438.72 513.6 0.48 -0.96 ref*438.72 510.72 0.48 -0.96 ref*438.72 507.84 0.48 -0.96 ref*438.72 504.96 0.48 -0.96 ref*438.72 502.08 0.48 -0.96 ref*438.72 499.2 0.48 -0.96 ref*441.36 497.28 m436.56 497.28 l438.96 493.68 l441.36 497.28 lB*0.96 w 521.52 616.32 m529.92 616.32 lS0.24 w 528.96 618.72 m528.96 613.92 l533.04 616.32 l528.96 618.72 lB*0.96 w 521.52 584.88 m529.92 584.88 lS0.24 w 528.96 587.52 m528.96 582.48 l533.04 584.88 l528.96 587.52 lB*0.96 w 521.52 556.56 m529.92 556.56 lS0.24 w 528.96 558.96 m528.96 553.92 l533.04 556.56 l528.96 558.96 lB*4.08 w 538.56 744.48 m538.56 539.28 lS541.44 488.16 m421.92 488.16 lSBT/T23 1 Tf10.08 0 0 10.08 53.04 732 Tm(INPUT)TjET0.96 w 65.52 718.8 m65.52 696.24 lS0.24 w 68.16 697.2 m63.12 697.2 l65.52 693.36 l68.16 697.2 lB*4.08 w 88.32 727.44 m45.6 727.44 lS179.52 505.44 0.96 -0.48 ref*182.4 505.44 0.96 -0.48 ref*185.28 505.44 0.96 -0.48 ref*188.16 505.44 0.96 -0.48 ref*191.04 505.44 0.96 -0.48 ref*193.92 505.44 0.96 -0.48 ref*196.8 505.44 0.96 -0.48 ref*199.68 505.44 0.96 -0.48 ref*202.56 505.44 0.96 -0.48 ref*205.44 505.44 0.96 -0.48 ref*208.32 505.44 0.96 -0.48 ref*211.2 505.44 0.96 -0.48 ref*214.08 505.44 0.96 -0.48 ref*216.96 505.44 0.96 -0.48 ref*219.84 505.44 0.96 -0.48 ref*222.72 505.44 0.96 -0.48 ref*225.6 505.44 0.96 -0.48 ref*228.48 505.44 0.96 -0.48 ref*231.36 505.44 0.96 -0.48 ref*234.24 505.44 0.96 -0.48 ref*237.12 505.44 0.96 -0.48 ref*240 505.44 0.96 -0.48 ref*242.88 505.44 0.96 -0.48 ref*245.76 505.44 0.96 -0.48 ref*248.64 505.44 0.96 -0.48 ref*251.52 505.44 0.96 -0.48 ref*254.4 505.44 0.96 -0.48 ref*257.28 505.44 0.96 -0.48 ref*260.16 505.44 0.96 -0.48 ref*263.04 505.44 0.96 -0.48 ref*265.92 505.44 0.96 -0.48 ref*268.8 505.44 0.96 -0.48 ref*271.68 505.44 0.96 -0.48 ref*274.56 505.44 0.96 -0.48 ref*277.44 505.44 0.96 -0.48 ref*280.32 505.44 0.96 -0.48 ref*283.2 505.44 0.96 -0.48 ref*286.08 505.44 0.96 -0.48 ref*288.96 505.44 0.96 -0.48 ref*291.84 505.44 0.96 -0.48 ref*294.72 505.44 0.96 -0.48 ref*297.6 505.44 0.96 -0.48 ref*300.48 505.44 0.96 -0.48 ref*303.36 505.44 0.96 -0.48 ref*306.24 505.44 0.96 -0.48 ref*309.36 505.44 0.96 -0.48 ref*312.24 505.44 0.96 -0.48 ref*315.12 505.44 0.96 -0.48 ref*318 505.44 0.96 -0.48 ref*320.88 505.44 0.96 -0.48 ref*323.76 505.44 0.96 -0.48 ref*326.64 505.44 0.96 -0.48 ref*329.52 505.44 0.96 -0.48 ref*332.4 505.44 0.96 -0.48 ref*335.28 505.44 0.96 -0.48 ref*338.16 505.44 0.96 -0.48 ref*341.04 505.44 0.96 -0.48 ref*343.92 505.44 0.96 -0.48 ref*346.8 505.44 0.96 -0.48 ref*349.68 505.44 0.96 -0.48 ref*352.56 505.44 0.96 -0.48 ref*355.44 505.44 0.96 -0.48 ref*358.32 505.44 0.96 -0.48 ref*361.2 505.44 0.96 -0.48 ref*364.08 505.44 0.96 -0.48 ref*366.96 505.44 0.96 -0.48 ref*369.84 505.44 0.96 -0.48 ref*372.72 505.44 0.96 -0.48 ref*375.6 505.44 0.96 -0.48 ref*378.48 505.44 0.96 -0.48 ref*381.36 505.44 0.96 -0.48 ref*384.24 505.44 0.96 -0.48 ref*387.12 505.44 0.96 -0.48 ref*390 505.44 0.96 -0.48 ref*392.88 505.44 0.96 -0.48 ref*395.76 505.44 0.96 -0.48 ref*398.64 505.44 0.96 -0.48 ref*401.52 505.44 0.96 -0.48 ref*404.4 505.44 0.96 -0.48 ref*407.28 505.44 0.96 -0.48 ref*410.16 505.44 0.96 -0.48 ref*413.04 505.44 0.96 -0.48 ref*415.92 505.44 0.96 -0.48 ref*418.8 505.44 0.96 -0.48 ref*421.68 505.44 0.96 -0.48 ref*424.56 505.44 m424.56 504.96 l425.52 504.96 l425.52 505.44 l424.56 505.44 lf*427.44 505.44 0.96 -0.48 ref*430.32 505.44 0.96 -0.48 ref*433.2 505.44 0.96 -0.48 ref*436.08 505.44 0.96 -0.48 ref*179.52 519.6 0.96 -0.48 ref*182.4 519.6 0.96 -0.48 ref*185.52 519.6 0.96 -0.48 ref*0.24 w 187.44 522.24 m187.44 516.72 l191.04 519.36 l187.44 522.24 lB*179.28 580.32 0.48 -0.96 ref*179.28 583.2 0.48 -0.96 ref*179.28 586.08 0.48 -0.96 ref*179.28 588.96 0.48 -0.96 ref*179.28 591.84 0.48 -0.96 ref*179.28 594.72 0.48 -0.96 ref*179.28 597.6 0.48 -0.96 ref*179.28 600.48 0.48 -0.96 ref*179.28 603.36 0.48 -0.96 ref*179.28 606.24 0.48 -0.96 ref*179.28 609.12 0.48 -0.96 ref*179.52 610.8 0.96 -0.48 ref*182.4 610.8 0.96 -0.48 ref*185.52 610.8 0.96 -0.48 ref*187.44 612.96 m187.44 608.4 l191.04 610.56 l187.44 612.96 lB*BT/T21 1 Tf9.12 0 0 9.12 317.28 492.72 Tm(MOTION)Tj/T24 1 Tf4 0 TD( )Tj/T21 1 Tf0.263 0 TD(VECTORS)Tj-28.632 22.816 TD(EVEN FRAMES)Tj0 -1.237 TD(- B FRAMES)Tj-2.816 -3.868 TD(ODD FRAMES)TjETq72.24 651.36 m136.08 651.36 l136.08 641.76 l72.24 641.76 lW nBT/T21 1 Tf9.12 0 0 9.12 72.24 642.72 Tm0 Tr0 g0 Tc0 Tw(- I,P FRAMES)TjETQ0 G1 i 0 J 0 j 0.96 w 10 M []0 d191.04 593.52 330.48 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 198.48 581.52 Tm0 Tr0 g0 Tc0 Tw(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITHOUT)Tj/T21 1 Tf4.632 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 455.76 581.52 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 458.64 581.52 Tm(ESTIMATION)TjET191.04 564.96 330.48 -17.04 reSBT/T21 1 Tf9.12 0 0 9.12 198.48 552.96 Tm(MOTION COMPENSATED MPEG CODER )Tj/T22 1 Tf19.289 0 TD(WITHOUT)Tj/T21 1 Tf4.632 0 TD( MOTION)Tj/T23 1 Tf10.08 0 0 10.08 455.76 552.96 Tm( )Tj/T21 1 Tf9.12 0 0 9.12 458.64 552.96 Tm(ESTIMATION)TjET1 g1 J 1 j 65.52 676.32 m65.52 573.6 l79.68 573.6 l65.52 676.32 lf*65.52 676.32 m65.52 573.6 l79.68 573.6 lS0 g0.24 w 78.72 576 m78.72 571.2 l82.56 573.6 l78.72 576 lB*BT/T23 1 Tf10.08 0 0 10.08 447.12 472.8 Tm0.095 Tc(BASE LAYER)TjETendstreamendobj33 0 obj<< /ProcSet [ /PDF /Text /ImageB ] /ColorSpace << /DefaultRGB 1 0 R >> /Font << /T6 10 0 R /T7 11 0 R /T8 12 0 R /T21 26 0 R /T22 27 0 R /T23 28 0 R /T24 29 0 R /T26 34 0 R /T27 35 0 R >> >> endobj34 0 obj<< /Name /T26 /Type /Font /Subtype /Type3 /FontBBox [ 0 -1 23 22 ] /FontMatrix [ 0.0345 0 0 0.0345 0 0 ] /FirstChar 45 /LastChar 89 /Encoding 406 0 R /CharProcs 407 0 R /Widths [ 10 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 21 22 22 21 0 24 0 9 0 21 17 25 22 24 21 24 22 21 19 22 21 0 0 21 ] >> endobj35 0 obj<< /Name /T27 /Type /Font /Subtype /Type3 /FontBBox [ 3 0 19 22 ] /FontMatrix [ 0.0345 0 0 0.0345 0 0 ] /FirstChar 72 /LastChar 76 /Encoding 430 0 R /CharProcs 431 0 R /Widths [ 22 0 0 0 17 ] >> endobj36 0 obj<< /Type /Page /Parent 14 0 R /Resources 38 0 R /Contents 37 0 R /Thumb 463 0 R >> endobj37 0 obj<< /Length 16873 >> stream
+BT/T6 1 Tf10.08 0 0 10.08 42.48 750 Tm0 Tr0 g0 Tc0.81 Tw("Active" portions of the low-frequency sub-image)Tj0 -1.143 TD0.167 Tw[(correspond to details and textures )-23(in )-23(the )-23(original )-23(image.)]TJT*0.024 Tw[(We )24(define some activity measures in the LL subband. Only)]TJT*0.405 Tw[(the portions of the sub-images in the )-24(high-frequency)]TJT*0.143 Tw[(subbands  that correspond to the )-24("active" )-24(portions )-24(in )-24(the)]TJT*0.286 Tw[(LL )24(subband )24( )24(are )24(encoded. Other portions of the high-)]TJT*0.19 Tw[(frequency )23(sub-images )23(are )23(skipped in order to reduce the)]TJT*0 Tw(amount of data.)Tj1.119 -1.143 TD0.167 Tw[(The remaining data in the LH, HL, )-23(HH )-23(subbands )-23(are)]TJ-1.119 -1.143 TD0.071 Tw[(encoded )23(using geometrical vector quantization [11]. There)]TJT*0.143 Tw[(are separate codebooks for each subband. )-24(For )-24(each )-24(block)]TJT*0.762 Tw[(4 )762(x )762(4 pixels a vector number and its )-24(quantized)]TJT*0 Tw(amplification coefficient is transmitted.)Tj1.119 -1.143 TD0.381 Tw[(This technique is currently under development )-24(and)]TJ-1.119 -1.143 TD(testing.)Tj/T7 1 Tf11.04 0 0 11.04 42.48 570.24 Tm0 Tw(5    EXPERIMENTAL RESULTS)Tj/T6 1 Tf10.08 0 0 10.08 42.48 552.48 Tm0.381 Tw[(The described schemes have been examined )-24(with )-24(the)]TJT*0.214 Tw[(standard CCIR-601 progressive test sequences. )-24(It )-24(means)]TJT*0 Tw(that the base layer provides the SIF frames.)Tj1.119 -1.143 TD0.548 Tw(The preliminary experimental results for the test)Tj-1.119 -1.143 TD0.095 Tw(sequences \224)Tj/T3 1 Tf4.81 0 TD(Mobile & calendar)Tj/T6 1 Tf7.881 0 TD(\224 and \224)Tj/T3 1 Tf3.095 0 TD0.119 Tw(Flower garden)Tj/T6 1 Tf6.048 0 TD(\224 are)Tj-21.833 -1.143 TD0.024 Tw[(shown in Table 1. These results have )-24(been )-24(obtained )-24(for )-24(the)]TJT*[(first variant of the system where )-24(subband )-24(decomposition )-24(in)]TJT*0.452 Tw[(time )23(and )23(space is performed. DCT-based MPEG-like)]TJT*0 Tw(coding was employed in all subbands as shown in Fig.2.)Tj/T7 1 Tf11.04 0 0 11.04 42.48 441.84 Tm(6   CONCLUSIONS)Tj/T6 1 Tf10.08 0 0 10.08 42.48 424.08 Tm0.262 Tw[(The compression software is currently being )-24(developed.)]TJT*0.214 Tw[(Therefore )24(preliminary experimental results are described)]TJT*0 Tw(above for the first system variant only.)Tj1.119 -1.143 TD0.095 Tw[(Preliminary )24(results )24(show that the proposed systems can)]TJ-1.119 -1.143 TD0.333 Tw[(be )23(considered as prospective solutions for the scalable)]TJT*0 Tw(video coding in tv-applications.)Tj1.119 -1.143 TD0.214 Tw[(A )24(corollary from first experiments is that DCT-based)]TJ-1.119 -1.143 TD0.357 Tw[(coding )24(is )24(inefficient for high-frequency subbands. The)]TJT*0.167 Tw[(technique )24(exploiting inter-subband correlation and vector)]TJT*0 Tw(quantization is much more promising.)Tj/T7 1 Tf11.04 0 0 11.04 42.48 301.92 Tm(ACKNOWLEDGEMENTS)Tj/T6 1 Tf10.08 0 0 10.08 42.48 284.16 Tm0.286 Tw[(The )24(authors express their sincere thanks to Prof. H.G.)]TJT*0.333 Tw[(Musmann )23(and )23(Mr. U. Benzler from the University of)]TJT*[(Hannover, )23(Germany )23(for )23(their help, advice and fruitful)]TJT*(discussions.)TjT*0 Tw(The work has been supported by)TjT*(the Grant KBN 8 T11D 007 11.)Tj/T7 1 Tf11.04 0 0 11.04 311.76 749.04 Tm(REFERENCES)Tj/T6 1 Tf10.08 0 0 10.08 311.76 731.28 Tm0.167 Tw[([1] )-666(ISO/IEC International Standard )-23(13818,)]TJ/T3 1 Tf18.667 0 TD0.19 Tw[( Information)]TJ-16.405 -1.143 TD0.286 Tw[(Technology )24(- )24(Generic Coding of Moving Pictures)]TJT*0 Tw(and Associated Audio Information.)Tj/T6 1 Tf-2.262 -1.143 TD0.167 Tw[([2] )-666(Tsunashima, J. Stampleman, V. Bove.,  )]TJ/T3 1 Tf19.476 0 TD0.19 Tw(A scalable)Tj-17.214 -1.143 TD0.286 Tw[(motion )24(-compensated subband image coder)]TJ/T6 1 Tf18.643 0 TD(, IEEE)Tj-18.643 -1.143 TD0.119 Tw[(Trans. on Communication, vol. 42, 1994, pp. )-24(1894-)]TJT*(1901.)Tj-2.262 -1.143 TD0.833 Tw([3] Benzler, )Tj/T3 1 Tf6.429 0 TD0.548 Tw[(Scalable Multiresolution Video )-23(Coding)]TJ-4.167 -1.143 TD0 Tw(Using Sub-Band Decomposition)Tj/T6 1 Tf12.929 0 TD(,  First Int. Workshop)Tj-12.929 -1.143 TD0.071 Tw[(on Wireless Image/Video Communication, )-24(Loughbo-)]TJT*0 Tw(rough 1996, pp. 109-114.)Tj-2.262 -1.143 TD0.833 Tw[([4] H.Gharavi, )95(W.Y.Ng, )]TJ/T3 1 Tf12.381 0 TD0.738 Tw[(H.263 Compatible )-24(Video)]TJ-10.119 -1.143 TD0.262 Tw(Coding and Transmission)Tj/T6 1 Tf10.857 0 TD[(, First Int. Workshop )-24(on)]TJ-10.857 -1.143 TD0.524 Tw(Wireless Image/Video Communication, Loughbo-)TjT*0 Tw(rough 1996, pp. 115-120.)Tj-2.262 -1.143 TD0.833 Tw([5] Gharavi, )Tj/T3 1 Tf6.119 0 TD0.071 Tw(Subband coding of video signals)Tj/T6 1 Tf13.381 0 TD(, chapter 6)Tj-17.238 -1.143 TD(in )Tj/T3 1 Tf1.238 0 TD0.19 Tw(Subband Image Coding)Tj/T6 1 Tf9.857 0 TD[(, edited by J. )190(W. Woods,)]TJ-11.095 -1.143 TD0 Tw(Kluwer Academic Publishers 1991)Tj-2.262 -1.143 TD[([6] )-833( G. Haskell, )-119(A. )-119(Puri, )-143(A. N. Netravali,)]TJ/T3 1 Tf17.571 0 TD0.143 Tw[( Digital Video:)]TJ-15.31 -1.143 TD0 Tw(an Introduction to MPEG-2)Tj/T6 1 Tf11.19 0 TD(, Chapman & Hall 1997)Tj-13.452 -1.143 TD0.429 Tw[([7] )-404(M. )24(Uz, M. Vetterli, D. J. LeGall, )]TJ/T3 1 Tf18.69 0 TD(Interpolative)Tj-16.429 -1.143 TD0.238 Tw[(multiresolution coding of advanced )-24(television )-24(with)]TJT*0.619 Tw(compatible subchannels)Tj/T6 1 Tf10.31 0 TD0.643 Tw(, IEEE Transactions on)Tj-10.31 -1.143 TD0.167 Tw[(Circuits )24(and )24(Systems )24(for Video Technology, vol. 1,)]TJT*0 Tw(no. 1, March 1991.)Tj-2.262 -1.143 TD0.571 Tw[([8] )-262(J.Ohm, )23(Three-dimensional subband coding with)]TJ2.262 -1.143 TD0.405 Tw[(motion compensation, IEEE Trans. )-24(Image )-24(Proc.,)]TJT*0 Tw(vol.3, 1994, pp.559-571.)Tj-2.262 -1.143 TD0.143 Tw[([9] )-690(Doma\361ski, R. \214wierczy\361ski, 3-D )-24(subband )-24(coding )-24(of)]TJ2.262 -1.143 TD0.095 Tw[(video using recursive filter banks, )-24(Signal )-24(Processing)]TJT*0.238 Tw(VIII: Theories and Applications, Trieste 1996, pp.)TjT*(1359-1362.)Tj-2.262 -1.143 TD0.5 Tw[([10] )167(Doma\361ski, R. \214wierczy\361ski, Subband )-24(coding )-24(of)]TJ2.262 -1.143 TD0.714 Tw[(images using hierarchical )-24(quantization, )-24(Signal)]TJT*1.071 Tw(Processing VII: Theories and Applications,)TjT*0 Tw(Edinbourgh 1994, pp. 1218-1221.)Tj-2.262 -1.143 TD0.524 Tw[([11] )191(Ch. )524(Podlichuk, N. Jayant, N. Farvardin. )-24(Three-)]TJ2.262 -1.143 TD0.19 Tw[(dimensional )23(subband coding of video, IEEE Trans.)]TJT*0 Tw(Image Proc., vol.4, 1995, pp.125-284.)Tj-2.262 -1.143 TD( )TjT*( )TjT*( )TjT*( )Tj-15.238 -4.357 TD(Table 1: Results for a system that exploits a three-dimensional analysis.)TjET41.76 195.36 1.2 -1.2 ref*41.76 195.36 1.2 -1.2 ref*43.2 195.36 49.2 -1.2 ref*92.64 195.36 1.2 -1.2 ref*94.08 195.36 48.96 -1.2 ref*143.28 195.36 1.2 -1.2 ref*144.72 195.36 88.56 -1.2 ref*233.52 195.36 1.2 -1.2 ref*234.96 195.36 167.04 -1.2 ref*402.24 195.36 1.2 -1.2 ref*403.68 195.36 148.08 -1.2 ref*552 195.36 1.2 -1.2 ref*552 195.36 1.2 -1.2 ref*41.76 193.92 1.2 -11.28 ref*92.64 193.92 0.48 -11.28 ref*143.28 193.92 0.48 -11.28 ref*233.52 193.92 0.48 -11.28 ref*402.24 193.92 0.48 -11.28 ref*552 193.92 1.2 -11.28 ref*BT/T6 1 Tf10.08 0 0 10.08 46.8 184.56 Tm[(Sequences)-976(Bitstream)-2429(Base layer as)-4286(PSNR for full resolution [dB])-4833(PSNR for base layer [dB])]TJET41.76 182.4 1.2 -0.48 ref*92.64 182.4 0.48 -0.48 ref*143.28 182.4 0.48 -0.48 ref*233.52 182.4 0.48 -0.48 ref*234.24 182.4 56.88 -0.48 ref*291.36 182.4 0.48 -0.48 ref*292.08 182.4 56.88 -0.48 ref*349.2 182.4 0.48 -0.48 ref*349.92 182.4 52.08 -0.48 ref*402.24 182.4 0.48 -0.48 ref*402.96 182.4 48.24 -0.48 ref*451.44 182.4 0.48 -0.48 ref*452.16 182.4 49.92 -0.48 ref*502.32 182.4 0.48 -0.48 ref*503.04 182.4 48.72 -0.48 ref*552 182.4 1.2 -0.48 ref*41.76 181.68 1.2 -11.28 ref*92.64 181.68 0.48 -11.28 ref*143.28 181.68 0.48 -11.28 ref*233.52 181.68 0.48 -11.28 ref*291.36 181.68 0.48 -11.28 ref*349.2 181.68 0.48 -11.28 ref*402.24 181.68 0.48 -11.28 ref*451.44 181.68 0.48 -11.28 ref*502.32 181.68 0.48 -11.28 ref*552 181.68 1.2 -11.28 ref*BT/T6 1 Tf10.08 0 0 10.08 107.04 172.32 Tm[(Mbps)-2167(percentage of total)-3262(Y)-4881(C)0(r)-4405(C)0(b)]TJETq402.96 182.4 m451.44 182.4 l451.44 170.16 l402.96 170.16 lW nBT/T6 1 Tf10.08 0 0 10.08 423.84 172.32 Tm0 Tr0 g(Y)TjETQBT/T6 1 Tf10.08 0 0 10.08 472.08 172.32 Tm0 Tr0 g0 Tc[(Cr)-3905(Cb)]TJET41.76 170.16 1.2 -1.2 ref*43.2 170.16 49.2 -1.2 ref*92.64 170.16 1.2 -1.2 ref*94.08 170.16 48.96 -1.2 ref*143.28 170.16 1.2 -1.2 ref*144.72 170.16 88.56 -1.2 ref*233.52 170.16 1.2 -1.2 ref*234.96 170.16 56.16 -1.2 ref*291.36 170.16 1.2 -1.2 ref*292.8 170.16 56.16 -1.2 ref*349.2 170.16 1.2 -1.2 ref*350.64 170.16 51.36 -1.2 ref*402.24 170.16 1.2 -1.2 ref*403.68 170.16 47.52 -1.2 ref*451.44 170.16 1.2 -1.2 ref*452.88 170.16 49.2 -1.2 ref*502.32 170.16 1.2 -1.2 ref*503.76 170.16 48 -1.2 ref*552 170.16 1.2 -1.2 ref*41.76 168.72 1.2 -11.28 ref*92.64 168.72 0.48 -11.28 ref*143.28 168.72 0.48 -11.28 ref*233.52 168.72 0.48 -11.28 ref*291.36 168.72 0.48 -11.28 ref*349.2 168.72 0.48 -11.28 ref*402.24 168.72 0.48 -11.28 ref*451.44 168.72 0.48 -11.28 ref*502.32 168.72 0.48 -11.28 ref*552 168.72 1.2 -11.28 ref*BT/T3 1 Tf10.08 0 0 10.08 53.52 159.36 Tm(Flower)Tj/T6 1 Tf5.81 0 TD[(3.0)-5214(37.09)-5333(27.5)-4000(31.8)-3714(33.8)]TJETq402.96 170.16 m451.44 170.16 l451.44 157.2 l402.96 157.2 lW nBT/T6 1 Tf10.08 0 0 10.08 418.56 159.36 Tm0 Tr0 g0 Tc(31.2)TjETQBT/T6 1 Tf10.08 0 0 10.08 468.24 159.36 Tm0 Tr0 g0 Tc[(33.8)-3238(35.6)]TJET41.76 157.2 1.2 -0.48 ref*92.64 157.2 0.48 -0.48 ref*93.36 157.2 m143.04 157.2 l143.04 156.72 l93.36 156.72 lf*143.28 157.2 0.48 -0.48 ref*144 157.2 89.28 -0.48 ref*233.52 157.2 0.48 -0.48 ref*234.24 157.2 56.88 -0.48 ref*291.36 157.2 0.48 -0.48 ref*292.08 157.2 56.88 -0.48 ref*349.2 157.2 0.48 -0.48 ref*349.92 157.2 52.08 -0.48 ref*402.24 157.2 0.48 -0.48 ref*402.96 157.2 48.24 -0.48 ref*451.44 157.2 0.48 -0.48 ref*452.16 157.2 49.92 -0.48 ref*502.32 157.2 0.48 -0.48 ref*503.04 157.2 48.72 -0.48 ref*552 157.2 1.2 -0.48 ref*41.76 156.48 1.2 -11.28 ref*92.64 156.48 0.48 -11.28 ref*143.28 156.48 0.48 -11.28 ref*233.52 156.48 0.48 -11.28 ref*291.36 156.48 0.48 -11.28 ref*349.2 156.48 0.48 -11.28 ref*402.24 156.48 0.48 -11.28 ref*451.44 156.48 0.48 -11.28 ref*502.32 156.48 0.48 -11.28 ref*552 156.48 1.2 -11.28 ref*BT/T3 1 Tf10.08 0 0 10.08 53.52 147.12 Tm(garden)Tj/T6 1 Tf5.81 0 TD[(3.5)-5214(37.95)-5333(28.2)-4000(32.4)-3714(34.2)]TJETq402.96 157.2 m451.44 157.2 l451.44 144.96 l402.96 144.96 lW nBT/T6 1 Tf10.08 0 0 10.08 418.56 147.12 Tm0 Tr0 g0 Tc(32.3)TjETQBT/T6 1 Tf10.08 0 0 10.08 468.24 147.12 Tm0 Tr0 g0 Tc[(34.7)-3238(36.2)]TJET41.76 144.96 1.2 -0.48 ref*92.64 144.96 0.48 -0.48 ref*93.36 144.96 m143.04 144.96 l143.04 144.48 l93.36 144.48 lf*143.28 144.96 0.48 -0.48 ref*144 144.96 89.28 -0.48 ref*233.52 144.96 0.48 -0.48 ref*234.24 144.96 56.88 -0.48 ref*291.36 144.96 0.48 -0.48 ref*292.08 144.96 56.88 -0.48 ref*349.2 144.96 0.48 -0.48 ref*349.92 144.96 52.08 -0.48 ref*402.24 144.96 0.48 -0.48 ref*402.96 144.96 48.24 -0.48 ref*451.44 144.96 0.48 -0.48 ref*452.16 144.96 49.92 -0.48 ref*502.32 144.96 0.48 -0.48 ref*503.04 144.96 48.72 -0.48 ref*552 144.96 1.2 -0.48 ref*41.76 144.24 1.2 -11.28 ref*92.64 144.24 0.48 -11.28 ref*143.28 144.24 0.48 -11.28 ref*233.52 144.24 0.48 -11.28 ref*291.36 144.24 0.48 -11.28 ref*349.2 144.24 0.48 -11.28 ref*402.24 144.24 0.48 -11.28 ref*451.44 144.24 0.48 -11.28 ref*502.32 144.24 0.48 -11.28 ref*552 144.24 1.2 -11.28 ref*BT/T6 1 Tf10.08 0 0 10.08 112.08 134.88 Tm[(4.0)-5214(39.95)-5333(28.9)-4000(33.1)-3714(34.7)]TJETq402.96 144.96 m451.44 144.96 l451.44 132.72 l402.96 132.72 lW nBT/T6 1 Tf10.08 0 0 10.08 418.56 134.88 Tm0 Tr0 g0 Tc(33.4)TjETQBT/T6 1 Tf10.08 0 0 10.08 468.24 134.88 Tm0 Tr0 g0 Tc[(35.6)-3238(36.9)]TJET41.76 132.72 1.2 -1.2 ref*43.2 132.72 49.2 -1.2 ref*92.64 132.72 1.2 -1.2 ref*94.08 132.72 48.96 -1.2 ref*143.28 132.72 1.2 -1.2 ref*144.72 132.72 88.56 -1.2 ref*233.52 132.72 1.2 -1.2 ref*234.96 132.72 56.16 -1.2 ref*291.36 132.72 1.2 -1.2 ref*292.8 132.72 56.16 -1.2 ref*349.2 132.72 1.2 -1.2 ref*350.64 132.72 51.36 -1.2 ref*402.24 132.72 1.2 -1.2 ref*403.68 132.72 47.52 -1.2 ref*451.44 132.72 1.2 -1.2 ref*452.88 132.72 49.2 -1.2 ref*502.32 132.72 1.2 -1.2 ref*503.76 132.72 48 -1.2 ref*552 132.72 1.2 -1.2 ref*41.76 131.28 1.2 -11.28 ref*92.64 131.28 0.48 -11.28 ref*143.28 131.28 0.48 -11.28 ref*233.52 131.28 0.48 -11.28 ref*291.36 131.28 0.48 -11.28 ref*349.2 131.28 0.48 -11.28 ref*402.24 131.28 0.48 -11.28 ref*451.44 131.28 0.48 -11.28 ref*502.32 131.28 0.48 -11.28 ref*552 131.28 1.2 -11.28 ref*BT/T3 1 Tf10.08 0 0 10.08 53.28 121.92 Tm(Mobile)Tj/T6 1 Tf5.833 0 TD[(3.3)-5214(35.46)-5333(26.9)-4000(31.8)-3714(32.8)]TJETq402.96 132.72 m451.44 132.72 l451.44 119.76 l402.96 119.76 lW nBT/T6 1 Tf10.08 0 0 10.08 418.56 121.92 Tm0 Tr0 g0 Tc(29.4)TjETQBT/T6 1 Tf10.08 0 0 10.08 468.24 121.92 Tm0 Tr0 g0 Tc[(32.8)-3238(33.5)]TJET41.76 119.76 1.2 -0.48 ref*92.64 119.76 0.48 -0.48 ref*93.36 119.76 m143.04 119.76 l143.04 119.28 l93.36 119.28 lf*143.28 119.76 0.48 -0.48 ref*144 119.76 89.28 -0.48 ref*233.52 119.76 0.48 -0.48 ref*234.24 119.76 56.88 -0.48 ref*291.36 119.76 0.48 -0.48 ref*292.08 119.76 56.88 -0.48 ref*349.2 119.76 0.48 -0.48 ref*349.92 119.76 52.08 -0.48 ref*402.24 119.76 0.48 -0.48 ref*402.96 119.76 48.24 -0.48 ref*451.44 119.76 0.48 -0.48 ref*452.16 119.76 49.92 -0.48 ref*502.32 119.76 0.48 -0.48 ref*503.04 119.76 48.72 -0.48 ref*552 119.76 1.2 -0.48 ref*41.76 119.04 1.2 -11.28 ref*92.64 119.04 0.48 -11.28 ref*143.28 119.04 0.48 -11.28 ref*233.52 119.04 0.48 -11.28 ref*291.36 119.04 0.48 -11.28 ref*349.2 119.04 0.48 -11.28 ref*402.24 119.04 0.48 -11.28 ref*451.44 119.04 0.48 -11.28 ref*502.32 119.04 0.48 -11.28 ref*552 119.04 1.2 -11.28 ref*BT/T3 1 Tf10.08 0 0 10.08 64.08 109.68 Tm(&)Tj/T6 1 Tf4.762 0 TD[(3.6)-5214(38.92)-5333(27.6)-4000(32.4)-3714(33.5)]TJETq402.96 119.76 m451.44 119.76 l451.44 107.52 l402.96 107.52 lW nBT/T6 1 Tf10.08 0 0 10.08 418.56 109.68 Tm0 Tr0 g0 Tc(30.5)TjETQBT/T6 1 Tf10.08 0 0 10.08 468.24 109.68 Tm0 Tr0 g0 Tc[(33.6)-3238(34.4)]TJET41.76 107.52 1.2 -0.48 ref*92.64 107.52 0.48 -0.48 ref*93.36 107.52 m143.04 107.52 l143.04 107.04 l93.36 107.04 lf*143.28 107.52 0.48 -0.48 ref*144 107.52 89.28 -0.48 ref*233.52 107.52 0.48 -0.48 ref*234.24 107.52 56.88 -0.48 ref*291.36 107.52 0.48 -0.48 ref*292.08 107.52 56.88 -0.48 ref*349.2 107.52 0.48 -0.48 ref*349.92 107.52 52.08 -0.48 ref*402.24 107.52 0.48 -0.48 ref*402.96 107.52 48.24 -0.48 ref*451.44 107.52 0.48 -0.48 ref*452.16 107.52 49.92 -0.48 ref*502.32 107.52 0.48 -0.48 ref*503.04 107.52 48.72 -0.48 ref*552 107.52 1.2 -0.48 ref*41.76 106.8 1.2 -11.28 ref*41.76 95.28 1.2 -1.2 ref*41.76 95.28 1.2 -1.2 ref*43.2 95.28 49.2 -1.2 ref*92.64 106.8 0.48 -11.28 ref*92.64 95.28 1.2 -1.2 ref*94.08 95.28 48.96 -1.2 ref*143.28 106.8 0.48 -11.28 ref*143.28 95.28 1.2 -1.2 ref*144.72 95.28 88.56 -1.2 ref*233.52 106.8 0.48 -11.28 ref*233.52 95.28 1.2 -1.2 ref*234.96 95.28 56.16 -1.2 ref*291.36 106.8 0.48 -11.28 ref*291.36 95.28 1.2 -1.2 ref*292.8 95.28 56.16 -1.2 ref*349.2 106.8 0.48 -11.28 ref*349.2 95.28 1.2 -1.2 ref*350.64 95.28 51.36 -1.2 ref*402.24 106.8 0.48 -11.28 ref*402.24 95.28 1.2 -1.2 ref*403.68 95.28 47.52 -1.2 ref*451.44 106.8 0.48 -11.28 ref*451.44 95.28 1.2 -1.2 ref*452.88 95.28 49.2 -1.2 ref*502.32 106.8 0.48 -11.28 ref*502.32 95.28 1.2 -1.2 ref*503.76 95.28 48 -1.2 ref*552 106.8 1.2 -11.28 ref*552 95.28 1.2 -1.2 ref*552 95.28 1.2 -1.2 ref*BT/T3 1 Tf10.08 0 0 10.08 49.68 97.44 Tm(calendar)Tj/T6 1 Tf6.19 0 TD[(4.0)-5214(43.32)-5333(28.3)-4000(33.2)-3714(34.2)]TJETq402.96 107.52 m451.44 107.52 l451.44 95.28 l402.96 95.28 lW nBT/T6 1 Tf10.08 0 0 10.08 418.56 97.44 Tm0 Tr0 g0 Tc(31.8)TjETQBT/T6 1 Tf10.08 0 0 10.08 468.24 97.44 Tm0 Tr0 g0 Tc[(34.6)-3238(35.3)]TJETendstreamendobj38 0 obj<< /ProcSet [ /PDF /Text /ImageB ] /ColorSpace << /DefaultRGB 1 0 R >> /Font << /T3 7 0 R /T6 10 0 R /T7 11 0 R >> >> endobj39 0 obj<< /Type /Encoding /Differences [ 32 /G20 45 /G2d 65 /G41 /G42 /G43 /G44 /G45 /G46 /G47 /G48 /G49 76 /G4c /G4d /G4e /G4f /G50 82 /G52 /G53 /G54 /G55 /G56 /G57 89 /G59 ] >> endobj40 0 obj<< /G20 41 0 R /G2d 42 0 R /G41 43 0 R /G42 44 0 R /G43 45 0 R /G44 46 0 R /G45 47 0 R /G46 48 0 R /G47 49 0 R /G48 50 0 R /G49 51 0 R /G4c 52 0 R /G4d 53 0 R /G4e 54 0 R /G4f 55 0 R /G50 56 0 R /G52 57 0 R /G53 58 0 R /G54 59 0 R /G55 60 0 R /G56 61 0 R /G57 62 0 R /G59 63 0 R >> endobj41 0 obj<< /Length 16 >> stream
+18 0 0 0 0 0 d1endstreamendobj42 0 obj<< /Length 98 >> stream
+24 0 2 13 22 20 d1q20 0 0 7 2 13 cmBI/W 20/H 7/BPC 1/IM trueID                      EIQendstreamendobj43 0 obj<< /Length 420 >> stream
+51 0 0 0 49 49 d1q49 0 0 49 0 0 cmBI/W 49/H 49/BPC 1/IM trueID ÿÿÿ?ÿÿ€ÿÿÿ?ÿÿ€ÿÿ‏?ÿÿ€ÿÿ‏ÿÿ€ÿÿüÿÿ€ÿÿüÿÿ€ÿÿüÿÿ€ÿÿרÿÿ€ÿÿרÿÿ€ÿÿנÿÿ€ÿÿנÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿְ ÿÿ€ÿÿְ ÿÿ€ÿÿ˜ ÿÿ€ÿÿ˜ ÿ€ÿÿ ÿ€ÿÿ< ?ÿ€ÿÿ< ?ÿ€ÿ‏~ ?ÿ€ÿ‏~ ÿ€ÿü‏ ÿ€ÿüÿ ÿ€ÿרÿ ÿ€ÿשÿ€ÿ€ÿשÿ€ÿ€ÿףÿְÿ€ÿףÿְÿ€ÿחÿְÿ€ÿחÿאÿ€ÿַÿאÿ€ÿְ  ÿ€ÿְ   ÿ€ÿÿר ÿ€ÿÿר €ÿ?ÿר €ÿ?ÿü ?€‏?ÿü ?€‏ÿ‏ ?€‏ÿ‏ €üÿ‏ €üÿÿ €רÿÿ €נÿÿ €א?ÿÿ €ְÿ‏ € ÿא   EIQendstreamendobj44 0 obj<< /Length 365 >> stream
+48 0 1 0 45 48 d1q44 0 0 48 1 0 cmBI/W 44/H 48/BPC 1/IM trueID    ÿננ   נü ? נ‏ ?אנ‏ ?ננ‏ ?ר נ‏ ?ü נ‏ ?ü p‏ ?‏ p‏ ?‏ 0‏ ?‏ 0‏ ?‏ 0‏ ?‏ 0‏ ?‏ 0‏ ?‏ 0‏ ?‏ p‏ ?ü p‏ ?ü נ‏ ?רנ‏ ?ננ‏ ?ְנ‏ ? נ‏   ÿנ‏   ?נ‏ ? נ‏ ?אנ‏ ?נ נ‏ ?ר p‏ ?ü 0‏ ?ü ‏ ?ü ‏ ?‏  ‏ ?‏  ‏ ?‏  ‏ ?‏  ‏ ?‏  ‏ ?‏  ‏ ?‏  ‏ ?‏ ‏ ?ü ‏ ?ü 0‏ ?ü 0‏ ?ר p‏ ?נ נ‏ אנü €ננ   ?נ   ÿנEIQendstreamendobj45 0 obj<< /Length 379 >> stream
+51 0 3 -1 47 49 d1q44 0 0 50 3 -1 cmBI/W 44/H 50/BPC 1/IM trueID ÿÿרÿאÿÿ€ אÿ‏ ְÿרÿְ ÿאÿנ ÿְÿר ÿ€?ÿü ÿ ?ÿ‏ ‏ ÿÿ ü ÿÿÿ€ר ÿÿÿ€נÿÿÿְנÿÿÿְאÿÿÿְאÿÿÿאְÿÿÿאְÿÿÿנ€ÿÿÿנ€ÿÿÿנ€ÿÿÿנ€ÿÿÿנ ÿÿÿנ ÿÿÿנ ÿÿÿנ ÿÿÿנ ÿÿÿנ ÿÿÿנ ÿÿÿנ ÿÿÿנ ÿÿÿנ ÿÿÿנ€ÿÿÿנ€ÿÿÿנ€ÿÿÿנְÿÿÿנְÿÿÿנְÿÿÿנאÿÿÿנאÿÿÿננÿÿÿנר ÿÿÿ׀ר ÿÿÿü ÿÿ‏ ?ÿ‏ÿ ÿüpÿְÿננÿאÿֱנÿר ÿנÿÿ  ?נÿÿנÿנEIQendstreamendobj46 0 obj<< /Length 365 >> stream
+51 0 1 0 48 48 d1q47 0 0 48 1 0 cmBI/W 47/H 48/BPC 1/IM trueID    ÿ‏ר   ÿ‏ü ? ‏‏ ?א‏‏ ?נ‏‏ ?ר‏‏ ?ü ‏‏ ?ü ~‏ ?‏ >‏ ?‏ ‏ ?ÿ ‏ ?ÿ ‏ ?ÿ€‏ ?ÿ€‏ ?ÿ€‏ ?ÿ€‏ ?ÿ€‏ ?ÿְ‏ ?ÿְ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ ‏ ?ÿְ‏ ?ÿְ‏ ?ÿְ‏ ?ÿ€‏ ?ÿ€‏ ?ÿ€‏ ?ÿ€‏ ?ÿ€‏ ?ÿ ‏ ?ÿ ‏ ?‏ >‏ ?‏ ~‏ ?ü ‏‏ ?ü‏‏ ?ר‏‏ ?א‏ü €?‏ר   ÿ‏   ÿ‏EIQendstreamendobj47 0 obj<< /Length 365 >> stream
+47 0 1 0 44 48 d1q43 0 0 48 1 0 cmBI/W 43/H 48/BPC 1/IM trueID      אר    אü ?ü א‏ ?ÿ€א‏ ?ÿאא‏ ?ÿנא‏ ?ÿרא‏ ?ÿרא‏ ?ÿüא‏ ?ÿüא‏ ?ÿüא‏ ?ÿ‏א‏ ?ק‏א‏ ?קÿא‏ ?קÿא‏ ?חÿא‏ ?חÿא‏ ?חÿא‏ ?ַÿא‏ ?ַÿא‏ ?‡ÿא‏ ?ÿא‏ <ÿא‏  ÿא‏  ÿא‏ <ÿא‏ ?ÿא‏ ?‡ÿא‏ ?ַÿא‏ ?ַÿא‏ ?חÿא‏ ?חÿא‏ ?חÿא‏ ?קÿְ‏ ?קÿ€‏ ?קÿ€‏ ?ÿÿ€‏ ?ÿÿ ‏ ?ÿÿ ‏ ?ÿ‏ ‏ ?ÿü ‏ ?ÿר ‏ ?ÿנ ‏ ?ÿא ‏ ÿ€`ü ü `ר    `     `EIQendstreamendobj48 0 obj<< /Length 317 >> stream
+43 0 1 0 41 48 d1q40 0 0 48 1 0 cmBI/W 40/H 48/BPC 1/IM trueID      ר    ü ?‏ ‏ ?ÿ€‏ ?ÿא‏ ?ÿנ‏ ?ÿר‏ ?ÿü‏ ?ÿü‏ ?ÿü‏ ?ÿ‏‏ ?ÿ‏‏ ?‎‏‏ ?‎ÿ‏ ?‎ÿ‏ ?שÿ‏ ?שÿ‏ ?שÿ‏ ?סÿ‏ ?סÿ‏ ?בÿ‏ ?ֱÿ‏ ?ÿ‏  ÿ‏  ÿ‏ >ÿ‏ ?ÿ‏ ?בÿ‏ ?סÿ‏ ?סÿ‏ ?שÿ‏ ?שÿ‏ ?שÿ‏ ?‎ÿ‏ ?‎ÿ‏ ?‎ÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿü ÿÿר ÿÿ   ÿEIQendstreamendobj49 0 obj<< /Length 429 >> stream
+55 0 3 -1 53 49 d1q50 0 0 50 3 -1 cmBI/W 50/H 50/BPC 1/IM trueID ÿÿנ ÿקְÿÿ€ חְÿü ‏ְַÿנÿְְÿאÿנְÿ€ÿרְÿ ?ÿüְ‏ ÿ‏ְü ÿÿְר ÿÿÿ‡ְר ÿÿÿְַנÿÿÿְַאÿÿÿחְאÿÿÿחְְÿÿÿחְְÿÿÿקְְÿÿÿÿְ€ÿÿÿÿְ€ÿÿÿÿְ€ÿÿÿÿְ ÿÿÿÿְ ÿÿÿÿְ ÿÿÿÿְ ÿÿÿÿְ ÿÿÿÿְ ÿÿÿÿְ ÿÿÿÿְ ÿÿÿÿְ ÿÿÿÿְ ÿא    ÿ‏ ְ€ÿÿ€ְ€ÿÿְְ€ÿÿְְְÿÿְְְÿÿְְְÿÿְְאÿÿְְאÿÿְְנÿÿְְר ÿÿְְü ÿÿְְ‏ ÿְְÿ ÿְְÿ€?ÿְְÿְÿְְÿנÿְְÿü ‏ ?ְÿÿ  ÿְÿÿנ ÿְEIQendstreamendobj50 0 obj<< /Length 413 >> stream
+55 0 1 0 54 48 d1q53 0 0 48 1 0 cmBI/W 53/H 48/BPC 1/IM trueID    p   ר ÿ€ רü ÿְר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏    ר‏    ר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿאר‏ ?ÿארü ÿְרר ÿ€ ר   p   EIQendstreamendobj51 0 obj<< /Length 269 >> stream
+28 0 1 0 26 48 d1q25 0 0 48 1 0 cmBI/W 25/H 48/BPC 1/IM trueID     ר €ü €‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€‏ ?€ü €ר €    EIQendstreamendobj52 0 obj<< /Length 365 >> stream
+47 0 1 0 45 48 d1q44 0 0 48 1 0 cmBI/W 44/H 48/BPC 1/IM trueID    ÿנר ÿÿנü ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿנ‏ ?ÿÿא‏ ?ÿÿא‏ ?ÿÿְ‏ ?ÿÿְ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿ‏‏ ?ÿ‏‏ ?ÿü‏ ?ÿר‏ ÿא0ü ÿ€0ר    0     0EIQendstreamendobj53 0 obj<< /Length 509 >> stream
+67 0 1 0 66 48 d1q65 0 0 48 1 0 cmBI/W 65/H 48/BPC 1/IM trueID   ÿÿ‏   ר ÿÿü €ü ÿÿü €‏ ÿÿü ?€‏ ÿÿר ?€‏ ÿÿר ?€‏ ÿÿע ?€‏@ÿÿע ?€‏@ÿÿג ?€‏`ÿÿז ?€‏`ÿÿז ?€‏` ÿÿ־ ?€‏p ÿÿ־ ?€‏p ÿÿ ?€‏x ÿ ?€‏x ÿ ?€‏| ?ÿ> ?€‏| ?ÿ> ?€‏~ ‏~ ?€‏~ ‏~ ?€‏~ ü‏ ?€‏ ü‏ ?€‏ ש‏ ?€‏€ש‏ ?€‏€ש‏ ?€‏ְף‏ ?€‏ְף‏ ?€‏ְח‏ ?€‏אח‏ ?€‏אֿ‏ ?€‏נ ֿ‏ ?€‏נ ‏ ?€‏ר ‏ ?€‏ר ‏ ?€‏ü ?‏ ?€‏ü ?‏ ?€‏ü ‏ ?€‏‏ ‏ ?€‏‏ ‏ ?€‏ÿ ÿ‏ ?€‏ÿ ÿ‏ ?€‏ÿÿ‏ ?€‏ÿÿ‏ ?€‏ÿƒÿ‏ ?€ü?ÿֳÿ‏ ?€רÿֳÿü €נÿחÿר €  ÿחÿ    EIQendstreamendobj54 0 obj<< /Length 422 >> stream
+51 0 1 -1 50 48 d1q49 0 0 49 1 -1 cmBI/W 49/H 49/BPC 1/IM trueID   ÿ€  א ?ÿר€נ ?ÿü€ר ÿ‏€ü ÿ‏€‏ ÿÿ?€‏ ÿÿ?€‏ ÿÿ?€‏ ÿÿ?€‏@ ÿÿ?€‏` ÿ?€‏p ÿ?€‏p ?ÿ?€‏x ÿ?€‏| ÿ?€‏~ ÿ?€‏ ÿ?€‏ ÿ?€‏€ÿ?€‏ְ ÿ?€‏א ÿ?€‏נ ?€‏נ ??€‏ר ?€‏ü ?€‏‏ ?€‏‏ ?€‏ÿ ?€‏ÿ€?€‏ÿְ ?€‏ÿא ?€‏ÿא ?€‏ÿנ ?€‏ÿר ?€‏ÿü ?€‏ÿü ?€‏ÿ‏ ?€‏ÿÿ ?€‏ÿÿ€?€‏ÿÿְ?€‏ÿÿְ?€‏ÿÿא?€‏ÿÿנ?€‏ÿÿר?€ü?ÿÿü?€רÿÿü?€נÿÿ‏?€  ÿÿÿ?€ÿÿÿÿÿ¿€EIQendstreamendobj55 0 obj<< /Length 429 >> stream
+55 0 3 -1 52 49 d1q49 0 0 50 3 -1 cmBI/W 49/H 50/BPC 1/IM trueID ÿÿְÿÿ€ÿ‏  ?ÿ€ÿרנÿ€ÿאüÿ€ÿְ?‏ ÿ€ÿ ?ÿ €‏ ÿ ?€ü ÿÿ€€ר ÿÿ€€רÿÿְ€נÿÿְ€אÿÿא€אÿÿא€ְÿÿא€ְÿÿא€ְÿÿא €€ÿÿנ €€ÿÿנ €€ÿÿנ € ÿÿנ   ÿÿנ   ÿÿנ   ÿÿנ   ÿÿנ   ÿÿנ   ÿÿנ   ÿÿנ   ÿÿנ   ÿÿנ   ÿÿנ  €ÿÿנ €€ÿÿנ €€ÿÿנ €€ÿÿנ €ְÿÿא€ְÿÿא€אÿÿא€אÿÿא€נÿÿא€נÿÿְ€רÿÿְ€ü ÿÿ€€‏ ÿÿ€?€‏ ÿ €ÿ€ÿ ÿ€ÿְ?‏ÿ€ÿאüÿ€ÿרנÿ€ÿ‏  ?ÿ€ÿÿאÿÿ€EIQendstreamendobj56 0 obj<< /Length 317 >> stream
+43 0 1 0 41 48 d1q40 0 0 48 1 0 cmBI/W 40/H 48/BPC 1/IM trueID    ÿנ   ÿü > ?‏ ?€‏ ?א‏ ?א‏ ?נ‏ ?נ‏ ?ר‏ ?ר ‏ ?ר ‏ ?ר ‏ ?ר ‏ ?ר ‏ ?ר ‏ ?ר ‏ ?ר‏ ?נ‏ ?נ‏ ?א‏ ?א‏ ?€‏ > ?‏   ÿ‏  ÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿ‏ ?ÿÿü ÿÿנ ÿÿ   ÿEIQendstreamendobj57 0 obj<< /Length 413 >> stream
+51 0 1 0 52 48 d1q51 0 0 48 1 0 cmBI/W 51/H 48/BPC 1/IM trueID    ÿÿאנ   ÿאü ?ְÿא‏ ?רÿא‏ ?ü ÿא‏ ?‏ א‏ ?ÿ ?א‏ ?ÿ א‏ ?ÿ א‏ ?ÿ€א‏ ?ÿ€א‏ ?ÿ€א‏ ?ÿ€א‏ ?ÿ€א‏ ?ÿ€א‏ ?ÿ€א‏ ?ÿ€א‏ ?ÿ א‏ ?ÿ א‏ ?ÿ ?א‏ ?‏ ?א‏ ?ü א‏ ?רÿא‏ ?ְÿא‏   ÿא‏   ?ÿא‏ < ÿא‏ < ÿא‏ > ÿא‏ ? ÿא‏ ? ÿא‏ ?€ÿא‏ ?ְÿא‏ ?א ÿא‏ ?א ÿא‏ ?נ א‏ ?ר ?א‏ ?ר א‏ ?ü א‏ ?‏ א‏ ?‏ א‏ ?ÿ א‏ ?ÿ€א‏ ?ÿְא‏ ?ÿְאü ÿא אנ ÿנ `   נ  EIQendstreamendobj58 0 obj<< /Length 279 >> stream
+39 0 4 -1 36 49 d1q32 0 0 50 4 -1 cmBI/W 32/H 50/BPC 1/IM trueID ÿְ?ק‏ קüְחר?ננüאÿ‏ֱÿÿÿÿ‡ÿÿ‡ÿÿַÿÿַ ÿÿח ÿח ?ÿח ÿק ÿק ÿÿ€ ÿÿ€ ?ÿ€ ÿְ ÿְ ÿא  נ  ?ר  ü  ÿ  ÿ€ ÿא ÿר ÿ‏ ÿÿ€ ÿא ÿנ ?ÿü ?ÿ‏ ?ÿÿ ÿÿ ÿÿ€ÿÿÿÿÿÿÿÿƒÿÿ ÿÿ ‏ üנ?€ÿנÿEIQendstreamendobj59 0 obj<< /Length 365 >> stream
+47 0 2 0 45 48 d1q43 0 0 48 2 0 cmBI/W 43/H 48/BPC 1/IM trueID              ÿ א ÿ ר ÿ ü ÿ ‏ ÿ ÿ ?ÿ ÿ ?ÿ ÿ€?ÿ ÿ€ÿ ÿְÿ ÿְÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿÿ ÿאÿ‏ ÿאÿü ÿאÿ€  ?אEIQendstreamendobj60 0 obj<< /Length 422 >> stream
+51 0 1 -1 50 48 d1q49 0 0 49 1 -1 cmBI/W 49/H 49/BPC 1/IM trueID    €  ר ÿר€ü ÿ‏€‏ ?ÿ‏€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ?€‏ ?ÿÿ€ÿ ?ÿ‏€ÿ ?ÿ‏€ÿ ?ÿ‏€ÿ ÿüÿ€ÿ€ÿüÿ€ÿְÿשÿ€ÿְÿףÿ€ÿאÿחÿ€ÿנÿֿÿ€ÿü ÿÿ€ÿÿ  ÿ€ÿÿאÿÿ€EIQendstreamendobj61 0 obj<< /Length 422 >> stream
+50 0 0 -1 49 48 d1q49 0 0 49 0 -1 cmBI/W 49/H 49/BPC 1/IM trueID   ÿְ  ְ ?ÿר€א ÿ‏€נ ÿÿ€ר ÿÿ€ר ÿÿ€ר ÿÿ?€ü ?ÿ‏?€ü ?ÿ‏€‏ ÿ‏€‏ ÿüÿ€ÿ ÿüÿ€ÿ ÿüÿ€ÿ ÿשÿ€ÿ€ÿשÿ€ÿ€ÿףÿ€ÿְÿףÿ€ÿְÿחÿ€ÿְÿחÿ€ÿאÿחÿ€ÿאÿֿÿ€ÿנÿֿÿ€ÿנ ÿÿ€ÿנ ÿÿ€ÿר ?ÿ€ÿר ?ÿ€ÿü ??ÿ€ÿü >ÿ€ÿ‏ >ÿ€ÿ‏ ÿÿ€ÿ‏ ÿÿ€ÿÿ 	ÿÿ€ÿÿ 	ÿÿ€ÿÿ€	ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿְÿÿ€ÿÿְÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿנÿÿ€ÿÿנÿÿ€ÿÿנÿÿ€ÿÿר?ÿÿ€ÿÿר?ÿÿ€ÿÿü?ÿÿ€ÿÿüÿÿ€ÿÿüÿÿ€ÿÿ‏ÿÿÿ€EIQendstreamendobj62 0 obj<< /Length 520 >> stream
+71 0 0 -1 69 48 d1q69 0 0 49 0 -1 cmBI/W 69/H 49/BPC 1/IM trueID   ְ  ÿְ ְ ?ר ÿרא ü ÿüנ ‏ ÿ‏נ ‏ ÿ‏8ר ÿ ÿ‏8ר ÿ ÿüxü ÿ€ÿüxü ?ÿ€ÿüרü ?ÿ€ÿרר‏ ÿְÿשר‏ ÿְÿשרÿ ÿְÿףרÿ ÿאÿףרÿ ÿאÿףרÿ€ÿאÿחרÿ€ÿְ ÿחרÿְÿְ ÿחרÿְÿ˜ ÿֿרÿְÿ˜ ֿרÿאÿ ֿרÿאÿ< ?רÿנÿ< ?רÿנ ‏~ ?רÿנ ‏~ ?רÿר ~~ ?רÿר |ÿ רÿü |ÿ רÿü 9ÿ€רÿü 9ÿ€ÿרÿ‏ 9ÿ€ÿרÿ‏ ÿְÿרÿÿ ÿְÿרÿÿ ÿאÿרÿÿ ÿאÿרÿÿ€ÿאÿרÿÿ€ÿנÿרÿÿ€ÿנÿרÿÿְÿנÿרÿÿְÿרÿרÿÿאÿרÿרÿÿא?ÿüÿרÿÿא?ÿüÿרÿÿנÿüÿרÿÿנÿ‏ÿרÿÿרÿÿ‏ÿרÿÿרÿÿ‏?ÿרÿÿרÿÿÿ?ÿרÿÿ‎ÿÿÿ?ÿרEIQendstreamendobj63 0 obj<< /Length 413 >> stream
+51 0 1 0 50 48 d1q49 0 0 48 1 0 cmBI/W 49/H 48/BPC 1/IM trueID   ÿנ  ְ ÿ‏€נ ?ÿÿ€ר ?ÿÿ€ר ?ÿÿ€ü ?ÿÿ€ü ÿÿ?€‏ ÿÿ?€‏ ÿ‏€ÿ ÿ‏€ÿ€ÿüÿ€ÿ€ÿüÿ€ÿְÿשÿ€ÿְÿûÿ€ÿאÿףÿ€ÿאÿחÿ€ÿנ ÿחÿ€ÿנ ÿֿÿ€ÿר ֿÿ€ÿר ÿ€ÿü ?ÿ€ÿü ??ÿ€ÿ‏ ÿ€ÿ‏ ÿ€ÿÿ ÿÿ€ÿÿ ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿְÿÿ€ÿÿְÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿאÿÿ€ÿÿְÿÿ€ÿÿ€ ÿÿ€ÿנ  ÿ€EIQendstreamendobj64 0 obj<< /Type /Encoding /Differences [ 32 /G20 42 /G2a 44 /G2c 65 /G41 68 /G44 77 /G4d 82 /G52 /G53 97 /G61 99 /G63 /G64 /G65 103 /G67 105 /G69 107 /G6b 109 /G6d 111 /G6f 114 /G72 /G73 117 /G75 119 /G77 121 /G79 /G7a 140 /G8c 163 /Ga3 179 /Gb3 230 /Ge6 241 /Gf1 ] >> endobj65 0 obj<< /G20 66 0 R /G2a 67 0 R /G2c 68 0 R /G41 69 0 R /G44 70 0 R /G4d 71 0 R /G52 72 0 R /G53 73 0 R /G61 74 0 R /G63 75 0 R /G64 76 0 R /G65 77 0 R /G67 78 0 R /G69 79 0 R /G6b 80 0 R /G6d 81 0 R /G6f 82 0 R /G72 83 0 R /G73 84 0 R /G75 85 0 R /G77 86 0 R /G79 87 0 R /G7a 88 0 R /G8c 89 0 R /Ga3 90 0 R /Gb3 91 0 R /Ge6 92 0 R /Gf1 93 0 R >> endobj66 0 obj<< /Length 16 >> stream
+15 0 0 0 0 0 d1endstreamendobj67 0 obj<< /Length 151 >> stream
+27 0 4 17 23 41 d1q19 0 0 24 4 17 cmBI/W 19/H 24/BPC 1/IM trueID ÿאÿא‏א‏אÿא   °   נא‏א‏אנא° °    ÿא‏א‏אÿאÿאEIQendstreamendobj68 0 obj<< /Length 106 >> stream
+15 0 3 -10 12 4 d1q9 0 0 14 3 -10 cmBI/W 9/H 14/BPC 1/IM trueID ֳ€€ €  ‚ ‏ ‏ ‏ ü€ר€ס€ד€€?€EIQendstreamendobj69 0 obj<< /Length 317 >> stream
+41 0 0 0 42 40 d1q42 0 0 40 0 0 cmBI/W 42/H 40/BPC 1/IM trueID ÿÿקÿÿְÿÿףÿÿְÿÿדÿÿְÿÿבÿÿְÿÿֱÿÿְÿÿְÿÿְÿÿ€ÿÿְÿÿ€ÿÿְÿÿ€ÿְÿÿÿְÿÿ?ÿְÿ‏8?ÿְÿ‏8?ÿְÿü|ÿְÿü|ÿְÿü|ÿְÿר‏ÿְÿר‏ÿְÿסÿÿְÿסÿÿְÿדÿƒÿְÿדÿƒÿְÿדÿÿְÿַÿֱÿְÿַÿְÿְÿ€  ÿְÿ€  ÿְÿÿאְÿÿנְÿÿנ?ְ‏?ÿר?ְ‏?ÿרְüÿüְüÿüְרÿÿüְרÿÿ‏ְנÿÿ‏ְנÿÿ‏ְְ?ÿüְ ÿא  EIQendstreamendobj70 0 obj<< /Length 272 >> stream
+42 0 0 0 40 39 d1q40 0 0 39 0 0 cmBI/W 40/H 39/BPC 1/IM trueID    ÿÿנ  ÿרüÿüÿ€ÿüÿא?üÿנüÿרüÿüüÿ‏üÿÿüÿÿüÿÿüÿÿüÿÿüÿÿüÿÿְüÿÿְüÿÿְüÿÿְüÿÿְüÿÿְüÿÿְüÿÿְüÿÿְüÿÿüÿÿüÿÿüÿÿüÿÿüÿ‏üÿ‏üÿüüÿרüÿנ?üÿאüÿ€ÿרüÿנ  ÿ   ÿÿEIQendstreamendobj71 0 obj<< /Length 350 >> stream
+52 0 0 0 52 39 d1q52 0 0 39 0 0 cmBI/W 52/H 39/BPC 1/IM trueID  ÿÿÿ€ נÿÿÿ נרÿÿÿנüÿÿ‏נüÿÿ‏נüÿÿüנüÿÿüנüAÿÿרƒנü@ÿÿרƒנü`ÿÿסƒנü`ÿסƒנüpÿסƒנüp?ÿדƒנüx?ÿדƒנüxÿַƒנü|ÿַƒנü|ÿƒנü~ÿƒנü~ÿƒנü~ÿƒנü‏?ƒנü‏?ƒנüƒ‏?ƒנüüƒנüֱüƒנüְרÿƒנüארÿƒנüאqÿƒנüנqÿƒנüנ#ÿƒנüר#ÿƒנüרÿƒנüüÿƒנüüÿƒנü‏ÿƒנü‏ÿƒנר?ÿÿננÿ‏ נ ÿ¿א  EIQendstreamendobj72 0 obj<< /Length 272 >> stream
+39 0 0 0 39 39 d1q39 0 0 39 0 0 cmBI/W 39/H 39/BPC 1/IM trueID   ÿ‏נ  ‏רא‏üר‏ü‏‏üÿ‏üÿ‏üÿ‏üÿ‏üÿ‏üÿ‏üÿ‏üÿ‏üÿ‏üÿ‏ü‏‏üü‏üנ‏üְ‏ü ÿ‏ü ÿ‏üÿ‏üÿ‏ü€ÿ‏üְÿ‏üא‏üנ?‏üנ‏üר‏üü‏ü‏‏ü‏‏üÿ‏üÿ‏üÿ€‏üÿְ~רÿא>נÿנ  נ EIQendstreamendobj73 0 obj<< /Length 243 >> stream
+32 0 4 -1 29 40 d1q25 0 0 41 4 -1 cmBI/W 25/H 41/BPC 1/IM trueID ‏û€ר s€נ|€בÿ€ֳÿƒ€ƒÿֳ€‡ÿד€ÿף€ÿף€ÿף€ÿû€ÿû€ÿû€€ÿÿ€€?ÿ€ְÿ€אÿ€נÿ€ר ÿ€ü ?€ÿ €ÿְ€ÿא€ÿר€ÿ‏€ÿÿ €ÿÿ€€ÿÿְ ÿא ÿא ?ÿנ ?ÿנ ?ÿנ ÿנ€ÿנ€ÿב€ÿֱ€ÿƒ€ €8 €€€EIQendstreamendobj74 0 obj<< /Length 166 >> stream
+26 0 2 -1 26 28 d1q24 0 0 29 2 -1 cmBI/W 24/H 29/BPC 1/IM trueID ‏ÿנ אר?ֳüƒüƒ‏ƒ‏ƒ‏ַ‏ÿüÿאÿ‚‏ר>נ‏ב‏ֳ‏ƒ‏‡‏‏‏‏‏üרגְְנEIQendstreamendobj75 0 obj<< /Length 166 >> stream
+26 0 2 -1 24 28 d1q22 0 0 29 2 -1 cmBI/W 22/H 29/BPC 1/IM trueID ÿ€ü‏ <ר|נ‏ב‏ד‏ֳÿƒÿ‡ÿ‡ÿüÿüÿüÿüÿüÿüÿüÿüÿרÿנÿנÿפ€ÿהְְִא נ ר <ü üÿüEIQendstreamendobj76 0 obj<< /Length 247 >> stream
+29 0 2 -1 29 41 d1q27 0 0 42 2 -1 cmBI/W 27/H 42/BPC 1/IM trueID ÿÿסאÿÿֱאÿ‏אÿüאÿÿֱאÿÿֱאÿÿֱאÿÿֱאÿÿֱאÿÿֱאÿÿֱאÿÿֱאÿÿֱאÿֱא‏ Aאü<ארÿאסÿאבÿאֳÿאֳÿֱאƒÿֱא‡ÿֱא‡ÿֱא‡ÿֱאÿֱאÿֱאÿֱאÿֱאÿֱאÿֱאÿֱאÿֱאƒÿֱאÿֱאÿֱאְÿאאאא@ נ @ üֱאÿַאEIQendstreamendobj77 0 obj<< /Length 166 >> stream
+26 0 2 -1 24 28 d1q22 0 0 29 2 -1 cmBI/W 22/H 29/BPC 1/IM trueID ÿüü |רנסüד‏ַ‏ַÿÿ ÿ €     ÿüÿüÿüÿüÿüÿüÿüÿרƒÿנÿנ€ÿהְְִא נ ר <ü |ÿüEIQendstreamendobj78 0 obj<< /Length 241 >> stream
+28 0 2 -12 28 28 d1q26 0 0 40 2 -12 cmBI/W 26/H 40/BPC 1/IM trueID ÿ€ÿְ‏<?ְר~  נ‏  בÿְבÿְבÿƒְֱÿƒְֱÿƒְֱÿƒְֱÿƒְֱÿƒְאÿ‡ְאÿ‡ְנÿְנְü<?ְü ÿְשÿÿְסÿÿְףÿÿְדÿÿְֳÿÿְֱÿÿְְ ְְ ְא  ְר  @ףÿר@חÿ‏@ַÿ‏@ֿÿ‏@ÿ‏ְÿüְÿשְÿףְ€ְְַ ְנ ?ְ‏ÿְEIQendstreamendobj79 0 obj<< /Length 159 >> stream
+15 0 1 0 14 41 d1q13 0 0 41 1 0 cmBI/W 13/H 41/BPC 1/IM trueID üxר8ר8ר8üxÿרÿרÿרÿרÿרÿרÿרÿרüxנx€x xנxנxנxנxנxנxנxנxנxנxנxנxנxנxנxנxנxנxנxנxנxנxא8  EIQendstreamendobj80 0 obj<< /Length 241 >> stream
+29 0 0 0 29 41 d1q29 0 0 41 0 0 cmBI/W 29/H 41/BPC 1/IM trueID üÿרנÿר€ÿר ÿרנÿרנÿרנÿרנÿרנÿרנÿרנÿרנÿרנÿרנÿרנ€נְרנדרנַרנרנרנ~רנ|ÿרנyÿרנsÿרנcÿרנAÿרנ ÿרנ@ÿרנ`רנp?רנxרנxרנ|רנ~רנרנרנ€רנְרנאxא?ְ8 € EIQendstreamendobj81 0 obj<< /Length 245 >> stream
+43 0 0 0 43 28 d1q43 0 0 28 0 0 cmBI/W 43/H 28/BPC 1/IM trueID ü~üאנxנא€pאא gאנ_ְ¿ƒאנ?ְאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאנאÿֱאא?ְ€א    EIQendstreamendobj82 0 obj<< /Length 195 >> stream
+29 0 2 -1 27 28 d1q25 0 0 29 2 -1 cmBI/W 25/H 29/BPC 1/IM trueID ÿ€ÿ€‏ ?€ר|€נÿ€בÿƒ€דÿƒ€ֳÿֱ€ֳÿְ€‡ÿא€‡ÿא€‡ÿא ÿנ ÿנ ÿנ ÿנ ÿנ ÿנ ÿנ ÿנ€ƒÿנ€ƒÿנ€ÿס€ֱÿב€אÿד€אַ€נ?‡€ר€‏ ?€ÿ€ÿ€EIQendstreamendobj83 0 obj<< /Length 161 >> stream
+19 0 0 0 19 28 d1q19 0 0 28 0 0 cmBI/W 19/H 28/BPC 1/IM trueID ‏x נp €`  L נ נ?אנ?אנאנאנאנאנאנאנאנאנאנאנאנאנאנאנאנאנאנאנ?אאא אEIQendstreamendobj84 0 obj<< /Length 166 >> stream
+23 0 3 -1 21 28 d1q18 0 0 29 3 -1 cmBI/W 18/H 29/BPC 1/IM trueID רְא ְְְַנְרְüְüְ‏ְ‏ְÿְÿְ€ְְְאְרְü ְÿ @ÿְ@ÿנ ÿר ר ü ?ü ü@ü@רְסְ ְxְEIQendstreamendobj85 0 obj<< /Length 191 >> stream
+28 0 0 -1 28 27 d1q28 0 0 28 0 -1 cmBI/W 28/H 28/BPC 1/IM trueID  ~ נאְננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננְנר? נר` ü א‏אנÿדנEIQendstreamendobj86 0 obj<< /Length 247 >> stream
+42 0 0 -1 42 27 d1q42 0 0 28 0 -1 cmBI/W 42/H 28/BPC 1/IM trueID   ְ €ְ?נ@אאשְאנשְננףְנר?ףְנ?ר?ףְר?רחְררחְüנְֿüנְֿüזְֿ‏זְ‏־ְ‏ֿְÿß?ְÿƒ?ְÿƒ¿ƒ?ְÿƒ?€ְÿ?ְְÿְְְÿְְÿְÿְÿאÿְÿאÿבÿְÿבÿסÿְÿסÿסÿְÿףÿףÿְÿףÿûÿְEIQendstreamendobj87 0 obj<< /Length 237 >> stream
+28 0 0 -12 28 27 d1q28 0 0 39 0 -12 cmBI/W 28/H 39/BPC 1/IM trueID  נ €?ü0ְüpאüpנüננ?üנר?שנרשנüשנüףנ‏ףנ‏ףנ‏חנÿחנÿֿנÿƒֿנÿֿנÿֱנÿְנÿא?נÿא?נÿנ?נÿננÿננÿרנÿרÿנÿüÿנÿשÿנÿשÿנÿשÿנÿףÿנÿףÿנÿחÿנÿחÿנֳֿÿנ€ÿנ€ÿנ€ÿנבÿÿנEIQendstreamendobj88 0 obj<< /Length 158 >> stream
+26 0 1 0 25 27 d1q24 0 0 27 1 0 cmBI/W 24/H 27/BPC 1/IM trueID ְ  ְ  ַÿֿÿֿ‏ß‏ßüÿרÿרÿנ?ÿאÿְÿÿְÿÿÿÿÿÿÿ‏ÿüÿרÿר‏נ?‏א‏ְüְÿüÿנ      EIQendstreamendobj89 0 obj<< /Length 291 >> stream
+32 0 4 -1 29 52 d1q25 0 0 53 4 -1 cmBI/W 25/H 53/BPC 1/IM trueID ÿנ€ÿאÿ€ÿבÿ€ÿדÿ€ÿַÿ€ÿַÿ€ÿֿÿ€ÿÿ€ÿ¿ÿ€ÿÿÿ€ÿÿÿ€ÿÿÿ€‏û€ר s€נ|€בÿ€ֳÿƒ€ƒÿֳ€‡ÿד€ÿף€ÿף€ÿף€ÿû€ÿû€ÿû€€ÿÿ€€?ÿ€ְÿ€אÿ€נÿ€ר ÿ€ü ?€ÿ €ÿְ€ÿא€ÿר€ÿ‏€ÿÿ €ÿÿ€€ÿÿְ ÿא ÿא ?ÿנ ?ÿנ ?ÿנ ÿנ€ÿנ€ÿב€ÿֱ€ÿƒ€ €8 €€€EIQendstreamendobj90 0 obj<< /Length 272 >> stream
+35 0 1 0 34 39 d1q33 0 0 39 1 0 cmBI/W 33/H 39/BPC 1/IM trueID   ÿ€נÿÿ€רÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€ü¿ÿ€ü?ÿ€üÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€üÿÿ€רÿÿ€נÿÿ€הÿÿ€ÿÿ€ÿÿ€|ÿÿ€üÿÿ üÿ‏ üÿ‏€üÿ‏€üÿü€üÿר€üÿס€üÿב€רÿ€נ  €   €EIQendstreamendobj91 0 obj<< /Length 159 >> stream
+16 0 1 0 16 41 d1q15 0 0 41 1 0 cmBI/W 15/H 41/BPC 1/IM trueID ÿ>ר>ְ>€>נ>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר<ר8ר2ררר>ר>ר>ר>א>ְ>˜>8>x>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>נ€EIQendstreamendobj92 0 obj<< /Length 199 >> stream
+26 0 2 -1 24 39 d1q22 0 0 40 2 -1 cmBI/W 22/H 40/BPC 1/IM trueID ÿנ|ÿאüÿבüÿדüÿַüÿַüÿֿüÿüÿ¿üÿÿüÿÿüÿ€ü‏ <ר|נ‏ב‏ד‏ֳÿƒÿ‡ÿ‡ÿüÿüÿüÿüÿüÿüÿüÿüÿרÿנÿנÿפ€ÿהְְִא נ ר <ü üÿüEIQendstreamendobj93 0 obj<< /Length 233 >> stream
+28 0 0 0 28 39 d1q28 0 0 39 0 0 cmBI/W 28/H 39/BPC 1/IM trueID ÿüנÿר?נÿרנÿרÿנÿסÿנÿסÿנÿףÿנÿחÿנÿןÿנÿÿÿנÿÿÿנü~ננxנ€pנ gננ_ֱננ?ְננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאננאנא?ְp   EIQendstreamendobj94 0 obj<< /Type /Encoding /Differences [ 32 /G20 38 /G26 42 /G2a 45 /G2d /G2e 50 /G32 /G33 54 /G36 58 /G3a 65 /G41 /G42 /G43 /G44 /G45 /G46 /G47 /G48 /G49 77 /G4d 80 /G50 82 /G52 /G53 /G54 /G55 /G56 97 /G61 /G62 /G63 /G64 /G65 /G66 /G67 /G68 /G69 108 /G6c /G6d /G6e /G6f /G70 114 /G72 /G73 /G74 /G75 /G76 /G77 121 /G79 ] >> endobj95 0 obj<< /G20 96 0 R /G26 97 0 R /G2a 98 0 R /G2d 99 0 R /G2e 100 0 R /G32 101 0 R /G33 102 0 R /G36 103 0 R /G3a 104 0 R /G41 105 0 R /G42 106 0 R /G43 107 0 R /G44 108 0 R /G45 109 0 R /G46 110 0 R /G47 111 0 R /G48 112 0 R /G49 113 0 R /G4d 114 0 R /G50 115 0 R /G52 116 0 R /G53 117 0 R /G54 118 0 R /G55 119 0 R /G56 120 0 R /G61 121 0 R /G62 122 0 R /G63 123 0 R /G64 124 0 R /G65 125 0 R /G66 126 0 R /G67 127 0 R /G68 128 0 R /G69 129 0 R /G6c 130 0 R /G6d 131 0 R /G6e 132 0 R /G6f 133 0 R /G70 134 0 R /G72 135 0 R /G73 136 0 R /G74 137 0 R /G75 138 0 R /G76 139 0 R /G77 140 0 R /G79 141 0 R >> endobj96 0 obj<< /Length 16 >> stream
+11 0 0 0 0 0 d1endstreamendobj97 0 obj<< /Length 193 >> stream
+31 0 2 0 30 29 d1q28 0 0 29 2 0 cmBI/W 28/H 29/BPC 1/IM trueID ÿ‏נÿüחנÿשףנÿףףנÿףףנÿדףנÿדחנÿדחנÿדֿנÿדנÿאנÿבÿנÿƒÿנ‏#ÿנרבנ דסü0ַסüננשננûנרקנרoנרOנüנü?נ‏נüנ‡ש׀ֱד‡°נאpEIQendstreamendobj98 0 obj<< /Length 115 >> stream
+21 0 6 11 21 29 d1q15 0 0 18 6 11 cmBI/W 15/H 18/BPC 1/IM trueID ü~ü~ü~ü~p`ְֲ†ר>ר>ֲ†ְ`pü~ü~ü~ü~EIQendstreamendobj99 0 obj<< /Length 81 >> stream
+14 0 1 8 13 11 d1q12 0 0 3 1 8 cmBI/W 12/H 3/BPC 1/IM trueID €   EIQendstreamendobj100 0 obj<< /Length 75 >> stream
+11 0 1 0 5 4 d1q4 0 0 4 1 0 cmBI/W 4/H 4/BPC 1/IM trueID   EIQendstreamendobj101 0 obj<< /Length 161 >> stream
+21 0 1 0 20 28 d1q19 0 0 28 1 0 cmBI/W 19/H 28/BPC 1/IM trueID ÿֱאÿ `‏  üx ‎‏ û‏ ÿÿ ÿÿ ÿÿ ÿÿ ÿÿ ÿ‏`ÿ‏`ÿüאÿשאÿףאÿחאÿןאÿßאÿ¿אÿא‏ÿאש‏אף‎אחשאְא€א אEIQendstreamendobj102 0 obj<< /Length 161 >> stream
+21 0 1 0 19 28 d1q18 0 0 28 1 0 cmBI/W 18/H 28/BPC 1/IM trueID ÿְֱÿ€@ÿ8@‏ü ‎‏ ÿ‏ ÿ‏ ÿ‏@ÿüְÿשְÿחְÿְרְÿְÿְֱÿאְÿנְÿרְÿרְÿרְÿשְÿשְÿסְÿףְחְְֿ ְְÿְEIQendstreamendobj103 0 obj<< /Length 161 >> stream
+21 0 2 0 22 28 d1q20 0 0 28 2 0 cmBI/W 20/H 28/BPC 1/IM trueID ÿÿ€ÿü0ÿננÿֳנÿנ‏נü?נרננננÿנבנְסנֳרנ‡üנ‡üp‡üpüpüpüpüpרנרנסנסנדנַֿנחננ?נEIQendstreamendobj104 0 obj<< /Length 94 >> stream
+14 0 2 0 10 19 d1q8 0 0 19 2 0 cmBI/W 8/H 19/BPC 1/IM trueID שננשÿÿÿÿÿÿÿÿÿÿÿEIQendstreamendobj105 0 obj<< /Length 195 >> stream
+26 0 -4 0 22 29 d1q26 0 0 29 -4 0 cmBI/W 26/H 29/BPC 1/IM trueID ÿÿ‏ְÿÿüְÿÿרְÿÿרְÿÿנְÿÿטְÿÿטְÿÿ״ְÿÿ¸ְÿÿ8ְÿÿxְÿ‏רְÿ‎שְÿ‎סְÿûסְÿקסְÿקסְÿןסְÿßסְÿְְÿ¿סְÿסְÿסְ‏ÿסְ‎ÿסְשÿסְסÿבְבÿאְ   EIQendstreamendobj106 0 obj<< /Length 191 >> stream
+26 0 -1 0 25 28 d1q26 0 0 28 -1 0 cmBI/W 26/H 28/BPC 1/IM trueID ‏ ְÿֳנְÿַר@ÿַü@ÿַü ÿַ‏ ÿü ÿü ÿü@ÿרְÿבְÿƒְÿ ְ‏?‡ְ‏?דְ‏?סְü?סְüנְüנְüנְרÿנְרÿנְרÿסְנÿבְסÿְֳסÿ‡ְבüְ  ÿְEIQendstreamendobj107 0 obj<< /Length 193 >> stream
+28 0 2 0 29 29 d1q27 0 0 29 2 0 cmBI/W 27/H 29/BPC 1/IM trueID ÿü€ÿדנ ÿü ÿ?‏ ü‏ רÿÿ נÿÿ סÿÿ`דÿÿ`ֳÿÿאַÿÿא‡ÿÿאÿÿאÿÿאÿÿאÿÿאÿÿאÿÿאÿÿאÿÿאÿÿאÿÿאÿÿא‡ÿ‎אַÿûאדÿקאסÿֿאר?אÿ ÿאEIQendstreamendobj108 0 obj<< /Length 191 >> stream
+30 0 -1 0 29 28 d1q30 0 0 28 -1 0 cmBI/W 30/H 28/BPC 1/IM trueID ‏ üÿֳנüÿַ‏<ÿַÿÿַÿÿÿÿÿִÿÿִÿÿְÿÿְÿÿאÿÿאÿ?ÿְ‏?ÿְ‏?ÿְ‏?ÿִüÿִüÿ„üÿüÿרÿÿרÿ‏<רÿ‏<סÿüüסÿסüסÿֳüב‏ü  üEIQendstreamendobj109 0 obj<< /Length 191 >> stream
+26 0 -1 0 27 28 d1q28 0 0 28 -1 0 cmBI/W 28/H 28/BPC 1/IM trueID ‏   ÿֳÿ ÿַÿ€ÿַÿ׀ÿַÿ׀ÿַÿ׀ÿÿנÿÿנÿקנÿחנÿןנÿֿנÿנ‏ נ‏?נ‏?נüנü¿נü¿נüÿנרÿÿנרÿÿנרÿÿpסÿ‏נסÿüנסÿשנאÿֱנ  נEIQendstreamendobj110 0 obj<< /Length 191 >> stream
+25 0 -1 0 28 28 d1q29 0 0 28 -1 0 cmBI/W 29/H 28/BPC 1/IM trueID ‏   ÿƒÿ€ÿַÿאÿַÿטÿַÿטÿ‡ÿטÿÿרÿÿרÿûרÿףרÿקרÿחרÿַר‏ ר‏?ר‏?ֿרüֿרüßרüßרüÿררÿÿררÿÿררÿÿרסÿÿרסÿÿרסÿÿראÿÿר ?ÿרEIQendstreamendobj111 0 obj<< /Length 193 >> stream
+30 0 2 0 30 29 d1q28 0 0 29 2 0 cmBI/W 28/H 29/BPC 1/IM trueID ÿר׀ÿדרÿü0‏?‏0üÿ0רÿÿ0סÿÿpבÿÿpדÿÿנַÿÿנַÿÿנ‡ÿÿנÿÿנÿÿנÿ€ ÿנ0ÿרpÿרנÿרנÿרנÿשנÿסנÿסנַÿסנַÿדנדÿדנסÿדנüƒנÿ€?נEIQendstreamendobj112 0 obj<< /Length 219 >> stream
+30 0 -1 0 33 28 d1q34 0 0 28 -1 0 cmBI/W 34/H 28/BPC 1/IM trueID ‏ >  ÿֱÿְֱÿֳÿְֳÿַÿְַÿַÿְַÿ‡ÿ‡ְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְÿ  ְ‏?‏?ְ‏?‏?ְ‏?‏?ְüüְüüְüüְüüְרÿרÿְרÿרÿְרÿרÿְסÿסÿְסÿסÿְסÿסÿְאÿאÿְ ? ?ְEIQendstreamendobj113 0 obj<< /Length 163 >> stream
+14 0 -2 0 16 28 d1q18 0 0 28 -2 0 cmBI/W 18/H 28/BPC 1/IM trueID ÿ  ÿאְÿבְÿדְÿדְÿדְÿְַÿְַÿְַÿְÿְÿְÿְÿְÿְÿְ‏?ְ‏?ְ‏?ְ‏?ְüְüְüְרÿְרÿְנÿְאְ ְEIQendstreamendobj114 0 obj<< /Length 247 >> stream
+35 0 -3 0 39 28 d1q42 0 0 28 -3 0 cmBI/W 42/H 28/BPC 1/IM trueID ÿÿÿנ ÿדÿÿבְÿדÿÿדְÿדÿÿְַÿדÿÿ‡ְÿֱÿÿְÿׁÿÿְÿׁÿ‏ְÿׁÿ‎ְÿ±ÿûְÿ±ÿקְÿ±ÿקְÿxÿמְÿxÿÞ?ְÿxÿ¾?ְÿxÿ¾?ְ‏רÿ|ְ‏ר‏üְ‏ü}üְ‎ü{רְ‎ü{רÿְ‎üwרÿְ‎üoרÿְûü_סÿְûü_סÿְף‏?בÿְב‏ְÿְ ~‏ ?ְEIQendstreamendobj115 0 obj<< /Length 191 >> stream
+25 0 -1 0 25 28 d1q26 0 0 28 -1 0 cmBI/W 26/H 28/BPC 1/IM trueID ‏ ְÿƒסְÿַר@ÿַü@ÿַü ÿ‏ ÿü ÿü ÿü ÿü@ÿר@ÿנְÿבְ‏‡ְ‏ ְ‏?ÿְüÿְüÿְüÿְüÿְרÿÿְרÿÿְרÿÿְסÿÿְסÿÿְבÿÿְְÿÿְ ?ÿְEIQendstreamendobj116 0 obj<< /Length 191 >> stream
+26 0 -2 0 24 28 d1q26 0 0 28 -2 0 cmBI/W 26/H 28/BPC 1/IM trueID ‏ ְÿƒאְÿַר@ÿַü@ÿַü ÿü ÿü ÿü ÿü ÿר@ÿרְÿאְÿƒְ‏ ְ‏>ְ‏?ְüְüְüְüְרÿְרÿְַרÿְַסÿְֳסÿדְבÿבְְÿאְ ?נ EIQendstreamendobj117 0 obj<< /Length 164 >> stream
+21 0 0 0 23 29 d1q23 0 0 29 0 0 cmBI/W 23/H 29/BPC 1/IM trueID ÿְüÿ8‏ֲüÿגרÿערÿערÿערצרצü?‏ü‏‏‏ÿ‏ÿƒ‏ÿֱ‏ÿא‏ÿנ~ÿר>ÿüß‏ßÿÿÿÿ>ÿ>‏~ü~9ש‏~‏EIQendstreamendobj118 0 obj<< /Length 161 >> stream
+23 0 2 0 26 28 d1q24 0 0 28 2 0 cmBI/W 24/H 28/BPC 1/IM trueID א  בסרַסשֿד‎ßד‎דש¿ַûÿַÿÿַÿÿַÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ‏?ÿ‏?ÿ‏?ÿüÿüÿüÿרÿרÿÿרÿÿנÿ€ÿEIQendstreamendobj119 0 obj<< /Length 189 >> stream
+30 0 5 0 33 28 d1q28 0 0 28 5 0 cmBI/W 28/H 28/BPC 1/IM trueID €נ אü0נÿ‏pסÿ‏נסÿ‏נבÿ‎נדÿ‎נדÿ‎נדÿ‎נַÿûנַÿûנַÿûנ‡ÿקנÿקנÿקנÿקנÿןנÿןנÿןנÿßנÿßנÿßנÿ¿נÿ?נÿנַüÿנבשÿנרÿנEIQendstreamendobj120 0 obj<< /Length 189 >> stream
+25 0 4 0 30 28 d1q26 0 0 28 4 0 cmBI/W 26/H 28/BPC 1/IM trueID  ?ְ ֱÿנְבÿסְדÿףְדÿקְדÿןְדÿßְדÿ¿ְדÿְדÿְד‏ÿְד‎ÿְַûÿְַקÿְַקÿְַןÿְַßÿְַ¿ÿְַ¿ÿְַÿְֶÿÿְֵÿÿְֳÿÿְ‹ÿÿְ‡ÿÿְÿÿְÿÿְ¿ÿÿְEIQendstreamendobj121 0 obj<< /Length 134 >> stream
+21 0 0 0 19 19 d1q19 0 0 19 0 0 cmBI/W 19/H 19/BPC 1/IM trueID ÿְֳÿ ü} רü ס‏ בü דü ֳü`ַü`‡ü`‡ראראנאטאׁא± q`€נאֳסאEIQendstreamendobj122 0 obj<< /Length 164 >> stream
+21 0 1 0 18 29 d1q17 0 0 29 1 0 cmBI/W 17/H 29/BPC 1/IM trueID ‏?€נ?€ü?€ü€ü€ü€רÿ€רÿ€רÿ€רÿ€סֳ€ס €נp€אר בר דü דü ַü ַר ַר€ר€ר€ס€ף€ד€ַ€€?€אÿ€EIQendstreamendobj123 0 obj<< /Length 134 >> stream
+19 0 1 0 18 19 d1q17 0 0 19 1 0 cmBI/W 17/H 19/BPC 1/IM trueID ÿ€‏€ü~ נü בü דü€ֳÿ€‡ÿ€‡ÿ€ÿ€ÿ€ÿ€ÿ€‎€ש€ף€ƒַ€ְ€א€EIQendstreamendobj124 0 obj<< /Length 164 >> stream
+21 0 1 0 23 29 d1q22 0 0 29 1 0 cmBI/W 22/H 29/BPC 1/IM trueID ÿÿאÿ‏ ÿÿְÿÿִÿÿִÿÿִÿÿÿÿÿÿÿÿÿֳÿ=ü|ר‏<ס‏<ב‏<דü|ֳü|‡ü|‡ר|רüנüטüיüׁü±<‡q|€נüֳסüEIQendstreamendobj125 0 obj<< /Length 115 >> stream
+19 0 1 0 17 19 d1q16 0 0 19 1 0 cmBI/W 16/H 19/BPC 1/IM trueID ÿƒ‏pררסרדרדסַס‡ד‡?ÿÿÿÿû‡קƒְֿאÿEIQendstreamendobj126 0 obj<< /Length 233 >> stream
+12 0 -7 -9 20 29 d1q27 0 0 38 -7 -9 cmBI/W 27/H 38/BPC 1/IM trueID ÿÿü ÿÿף€ÿÿח ÿÿֿ ÿÿאÿÿאÿÿאÿ‏?אÿü?אÿראÿְאÿüאÿרÿאÿרÿאÿרÿאÿרÿאÿסÿאÿסÿאÿסÿאÿסÿאÿדÿאÿדÿאÿדÿאÿדÿאÿַÿאÿַÿאÿַÿאÿÿאÿÿאÿÿאÿÿאÿÿאÿ?ÿא‏ÿאÿאÿÿא9ÿÿא‡ÿÿאEIQendstreamendobj127 0 obj<< /Length 165 >> stream
+21 0 -2 -9 22 19 d1q24 0 0 28 -2 -9 cmBI/W 24/H 28/BPC 1/IM trueID ÿְÿü?üרנÿנÿנ‏נ‏נ‏?ר|üxÿÿÿÿ?ÿüÿÿרÿÿר?ÿרÿü ף€?ֿרÿÿÿÿ¿ÿֳרÿרÿEIQendstreamendobj128 0 obj<< /Length 164 >> stream
+21 0 0 0 19 29 d1q19 0 0 29 0 0 cmBI/W 19/H 29/BPC 1/IM trueID ÿארא‏א‏?א‏?א‏?אüאüאüאüארü רנ רז ס־ ס ס¾ ס~ גü אü`בü`ֳר`ֳראַראַנאסאס ס`אאסאEIQendstreamendobj129 0 obj<< /Length 127 >> stream
+12 0 1 0 10 26 d1q9 0 0 26 1 0 cmBI/W 9/H 26/BPC 1/IM trueID ü ü ü ÿ€ÿ€ÿ€ÿ€ר€ְ€ר€ס€ס€ס€ס€ד€ד€ד€ַ€ַ€ַ€‡€€€‹€€€EIQendstreamendobj130 0 obj<< /Length 135 >> stream
+12 0 1 0 12 29 d1q11 0 0 29 1 0 cmBI/W 11/H 29/BPC 1/IM trueID ÿ ר ÿ ‏ ‏ ‏ ü ü`ü`ü`ראראראסאסאסאבאדאדאדאַאַאַא‡אאא‹אאאEIQendstreamendobj131 0 obj<< /Length 153 >> stream
+30 0 0 0 28 19 d1q28 0 0 19 0 0 cmBI/W 28/H 19/BPC 1/IM trueID רר~ְנ|רל; סÜ7 ס¼oס|_עü^גר¾בר~0בר~0ֳנü0ֳנüpַסüpַסרpדראדר׀דר°ַנpַרנEIQendstreamendobj132 0 obj<< /Length 134 >> stream
+21 0 0 0 19 19 d1q19 0 0 19 0 0 cmBI/W 19/H 19/BPC 1/IM trueID רü ְנ רז ס־ ס ס¾ ף~ גü בü`בü`ֳר`ֳראַראַנאסאס ס`אאסאEIQendstreamendobj133 0 obj<< /Length 134 >> stream
+21 0 1 0 19 19 d1q18 0 0 19 1 0 cmBI/W 18/H 19/BPC 1/IM trueID ÿƒְ‏xְרü@סü@ד‏ ֳ‏ ַü ‡ü ü ü ü@ר@רְנְסְדְְַַְנְEIQendstreamendobj134 0 obj<< /Length 165 >> stream
+21 0 -4 -9 20 19 d1q24 0 0 28 -4 -9 cmBI/W 24/H 28/BPC 1/IM trueID ÿַƒ‏aÿ…סÿ‹נÿ‡נÿ‡נÿנÿנÿבÿב‏?ב‏?ֳ‏?ֳ‏?‡üüü~?ר<רÿרÿÿרÿÿסÿÿסÿÿסÿÿדÿÿדÿÿֱÿÿ ÿEIQendstreamendobj135 0 obj<< /Length 115 >> stream
+16 0 0 0 16 19 d1q16 0 0 19 0 0 cmBI/W 16/H 19/BPC 1/IM trueID ררְננאסְס™ס¹סגÿגÿבÿֳÿֳÿַÿַÿÿÿÿÿÿEIQendstreamendobj136 0 obj<< /Length 115 >> stream
+16 0 0 0 16 19 d1q16 0 0 19 0 0 cmBI/W 16/H 19/BPC 1/IM trueID ‏רנשרס‎ס‎נ‎נר?ü‏‏ÿ¿‡¿ַ¿ַַֿpEIQendstreamendobj137 0 obj<< /Length 127 >> stream
+12 0 1 0 13 25 d1q12 0 0 25 1 0 cmBI/W 12/H 25/BPC 1/IM trueID ÿ°ÿp‏p‏püpננְ ננננסנסנבנדנדנדנֳנַנַנַנ‡ננננננEIQendstreamendobj138 0 obj<< /Length 134 >> stream
+21 0 1 0 19 19 d1q18 0 0 19 1 0 cmBI/W 18/H 19/BPC 1/IM trueID ס‏ א‏ ׀‏ °ü@qü@סר@סרְדרְדנְדנְֳבְְְַַׁׁ‡³ְcְc@גְƒבְ‡דְEIQendstreamendobj139 0 obj<< /Length 134 >> stream
+19 0 0 0 18 19 d1q18 0 0 19 0 0 cmBI/W 18/H 19/BPC 1/IM trueID ד‏@ü דü ב‏ סÿ סÿ@ס‏@ס‏ְס‎ְנשְנףְרקְרןְרßְר¿ְר?ְרְרÿְשÿְEIQendstreamendobj140 0 obj<< /Length 153 >> stream
+26 0 0 0 25 19 d1q25 0 0 19 0 0 cmBI/W 25/H 19/BPC 1/IM trueID ד‏|€‏| בü| סü~ סר~ סר~€ספ~€נפ}€נלy€רÜ{€רÜw€ר¼w€ר¼o€ר|_€רü_€רü?€שü€שüÿ€û‎ÿ€EIQendstreamendobj141 0 obj<< /Length 165 >> stream
+19 0 -5 -9 19 19 d1q24 0 0 28 -5 -9 cmBI/W 24/H 28/BPC 1/IM trueID ÿשררÿרÿרÿüÿ‎ÿשÿûÿקÿחÿֿÿ‡ßÿ‡¿ÿ‡?ÿֶÿִÿÿֱÿÿֳÿÿַÿÿֿÿÿßÿÿ¿ÿÿÿ‏ÿÿÿÿÿÿÿÿÿÿEIQendstreamendobj142 0 obj<< /Type /Encoding /Differences [ 32 /G20 43 /G2b /G2c /G2d /G2e 48 /G30 /G31 /G32 /G33 /G34 /G35 /G36 /G37 /G38 /G39 /G3a /G3b 64 /G40 /G41 68 /G44 /G45 73 /G49 76 /G4c 78 /G4e /G4f /G50 84 /G54 /G55 97 /G61 99 /G63 /G64 /G65 /G66 /G67 /G68 /G69 107 /G6b /G6c /G6d /G6e /G6f /G70 114 /G72 /G73 /G74 /G75 /G76 /G77 /G78 /G79 /G7a /G7b 125 /G7d 241 /Gf1 ] >> endobj143 0 obj<< /G20 144 0 R /G2b 145 0 R /G2c 146 0 R /G2d 147 0 R /G2e 148 0 R /G30 149 0 R /G31 150 0 R /G32 151 0 R /G33 152 0 R /G34 153 0 R /G35 154 0 R /G36 155 0 R /G37 156 0 R /G38 157 0 R /G39 158 0 R /G3a 159 0 R /G3b 160 0 R /G40 161 0 R /G41 162 0 R /G44 163 0 R /G45 164 0 R /G49 165 0 R /G4c 166 0 R /G4e 167 0 R /G4f 168 0 R /G50 169 0 R /G54 170 0 R /G55 171 0 R /G61 172 0 R /G63 173 0 R /G64 174 0 R /G65 175 0 R /G66 176 0 R /G67 177 0 R /G68 178 0 R /G69 179 0 R /G6b 180 0 R /G6c 181 0 R /G6d 182 0 R /G6e 183 0 R /G6f 184 0 R /G70 185 0 R /G72 186 0 R /G73 187 0 R /G74 188 0 R /G75 189 0 R /G76 190 0 R /G77 191 0 R /G78 192 0 R /G79 193 0 R /G7a 194 0 R /G7b 195 0 R /G7d 196 0 R /Gf1 197 0 R >> endobj144 0 obj<< /Length 16 >> stream
+13 0 0 0 0 0 d1endstreamendobj145 0 obj<< /Length 181 >> stream
+28 0 1 4 27 30 d1q26 0 0 26 1 4 cmBI/W 26/H 26/BPC 1/IM trueID ÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְ        ÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְÿףÿְEIQendstreamendobj146 0 obj<< /Length 87 >> stream
+13 0 2 -9 9 3 d1q7 0 0 12 2 -9 cmBI/W 7/H 12/BPC 1/IM trueID † ˆרררעעז~EIQendstreamendobj147 0 obj<< /Length 83 >> stream
+17 0 1 9 15 13 d1q14 0 0 4 1 9 cmBI/W 14/H 4/BPC 1/IM trueID         EIQendstreamendobj148 0 obj<< /Length 77 >> stream
+13 0 4 -1 8 3 d1q4 0 0 4 4 -1 cmBI/W 4/H 4/BPC 1/IM trueID   EIQendstreamendobj149 0 obj<< /Length 176 >> stream
+25 0 2 0 23 33 d1q21 0 0 33 2 0 cmBI/W 21/H 33/BPC 1/IM trueID ÿרüררxרסüxד‏8ד‏8ַÿַÿ‡ÿ‡ÿˆ‡ÿˆÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿˆ‡ÿ‡ÿַÿַÿד‏8ד‏8סüxרנרüרÿרEIQendstreamendobj150 0 obj<< /Length 143 >> stream
+25 0 6 0 19 33 d1q13 0 0 33 6 0 cmBI/W 13/H 33/BPC 1/IM trueID ‏xנx€x0xרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxרxנ8€ EIQendstreamendobj151 0 obj<< /Length 176 >> stream
+25 0 1 0 23 33 d1q22 0 0 33 1 0 cmBI/W 22/H 33/BPC 1/IM trueID ÿüר üנ |א <בנַüֿ‏‏ÿ¿ÿÿÿÿÿÿÿÿ‏<ÿ‏<ÿ‏|ÿü|ÿüüÿשüÿףüÿחüÿןüÿßüÿ¿üÿü‏ÿü‎ÿרûÿנקÿִא ְ €   EIQendstreamendobj152 0 obj<< /Length 176 >> stream
+25 0 2 0 20 33 d1q18 0 0 33 2 0 cmBI/W 18/H 33/BPC 1/IM trueID üְנְאְְְַא@¿נ@ר@ÿר@ÿר@ÿרְÿשְÿףְÿקְÿןְÿְֳÿְü ְÿ€@ÿא@ÿנ ÿר ÿר ÿü ÿü ÿü ÿü@ÿü@ÿר@ÿרְסְדְ ְְ?ְEIQendstreamendobj153 0 obj<< /Length 176 >> stream
+25 0 1 0 23 33 d1q22 0 0 33 1 0 cmBI/W 22/H 33/BPC 1/IM trueID ÿ‏<ÿü<ÿü<ÿר<ÿנ<ÿה<ÿה<ÿּ<ÿ<ÿ<ÿ<<‏|<üü<üü<שü<ףü<דü<חü<ֿü<ü<ü<         ÿü<ÿü<ÿü<ÿü<ÿü<ÿü<ÿü<ÿü<ÿü<EIQendstreamendobj154 0 obj<< /Length 176 >> stream
+25 0 3 0 21 33 d1q18 0 0 33 3 0 cmBI/W 18/H 33/BPC 1/IM trueID ü  ü @ר @ר ְסÿְףÿְףÿְחÿְחÿְֱÿְְ?ְ€ְ€ְרְÿ ְÿְְÿא@ÿנ@ÿר ÿü ÿü ÿ‏ ÿ‏ ÿ‏ ÿ‏@ÿ‏@ÿü@ÿüְÿשְףְְַ€ְְְEIQendstreamendobj155 0 obj<< /Length 176 >> stream
+25 0 2 0 23 33 d1q21 0 0 33 2 0 cmBI/W 21/H 33/BPC 1/IM trueID ÿ‏ÿנxÿֳרÿר‏רü?רררנÿרסÿרבÿרֳÿרֳÿרַר„ xנ8‡ü‏‏ÿ ÿ ÿ€ÿ€ÿ€ÿ€‡ÿ€‡ÿˆ‡ÿˆֳÿדÿב‏8נxxü ר‏רEIQendstreamendobj156 0 obj<< /Length 176 >> stream
+25 0 2 0 23 33 d1q21 0 0 33 2 0 cmBI/W 21/H 33/BPC 1/IM trueID א  ְ  ְ  ְ ÿˆÿ¿ÿÿÿ‏8ÿ‏8ÿ‏8ÿüxÿüxÿüxÿררÿררÿררÿסרÿסרÿסרÿדרÿדרÿדרÿַרÿַרÿַרÿרÿרÿרÿרÿר‏ר‏?רEIQendstreamendobj157 0 obj<< /Length 176 >> stream
+25 0 3 0 22 33 d1q19 0 0 33 3 0 cmBI/W 19/H 33/BPC 1/IM trueID üאנאֱאא‡ר`ר`ü ü ü ü ü`ƒר`נאְqאא'אנאראüאראף€אדְ`ַא ‡נ ר ü ‏ ‏ ‏ ‏ ‡ü ֳü`ֱנאנאüאEIQendstreamendobj158 0 obj<< /Length 176 >> stream
+25 0 2 0 23 33 d1q21 0 0 33 2 0 cmBI/W 21/H 33/BPC 1/IM trueID ‏רררננxדü8ַ‏8ַ‏ÿÿÿÿ€ÿ€ÿ€ÿ€ÿ€ÿ€‡ÿ€ƒÿ€ֱÿאüנüÿÿÿ‏ÿ‏8ÿüxÿרxÿנרÿברÿֳרÿר‏רררƒÿרEIQendstreamendobj159 0 obj<< /Length 100 >> stream
+14 0 5 -1 9 23 d1q4 0 0 24 5 -1 cmBI/W 4/H 24/BPC 1/IM trueID   ננננננננננננננננ  EIQendstreamendobj160 0 obj<< /Length 109 >> stream
+14 0 3 -9 10 23 d1q7 0 0 32 3 -9 cmBI/W 7/H 32/BPC 1/IM trueID ־††־‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏† €רררעעז~EIQendstreamendobj161 0 obj<< /Length 363 >> stream
+45 0 2 -12 44 35 d1q42 0 0 47 2 -12 cmBI/W 42/H 47/BPC 1/IM trueID ÿÿְÿְÿ‏ ÿְÿר?אÿְÿבÿü?ְÿַÿ‏ְÿÿÿְ‏?ÿÿְַüÿÿחְרÿÿÿדְשÿÿÿףְסÿÿÿשְדÿר|שְחÿד°שְַÿְַüְֿÿבüְֿÿבüְ‏?בüְü?דüְרדüְרֳüְ?נÿַüְ?נÿַüְ?בÿ‡שְ?בÿ‡שְ?בÿשְ?ֳÿףְ?ֳ‏ףְ?ֳüחְ?ֳüחְ?ֳתְֿֱצְֱ־ א?@ßא? ‏@ֿרÿƒ‏ְֿÿÿÿüְחÿÿÿ‎ְףÿÿÿשְףÿÿÿףְשÿÿÿחְüÿÿÿְֿ‏?ÿÿְÿÿ‏?ְÿ‡ÿרÿְÿאֱÿְÿר ÿְÿÿ€?ÿְEIQendstreamendobj162 0 obj<< /Length 252 >> stream
+35 0 1 0 36 35 d1q35 0 0 35 1 0 cmBI/W 35/H 35/BPC 1/IM trueID ÿÿ?ÿאÿÿ?ÿאÿÿÿאÿ‏ÿאÿ‏ÿאÿüÿאÿüÿאÿüÿאÿשÿאÿשÿאÿףÿאÿףƒÿאÿףÿאÿחֱÿאÿחֱÿאÿְֿÿאÿֿאÿאÿֿאאÿנאÿנאÿ?נ?אÿ?ר?אÿ  א‏  א‏üאüÿüאüÿ‏אüÿ‏אשÿÿאשÿÿאףÿÿאףÿÿƒאדÿÿאֱÿÿ ` ?ר  EIQendstreamendobj163 0 obj<< /Length 247 >> stream
+36 0 0 0 34 34 d1q34 0 0 34 0 0 cmBI/W 34/H 34/BPC 1/IM trueID   ÿְנ  ְראְר?רְר?‏ְר?ÿְר?ÿְר?ÿ€ְר?ÿְְר?ÿא@ר?ÿא@ר?ÿא@ר?ÿנ ר?ÿנ ר?ÿנ ר?ÿנ ר?ÿנ ר?ÿנ ר?ÿנ ר?ÿנ ר?ÿנ ר?ÿנ@ר?ÿא@ר?ÿא@ר?ÿאְר?ÿְְר?ÿְר?ÿְר?ÿְר?‏ְר?רְרא?ְא  ÿְ  ÿְEIQendstreamendobj164 0 obj<< /Length 213 >> stream
+31 0 0 0 30 34 d1q30 0 0 34 0 0 cmBI/W 30/H 34/BPC 1/IM trueID    נ  ר?‏ר?ÿר?ÿר?ÿÜר?ÿÜר?ÿüר?ÿüר?ÿüר?‏üר?‏üר?‏üר?üüר?רüר  üר  üר?רüר?üüר?‏üר?‏üר?‏üר?ÿüר?ÿüר?ÿüר?ÿüר?ÿרר?ÿפר?ÿהר?ÿִר?ÿר‏א     EIQendstreamendobj165 0 obj<< /Length 145 >> stream
+17 0 1 0 16 34 d1q15 0 0 34 1 0 cmBI/W 15/H 34/BPC 1/IM trueID   אר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>ר>א  EIQendstreamendobj166 0 obj<< /Length 213 >> stream
+30 0 0 0 29 34 d1q29 0 0 34 0 0 cmBI/W 29/H 34/BPC 1/IM trueID  ÿרנÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿרר?ÿנר?ÿאר?ÿטר?ÿָר?ÿˆר?ÿרüא     8EIQendstreamendobj167 0 obj<< /Length 256 >> stream
+36 0 -1 -1 36 34 d1q37 0 0 35 -1 -1 cmBI/W 37/H 35/BPC 1/IM trueID  ?ÿ€ נÿר8רÿüרüÿüר‏ÿüר‏ÿüר‏ÿüר‏@ÿüר‏`üר‏`üר‏p?üר‏xüר‏|üר‏~üר‏~üר‏üר‏üר‏ְüר‏ְüר‏א|ר‏נ<ר‏רר‏üר‏üר‏‏ר‏ÿ ר‏ÿ€ר‏ÿְר‏ÿְר‏ÿאר‏ÿנר‏ÿררר?ÿüרְÿüרÿÿÿ‏רEIQendstreamendobj168 0 obj<< /Length 223 >> stream
+36 0 2 -1 34 35 d1q32 0 0 36 2 -1 cmBI/W 32/H 36/BPC 1/IM trueID ÿנÿÿְÿÿאÿüר?ר?üנ‏נÿÿאÿÿֱÿÿֱÿÿƒÿÿÿÿƒÿÿֱÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְƒÿÿֱÿÿÿÿֱÿÿƒְÿÿƒאÿÿאÿנ‏ר?üüר?ÿאÿÿ€ÿÿנÿEIQendstreamendobj169 0 obj<< /Length 213 >> stream
+28 0 0 0 26 34 d1q26 0 0 34 0 0 cmBI/W 26/H 34/BPC 1/IM trueID   ?ְנ ְר?ְר?ְְר?ְְר?א@ר?א@ר?נ ר?נ ר?נ ר?נ ר?נ ר?נ ר?א@ר?א@ר?ְְר?ְר ְר ְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְר?ÿְאÿְ ÿְEIQendstreamendobj170 0 obj<< /Length 213 >> stream
+31 0 2 0 29 34 d1q27 0 0 34 2 0 cmBI/W 27/H 34/BPC 1/IM trueID         א‏ ?אÿ ?אÿ€אÿְאÿְאÿְÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿ€אü אEIQendstreamendobj171 0 obj<< /Length 254 >> stream
+36 0 0 -1 36 34 d1q36 0 0 35 0 -1 cmBI/W 36/H 35/BPC 1/IM trueID  ÿ  נÿנpנÿרנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנר?ÿשנרÿףנüÿףנüÿףנ‏ÿחנ‏ÿַנÿÿנÿüנÿא נÿרÿנEIQendstreamendobj172 0 obj<< /Length 151 >> stream
+22 0 2 -1 22 23 d1q20 0 0 24 2 -1 cmBI/W 20/H 24/BPC 1/IM trueID רנאנֱֳנַאנ‡ננ‡ננ‡ננֿננÿאנÿ נüננpנבננֳננ‡ננננננננננאא€ְ€0ְp0ברpEIQendstreamendobj173 0 obj<< /Length 151 >> stream
+22 0 2 -1 21 23 d1q19 0 0 24 2 -1 cmBI/W 19/H 24/BPC 1/IM trueID ÿאר אננ`דר ַר ַר ü`ÿאÿאÿאÿאÿאÿאÿאÿְÿ€ƒÿ ƒÿ ÿ ְ|`א `נ ארא‏אEIQendstreamendobj174 0 obj<< /Length 187 >> stream
+25 0 2 -1 24 35 d1q22 0 0 36 2 -1 cmBI/W 22/H 36/BPC 1/IM trueID ÿÿÿ‏ÿרÿנÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏‏רננברֳüַü‡‏‏‏‏‏‏‏‏‏‏‏ƒ‏ƒ‏ֱüְx אנü|EIQendstreamendobj175 0 obj<< /Length 151 >> stream
+22 0 2 -1 21 23 d1q19 0 0 24 2 -1 cmBI/W 19/H 24/BPC 1/IM trueID ‏אראסאאדר`ַר ‡ü ü ü       ÿאÿאÿאÿאÿאÿְƒÿ€ƒÿ€€ÿ ְ~ א `נ ארא‏אEIQendstreamendobj176 0 obj<< /Length 182 >> stream
+15 0 1 0 21 35 d1q20 0 0 35 1 0 cmBI/W 20/H 35/BPC 1/IM trueID ÿאנÿ€0‏8ü| ü‏ רÿ רÿנÿננÿננÿננÿננÿננÿנ נ ננÿננÿננÿננÿננÿננÿננÿננÿננÿננÿננÿננÿננÿננÿננÿננÿננÿנאנְנ נEIQendstreamendobj177 0 obj<< /Length 183 >> stream
+25 0 1 -11 24 23 d1q23 0 0 34 1 -11 cmBI/W 23/H 34/BPC 1/IM trueID ÿ‏üx‏נü ס‏ ב‏ד‏ֳÿֳÿֳÿֳÿֱÿב‏ב‏נ‏>רx~ü‏ûÿ‏חÿ‏חÿ‏ְ ְ א נ  קÿאןÿרֿÿרÿרÿעÿעÿֶÿ€ א ~ü‏EIQendstreamendobj178 0 obj<< /Length 182 >> stream
+25 0 1 0 24 35 d1q23 0 0 35 1 0 cmBI/W 23/H 35/BPC 1/IM trueID שÿ‏בÿ‏ÿ‏ÿ‏בÿ‏בÿ‏בÿ‏בÿ‏בÿ‏בÿ‏בÿ‏בÿ‏בנ~בְ>ב€ב<א~אÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿְ‏ 8 EIQendstreamendobj179 0 obj<< /Length 147 >> stream
+12 0 1 0 11 35 d1q10 0 0 35 1 0 cmBI/W 10/H 35/BPC 1/IM trueID ףְבְבְףְÿְÿְÿְÿְÿְÿְÿְÿְשְבְְְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְְְ  EIQendstreamendobj180 0 obj<< /Length 182 >> stream
+25 0 1 0 25 35 d1q24 0 0 35 1 0 cmBI/W 24/H 35/BPC 1/IM trueID שÿÿבÿÿÿÿÿÿבÿÿבÿÿבÿÿבÿÿבÿÿבÿÿבÿÿבÿÿבÿÿברב‏ב‏?בüÿבשÿבףÿבחÿבֿÿבÿאÿבÿבÿבƒÿבֱÿבאÿבנברבר?בüב‏ְ‏ 8 EIQendstreamendobj181 0 obj<< /Length 147 >> stream
+12 0 1 0 11 35 d1q10 0 0 35 1 0 cmBI/W 10/H 35/BPC 1/IM trueID שְבְְְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְְְ  EIQendstreamendobj182 0 obj<< /Length 192 >> stream
+38 0 1 0 37 23 d1q36 0 0 23 1 0 cmBI/W 36/H 23/BPC 1/IM trueID שנƒנבְ>נ€ נ<אנא~נpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpבÿרpְ‏נ0 8ְ EIQendstreamendobj183 0 obj<< /Length 146 >> stream
+25 0 1 0 24 23 d1q23 0 0 23 1 0 cmBI/W 23/H 23/BPC 1/IM trueID שנ~בְ>€א~אÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿְ‏ 8 EIQendstreamendobj184 0 obj<< /Length 151 >> stream
+26 0 2 -1 24 23 d1q22 0 0 24 2 -1 cmBI/W 22/H 24/BPC 1/IM trueID ÿüü |נר<בüֳ‏ַÿ‡ÿ‡ÿ„ÿ€ÿ€ÿ€ÿְÿְÿְÿְÿִ‡ÿ„ƒÿ„ֳÿֱÿאÿנ|<ר ü‏üEIQendstreamendobj185 0 obj<< /Length 183 >> stream
+25 0 1 -11 23 23 d1q22 0 0 34 1 -11 cmBI/W 22/H 34/BPC 1/IM trueID שאüבְ<€<א~אÿבÿ„בÿ€בÿ€בÿְבÿְבÿְבÿְבÿְבÿְבÿִבÿִבÿ„בÿאÿאÿא<<ב |בֱüבÿüבÿüבÿüבÿüבÿüבÿüבÿüבÿüְÿü ?üEIQendstreamendobj186 0 obj<< /Length 123 >> stream
+17 0 1 0 17 23 d1q16 0 0 23 1 0 cmBI/W 16/H 23/BPC 1/IM trueID שבב€  qאÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿְÿ ?EIQendstreamendobj187 0 obj<< /Length 127 >> stream
+18 0 2 -1 17 23 d1q15 0 0 24 2 -1 cmBI/W 15/H 24/BPC 1/IM trueID נvְ†ֶזזצצ‏€‏ְ>אר‏ÿ‚ÿְאא?אאֲ† p>EIQendstreamendobj188 0 obj<< /Length 139 >> stream
+14 0 0 -1 14 29 d1q14 0 0 30 0 -1 cmBI/W 14/H 30/BPC 1/IM trueID ‏üüüüüרüרüנüאü€ נüנüנüנüנüנüנüנüנüנüנüנüנüנüנüנüנרנtנרü<EIQendstreamendobj189 0 obj<< /Length 148 >> stream
+25 0 0 -1 24 22 d1q24 0 0 23 0 -1 cmBI/W 24/H 23/BPC 1/IM trueID üֱÿבÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿ‡בÿא‏נx€נר‡‏EIQendstreamendobj190 0 obj<< /Length 148 >> stream
+24 0 1 -1 25 22 d1q24 0 0 23 1 -1 cmBI/W 24/H 23/BPC 1/IM trueID  ?€€ÿבאÿףאÿחנÿחנÿֿרֿרßü?ü?ü?‏?‏ÿÿÿ„ÿÿ„ÿÿֱÿÿֱÿÿֳÿÿדÿÿדÿÿקÿEIQendstreamendobj191 0 obj<< /Length 194 >> stream
+36 0 0 -1 36 22 d1q36 0 0 23 0 -1 cmBI/W 36/H 23/BPC 1/IM trueID  8ר ְÿÿאÿ‡ÿ0נÿ‡ÿpנÿ‡‏pנֳ‏pרֳüנרֱüנü?שנü?שנü?0שנ‏0ףנ‏xsנ‏xsנÿü'נÿü'נÿüנÿƒ‏נÿƒ‏נÿ‡ÿנÿַÿנÿֿÿנÿןÿ¿נEIQendstreamendobj192 0 obj<< /Length 143 >> stream
+24 0 0 0 24 22 d1q24 0 0 22 0 0 cmBI/W 24/H 22/BPC 1/IM trueID  <ְÿאÿנ?ר>ר<ÿüÿ‏	ÿÿÿÿ‡ÿÿƒÿÿÿÿ€ÿÿ0ÿ‏püר?שüû‏ף‏חÿֳÿר EIQendstreamendobj193 0 obj<< /Length 180 >> stream
+23 0 0 -11 23 22 d1q23 0 0 33 0 -11 cmBI/W 23/H 33/BPC 1/IM trueID  ? €ÿֱֲÿֶבÿ־אÿ־נÿ־נרר>ü?>ü?>ü~‏~‏~ÿ‏ÿ‏ÿ‏ÿ‏ÿֱ‏ÿֳ‏ÿד‏ÿד‏ÿח‏ÿח‏ÿֿ‏ÿֿ‏ÿֿ‏ÿ‏ÿ‏ַ?‏€‏€ÿ‏ֳÿ‏EIQendstreamendobj194 0 obj<< /Length 143 >> stream
+22 0 1 0 21 22 d1q20 0 0 22 1 0 cmBI/W 20/H 22/BPC 1/IM trueID ְ  ְ  ַüֿר0ßרpÿנpÿאנÿֱנÿƒנÿƒנÿנ‏נüנüנר?ננאאÿאבÿאֱÿְƒÿ€      EIQendstreamendobj195 0 obj<< /Length 173 >> stream
+24 0 5 -11 19 35 d1q14 0 0 46 5 -11 cmBI/W 14/H 46/BPC 1/IM trueID ÿנÿÿ<‏|ü|רüרüנüנüנüנüנ|נ|נ|ר|ר|ר|רüרüשüסüחüֿü?üֿüדüסüרüרüר|ר|ר|ר|נ|נ|נ|נüנüנüרüרüü|‏|ÿ<ÿÿנEIQendstreamendobj196 0 obj<< /Length 173 >> stream
+24 0 5 -11 19 35 d1q14 0 0 46 5 -11 cmBI/W 14/H 46/BPC 1/IM trueID ?üַüףüשüרüü|ü|ü<ü<ü<ר<ר<ר<ר|ר|ר|ר|ü|ü|‏<ÿÿּÿנÿּÿ‏<‏|ü|ü|ר|ר|ר|ר<ר<ר<ü<ü<ü<ü<ü|ü|רüשüףüַü?üEIQendstreamendobj197 0 obj<< /Length 179 >> stream
+25 0 1 0 24 34 d1q23 0 0 34 1 0 cmBI/W 23/H 34/BPC 1/IM trueID ÿב‏ÿֳ‏ÿַ‏ÿֿ‏ÿ‏ÿ‏ÿ¿‏ÿ‏ÿÿ‏ÿÿ‏ÿÿ‏שנ~בְ>€א~אÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿבÿְ‏ 8 EIQendstreamendobj198 0 obj<< /Type /Encoding /Differences [ 65 /G41 /G42 /G43 82 /G52 /G53 /G54 ] >> endobj199 0 obj<< /G41 200 0 R /G42 201 0 R /G43 202 0 R /G52 203 0 R /G53 204 0 R /G54 205 0 R >> endobj200 0 obj<< /Length 193 >> stream
+30 0 0 0 30 29 d1q30 0 0 29 0 0 cmBI/W 30/H 29/BPC 1/IM trueID ÿüÿüÿüÿüÿüüÿרüÿר?üÿנ?üÿנüÿאüÿאüÿ׀üÿ״üÿ״üÿ¼üÿ¼üÿ~üÿ~ü‏‏ü‏ÿü‎ÿ üü  ü‎ÿ€|ûÿְ|ûÿְ<קÿְ<קÿא<חÿאחÿאƒÿא   EIQendstreamendobj201 0 obj<< /Length 189 >> stream
+29 0 1 0 27 28 d1q26 0 0 28 1 0 cmBI/W 26/H 28/BPC 1/IM trueID   ְאְנְנ€ְנְְנְ@נְ@נְ@נְ@נְְנ€ְנְנְנ ְנְנ€ְנ€@נְ@נְ נְ נְ נְ נְ נְ@נ€@נְאְ  ְEIQendstreamendobj202 0 obj<< /Length 193 >> stream
+30 0 2 0 28 29 d1q26 0 0 29 2 0 cmBI/W 26/H 29/BPC 1/IM trueID ÿא€ÿד ‏ר רü נ?‏ א?‏ אÿ ְÿ ְÿ€€ÿÿ€€ÿÿְ ÿÿְ ÿÿְ ÿÿְ ÿÿְ ÿÿְ ÿÿְ ÿÿְ ÿÿְ€ÿÿְ€ÿְְÿְְÿְא?ÿ@נ?‏@רü@üשְÿדְÿְְEIQendstreamendobj203 0 obj<< /Length 189 >> stream
+30 0 1 0 31 28 d1q30 0 0 28 1 0 cmBI/W 30/H 28/BPC 1/IM trueID   üאüנ€üנְ|נא|נא<נא<נא<נא<נא<נא|נְüנüנüנ üנüנüנüנüנ üנ |נ€|נְ<נְנאננאנ ר EIQendstreamendobj204 0 obj<< /Length 164 >> stream
+23 0 2 0 21 29 d1q19 0 0 29 2 0 cmBI/W 19/H 29/BPC 1/IM trueID ר`דח`ַנ`ר`ü`‏`‏`ÿ`ÿ` ÿא ?א€א€אְ אא `ר  ü  ÿ  ÿְ נ ר ?ü ?‏ ‏ ‏ ‏`üא9סא~אEIQendstreamendobj205 0 obj<< /Length 189 >> stream
+28 0 2 0 27 28 d1q25 0 0 28 2 0 cmBI/W 25/H 28/BPC 1/IM trueID     €ר €ü ?€‏ ?€‏ €ÿ €ÿ ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ €ר €EIQendstreamendobj206 0 obj<< /Type /Encoding /Differences [ 32 /G20 34 /G22 38 /G26 40 /G28 /G29 43 /G2b /G2c /G2d /G2e /G2f /G30 /G31 /G32 /G33 /G34 /G35 /G36 /G37 /G38 /G39 /G3a 61 /G3d 65 /G41 /G42 /G43 /G44 /G45 /G46 /G47 /G48 /G49 /G4a /G4b /G4c /G4d /G4e /G4f /G50 /G51 /G52 /G53 /G54 /G55 /G56 /G57 89 /G59 91 /G5b 93 /G5d 97 /G61 /G62 /G63 /G64 /G65 /G66 /G67 /G68 /G69 /G6a /G6b /G6c /G6d /G6e /G6f /G70 /G71 /G72 /G73 /G74 /G75 /G76 /G77 /G78 /G79 /G7a 140 /G8c 148 /G94 241 /Gf1 ] >> endobj207 0 obj<< /G20 208 0 R /G22 209 0 R /G26 210 0 R /G28 211 0 R /G29 212 0 R /G2b 213 0 R /G2c 214 0 R /G2d 215 0 R /G2e 216 0 R /G2f 217 0 R /G30 218 0 R /G31 219 0 R /G32 220 0 R /G33 221 0 R /G34 222 0 R /G35 223 0 R /G36 224 0 R /G37 225 0 R /G38 226 0 R /G39 227 0 R /G3a 228 0 R /G3d 229 0 R /G41 230 0 R /G42 231 0 R /G43 232 0 R /G44 233 0 R /G45 234 0 R /G46 235 0 R /G47 236 0 R /G48 237 0 R /G49 238 0 R /G4a 239 0 R /G4b 240 0 R /G4c 241 0 R /G4d 242 0 R /G4e 243 0 R /G4f 244 0 R /G50 245 0 R /G51 246 0 R /G52 247 0 R /G53 248 0 R /G54 249 0 R /G55 250 0 R /G56 251 0 R /G57 252 0 R /G59 253 0 R /G5b 254 0 R /G5d 255 0 R /G61 256 0 R /G62 257 0 R /G63 258 0 R /G64 259 0 R /G65 260 0 R /G66 261 0 R /G67 262 0 R /G68 263 0 R /G69 264 0 R /G6a 265 0 R /G6b 266 0 R /G6c 267 0 R /G6d 268 0 R /G6e 269 0 R /G6f 270 0 R /G70 271 0 R /G71 272 0 R /G72 273 0 R /G73 274 0 R /G74 275 0 R /G75 276 0 R /G76 277 0 R /G77 278 0 R /G78 279 0 R /G79 280 0 R /G7a 281 0 R /G8c 282 0 R /G94 283 0 R /Gf1 284 0 R >> endobj208 0 obj<< /Length 16 >> stream
+11 0 0 0 0 0 d1endstreamendobj209 0 obj<< /Length 103 >> stream
+17 0 3 17 14 29 d1q11 0 0 12 3 17 cmBI/W 11/H 12/BPC 1/IM trueID            ¿ EIQendstreamendobj210 0 obj<< /Length 199 >> stream
+33 0 1 -1 31 29 d1q30 0 0 30 1 -1 cmBI/W 30/H 30/BPC 1/IM trueID ÿאÿüÿ‡?üÿ¿üÿü‏ü‏ü‏ü‏?ü‏?üÿüÿ אÿנ|ÿ‡רü‏שüüCשüנֱףüבבףüֳאקüֳנחü‡נOü‡רüüüüü‏ר‏נüהש€ְדְאאנ?ר<EIQendstreamendobj211 0 obj<< /Length 151 >> stream
+14 0 2 -8 13 28 d1q11 0 0 36 2 -8 cmBI/W 11/H 36/BPC 1/IM trueID ÿְÿ ‏`üאשאףאדאדאַאַא‡א‡אאאאאאאאאאאאא‡א‡אַאַאדאדאסאשאüא‏`ÿ ÿְEIQendstreamendobj212 0 obj<< /Length 151 >> stream
+14 0 1 -8 12 28 d1q11 0 0 36 1 -8 cmBI/W 11/H 36/BPC 1/IM trueID אאֿאחאףאסאראראü`ü`ü ü ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ü ü ü`ü`ראראשאףאחאֿאאאEIQendstreamendobj213 0 obj<< /Length 143 >> stream
+24 0 1 3 23 25 d1q22 0 0 22 1 3 cmBI/W 22/H 22/BPC 1/IM trueID ÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿü      ÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüEIQendstreamendobj214 0 obj<< /Length 85 >> stream
+11 0 2 -7 8 3 d1q6 0 0 10 2 -7 cmBI/W 6/H 10/BPC 1/IM trueID  ˆררפלÜ<EIQendstreamendobj215 0 obj<< /Length 83 >> stream
+14 0 1 8 12 12 d1q11 0 0 4 1 8 cmBI/W 11/H 4/BPC 1/IM trueID         EIQendstreamendobj216 0 obj<< /Length 77 >> stream
+11 0 3 -1 7 3 d1q4 0 0 4 3 -1 cmBI/W 4/H 4/BPC 1/IM trueID   EIQendstreamendobj217 0 obj<< /Length 139 >> stream
+12 0 2 -1 14 29 d1q12 0 0 30 2 -1 cmBI/W 12/H 30/BPC 1/IM trueID ÿÿÿÿ0ÿ0ÿ0ÿ0‏p‏p‏püנüנüנשנשנשנשנףנףנףנחנחנחנֿנֿנֿנֿננננEIQendstreamendobj218 0 obj<< /Length 161 >> stream
+21 0 1 0 19 28 d1q18 0 0 28 1 0 cmBI/W 18/H 28/BPC 1/IM trueID ‏ְשחְףףְדסְַרְַרְ‡ר@‡ü@ü@ü ü ü ü ü ü ü ü ü ü ü@ü@‡ר@ַרְַרְדסְףףְשחְüְEIQendstreamendobj219 0 obj<< /Length 133 >> stream
+21 0 5 0 17 28 d1q12 0 0 28 5 0 cmBI/W 12/H 28/BPC 1/IM trueID רנְנ נננננננננננננננננננננננננננננננננננננננננננננננאp  EIQendstreamendobj220 0 obj<< /Length 161 >> stream
+21 0 1 0 19 28 d1q18 0 0 28 1 0 cmBI/W 18/H 28/BPC 1/IM trueID üְנְאְַְְְֿßאְ¿נְ¿נְÿנְÿנְÿסְÿסְÿדְÿדְÿחְÿְַÿְֿÿְÿ?ְÿ?ְ‏ְüÿְשÿְףÿ ח‏@ְ @€ @  ְEIQendstreamendobj221 0 obj<< /Length 133 >> stream
+21 0 2 0 17 28 d1q15 0 0 28 2 0 cmBI/W 15/H 28/BPC 1/IM trueID ר>אְ‚¿ֲגÿגÿגÿזÿ־ÿÞÿ¾‏רÿÿ‚ÿְÿאÿאÿנÿנÿנÿעÿעÿז־€~EIQendstreamendobj222 0 obj<< /Length 161 >> stream
+21 0 1 0 19 28 d1q18 0 0 28 1 0 cmBI/W 18/H 28/BPC 1/IM trueID ÿדְÿְֳÿְֳÿƒְÿƒְÿCְ‏ְֳ‏ְֳ‎ְֳ‎ְֳûְֳקְֳקְֳןְֳןְֳßְֳ¿ְֳ¿ְֳ         ÿְֳÿְֳÿְֳÿְֳÿְֳÿְֳÿְֳEIQendstreamendobj223 0 obj<< /Length 133 >> stream
+21 0 2 0 18 28 d1q16 0 0 28 2 0 cmBI/W 16/H 28/BPC 1/IM trueID ü רררקÿקÿןÿבÿְ?ְ€רÿÿֱÿבÿנÿנÿרÿרÿרÿרÿשÿשÿףחֿ ?ְÿEIQendstreamendobj224 0 obj<< /Length 161 >> stream
+21 0 1 0 19 28 d1q18 0 0 28 1 0 cmBI/W 18/H 28/BPC 1/IM trueID ÿנ@ÿְֳÿְ‏?ְüְרÿְסÿְדÿְֳÿְַÿְ‡ÿְ†ְְֱנְר@ר@ר ü ü ü ü ‡ü ‡ü@ַü@ֳרְדסְנדְüְEIQendstreamendobj225 0 obj<< /Length 161 >> stream
+21 0 1 0 19 28 d1q18 0 0 28 1 0 cmBI/W 18/H 28/BPC 1/IM trueID א  א  ְ  ְ @‏@¿ü@üְÿüְÿרְÿשְÿשְÿסְÿףְÿףְÿדְÿחְÿחְÿְַÿְֿÿְֿÿְÿְÿְÿְÿ?ְÿ?ְ‏?ְ‏ְEIQendstreamendobj226 0 obj<< /Length 161 >> stream
+21 0 2 0 19 28 d1q17 0 0 28 2 0 cmBI/W 17/H 28/BPC 1/IM trueID ר€דַ€ַב€ס€נ€נ€נ€נ€ב€ד€ְַ€אO€נ?€ר€ר€ף€ח€ְַ€א€נ נ ר ר ר ‡ר€ַס€בד€ר€EIQendstreamendobj227 0 obj<< /Length 161 >> stream
+21 0 2 0 19 28 d1q17 0 0 28 2 0 cmBI/W 17/H 28/BPC 1/IM trueID ü€ףַ€חד€ַס€ס€נ€ר€ר ר ר ר ר ‡ר ‡ר ֳר בא€נ€ÿנ€ÿס€ÿב€ÿד€ÿֳ€ÿ‡€ÿ€‏€ü€נÿ€‡ÿ€EIQendstreamendobj228 0 obj<< /Length 97 >> stream
+12 0 4 -1 8 20 d1q4 0 0 21 4 -1 cmBI/W 4/H 21/BPC 1/IM trueID   נננננננננננננ  EIQendstreamendobj229 0 obj<< /Length 104 >> stream
+24 0 1 10 23 19 d1q22 0 0 9 1 10 cmBI/W 22/H 9/BPC 1/IM trueID       ÿÿüÿÿüÿÿüÿÿüÿÿü      EIQendstreamendobj230 0 obj<< /Length 193 >> stream
+29 0 1 0 30 29 d1q29 0 0 29 1 0 cmBI/W 29/H 29/BPC 1/IM trueID ÿ‎ÿרÿשÿרÿרÿרÿנÿרÿנרÿנרÿארÿה?רÿִ?רÿ־רÿ־רÿרÿרÿרÿ?רÿ?‡ר‏‡ר‏ֳרü רü ררÿברשÿברשÿנרףÿנרףÿרxחÿרxחÿר8ƒÿנ ְ EIQendstreamendobj231 0 obj<< /Length 189 >> stream
+27 0 0 0 25 28 d1q25 0 0 28 0 0 cmBI/W 25/H 28/BPC 1/IM trueID   ?€א €נÿ€נÿֱ€נÿב€נÿנ€נÿנ€נÿנ€נÿנ€נÿא€נÿב€נÿƒ€נ €נ €נÿƒ€נÿב€נÿנ€נÿנ€נÿר נÿר נÿר נÿר נÿנ נÿנ€נÿא€נÿ€א €  €EIQendstreamendobj232 0 obj<< /Length 199 >> stream
+28 0 2 -1 27 29 d1q25 0 0 30 2 -1 cmBI/W 25/H 30/BPC 1/IM trueID ÿְ}€ÿ €ü€רב€נÿס€בÿר€ֱÿü€ֳÿü€ƒÿü€ƒÿ‏€‡ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿ€ÿÿ€ƒÿÿ€ƒÿÿ€ֳÿÿ€ֱÿÿ בÿ‏€אÿ‎€נ?ף€üַ€‏ €ÿְ€EIQendstreamendobj233 0 obj<< /Length 189 >> stream
+29 0 0 0 28 28 d1q28 0 0 28 0 0 cmBI/W 28/H 28/BPC 1/IM trueID   ?נא ננÿננÿְננÿנpנÿר0נÿר0נÿüנÿüנÿüנÿ‏ נÿ‏ נÿ‏ נÿ‏ נÿ‏ נÿ‏ נÿ‏ נÿ‏ נÿüנÿüנÿü0נÿר0נÿנpנÿאננÿֱננ‏נא נ  נEIQendstreamendobj234 0 obj<< /Length 189 >> stream
+26 0 0 0 25 28 d1q25 0 0 28 0 0 cmBI/W 25/H 28/BPC 1/IM trueID   €א €נÿס€נÿש€נÿ‎€נÿ‎€נÿÿ€נÿÿ€נÿן€נÿן€נÿֿ€נÿֿ€נ €נ €נÿֿ€נÿֿ€נÿן€נÿן€נÿÿ€נÿÿ€נÿÿ€נÿÿ נÿ‏€נÿü€נÿר€נÿס€א €  €EIQendstreamendobj235 0 obj<< /Length 161 >> stream
+23 0 0 0 22 28 d1q22 0 0 28 0 0 cmBI/W 22/H 28/BPC 1/IM trueID    א  נÿְנÿננÿננÿרנÿüנÿüנÿ¼נÿ¼נÿ<נÿ<נ <נ <נ‏<נÿ<נÿ¼נÿ¼נÿüנÿüנÿüנÿüנÿüנÿüנÿüנÿüאü üEIQendstreamendobj236 0 obj<< /Length 199 >> stream
+30 0 2 -1 30 29 d1q28 0 0 30 2 -1 cmBI/W 28/H 30/BPC 1/IM trueID ÿְ}נÿ נüֱנר?בננÿרנאÿרנבÿüנֳÿüנֳÿ‏נƒÿÿנ‡ÿÿנÿÿנÿÿנÿÿנÿ  ÿאpÿננÿננÿננƒÿננƒÿננƒÿננֱÿננֱÿננאÿנננננר?ננüְנÿ נÿְנEIQendstreamendobj237 0 obj<< /Length 189 >> stream
+29 0 0 0 29 28 d1q29 0 0 28 0 0 cmBI/W 29/H 28/BPC 1/IM trueID  € אנ8נÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנ  xנ  xנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxנÿרxאנ8 € EIQendstreamendobj238 0 obj<< /Length 133 >> stream
+14 0 1 0 13 28 d1q12 0 0 28 1 0 cmBI/W 12/H 28/BPC 1/IM trueID   אpננננננננננננננננננננננננננננננננננננננננננננננננאp  EIQendstreamendobj239 0 obj<< /Length 137 >> stream
+16 0 1 -1 16 28 d1q15 0 0 29 1 -1 cmBI/W 15/H 29/BPC 1/IM trueID א ü‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏>>>~€‏ֳ‏EIQendstreamendobj240 0 obj<< /Length 189 >> stream
+30 0 0 0 30 28 d1q30 0 0 28 0 0 cmBI/W 30/H 28/BPC 1/IM trueID  €אאüנÿבüנÿחüנÿֿüנÿüנÿ?üנ‏üנüÿüנשÿüנדÿüנֿÿüנÿüנÿüנƒÿüנֱÿüנאÿüננüנר?üנüüנ‏üנÿüנÿüנÿְüנÿא|נÿנ<אא € EIQendstreamendobj241 0 obj<< /Length 161 >> stream
+25 0 0 0 24 28 d1q24 0 0 28 0 0 cmBI/W 24/H 28/BPC 1/IM trueID  ÿאÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿÿנÿ‏נÿüנÿ‎נÿשנÿסנבא   EIQendstreamendobj242 0 obj<< /Length 217 >> stream
+37 0 0 0 37 28 d1q37 0 0 28 0 0 cmBI/W 37/H 28/BPC 1/IM trueID  ÿÿר אÿנ8נÿנxנ?ÿאxנ?ÿאxנÿְxעÿָxעÿָxףÿ˜xףÿ˜xף‡ÿ8xףƒÿ8xףֳ‏xxףֱ‏xxףבüרxףבüרxףנשרxףנשרxףרsרxףרsרxףר#רxףü'רxףüרxף‏רxף‏רxףÿרxבÿנ8 ?¿€ EIQendstreamendobj243 0 obj<< /Length 189 >> stream
+30 0 0 0 30 28 d1q30 0 0 28 0 0 cmBI/W 30/H 28/BPC 1/IM trueID ÿנ ְÿ‏נÿ<ר?ÿ<ר?ÿ<רÿ<רÿ<שÿ<שƒÿ<שֱÿ<שֱÿ<שאÿ<שנ<שר?<שü<שü<ש‏<שÿ<שÿƒ<שÿֱ<שÿא<שÿא<שÿנ<שÿר<שÿü<שÿ‏<נÿÿ<€ÿ<EIQendstreamendobj244 0 obj<< /Length 199 >> stream
+30 0 1 -1 29 29 d1q28 0 0 30 1 -1 cmBI/W 28/H 30/BPC 1/IM trueID ÿְ?נÿ נüƒנרבננÿננבÿרpֱÿר0ֳÿü0ƒÿüƒÿü‡ÿ‏ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ‡ÿ‏ƒÿüƒÿüֳÿü0ֱÿר0בÿרpנÿננרבנüƒנÿ נÿְ?נEIQendstreamendobj245 0 obj<< /Length 161 >> stream
+23 0 0 0 22 28 d1q22 0 0 28 0 0 cmBI/W 22/H 28/BPC 1/IM trueID   üא <נüנÿנÿ„נÿ€נÿְנÿְנÿְנÿְנÿ€נÿ„נÿנüנ נ€|נÿüנÿüנÿüנÿüנÿüנÿüנÿüנÿüנÿüנÿüאü üEIQendstreamendobj246 0 obj<< /Length 227 >> stream
+30 0 1 -8 29 29 d1q28 0 0 37 1 -8 cmBI/W 28/H 37/BPC 1/IM trueID ÿְ?נÿ נüƒנרבננÿננבÿרpֱÿר0ֳÿü0ƒÿüƒÿü‡ÿ‏ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏‡ÿ‏ƒÿüƒÿü0ֳÿü0בÿרpבÿרננÿסנרדנ‏נÿ€?נÿאנÿנ?נÿרנÿ‏נÿÿנÿÿֱנÿÿרpÿÿÿ EIQendstreamendobj247 0 obj<< /Length 189 >> stream
+27 0 0 0 28 28 d1q28 0 0 28 0 0 cmBI/W 28/H 28/BPC 1/IM trueID   ÿנא ננüננÿננÿ‡ננÿƒננÿֳננÿֳננÿֳננÿƒננÿƒננÿננ‏ננרננ ?ננ ÿננרננר?ננü?ננ‏ננÿננÿננÿ‡ננÿֳננÿֱננÿאנאנ0 ר EIQendstreamendobj248 0 obj<< /Length 169 >> stream
+23 0 3 -1 21 29 d1q18 0 0 30 3 -1 cmBI/W 18/H 30/BPC 1/IM trueID רְא ְְְַנְרְüְ‏ְ‏ְ‏ְÿְƒÿְ€ÿְְ?ְְְנְרְ‏ ְÿ€@ÿא@ÿנ ü ü ?‏ ?‏ ?‏ ü@ü@נְpְ|ְEIQendstreamendobj249 0 obj<< /Length 161 >> stream
+26 0 1 0 25 28 d1q24 0 0 28 1 0 cmBI/W 24/H 28/BPC 1/IM trueID       ֳר?ֳü?ֳüֳ‏ֳ‏ÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿÿü ?EIQendstreamendobj250 0 obj<< /Length 195 >> stream
+29 0 0 -1 29 28 d1q29 0 0 29 0 -1 cmBI/W 29/H 29/BPC 1/IM trueID  א אü8נÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xנÿ‏xרüררüררררü?סר‏ֳרÿ רÿְ?רEIQendstreamendobj251 0 obj<< /Length 195 >> stream
+30 0 1 -1 31 28 d1q30 0 0 29 1 -1 cmBI/W 30/H 29/BPC 1/IM trueID  ר ְ‏אÿÿנÿÿ<נÿÿ<נ‏|ר‏|ר?‏|ü?üüüüü‏שü‏שüÿשüÿףüÿ‡ףüÿ‡חüÿƒחüÿֳחüÿֱֿüÿבֿüÿבüÿנüÿנüÿר?üÿר?üÿרüÿüüÿüüÿ‏ÿüEIQendstreamendobj252 0 obj<< /Length 224 >> stream
+39 0 1 -1 39 28 d1q38 0 0 29 1 -1 cmBI/W 38/H 29/BPC 1/IM trueID  8 ü ְ‏ÿבÿÿבÿÿאÿ‡ÿנÿ‡ÿ<נÿƒÿ<נֳÿ<רֳ‏|רֱ‏|ר?‏|ü?üüü?°üüü0üü‏0שü‏xyüÿxyüÿxsüÿü3üÿ„ü3üÿ„üüÿ…‏üÿֱ‏üÿֱ‏üÿֳÿüÿדÿüÿדÿüÿחÿüÿקÿüEIQendstreamendobj253 0 obj<< /Length 189 >> stream
+30 0 0 0 30 28 d1q30 0 0 28 0 0 cmBI/W 30/H 28/BPC 1/IM trueID  נ ְ?üנ‏<נ‏|ר?üüü?üü‏שü‏ףüÿףüÿ‡חüÿƒחüÿֱֿüÿבֿüÿאüÿנ?üÿר?üÿרüÿרüÿרüÿרüÿרüÿרüÿרüÿרüÿרüÿרüÿנ?üÿ€üEIQendstreamendobj254 0 obj<< /Length 149 >> stream
+14 0 4 -8 13 28 d1q9 0 0 36 4 -8 cmBI/W 9/H 36/BPC 1/IM trueID   €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€  EIQendstreamendobj255 0 obj<< /Length 149 >> stream
+14 0 1 -8 10 28 d1q9 0 0 36 1 -8 cmBI/W 9/H 36/BPC 1/IM trueID   ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר ר   EIQendstreamendobj256 0 obj<< /Length 142 >> stream
+19 0 1 -1 19 20 d1q18 0 0 21 1 -1 cmBI/W 18/H 21/BPC 1/IM trueID רְב‡ְְֳַ‡בְ‡בְ‡בְֿבְÿבְÿְֱ‏!ְרבְדבְַבְבְבְבְבְְֱ‡€€`@בסְEIQendstreamendobj257 0 obj<< /Length 171 >> stream
+20 0 -1 -1 19 29 d1q20 0 0 30 -1 -1 cmBI/W 20/H 30/BPC 1/IM trueID שÿנֱÿנÿנבÿנבÿנבÿנבÿנבÿנבÿנבבנב€pב 0אx0אüב‏ב‏ בÿ בÿ בÿ בÿ בÿ בÿ בÿבÿב‏ב‏0אüpנxנרנ‏נEIQendstreamendobj258 0 obj<< /Length 121 >> stream
+18 0 1 -1 17 20 d1q16 0 0 21 1 -1 cmBI/W 16/H 21/BPC 1/IM trueID ‏נדבַנֿנרÿÿÿÿÿÿÿ‏‡üƒ‎סְאנüEIQendstreamendobj259 0 obj<< /Length 169 >> stream
+21 0 1 -1 21 29 d1q20 0 0 30 1 -1 cmBI/W 20/H 30/BPC 1/IM trueID ÿ‏pÿנpÿְpÿרpÿרpÿרpÿרpÿרpÿרpüpנpבאpדנpַנp‡רpרpרpרpרpרpרpרpרpרp‡רpƒנpֱאpְ אר8נEIQendstreamendobj260 0 obj<< /Length 121 >> stream
+18 0 1 -1 17 20 d1q16 0 0 21 1 -1 cmBI/W 16/H 21/BPC 1/IM trueID üנדֳֿבסננ  ÿÿÿÿÿ‏‡‏ƒüשְאנüEIQendstreamendobj261 0 obj<< /Length 164 >> stream
+13 0 0 0 17 29 d1q17 0 0 29 0 0 cmBI/W 17/H 29/BPC 1/IM trueID ÿƒ€‏ €üp רר רü€נÿ€נÿ€נÿ€נÿ€נÿ€ €נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€א€ €EIQendstreamendobj262 0 obj<< /Length 166 >> stream
+21 0 1 -9 21 20 d1q20 0 0 29 1 -9 cmBI/W 20/H 29/BPC 1/IM trueID ‏נרא סננדנpֳרpֳרpֳרpֳרpֳרpברנבסננדנרנףÿנחÿנחÿנֳÿנְ pא 0נ חÿֿÿÿÿÿ0‏pƒננְנננEIQendstreamendobj263 0 obj<< /Length 164 >> stream
+22 0 1 0 22 29 d1q21 0 0 29 1 0 cmBI/W 21/H 29/BPC 1/IM trueID סÿרÿרÿרבÿרבÿרבÿרבÿרבÿרבÿרבברב€רב8xארxבü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8ְü 0 EIQendstreamendobj264 0 obj<< /Length 135 >> stream
+12 0 1 0 11 29 d1q10 0 0 29 1 0 cmBI/W 10/H 29/BPC 1/IM trueID ףְבְבְףְÿְÿְÿְÿְÿְשְְֱְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְְְ  EIQendstreamendobj265 0 obj<< /Length 156 >> stream
+11 0 -4 -9 8 29 d1q12 0 0 38 -4 -9 cmBI/W 12/H 38/BPC 1/IM trueID ÿÿ ÿ ÿÿנÿנÿנÿנÿנÿְ‏ ר ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿÿ0pנEIQendstreamendobj266 0 obj<< /Length 164 >> stream
+21 0 0 0 21 29 d1q21 0 0 29 0 0 cmBI/W 21/H 29/BPC 1/IM trueID סÿרÿרÿרבÿרבÿרבÿרבÿרבÿרבÿרבÿרבנברxבשרבףרבחרבֿרברברארברב‡רבֳרבברבארבנרברxבü8ְü 0 EIQendstreamendobj267 0 obj<< /Length 135 >> stream
+12 0 1 0 11 29 d1q10 0 0 29 1 0 cmBI/W 10/H 29/BPC 1/IM trueID שְְֱְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְבְְְ  EIQendstreamendobj268 0 obj<< /Length 157 >> stream
+33 0 1 0 33 20 d1q32 0 0 20 1 0 cmBI/W 32/H 20/BPC 1/IM trueID שאü?ֱ€p8gאר‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡בü?‡ְüƒ 0 EIQendstreamendobj269 0 obj<< /Length 137 >> stream
+22 0 1 0 22 20 d1q21 0 0 20 1 0 cmBI/W 21/H 20/BPC 1/IM trueID שברֱ€ר8xאר8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8ְü 0 EIQendstreamendobj270 0 obj<< /Length 142 >> stream
+20 0 1 -1 19 20 d1q18 0 0 21 1 -1 cmBI/W 18/H 21/BPC 1/IM trueID üְנְבְֱַנְַנ@ר@ר@ü ü ü ü ü ü ü ‡ü@‡ü@ֳרְֱרְאסְנְüְEIQendstreamendobj271 0 obj<< /Length 166 >> stream
+21 0 0 -9 20 20 d1q20 0 0 29 0 -9 cmBI/W 20/H 29/BPC 1/IM trueID שבנֱ€p 0בx0אüב‏ב‏ בÿ בÿ בÿ בÿ בÿ בÿ בÿ בÿב‏ב‏0אü0אxpב נבƒנבÿנבÿנבÿנבÿנבÿנבÿנְÿנ ?נEIQendstreamendobj272 0 obj<< /Length 166 >> stream
+21 0 1 -9 21 20 d1q20 0 0 29 1 -9 cmBI/W 20/H 29/BPC 1/IM trueID ‏pרpבאpֳנpַרp‡רpרpרpרpרpרpרpרpרpרp‡רp‡רpֳרpֱאpאpרxpÿרpÿרpÿרpÿרpÿרpÿרpÿנ0ÿְ EIQendstreamendobj273 0 obj<< /Length 117 >> stream
+15 0 1 0 15 20 d1q14 0 0 20 1 0 cmBI/W 14/H 20/BPC 1/IM trueID שֱִ€ אdאüבüבüבüבüבüבüבüבüבüבüבüבüבüְü <EIQendstreamendobj274 0 obj<< /Length 121 >> stream
+16 0 2 -1 15 20 d1q13 0 0 21 2 -1 cmBI/W 13/H 21/BPC 1/IM trueID נhְˆָטטררר€xְנüÿ €ְ?ְ?ָˆ `xEIQendstreamendobj275 0 obj<< /Length 131 >> stream
+12 0 0 -1 12 25 d1q12 0 0 26 0 -1 cmBI/W 12/H 26/BPC 1/IM trueID ‎נשנשנסנבנֱנ בנבנבנבנבנבנבנבנבנבנבנבנבנבנבנבנאְנרpEIQendstreamendobj276 0 obj<< /Length 139 >> stream
+21 0 0 -1 21 19 d1q21 0 0 20 0 -1 cmBI/W 21/H 20/BPC 1/IM trueID א8ֱר8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בר8נה רü<רEIQendstreamendobj277 0 obj<< /Length 141 >> stream
+20 0 -1 -1 20 19 d1q21 0 0 20 -1 -1 cmBI/W 21/H 20/BPC 1/IM trueID  > ְÿ˜בÿ˜אÿ¸נÿ¸נxרxר~רü>רü>רüר‏ר‏רÿרÿרÿ‡רÿ‡רÿרÿֿרÿֿרEIQendstreamendobj278 0 obj<< /Length 159 >> stream
+28 0 0 -1 29 19 d1q29 0 0 20 0 -1 cmBI/W 29/H 20/BPC 1/IM trueID  ` ר?ֱָü?״בü?״ב‏¸נ‏¸נ‏¸נ‎xר}xר{רר{†רü7†רü7…רü/ֱר‏ֱר‏ֳר‏דרÿדרÿ?חרÿ?קרEIQendstreamendobj279 0 obj<< /Length 134 >> stream
+21 0 1 0 21 19 d1q20 0 0 19 1 0 cmBI/W 20/H 19/BPC 1/IM trueID  נֱüpבüנא‎ננ{נר7נü/נüנ‏נÿנÿנ‏ƒנ‎ֱנûבנקאנןנpֿרpר0א EIQendstreamendobj280 0 obj<< /Length 165 >> stream
+19 0 -1 -9 19 19 d1q20 0 0 28 -1 -9 cmBI/W 20/H 28/BPC 1/IM trueID  < ְÿ0בÿpאÿpנÿpנ‏נר~נר~נü=נü=נüנ‏נ‏נÿנÿנÿ‡נÿנÿנÿֿנÿßנÿßנÿ¿נÿ¿נÿ¿נַנ€ÿנÿנֳÿנEIQendstreamendobj281 0 obj<< /Length 134 >> stream
+18 0 1 0 18 19 d1q17 0 0 19 1 0 cmBI/W 17/H 19/BPC 1/IM trueID €  נ€¿ב€¿ב€ÿֳ€ÿ‡€ÿ‡€ÿ€‏€ü?€ü?€ר€נÿ€נÿ€בÿ ֳÿ ‡‏ ‡ü    EIQendstreamendobj282 0 obj<< /Length 196 >> stream
+23 0 3 -1 21 38 d1q18 0 0 39 3 -1 cmBI/W 18/H 39/BPC 1/IM trueID ÿ‡ְÿְÿְÿ?ְÿ?ְ‏ְ‏ÿְÿÿְÿÿְרְא ְְְַנְרְüְ‏ְ‏ְ‏ְÿְƒÿְ€ÿְְ?ְְְנְרְ‏ ְÿ€@ÿא@ÿנ ü ü ?‏ ?‏ ?‏ ü@ü@נְpְ|ְEIQendstreamendobj283 0 obj<< /Length 99 >> stream
+19 0 1 19 16 29 d1q15 0 0 10 1 19 cmBI/W 15/H 10/BPC 1/IM trueID ֶ‚€ƒְûüûüקתקתֿז¿ÞEIQendstreamendobj284 0 obj<< /Length 164 >> stream
+22 0 1 0 22 29 d1q21 0 0 29 1 0 cmBI/W 21/H 29/BPC 1/IM trueID ÿברÿדרÿַרÿֿרÿֿרÿרÿ¿רÿÿרÿÿרשברֱ€ר8xאר8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8בü8ְü 0 EIQendstreamendobj285 0 obj<< /Type /Encoding /Differences [ 32 /G20 45 /G2d 49 /G31 /G32 /G33 /G34 /G35 /G36 65 /G41 /G42 /G43 /G44 /G45 /G46 /G47 /G48 /G49 75 /G4b /G4c /G4d /G4e /G4f /G50 82 /G52 /G53 /G54 /G55 87 /G57 /G58 /G59 ] >> endobj286 0 obj<< /G20 287 0 R /G2d 288 0 R /G31 289 0 R /G32 290 0 R /G33 291 0 R /G34 292 0 R /G35 293 0 R /G36 294 0 R /G41 295 0 R /G42 296 0 R /G43 297 0 R /G44 298 0 R /G45 299 0 R /G46 300 0 R /G47 301 0 R /G48 302 0 R /G49 303 0 R /G4b 304 0 R /G4c 305 0 R /G4d 306 0 R /G4e 307 0 R /G4f 308 0 R /G50 309 0 R /G52 310 0 R /G53 311 0 R /G54 312 0 R /G55 313 0 R /G57 314 0 R /G58 315 0 R /G59 316 0 R >> endobj287 0 obj<< /Length 16 >> stream
+12 0 0 0 0 0 d1endstreamendobj288 0 obj<< /Length 83 >> stream
+15 0 1 8 13 12 d1q12 0 0 4 1 8 cmBI/W 12/H 4/BPC 1/IM trueID         EIQendstreamendobj289 0 obj<< /Length 139 >> stream
+23 0 3 0 19 31 d1q16 0 0 31 3 0 cmBI/W 16/H 31/BPC 1/IM trueID ÿ‏רא€0רררררררררררררררררררררררנ  EIQendstreamendobj290 0 obj<< /Length 170 >> stream
+23 0 1 0 21 31 d1q20 0 0 31 1 0 cmBI/W 20/H 31/BPC 1/IM trueID ‏נרננ נא pְ pַ€0ְ0¿א0ÿנ0ÿנ0ÿנ0ÿנpÿנpÿננÿאנÿבנÿֳנÿֳנÿ‡נÿנÿנ‏?נüאüÿְשÿנ א ְ ְ 0€ 0  0EIQendstreamendobj291 0 obj<< /Length 170 >> stream
+23 0 1 0 21 31 d1q20 0 0 31 1 0 cmBI/W 20/H 31/BPC 1/IM trueID ‏נר ננ pחְpֿא0נ0ÿנ0ÿנpÿנpÿאנÿדנÿֱנÿ pü 0ÿ ÿְÿא ÿנ ÿר ÿר ÿü ÿü ÿü ÿüüü0רp ננ נ€נאנEIQendstreamendobj292 0 obj<< /Length 170 >> stream
+23 0 1 0 21 31 d1q20 0 0 31 1 0 cmBI/W 20/H 31/BPC 1/IM trueID ÿüpÿרpÿנpÿנpÿאpÿְpÿ€pÿ€pÿ p‏`püאpüאpשאpףאpחאpחאpֿאpאp?אp               ÿאpÿאpÿאpÿאpÿאpÿאpÿאpEIQendstreamendobj293 0 obj<< /Length 170 >> stream
+23 0 1 0 21 31 d1q20 0 0 31 1 0 cmBI/W 20/H 31/BPC 1/IM trueID ü  ר  ר ר נ נ 0חÿנחÿנחÿנְנְנ€נ€ נ€ p  0‏ ÿאÿר ÿü ÿ‏ ÿÿ ÿÿ ÿÿ€ÿÿ€ÿÿ‡ÿÿ0 ÿ0 <p€נננEIQendstreamendobj294 0 obj<< /Length 170 >> stream
+23 0 1 0 21 31 d1q20 0 0 31 1 0 cmBI/W 20/H 31/BPC 1/IM trueID ÿ‏ ÿנ0ÿְנÿנ‏נüנר?ננ?נאנאÿנְÿנְÿננ€ p€א0נרר ü ü ü ü ü ü üֱüֱü0אר0נppר נ‏נEIQendstreamendobj295 0 obj<< /Length 205 >> stream
+33 0 0 0 32 32 d1q32 0 0 32 0 0 cmBI/W 32/H 32/BPC 1/IM trueID ÿÿÿÿ‏?ÿÿ‏?ÿÿü?ÿÿüÿÿרÿÿרÿÿרÿÿנÿÿנÿÿהÿÿהÿÿ־ÿÿ־ÿÿÞÿÿÿÿ ÿÿ?€ÿÿ?€‏ְ‏  ü  ?üÿא?üÿאשÿנשÿנףÿנףÿרדÿרדÿרÿר ?ְ EIQendstreamendobj296 0 obj<< /Length 201 >> stream
+31 0 1 0 29 31 d1q28 0 0 31 1 0 cmBI/W 28/H 31/BPC 1/IM trueID   נא ננ pנְpנא0ננננננננננננ0נא0נְpנננ ננ ננ pנא0נאננננ ננ ננ ננ ננ נאנאנְ0נ pא נ  נEIQendstreamendobj297 0 obj<< /Length 205 >> stream
+33 0 2 0 31 32 d1q29 0 0 32 2 0 cmBI/W 29/H 32/BPC 1/IM trueID ÿרנÿְ אÿר ü‏ רÿ נÿ€א?ÿְא?ÿאְÿאְÿנ€ÿנ€ÿÿר€ÿÿר ÿÿר ÿÿר ÿÿר ÿÿר ÿÿר ÿÿר ÿÿר ÿÿר€ÿר€ÿרְÿרְ?ÿרא?ÿטאÿָנÿ˜ר‏8‏רxÿ€רÿנרEIQendstreamendobj298 0 obj<< /Length 201 >> stream
+33 0 1 0 31 31 d1q30 0 0 31 1 0 cmBI/W 30/H 31/BPC 1/IM trueID   üא üנ üנְ|נא<נננננרנרנרנüנü נü נü נü נü נü נü נü נü נüנרנרנרנננננא<נְ|נüא ü  üEIQendstreamendobj299 0 obj<< /Length 201 >> stream
+31 0 1 0 29 31 d1q28 0 0 31 1 0 cmBI/W 28/H 31/BPC 1/IM trueID    0א  0ננ0נü0נ‏0נÿ0נÿ0נß°נß°נßננננננננננ ננ ננננננננננננßאנßאנÿְנÿְנÿנÿנ‏ננא     EIQendstreamendobj300 0 obj<< /Length 201 >> stream
+27 0 1 0 26 31 d1q25 0 0 31 1 0 cmBI/W 25/H 31/BPC 1/IM trueID     א   נא נר נü נ‏ נÿ נß נß נß€נ€נ€נ€נ€נ €נ €נ€נ€נ€נ€נß€נß€נß€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€אÿ€ ÿ€EIQendstreamendobj301 0 obj<< /Length 237 >> stream
+36 0 2 0 35 32 d1q33 0 0 32 2 0 cmBI/W 33/H 32/BPC 1/IM trueID ÿנק€ÿ€ ח€‏נ€ü‏€רÿ€נÿ‡€א?ÿַ€ְÿַ€ְÿח€€ÿח€€ÿק€€ÿÿÿ€ ÿÿÿ€ ÿÿÿ€ ÿÿÿ€ ÿÿÿ€ ÿÿÿ€ ÿÿÿ€ ÿְ   ÿר€€ÿü€€ÿü€€ü€ְü€ְü€א?ü€נ?ü€רü€üü€‏ר€ÿ€ ?€ÿנÿ€EIQendstreamendobj302 0 obj<< /Length 232 >> stream
+36 0 1 0 35 31 d1q34 0 0 31 1 0 cmBI/W 34/H 31/BPC 1/IM trueID  א  אüְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ  ְנ  ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְנ‏ְאüְ א  EIQendstreamendobj303 0 obj<< /Length 139 >> stream
+18 0 1 0 16 31 d1q15 0 0 31 1 0 cmBI/W 15/H 31/BPC 1/IM trueID   אנננננננננננננננננננננננננננא  EIQendstreamendobj304 0 obj<< /Length 232 >> stream
+36 0 1 0 36 31 d1q35 0 0 31 1 0 cmBI/W 35/H 31/BPC 1/IM trueID  ü  אÿאנÿƒאנÿאנÿאנ‏?אנüאנשÿאנףÿאנַÿאנÿאנ?ÿאנ?ÿאנÿאנÿאנ ÿאנ ÿאנÿאנÿאנÿאנ ÿאנ אנ€?אנְאנאאננאננאנראנראאר ` א  EIQendstreamendobj305 0 obj<< /Length 201 >> stream
+31 0 1 0 28 31 d1q27 0 0 31 1 0 cmBI/W 27/H 31/BPC 1/IM trueID  ÿאאÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿאנÿְנÿְנÿ€נÿ€נÿ נÿ נ‏ נü ננ א       EIQendstreamendobj306 0 obj<< /Length 263 >> stream
+43 0 1 0 42 31 d1q41 0 0 31 1 0 cmBI/W 41/H 31/BPC 1/IM trueID  ÿר  אÿר€נÿנ€נÿנ€נÿא€נÿה€עÿה€עÿּ€ף ÿּ€ף ÿ€ף€ÿ€ף€€ף€<€ףְ?<€ףְ>|€ףא>|€ףאü€ףאü€ףנü€ףנ	ü€ףר	ü€ףרü€ףüü€ףüü€ףüü€ף‏ü€ף‏ü€ףÿü€ףÿü€בÿר€ ?¿ְ  EIQendstreamendobj307 0 obj<< /Length 201 >> stream
+33 0 1 0 32 31 d1q31 0 0 31 1 0 cmBI/W 31/H 31/BPC 1/IM trueID  ר אÿנÿנÿנÿנÿע ÿף ÿף€ף€?ףְףאףנףנףרףüף‏ףÿ ףÿ ףÿ€ףÿְףÿאףÿאףÿנףÿרףÿüףÿ‏ףÿ‏סÿÿאÿÿ ?ÿÞEIQendstreamendobj308 0 obj<< /Length 205 >> stream
+36 0 2 0 34 32 d1q32 0 0 32 2 0 cmBI/W 32/H 32/BPC 1/IM trueID ÿאÿÿ  ÿ‏ארננרא?üא?‏ְ‏ְ‏€‏€ÿÿ€ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ €ÿÿ€ÿÿ€‏ְ‏ְ‏א?üנ?üררüנ?‏אÿ€ÿÿנÿEIQendstreamendobj309 0 obj<< /Length 201 >> stream
+27 0 1 0 26 31 d1q25 0 0 31 1 0 cmBI/W 25/H 31/BPC 1/IM trueID   ?€א €נ€נ€נ€€נְ€נְ נְ נְ נְ נְ נְ€נ€€נ€נ€נ €נ ?€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€נÿ€אÿ€ ÿ€EIQendstreamendobj310 0 obj<< /Length 201 >> stream
+33 0 1 0 33 31 d1q32 0 0 31 1 0 cmBI/W 32/H 31/BPC 1/IM trueID   ÿא  ÿנ€נא?נננננרנרנרנרנרנרנננא?נ€נ  ÿנ ÿנÿנÿנÿנ ÿנ נ€?נְ?נאנאנננרנüאü ‏ EIQendstreamendobj311 0 obj<< /Length 173 >> stream
+26 0 2 0 24 32 d1q22 0 0 32 2 0 cmBI/W 22/H 32/BPC 1/IM trueID üלנ ּארֳ‏‡ÿ‡ÿÿּÿּÿלÿל ü ü€üְüְ |א <ר ‏ ÿ€ÿאÿר ü ÿ ?ÿ ?ÿ€ÿ„ÿ„ÿÿ ü8 |üEIQendstreamendobj312 0 obj<< /Length 201 >> stream
+31 0 2 0 29 31 d1q27 0 0 31 2 0 cmBI/W 27/H 31/BPC 1/IM trueID         ְ| ְ ?ְ€?ְ€ְְְְÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿְאÿ€?אü אEIQendstreamendobj313 0 obj<< /Length 201 >> stream
+33 0 1 0 32 31 d1q31 0 0 31 1 0 cmBI/W 31/H 31/BPC 1/IM trueID  ר אÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿרÿ>רÿ>ר‏~üü‏‏ס‏ÿ€‏ÿא‏EIQendstreamendobj314 0 obj<< /Length 263 >> stream
+46 0 0 0 45 31 d1q45 0 0 31 0 0 cmBI/W 45/H 31/BPC 1/IM trueID   ר ְאÿְ?נÿאנÿ8ארÿ8נרÿ8נü‏xרü‏xר‏‏xüüüרüüüרüשüר‏ש שר‏ש€שרÿף€סרÿף€sרÿ חְsרÿ€חְ'רÿ€Oא'רÿְOא'רÿְOארÿְנרÿאנרÿא?ררÿנ?ררÿנר?רÿנü?רÿרü?רÿרÿüרÿüÿ‏רÿ‎ÿ‏רEIQendstreamendobj315 0 obj<< /Length 232 >> stream
+34 0 0 0 33 31 d1q33 0 0 31 0 0 cmBI/W 33/H 31/BPC 1/IM trueID € ר €ְ‏€נÿ€נÿ€רÿ?€ü‏€üüÿ€‏üÿ€ÿ שÿ€ÿ sÿ€ÿ€gÿ€ÿְÿ€ÿְÿ€ÿאÿ€ÿנÿ€ÿנÿ€ÿרÿ€ÿרÿ€ÿרÿ€ÿעÿ€ÿח ÿ€ÿֿ €ÿ€€ÿ?ְ?€ÿ?א€‏א€üÿנ€רÿנ€נÿר€ְנ€ ְ  EIQendstreamendobj316 0 obj<< /Length 201 >> stream
+33 0 1 0 32 31 d1q31 0 0 31 1 0 cmBI/W 31/H 31/BPC 1/IM trueID  ü ְÿאÿאÿנÿרÿ>ר‏~ü‏~üü‏‏ü‏‏ש‏ÿש‏ÿ ף‏ÿ€s‏ÿ€g‏ÿְ'‏ÿְ‏ÿא‏ÿא‏ÿנ‏ÿנ‏ÿנ‏ÿנ‏ÿנ‏ÿנ‏ÿנ‏ÿנ‏ÿנ‏ÿנ‏ÿא‏ÿ ‏EIQendstreamendobj317 0 obj<< /Type /Encoding /Differences [ 32 /G20 45 /G2d 177 /Gb1 ] >> endobj318 0 obj<< /G20 319 0 R /G2d 320 0 R /Gb1 321 0 R >> endobj319 0 obj<< /Length 16 >> stream
+11 0 0 0 0 0 d1endstreamendobj320 0 obj<< /Length 83 >> stream
+23 0 1 10 22 12 d1q21 0 0 2 1 10 cmBI/W 21/H 2/BPC 1/IM trueID       EIQendstreamendobj321 0 obj<< /Length 155 >> stream
+23 0 1 0 23 26 d1q22 0 0 26 1 0 cmBI/W 22/H 26/BPC 1/IM trueID ÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿü      ÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿֿüÿÿüÿÿü      EIQendstreamendobj322 0 obj<< /Type /Encoding /Differences [ 32 /G20 45 /G2d 49 /G31 116 /G74 ] >> endobj323 0 obj<< /G20 324 0 R /G2d 325 0 R /G31 326 0 R /G74 327 0 R >> endobj324 0 obj<< /Length 15 >> stream
+7 0 0 0 0 0 d1endstreamendobj325 0 obj<< /Length 72 >> stream
+9 0 1 5 8 7 d1q7 0 0 2 1 5 cmBI/W 7/H 2/BPC 1/IM trueID   EIQendstreamendobj326 0 obj<< /Length 92 >> stream
+14 0 2 0 9 18 d1q7 0 0 18 2 0 cmBI/W 7/H 18/BPC 1/IM trueID ֶזזזזזזזזזזזזזזז€EIQendstreamendobj327 0 obj<< /Length 89 >> stream
+8 0 0 0 8 16 d1q8 0 0 16 0 0 cmBI/W 8/H 16/BPC 1/IM trueID ןןֿֿֿֿֿֿֿֿֿֿֿ־בEIQendstreamendobj328 0 obj<< /Type /Encoding /Differences [ 32 /G20 45 /G2d 47 /G2f 49 /G31 /G32 72 /G48 76 /G4c ] >> endobj329 0 obj<< /G20 330 0 R /G2d 331 0 R /G2f 332 0 R /G31 333 0 R /G32 334 0 R /G48 335 0 R /G4c 336 0 R >> endobj330 0 obj<< /Length 15 >> stream
+8 0 0 0 0 0 d1endstreamendobj331 0 obj<< /Length 74 >> stream
+10 0 1 6 9 9 d1q8 0 0 3 1 6 cmBI/W 8/H 3/BPC 1/IM trueID    EIQendstreamendobj332 0 obj<< /Length 117 >> stream
+8 0 0 0 9 22 d1q9 0 0 22 0 0 cmBI/W 9/H 22/BPC 1/IM trueID ü ü ר€ר€ר€נ€ס€ס€ס€ד€ד€ד€ד€ַ€ַ€ַ€‡€€€€€€EIQendstreamendobj333 0 obj<< /Length 97 >> stream
+17 0 3 0 11 22 d1q8 0 0 22 3 0 cmBI/W 8/H 22/BPC 1/IM trueID üרנאְxררררררררררררררEIQendstreamendobj334 0 obj<< /Length 121 >> stream
+17 0 1 0 15 22 d1q14 0 0 22 1 0 cmBI/W 14/H 22/BPC 1/IM trueID נ<ְ€‡„ְאÿאÿאÿאÿִÿÿ‏ü<ר|סüדüַüü€     EIQendstreamendobj335 0 obj<< /Length 143 >> stream
+22 0 2 0 20 22 d1q18 0 0 22 2 0 cmBI/W 18/H 22/BPC 1/IM trueID ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏          ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ EIQendstreamendobj336 0 obj<< /Length 121 >> stream
+17 0 2 0 16 22 d1q14 0 0 22 2 0 cmBI/W 14/H 22/BPC 1/IM trueID üüüüüüüüüüüüüüüüüüü      EIQendstreamendobj337 0 obj<< /Type /Encoding /Differences [ 72 /G48 76 /G4c ] >> endobj338 0 obj<< /G48 339 0 R /G4c 340 0 R >> endobj339 0 obj<< /Length 167 >> stream
+30 0 3 0 27 30 d1q24 0 0 30 3 0 cmBI/W 24/H 30/BPC 1/IM trueID ÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנ            ÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנEIQendstreamendobj340 0 obj<< /Length 167 >> stream
+23 0 3 0 22 30 d1q19 0 0 30 3 0 cmBI/W 19/H 30/BPC 1/IM trueID ÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿא            EIQendstreamendobj341 0 obj<< /Type /Encoding /Differences [ 32 /G20 43 /G2b 49 /G31 70 /G46 97 /G61 101 /G65 109 /G6d 114 /G72 ] >> endobj342 0 obj<< /G20 343 0 R /G2b 344 0 R /G31 345 0 R /G46 346 0 R /G61 347 0 R /G65 348 0 R /G6d 349 0 R /G72 350 0 R >> endobj343 0 obj<< /Length 16 >> stream
+10 0 0 0 0 0 d1endstreamendobj344 0 obj<< /Length 128 >> stream
+20 0 2 4 19 21 d1q17 0 0 17 2 4 cmBI/W 17/H 17/BPC 1/IM trueID ‏?€‏?€‏?€‏?€‏?€‏?€‏?€         ‏?€‏?€‏?€‏?€‏?€‏?€‏?€EIQendstreamendobj345 0 obj<< /Length 125 >> stream
+19 0 3 0 12 25 d1q9 0 0 25 3 0 cmBI/W 9/H 25/BPC 1/IM trueID ‏ ü ר נ א €   < ü ü ü ü ü ü ü ü ü ü ü ü ü ü ü ü EIQendstreamendobj346 0 obj<< /Length 127 >> stream
+21 0 3 0 19 25 d1q16 0 0 25 3 0 cmBI/W 16/H 25/BPC 1/IM trueID       ÿÿÿÿÿÿÿÿ   ÿÿÿÿÿÿÿÿÿÿÿEIQendstreamendobj347 0 obj<< /Length 113 >> stream
+18 0 1 0 17 18 d1q16 0 0 18 1 0 cmBI/W 16/H 18/BPC 1/IM trueID רְ€‡ֱססÿסÿנְ€1ססב€€אxEIQendstreamendobj348 0 obj<< /Length 113 >> stream
+18 0 1 0 17 18 d1q16 0 0 18 1 0 cmBI/W 16/H 18/BPC 1/IM trueID ראְƒבסשר      ÿÿרסƒבְארEIQendstreamendobj349 0 obj<< /Length 149 >> stream
+29 0 2 0 27 18 d1q25 0 0 18 2 0 cmBI/W 25/H 18/BPC 1/IM trueID ƒ€ € €ְר בü דü דü דü דü דü דü דü דü דü דü דü דü דü EIQendstreamendobj350 0 obj<< /Length 113 >> stream
+12 0 2 0 12 18 d1q10 0 0 18 2 0 cmBI/W 10/H 18/BPC 1/IM trueID    @ְְְְְְְְְְְְְְְEIQendstreamendobj351 0 obj<< /Type /Encoding /Differences [ 32 /G20 105 /G69 ] >> endobj352 0 obj<< /G20 353 0 R /G69 354 0 R >> endobj353 0 obj<< /Length 16 >> stream
+10 0 0 0 0 0 d1endstreamendobj354 0 obj<< /Length 98 >> stream
+8 0 1 0 9 25 d1q8 0 0 25 1 0 cmBI/W 8/H 25/BPC 1/IM trueID ררשÿÿÿÿסדדדדדַַַַַEIQendstreamendobj355 0 obj<< /Type /Encoding /Differences [ 32 /G20 44 /G2c /G2d 65 /G41 /G42 /G43 /G44 /G45 /G46 /G47 /G48 /G49 76 /G4c /G4d /G4e /G4f /G50 82 /G52 /G53 /G54 /G55 /G56 89 /G59 ] >> endobj356 0 obj<< /G20 357 0 R /G2c 358 0 R /G2d 359 0 R /G41 360 0 R /G42 361 0 R /G43 362 0 R /G44 363 0 R /G45 364 0 R /G46 365 0 R /G47 366 0 R /G48 367 0 R /G49 368 0 R /G4c 369 0 R /G4d 370 0 R /G4e 371 0 R /G4f 372 0 R /G50 373 0 R /G52 374 0 R /G53 375 0 R /G54 376 0 R /G55 377 0 R /G56 378 0 R /G59 379 0 R >> endobj357 0 obj<< /Length 16 >> stream
+11 0 0 0 0 0 d1endstreamendobj358 0 obj<< /Length 82 >> stream
+11 0 3 -6 6 3 d1q3 0 0 9 3 -6 cmBI/W 3/H 9/BPC 1/IM trueID    €€€€ `EIQendstreamendobj359 0 obj<< /Length 81 >> stream
+12 0 1 8 11 11 d1q10 0 0 3 1 8 cmBI/W 10/H 3/BPC 1/IM trueID       EIQendstreamendobj360 0 obj<< /Length 185 >> stream
+25 0 0 0 25 27 d1q25 0 0 27 0 0 cmBI/W 25/H 27/BPC 1/IM trueID ÿֱÿ€ÿֱÿ€ÿֱÿ€ÿˆÿ€ÿˆÿ€ÿ€ÿ€ÿ€‏>?€‏>?€ü>€ü€ü€רÿ€רÿ€נÿ‡€נ €נ €א €דÿד€ֳÿב€ַÿס€ַÿס€ÿר€ÿר€ÿר ÿü EIQendstreamendobj361 0 obj<< /Length 158 >> stream
+25 0 3 0 23 27 d1q20 0 0 27 3 0 cmBI/W 20/H 27/BPC 1/IM trueID  נ  נ  pר0‏0ÿÿÿÿÿ‏0רp  נ  p  0üÿÿ€ÿ€ÿ€ÿ€ÿ€ÿü  0  p נEIQendstreamendobj362 0 obj<< /Length 158 >> stream
+27 0 2 0 25 27 d1q23 0 0 27 2 0 cmBI/W 23/H 27/BPC 1/IM trueID ÿ‏ü >נ א~בÿ†ֳÿֶ‡ÿֲÿגÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿנÿא‡ÿגֳÿֲבÿ†א~נ ü >ÿ ‏EIQendstreamendobj363 0 obj<< /Length 158 >> stream
+27 0 3 0 25 27 d1q22 0 0 27 3 0 cmBI/W 22/H 27/BPC 1/IM trueID  ü  |  <üÿÿÿ„ÿִÿִÿאÿאÿאÿאÿאÿאÿאÿאÿאÿִÿִÿ„ÿÿü  <  ü üEIQendstreamendobj364 0 obj<< /Length 158 >> stream
+25 0 3 0 23 27 d1q20 0 0 27 3 0 cmBI/W 20/H 27/BPC 1/IM trueID       ÿנÿנÿנÿנÿנÿנÿנÿנÿנ  0  0  0ÿנÿנÿנÿנÿנÿנÿנÿנÿנ         EIQendstreamendobj365 0 obj<< /Length 158 >> stream
+23 0 3 0 21 27 d1q18 0 0 27 3 0 cmBI/W 18/H 27/BPC 1/IM trueID          ÿְÿְÿְÿְÿְÿְÿְÿְÿְ  ְ  ְ  ְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְEIQendstreamendobj366 0 obj<< /Length 185 >> stream
+30 0 2 0 28 27 d1q26 0 0 27 2 0 cmBI/W 26/H 27/BPC 1/IM trueID ÿְ?ְ‏ ְר ְנ?ְְאÿנְֳÿר@ַÿü@‡ÿü ÿÿְÿÿְÿÿְÿÿְÿÿְü  ü  ü  ÿ‏ ÿ‏ ÿ‏ ‡ÿ‏ ַÿ‏ ֳÿü אÿר נ?ְ@ר ְ‏ ְÿְ?ְEIQendstreamendobj367 0 obj<< /Length 158 >> stream
+27 0 3 0 24 27 d1q21 0 0 27 3 0 cmBI/W 21/H 27/BPC 1/IM trueID ÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְ         ÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְEIQendstreamendobj368 0 obj<< /Length 101 >> stream
+11 0 4 0 7 27 d1q3 0 0 27 4 0 cmBI/W 3/H 27/BPC 1/IM trueID                            EIQendstreamendobj369 0 obj<< /Length 158 >> stream
+21 0 3 0 20 27 d1q17 0 0 27 3 0 cmBI/W 17/H 27/BPC 1/IM trueID ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€         EIQendstreamendobj370 0 obj<< /Length 185 >> stream
+31 0 3 0 28 27 d1q25 0 0 27 3 0 cmBI/W 25/H 27/BPC 1/IM trueID ÿנ ÿא ÿא ÿא ÿְ ÿִ ÿִ ÿ„ ÿ ÿ ÿ    >< >< >< | | | ˆü ˆü ˆü ֱü ֱü ֱü דü EIQendstreamendobj371 0 obj<< /Length 158 >> stream
+27 0 3 0 24 27 d1q21 0 0 27 3 0 cmBI/W 21/H 27/BPC 1/IM trueID ÿְÿְÿְÿְÿְÿְÿְÿְְ?ְ?ְְְְְַְַדְבְסְרְר@ü@‏ ‏ ÿ ÿ€ÿ€EIQendstreamendobj372 0 obj<< /Length 185 >> stream
+30 0 2 0 28 27 d1q26 0 0 27 2 0 cmBI/W 26/H 27/BPC 1/IM trueID ÿ€ְ‏ ְר ְנ?ְבÿבְֳÿנְַÿרְÿü@ÿü@ÿü ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿ‏ ÿü ÿü@ÿü@ַÿרְֳÿנְבÿבְנ?ְר ְ‏ ְÿ€ְEIQendstreamendobj373 0 obj<< /Length 158 >> stream
+25 0 3 0 23 27 d1q20 0 0 27 3 0 cmBI/W 20/H 27/BPC 1/IM trueID  נ  p  0üÿÿ ÿ€ÿ€ÿ€ÿ€ÿ ÿü  0  p נÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנEIQendstreamendobj374 0 obj<< /Length 158 >> stream
+27 0 3 0 25 27 d1q22 0 0 27 3 0 cmBI/W 22/H 27/BPC 1/IM trueID   ü  <  ‏ÿÿִÿִÿִÿִÿ„ÿ‏    <  üֳüבüנüנ|ר|ü<‏‏ÿÿ„ÿ„ÿְEIQendstreamendobj375 0 obj<< /Length 158 >> stream
+25 0 2 0 23 27 d1q21 0 0 27 2 0 cmBI/W 21/H 27/BPC 1/IM trueID ‏רנ רא 8ֱüַ‏ÿÿˆÿˆÿר‡ÿרְÿרארנ רü 8ÿְÿüÿÿÿ€ÿְÿְÿְ‡ÿ€ֳÿְüא ר x‏רEIQendstreamendobj376 0 obj<< /Length 158 >> stream
+23 0 1 0 22 27 d1q21 0 0 27 1 0 cmBI/W 21/H 27/BPC 1/IM trueID          ÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרEIQendstreamendobj377 0 obj<< /Length 158 >> stream
+27 0 3 0 24 27 d1q21 0 0 27 3 0 cmBI/W 21/H 27/BPC 1/IM trueID ÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿְÿˆÿˆ‡ÿֱüא 8נ x‏רEIQendstreamendobj378 0 obj<< /Length 158 >> stream
+25 0 1 0 24 27 d1q23 0 0 27 1 0 cmBI/W 23/H 27/BPC 1/IM trueID ÿנÿאÿגÿגַÿֶַÿֶַÿֶדÿדÿבÿסÿסÿנ‏ר‏>ר‏>ר|>ü|~ü|~‏8‏‏8‏‏‏ÿ‏ÿ‏ÿ‏ÿƒ‏ÿƒ‏ÿƒ‏EIQendstreamendobj379 0 obj<< /Length 158 >> stream
+25 0 1 0 24 27 d1q23 0 0 27 1 0 cmBI/W 23/H 27/BPC 1/IM trueID ÿאÿגַÿֳֶÿ†דÿסÿנ‏ר‏>ר|>ü|~‏8‏‏‏ÿ‏ÿƒ‏ÿƒ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏ÿַ‏EIQendstreamendobj380 0 obj<< /Type /Encoding /Differences [ 72 /G48 /G49 79 /G4f 84 /G54 /G55 87 /G57 ] >> endobj381 0 obj<< /G48 382 0 R /G49 383 0 R /G4f 384 0 R /G54 385 0 R /G55 386 0 R /G57 387 0 R >> endobj382 0 obj<< /Length 158 >> stream
+27 0 3 0 24 27 d1q21 0 0 27 3 0 cmBI/W 21/H 27/BPC 1/IM trueID ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ             ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ EIQendstreamendobj383 0 obj<< /Length 101 >> stream
+11 0 3 0 8 27 d1q5 0 0 27 3 0 cmBI/W 5/H 27/BPC 1/IM trueID                            EIQendstreamendobj384 0 obj<< /Length 185 >> stream
+30 0 2 0 28 27 d1q26 0 0 27 2 0 cmBI/W 26/H 27/BPC 1/IM trueID ÿ€ְü ְר ְנ ְא?ְְÿְְÿא@ƒÿנ@ƒÿנ@ÿר ÿר ÿר ÿר ÿר ÿר ÿר ÿר ÿנ ƒÿנ@ƒÿנ@ÿא@ְÿְְא?ְנ ְר ְü ְÿ€ְEIQendstreamendobj385 0 obj<< /Length 158 >> stream
+23 0 1 0 22 27 d1q21 0 0 27 1 0 cmBI/W 21/H 27/BPC 1/IM trueID             ÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרEIQendstreamendobj386 0 obj<< /Length 158 >> stream
+27 0 3 0 24 27 d1q21 0 0 27 3 0 cmBI/W 21/H 27/BPC 1/IM trueID ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ‏ ƒ‏€üְ א נ xüרEIQendstreamendobj387 0 obj<< /Length 212 >> stream
+35 0 0 0 35 27 d1q35 0 0 27 0 0 cmBI/W 35/H 27/BPC 1/IM trueID ‏ü ‏ü ƒüר ƒüר ƒüר ƒüר ֳרCר`ֱרCנ`ֱרCנ`ֱרדנ`ֱנבנ`אנבאאאנבאאאבסאאאבנאאנבנבאנcרֱאנCרAאנCרAארCרCארGüCארüארüאü‏אü‏אü‏אü‏אEIQendstreamendobj388 0 obj<< /Type /Encoding /Differences [ 32 /G20 65 /G41 /G42 /G43 69 /G45 72 /G48 /G49 76 /G4c /G4d /G4e 80 /G50 82 /G52 /G53 /G54 /G55 89 /G59 ] >> endobj389 0 obj<< /G20 390 0 R /G41 391 0 R /G42 392 0 R /G43 393 0 R /G45 394 0 R /G48 395 0 R /G49 396 0 R /G4c 397 0 R /G4d 398 0 R /G4e 399 0 R /G50 400 0 R /G52 401 0 R /G53 402 0 R /G54 403 0 R /G55 404 0 R /G59 405 0 R >> endobj390 0 obj<< /Length 16 >> stream
+12 0 0 0 0 0 d1endstreamendobj391 0 obj<< /Length 197 >> stream
+28 0 0 0 27 30 d1q27 0 0 30 0 0 cmBI/W 27/H 30/BPC 1/IM trueID ÿסÿאÿאÿאÿאÿאÿְאÿִאÿִאÿ„?אÿ?אÿאÿאÿא‏א‏?אü?‡אü?‡אüַארֳאר אנ אנ אנ אבÿנאבÿנאֳÿר`ֳÿר`ֳÿר`‡ÿü ‡ÿü ÿü ÿ‏ EIQendstreamendobj392 0 obj<< /Length 167 >> stream
+28 0 3 0 26 30 d1q23 0 0 30 3 0 cmBI/W 23/H 30/BPC 1/IM trueID   ‏      ‏ÿ‚ÿֲÿֲÿֲÿֲÿ†‏        ÿÿֲÿְÿאÿאÿאÿאÿְÿֲÿ        ~EIQendstreamendobj393 0 obj<< /Length 197 >> stream
+30 0 2 0 28 30 d1q26 0 0 30 2 0 cmBI/W 26/H 30/BPC 1/IM trueID ÿְְ‏ ְר ְנ ְא?ְאÿְְֱÿאְƒÿנ@‡ÿר@‡ÿûְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְÿÿְ‡ÿüְ‡ÿü ‡ÿר ֳÿר@ֱÿנ@אÿאְא?ְנ ְר ְ‏ ְÿ€ְEIQendstreamendobj394 0 obj<< /Length 167 >> stream
+28 0 3 0 26 30 d1q23 0 0 30 3 0 cmBI/W 23/H 30/BPC 1/IM trueID         ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏        ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏            EIQendstreamendobj395 0 obj<< /Length 167 >> stream
+30 0 3 0 27 30 d1q24 0 0 30 3 0 cmBI/W 24/H 30/BPC 1/IM trueID ÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנ            ÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנEIQendstreamendobj396 0 obj<< /Length 104 >> stream
+12 0 4 0 8 30 d1q4 0 0 30 4 0 cmBI/W 4/H 30/BPC 1/IM trueID                               EIQendstreamendobj397 0 obj<< /Length 167 >> stream
+23 0 3 0 22 30 d1q19 0 0 30 3 0 cmBI/W 19/H 30/BPC 1/IM trueID ÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿאÿא            EIQendstreamendobj398 0 obj<< /Length 197 >> stream
+35 0 3 0 32 30 d1q29 0 0 30 3 0 cmBI/W 29/H 30/BPC 1/IM trueID ÿü ÿü  ÿר  ÿר  ÿר  ÿר נ€נ€נ€?ב€?ב€?ב€ֳ€ֳ€ֳ€ֳ€‡€‡€‡€‡€‡€‡€ֲ€ֲ€ֲ€ֲ€א?€א?€א?€נ€EIQendstreamendobj399 0 obj<< /Length 167 >> stream
+30 0 3 0 27 30 d1q24 0 0 30 3 0 cmBI/W 24/H 30/BPC 1/IM trueID ÿנÿנÿנÿנÿנ ÿנ ננ?נננננ‡נƒנֱנבנאננpרpר0ü‏‏ ÿ ÿ€ÿ€ÿְÿאÿאEIQendstreamendobj400 0 obj<< /Length 167 >> stream
+28 0 3 0 26 30 d1q23 0 0 30 3 0 cmBI/W 23/H 30/BPC 1/IM trueID   ~      ÿÿֲÿְÿאÿאÿאÿאÿְÿֲÿ        ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏ÿ‏EIQendstreamendobj401 0 obj<< /Length 197 >> stream
+30 0 3 0 29 30 d1q26 0 0 30 3 0 cmBI/W 26/H 30/BPC 1/IM trueID   ?ְ  ְ  ְ  ְÿְÿאְÿנְÿנְÿנְÿנְÿאְÿאְÿְ  ְ  ְ  ְ  ?ְנÿְר?ְüְ‏ְÿְÿְÿƒְÿְֳÿְֱÿאְÿנְÿנ@ÿר EIQendstreamendobj402 0 obj<< /Length 167 >> stream
+28 0 2 0 26 30 d1q24 0 0 30 2 0 cmBI/W 24/H 30/BPC 1/IM trueID ÿ ÿר ?נ א ְ‏ƒÿƒ‡ÿֱ‡ÿב‡ÿב‡ÿÿƒÿÿְÿÿאÿנ ÿü ÿ€ÿרÿÿÿÿבÿנÿנÿנ‡ÿנƒÿאÿְֱא נ ü ÿ EIQendstreamendobj403 0 obj<< /Length 167 >> stream
+26 0 1 0 25 30 d1q24 0 0 30 1 0 cmBI/W 24/H 30/BPC 1/IM trueID             ÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿÿֳÿEIQendstreamendobj404 0 obj<< /Length 167 >> stream
+30 0 3 0 27 30 d1q24 0 0 30 3 0 cmBI/W 24/H 30/BPC 1/IM trueID ÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿא‡ÿב‡ÿבƒÿְֱÿְ א ר ÿ ÿEIQendstreamendobj405 0 obj<< /Length 197 >> stream
+28 0 0 0 28 30 d1q28 0 0 30 0 0 cmBI/W 28/H 30/BPC 1/IM trueID ÿ‏ ƒÿüֳÿü0ֱÿר0אÿנpנÿננרבנר?ֱנüƒנ‏‡נ‏נÿנÿ†נÿ€נÿְ?נÿאנÿאנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנÿנEIQendstreamendobj406 0 obj<< /Type /Encoding /Differences [ 45 /G2d 50 /G32 65 /G41 /G42 /G43 /G44 /G45 71 /G47 73 /G49 75 /G4b /G4c /G4d /G4e /G4f /G50 /G51 /G52 /G53 /G54 /G55 /G56 89 /G59 ] >> endobj407 0 obj<< /G2d 408 0 R /G32 409 0 R /G41 410 0 R /G42 411 0 R /G43 412 0 R /G44 413 0 R /G45 414 0 R /G47 415 0 R /G49 416 0 R /G4b 417 0 R /G4c 418 0 R /G4d 419 0 R /G4e 420 0 R /G4f 421 0 R /G50 422 0 R /G51 423 0 R /G52 424 0 R /G53 425 0 R /G54 426 0 R /G55 427 0 R /G56 428 0 R /G59 429 0 R >> endobj408 0 obj<< /Length 75 >> stream
+10 0 1 7 9 10 d1q8 0 0 3 1 7 cmBI/W 8/H 3/BPC 1/IM trueID    EIQendstreamendobj409 0 obj<< /Length 121 >> stream
+17 0 1 0 15 22 d1q14 0 0 22 1 0 cmBI/W 14/H 22/BPC 1/IM trueID נ<ְ€‡„ְאÿאÿאÿאÿִÿÿ‏ü<ר|סüדüַüü€     EIQendstreamendobj410 0 obj<< /Length 143 >> stream
+21 0 0 0 21 22 d1q21 0 0 22 0 0 cmBI/W 21/H 22/BPC 1/IM trueID ÿרÿרÿר‏#ר‏#רüqרüqרüqררררררררררסüxנ xא 8א 8ד‏8ַÿַÿÿˆÿˆÿˆÿְEIQendstreamendobj411 0 obj<< /Length 143 >> stream
+21 0 3 0 20 22 d1q17 0 0 22 3 0 cmBI/W 17/H 22/BPC 1/IM trueID  € € €א€ר€ר€ר€ש€ב€ € € €נ€ר ü ü ü ר נ€  € € €EIQendstreamendobj412 0 obj<< /Length 143 >> stream
+22 0 1 0 21 22 d1q20 0 0 22 1 0 cmBI/W 20/H 22/BPC 1/IM trueID ‏נר נא pֱר0ֳü0‡‏ÿÿנÿנÿנÿנÿנÿנÿנÿÿ ‡ÿֳ‏ֱר0א pר נ‏נEIQendstreamendobj413 0 obj<< /Length 143 >> stream
+22 0 3 0 21 22 d1q18 0 0 22 3 0 cmBI/W 18/H 22/BPC 1/IM trueID  ְ ְ ְאְר@ü@ü@‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ü@ü@ר@אְ ְ ְ ְEIQendstreamendobj414 0 obj<< /Length 121 >> stream
+21 0 3 0 19 22 d1q16 0 0 22 3 0 cmBI/W 16/H 22/BPC 1/IM trueID    ÿÿÿÿÿÿ   ÿÿÿÿÿÿÿ      EIQendstreamendobj415 0 obj<< /Length 143 >> stream
+24 0 1 0 22 22 d1q21 0 0 22 1 0 cmBI/W 21/H 22/BPC 1/IM trueID ÿרר xנ 8אüֳÿ‡ÿˆÿְÿרÿרÿרÿרנ נ נ ÿְÿְ‡ÿְֳÿ€א‏ נ ר 8ÿרEIQendstreamendobj416 0 obj<< /Length 95 >> stream
+9 0 3 0 6 22 d1q3 0 0 22 3 0 cmBI/W 3/H 22/BPC 1/IM trueID                       EIQendstreamendobj417 0 obj<< /Length 143 >> stream
+21 0 3 0 21 22 d1q18 0 0 22 3 0 cmBI/W 18/H 22/BPC 1/IM trueID רְסְדְְַְְ?ְְÿְÿְ ְ ?ְְְְ‡ְְֳבְסְנְר@ü EIQendstreamendobj418 0 obj<< /Length 121 >> stream
+17 0 3 0 16 22 d1q13 0 0 22 3 0 cmBI/W 13/H 22/BPC 1/IM trueID ררררררררררררררררררר      EIQendstreamendobj419 0 obj<< /Length 143 >> stream
+25 0 2 0 23 22 d1q21 0 0 22 2 0 cmBI/W 21/H 22/BPC 1/IM trueID ÿ ÿ ‏ ‏ ‏ ü@ü@ü@üְרְרְשְqְqְqְ#ְ#ְ#ְ'ְְְְEIQendstreamendobj420 0 obj<< /Length 121 >> stream
+22 0 3 0 19 22 d1q16 0 0 22 3 0 cmBI/W 16/H 22/BPC 1/IM trueID רררררררררxx88ˆˆְְאאנרEIQendstreamendobj421 0 obj<< /Length 143 >> stream
+24 0 1 0 23 22 d1q22 0 0 22 1 0 cmBI/W 22/H 22/BPC 1/IM trueID ÿüר |נ <אüֳÿ‡ÿ„ÿִÿְÿאÿאÿאÿאÿאÿאÿְÿִ‡ÿ„ֳÿאüנ <ר |‏üEIQendstreamendobj422 0 obj<< /Length 143 >> stream
+21 0 3 0 20 22 d1q17 0 0 22 3 0 cmBI/W 17/H 22/BPC 1/IM trueID  € €  €נ€ר ü ü ü ר נ€  € € €ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€ÿ€EIQendstreamendobj423 0 obj<< /Length 148 >> stream
+24 0 1 -1 23 22 d1q22 0 0 23 1 -1 cmBI/W 22/H 23/BPC 1/IM trueID ‏üר üא <ארֳ‏‡ÿÿÿ„ÿִÿִÿִÿִÿִÿִÿן‡דֳאאר<נ ר ‏€ÿÿהEIQendstreamendobj424 0 obj<< /Length 143 >> stream
+22 0 3 0 20 22 d1q17 0 0 22 3 0 cmBI/W 17/H 22/BPC 1/IM trueID  € € €נ€ר€ר€ר€ר€א€ € € €€€‡€ֳ€ד€ב€ס€נ€ר ü EIQendstreamendobj425 0 obj<< /Length 143 >> stream
+21 0 1 0 19 22 d1q18 0 0 22 1 0 cmBI/W 18/H 22/BPC 1/IM trueID רְאְְְֳנְ‡רְü@ü@‡ÿְֳÿְא?ְנְ‏ ְÿא@ÿü ‏ ‏ ‏ ü ƒנ@ְ ְאְüְEIQendstreamendobj426 0 obj<< /Length 143 >> stream
+19 0 1 0 18 22 d1q17 0 0 22 1 0 cmBI/W 17/H 22/BPC 1/IM trueID          ‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€‏?€EIQendstreamendobj427 0 obj<< /Length 121 >> stream
+22 0 3 0 19 22 d1q16 0 0 22 3 0 cmBI/W 16/H 22/BPC 1/IM trueID ררררררררררררררררנסƒבְארEIQendstreamendobj428 0 obj<< /Length 143 >> stream
+21 0 0 0 21 22 d1q21 0 0 22 0 0 cmBI/W 21/H 22/BPC 1/IM trueID ÿְÿˆÿˆÿˆַÿַÿד‏8ד‏8ד‏8סüxסüxנרxררררררüqרüqרüqר‏#ר‏#ר‏רÿרÿרEIQendstreamendobj429 0 obj<< /Length 143 >> stream
+21 0 0 0 21 22 d1q21 0 0 22 0 0 cmBI/W 21/H 22/BPC 1/IM trueID ÿ€‡ÿַÿֳ‏בü8נרxררררpרüqר‏#ר‏#רÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרÿרEIQendstreamendobj430 0 obj<< /Type /Encoding /Differences [ 72 /G48 76 /G4c ] >> endobj431 0 obj<< /G48 432 0 R /G4c 433 0 R >> endobj432 0 obj<< /Length 121 >> stream
+22 0 3 0 19 22 d1q16 0 0 22 3 0 cmBI/W 16/H 22/BPC 1/IM trueID ררררררררר      ררררררררררEIQendstreamendobj433 0 obj<< /Length 121 >> stream
+17 0 3 0 16 22 d1q13 0 0 22 3 0 cmBI/W 13/H 22/BPC 1/IM trueID ררררררררררררררררררר      EIQendstreamendobj434 0 obj<< /Type /Encoding /Differences [ 65 /A ] >> endobj435 0 obj<< /A 436 0 R >> endobj436 0 obj<< /Length 118 >> stream
+16 0 0 0 16 16 d1q16 0 0 -16 -0.25 15.75 cmBI/W 16/H 16/BPC 1/IM trueID xx<<‡‡ֳֳבבננxx<<‡‡ֳֳבבננEIQendstreamendobj437 0 obj<< /Type /Encoding /Differences [ 229 /Ge5 ] >> endobj438 0 obj<< /Ge5 439 0 R >> endobj439 0 obj<< /Length 289 >> stream
+38 0 1 -5 37 37 d1q36 0 0 42 1 -5 cmBI/W 36/H 42/BPC 1/IM trueID     p€   p€ÿÿüpְÿ‏pא?ÿÿ0נ?ÿÿ0רÿÿ°üÿÿ°‏ÿÿ°ÿÿÿנÿÿÿנÿ€ÿÿנÿְÿנÿאÿנÿנ?ÿנÿרÿנÿüÿנÿ‏ÿנÿÿÿנÿÿÿנÿÿÿנÿÿÿנÿÿ?ÿנÿ‏ÿנÿüÿנÿרÿÿנÿשÿÿנÿףÿÿנÿחÿÿנÿֿÿÿנÿÿÿנÿÿÿנÿ?ÿÿא‏ÿÿְüÿÿÿְשÿÿÿסÿÿÿדÿÿüא   ְ   €   0    0EIQendstreamendobj440 0 obj<< /Type /Encoding /Differences [ 116 /G74 ] >> endobj441 0 obj<< /G74 442 0 R >> endobj442 0 obj<< /Length 93 >> stream
+8 0 0 0 7 20 d1q7 0 0 20 0 0 cmBI/W 7/H 20/BPC 1/IM trueID מ־־־־  ־־־־־־־־־־־ְאEIQendstreamendobj443 0 obj<< /Type /Encoding /Differences [ 32 /G20 ] >> endobj444 0 obj<< /G20 445 0 R >> endobj445 0 obj<< /Length 15 >> stream
+8 0 0 0 0 0 d1endstreamendobj446 0 obj<< /Type /Encoding /Differences [ 32 /G20 ] >> endobj447 0 obj<< /G20 448 0 R >> endobj448 0 obj<< /Length 16 >> stream
+10 0 0 0 0 0 d1endstreamendobj449 0 obj<< /Type /Encoding /Differences [ 116 /G74 ] >> endobj450 0 obj<< /G74 451 0 R >> endobj451 0 obj<< /Length 91 >> stream
+7 0 0 0 7 18 d1q7 0 0 18 0 0 cmBI/W 7/H 18/BPC 1/IM trueID ‏־־־־  ־־־־־־־־־ְאEIQendstreamendobj452 0 obj<< /Type /Catalog /Pages 14 0 R /PageMode /UseThumbs /OpenAction 465 0 R >> endobj453 0 obj<< /CreationDate (D:19980603120909)/Producer (Acrobat Distiller 2.0 for Power Macintosh)/ModDate (D:19980708094720)>> endobj454 0 obj[ /Indexed /DeviceRGB 255 455 0 R ]endobj455 0 obj<< /Filter [ /ASCII85Decode /LZWDecode ] /Length 456 0 R >> stream
+J,g]g+e/h_!_gCtO=0f)$P%cIi8Zdfc5&3j_8$7g.@L`YKUJNGBP\poR=_;Dl'P(T
+(7Boo^^S:71(MN]ZQX/+Cbu.lK"p74pe1T%s.DY%&\1TdJhr54.M9au6>79n6`Q:4
+PbLSZTLEE(8E@'*1mg_*eTnN*;*'V3+gm-EEetX%;Bo$ur2ss*N`.-!.kG_q6GDD'
+dKoL!8Ka#EV,@V!\j8ZFbp6EE<9cn=N6j<M8Q?[#7"dq'1>0nf;(&;QU6bUD')c@\
+9-d\DA=cZ0Q>gIM$$;cd2O@&a;X,Nn_a<?V-PVE%?Sf]idH6WRZqHGq]Zm<uCi"]?
+Stg(<gV-H9NB<SA\T=sN)Il%(BDIak7/H&mV!kmDUo4X;8;]V>P(]I1aRc(K1^ue>
+gF/(+GaKo$qneLWDrQ#;5\S(\$q'4Q,85`-8;S(=Z"WSBOV*FM)4,?B],R<gbPN=#
+OmIK<a:\o8+ioO-!W~>endstreamendobj456 0 obj488 endobj457 0 obj<< /Filter [ /ASCII85Decode /LZWDecode ] /Width 74 /Height 105 /ColorSpace 454 0 R /BitsPerComponent 8 /Length 458 0 R >> stream
+J2Q7]3$]7K#D>EP:q1$o*=mro@So+\<\5,H7Uo<*jE<[.O@Wn[3@'nb-^757;Rngm
+>q_R=AlCMpZ>CDH:1mM9N8AtIPg:aV\cik/8#0$l'KTe`M'StHW`;&23aY.Q;sKXX
+'kV#^YZI]f$<;tYA@,NW<k),S+(he#lVX^:]&e(+_(QH.Aa]@#^K'3:)0NCpCk^gp
+\-tP3)[ODl0\@A9qXoo%jDOceFoL']K4^r`-G=aP):E1T3iX6m3M_mE+e#Ag_@&]^
+7Q0",VKXV]hq)jj%IWC8F1:[MHOa#5GJ:cJFg3QK'02>hoXam*CknbplLOQeX\X++
+iUHHF*hN+ibocNMp,2k7^-0^997>]gca/T1^^pnX!PjdJ%0NC3#Q~>endstreamendobj458 0 obj389 endobj459 0 obj<< /Filter [ /ASCII85Decode /LZWDecode ] /Width 74 /Height 105 /ColorSpace 454 0 R /BitsPerComponent 8 /Length 460 0 R >> stream
+J2Q7]3$]7K#D>EP:q1$o*=mro@So+\<\5,H7Uo<*jE<[.O@Wn[3@'nb-^137;Rp>H
+>q_I/-5/D8Xq`ga9BK/4o]C9+T29)53%Y>U4.&QNZq=mf%n<'fTN);o-imDN<T&"g
+j[p'aK306s-nUU5<1h$D'pcOrf5.c\/JH<-L:7Dtf;s13h=BZK\l\@PRr+buBtRjD
+2leNN[:@6en+B5k9"/Sn@HGkY`O<aKb<p>QMcI@KKZ6;4faNV0';LCpG#:CBZT4Sh
+BQZ()XL9(N^;MtBD(`"r`nfTM2VD*A<WM=A\92T$(<=bbkdY[QXnSC2m,[FD9qNK=
+alRS)fNV^<[CtjL]"H=,9B!k]kH[:.+)eZ`5L*F@fKY2q!iEd&//8>`Xs=jf\Ia)k
+#r@[=.\af)PCWe>O5(T91Mp)LOMl#E<;f0U/"ke)/d+eh^dqYEh_PV.D%f<nF?9*"
+BcL1^XKgd_O[nr(Y8TDu$snk2nOtdp8(!9,.7^BXM^(k%,aT+bo'F%B]hr<O)8I^o
+Ypqi8[(eKCO)/q]9#u@0qPfXjeMb_eb2G0D&aHbZbg"U05>P6.iAjSg[)jVhZaC"A
+d+""!1!l(H!6raXeIn7Ve<KV[[d6]P/Ktbn4]B[c'TgmDoYRe2b-.@3:XP<ZQW_Wd
+MfQ7(eSGCT:@:Pj2TSRl57Q#"rJ+]R0LBU51A#r1@R?"^/<nTV]sV_3QL2A(g_UF=
+ESQ@R!W~>endstreamendobj460 0 obj746 endobj461 0 obj<< /Filter [ /ASCII85Decode /LZWDecode ] /Width 74 /Height 105 /ColorSpace 454 0 R /BitsPerComponent 8 /Length 462 0 R >> stream
+J2Q7]3$]7K#D>EP:q1$o*=mro@So+\<\5,H7Uo<*jE<[.O@Wn[3@'nb-^757;Rf7!
+)M+8K+eSrH-il8s9;YV?X>4o[RnmI6q?/"!2M'($<2p)LD)n*6jtKtm<ioH)<LWRE
+jYF/&Qdi*9arK9]:nLhV<kCe@LIIl[lur^M*a<`]:oH9&`O_1VK3bG&\t#r%GICt#
+<kHp,%mRC&nl\)O9"/E#f(&5l??WTBbfd<G,Rt/SLV_oTg:I2C?)l1a1:o]Feo?\E
+A8->u^9^sHgg0D$H%u3E]Zf;N)d[,THbmP^p,m2)6T;oob;@j8*o!ZcM/'.4:2cH?
+R"skm^&24]1Y[h84jf=%CB$'FjgHr%Pnt.M+\\C,!PjMtbh^(=9GI`HO?4rm_9A,\
+M8CqZ)$@bFWoj\`&C^9&6d+I&&B!r^*solD+qYO.8PE7'`6h1[(V8"PRfTCi.N]Qu
+EI7j-6W*2PJk(Z&M\X48iXI'11%^GQ8J5Q"-m8(C>q/Ig6uIq+.6P3g/eH`*)Sjaa
+VW0n`P'!;/%a,uM7'D!fX%mLFHT%]-4)V8FM8M=Q.]T5Mn\[,HqO^'7lh`Y.c\qS,
+^<,)hTdGZg1u6Q$1s\33F7[^H]1Sj\q+L"$+[EmYe@d>&&e)TXeeO0U=k8k?D-PU'=on~>endstreamendobj462 0 obj673 endobj463 0 obj<< /Filter [ /ASCII85Decode /LZWDecode ] /Width 74 /Height 105 /ColorSpace 454 0 R /BitsPerComponent 8 /Length 464 0 R >> stream
+J2Q7]3$]7K#D>EP:q1$o*=mro@So+\<\5,H7Uo<*jE<[.O@Wn[3@'nb-^137;Rp>H
+>q_I/-3tIdc>>M)9W%ElFR"-9RSI7t$/@"e5G:?@o>j'IP=DCo+Z11'$E5q\e`F15
+*GW&^QcEZX9(dY8A[=8](7It#K*\qgmC+$^qTE-?;.B2k`Br1"^YUQol`KmjE5:H^
+d0aJ-'n`_qERS/eB-dbW`@G(O*RbC^ZtM7?9WY!PJC*5]Zob*K:RK\XEZ"aM_I8tP
+hQpDA<nBdSgdX5"D11S#[%MAK]0),VNHaOOB<g_L/!mos=1@jOcU4g]f[kHgMQB;C
+hs,ISI.&@kd@J8:4]7oE^N%6G><^mr:[e5KVJlA9!N\udoSA#/9GI`IODGpB_@VYM
+KRaUiYQ."G/22ZCE24cj`"60:&B'\^9b*iC8ll25a])CZ5tQ_E%)\2iD&^G*daXZ%
+EGC+7/90slCWA-i2&/QbGlo?=Z'l7E8eQe5+M$leJK@FaP_t%415rmW`f^260u;54
+Rk1l9\nN<KEnU[P:(Wp%3R3him5rW-bk4-FM'<!~>endstreamendobj464 0 obj577 endobj465 0 obj<< /S /GoTo /D [ 2 0 R /Fit ] >> endobjxref0 466 0000000000 65535 f
+0000000016 00000 n
+0000000180 00000 n
+0000000283 00000 n
+0000007125 00000 n
+0000007326 00000 n
+0000007675 00000 n
+0000008339 00000 n
+0000008778 00000 n
+0000009468 00000 n
+0000009723 00000 n
+0000010440 00000 n
+0000010798 00000 n
+0000011308 00000 n
+0000011687 00000 n
+0000011800 00000 n
+0000011906 00000 n
+0000033486 00000 n
+0000033784 00000 n
+0000034091 00000 n
+0000034296 00000 n
+0000034513 00000 n
+0000034736 00000 n
+0000034946 00000 n
+0000035157 00000 n
+0000035545 00000 n
+0000035907 00000 n
+0000036260 00000 n
+0000036509 00000 n
+0000036854 00000 n
+0000037066 00000 n
+0000037276 00000 n
+0000037382 00000 n
+0000052742 00000 n
+0000052955 00000 n
+0000053279 00000 n
+0000053502 00000 n
+0000053608 00000 n
+0000070536 00000 n
+0000070675 00000 n
+0000070869 00000 n
+0000071192 00000 n
+0000071260 00000 n
+0000071410 00000 n
+0000071883 00000 n
+0000072301 00000 n
+0000072733 00000 n
+0000073151 00000 n
+0000073569 00000 n
+0000073939 00000 n
+0000074421 00000 n
+0000074887 00000 n
+0000075209 00000 n
+0000075627 00000 n
+0000076189 00000 n
+0000076664 00000 n
+0000077146 00000 n
+0000077516 00000 n
+0000077982 00000 n
+0000078314 00000 n
+0000078732 00000 n
+0000079207 00000 n
+0000079682 00000 n
+0000080255 00000 n
+0000080721 00000 n
+0000081006 00000 n
+0000081394 00000 n
+0000081462 00000 n
+0000081666 00000 n
+0000081825 00000 n
+0000082195 00000 n
+0000082520 00000 n
+0000082923 00000 n
+0000083248 00000 n
+0000083544 00000 n
+0000083763 00000 n
+0000083982 00000 n
+0000084282 00000 n
+0000084501 00000 n
+0000084795 00000 n
+0000085007 00000 n
+0000085301 00000 n
+0000085599 00000 n
+0000085847 00000 n
+0000086061 00000 n
+0000086280 00000 n
+0000086524 00000 n
+0000086824 00000 n
+0000087114 00000 n
+0000087325 00000 n
+0000087669 00000 n
+0000087994 00000 n
+0000088206 00000 n
+0000088458 00000 n
+0000088744 00000 n
+0000089085 00000 n
+0000089749 00000 n
+0000089817 00000 n
+0000090063 00000 n
+0000090231 00000 n
+0000090364 00000 n
+0000090492 00000 n
+0000090707 00000 n
+0000090922 00000 n
+0000091137 00000 n
+0000091284 00000 n
+0000091533 00000 n
+0000091778 00000 n
+0000092025 00000 n
+0000092270 00000 n
+0000092515 00000 n
+0000092760 00000 n
+0000093007 00000 n
+0000093280 00000 n
+0000093497 00000 n
+0000093798 00000 n
+0000094043 00000 n
+0000094288 00000 n
+0000094506 00000 n
+0000094721 00000 n
+0000094964 00000 n
+0000095207 00000 n
+0000095395 00000 n
+0000095613 00000 n
+0000095801 00000 n
+0000096019 00000 n
+0000096188 00000 n
+0000096475 00000 n
+0000096694 00000 n
+0000096912 00000 n
+0000097093 00000 n
+0000097282 00000 n
+0000097489 00000 n
+0000097677 00000 n
+0000097865 00000 n
+0000098084 00000 n
+0000098253 00000 n
+0000098422 00000 n
+0000098603 00000 n
+0000098791 00000 n
+0000098979 00000 n
+0000099186 00000 n
+0000099405 00000 n
+0000099788 00000 n
+0000100569 00000 n
+0000100638 00000 n
+0000100873 00000 n
+0000101013 00000 n
+0000101149 00000 n
+0000101279 00000 n
+0000101509 00000 n
+0000101706 00000 n
+0000101936 00000 n
+0000102166 00000 n
+0000102396 00000 n
+0000102626 00000 n
+0000102856 00000 n
+0000103086 00000 n
+0000103316 00000 n
+0000103546 00000 n
+0000103700 00000 n
+0000103863 00000 n
+0000104280 00000 n
+0000104586 00000 n
+0000104887 00000 n
+0000105154 00000 n
+0000105353 00000 n
+0000105620 00000 n
+0000105930 00000 n
+0000106207 00000 n
+0000106474 00000 n
+0000106741 00000 n
+0000107049 00000 n
+0000107254 00000 n
+0000107459 00000 n
+0000107700 00000 n
+0000107905 00000 n
+0000108141 00000 n
+0000108378 00000 n
+0000108614 00000 n
+0000108815 00000 n
+0000109051 00000 n
+0000109252 00000 n
+0000109498 00000 n
+0000109698 00000 n
+0000109903 00000 n
+0000110140 00000 n
+0000110317 00000 n
+0000110498 00000 n
+0000110691 00000 n
+0000110893 00000 n
+0000111095 00000 n
+0000111343 00000 n
+0000111540 00000 n
+0000111774 00000 n
+0000111971 00000 n
+0000112198 00000 n
+0000112425 00000 n
+0000112658 00000 n
+0000112754 00000 n
+0000112863 00000 n
+0000113110 00000 n
+0000113353 00000 n
+0000113600 00000 n
+0000113843 00000 n
+0000114061 00000 n
+0000114304 00000 n
+0000114800 00000 n
+0000115903 00000 n
+0000115972 00000 n
+0000116129 00000 n
+0000116382 00000 n
+0000116587 00000 n
+0000116792 00000 n
+0000116989 00000 n
+0000117127 00000 n
+0000117263 00000 n
+0000117393 00000 n
+0000117586 00000 n
+0000117801 00000 n
+0000117988 00000 n
+0000118203 00000 n
+0000118390 00000 n
+0000118605 00000 n
+0000118792 00000 n
+0000119007 00000 n
+0000119222 00000 n
+0000119437 00000 n
+0000119652 00000 n
+0000119802 00000 n
+0000119960 00000 n
+0000120207 00000 n
+0000120450 00000 n
+0000120703 00000 n
+0000120946 00000 n
+0000121189 00000 n
+0000121404 00000 n
+0000121657 00000 n
+0000121900 00000 n
+0000122087 00000 n
+0000122278 00000 n
+0000122521 00000 n
+0000122736 00000 n
+0000123007 00000 n
+0000123250 00000 n
+0000123503 00000 n
+0000123718 00000 n
+0000123999 00000 n
+0000124242 00000 n
+0000124465 00000 n
+0000124680 00000 n
+0000124929 00000 n
+0000125178 00000 n
+0000125456 00000 n
+0000125699 00000 n
+0000125902 00000 n
+0000126105 00000 n
+0000126301 00000 n
+0000126526 00000 n
+0000126701 00000 n
+0000126924 00000 n
+0000127099 00000 n
+0000127317 00000 n
+0000127537 00000 n
+0000127755 00000 n
+0000127944 00000 n
+0000128154 00000 n
+0000128372 00000 n
+0000128561 00000 n
+0000128772 00000 n
+0000128963 00000 n
+0000129159 00000 n
+0000129379 00000 n
+0000129599 00000 n
+0000129770 00000 n
+0000129945 00000 n
+0000130130 00000 n
+0000130323 00000 n
+0000130518 00000 n
+0000130731 00000 n
+0000130919 00000 n
+0000131138 00000 n
+0000131326 00000 n
+0000131576 00000 n
+0000131728 00000 n
+0000131946 00000 n
+0000132179 00000 n
+0000132624 00000 n
+0000132693 00000 n
+0000132829 00000 n
+0000133022 00000 n
+0000133246 00000 n
+0000133470 00000 n
+0000133694 00000 n
+0000133918 00000 n
+0000134142 00000 n
+0000134401 00000 n
+0000134656 00000 n
+0000134915 00000 n
+0000135170 00000 n
+0000135425 00000 n
+0000135680 00000 n
+0000135971 00000 n
+0000136257 00000 n
+0000136450 00000 n
+0000136736 00000 n
+0000136991 00000 n
+0000137308 00000 n
+0000137563 00000 n
+0000137822 00000 n
+0000138077 00000 n
+0000138332 00000 n
+0000138559 00000 n
+0000138814 00000 n
+0000139069 00000 n
+0000139386 00000 n
+0000139672 00000 n
+0000139927 00000 n
+0000140012 00000 n
+0000140079 00000 n
+0000140148 00000 n
+0000140284 00000 n
+0000140493 00000 n
+0000140586 00000 n
+0000140667 00000 n
+0000140735 00000 n
+0000140860 00000 n
+0000141005 00000 n
+0000141147 00000 n
+0000141260 00000 n
+0000141383 00000 n
+0000141451 00000 n
+0000141578 00000 n
+0000141749 00000 n
+0000141899 00000 n
+0000142074 00000 n
+0000142271 00000 n
+0000142446 00000 n
+0000142522 00000 n
+0000142575 00000 n
+0000142796 00000 n
+0000143017 00000 n
+0000143145 00000 n
+0000143282 00000 n
+0000143351 00000 n
+0000143533 00000 n
+0000143712 00000 n
+0000143893 00000 n
+0000144060 00000 n
+0000144227 00000 n
+0000144430 00000 n
+0000144597 00000 n
+0000144674 00000 n
+0000144727 00000 n
+0000144796 00000 n
+0000144947 00000 n
+0000145142 00000 n
+0000145489 00000 n
+0000145558 00000 n
+0000145693 00000 n
+0000145827 00000 n
+0000146066 00000 n
+0000146278 00000 n
+0000146490 00000 n
+0000146702 00000 n
+0000146914 00000 n
+0000147126 00000 n
+0000147365 00000 n
+0000147577 00000 n
+0000147732 00000 n
+0000147944 00000 n
+0000148183 00000 n
+0000148395 00000 n
+0000148634 00000 n
+0000148846 00000 n
+0000149058 00000 n
+0000149270 00000 n
+0000149482 00000 n
+0000149694 00000 n
+0000149906 00000 n
+0000150118 00000 n
+0000150220 00000 n
+0000150329 00000 n
+0000150541 00000 n
+0000150696 00000 n
+0000150935 00000 n
+0000151147 00000 n
+0000151359 00000 n
+0000151625 00000 n
+0000151790 00000 n
+0000152039 00000 n
+0000152108 00000 n
+0000152359 00000 n
+0000152580 00000 n
+0000152831 00000 n
+0000153052 00000 n
+0000153273 00000 n
+0000153431 00000 n
+0000153652 00000 n
+0000153903 00000 n
+0000154124 00000 n
+0000154345 00000 n
+0000154596 00000 n
+0000154817 00000 n
+0000155038 00000 n
+0000155259 00000 n
+0000155510 00000 n
+0000155702 00000 n
+0000156035 00000 n
+0000156163 00000 n
+0000156338 00000 n
+0000156535 00000 n
+0000156732 00000 n
+0000156929 00000 n
+0000157126 00000 n
+0000157301 00000 n
+0000157498 00000 n
+0000157646 00000 n
+0000157843 00000 n
+0000158018 00000 n
+0000158215 00000 n
+0000158390 00000 n
+0000158587 00000 n
+0000158784 00000 n
+0000158986 00000 n
+0000159183 00000 n
+0000159380 00000 n
+0000159577 00000 n
+0000159752 00000 n
+0000159949 00000 n
+0000160146 00000 n
+0000160222 00000 n
+0000160275 00000 n
+0000160450 00000 n
+0000160625 00000 n
+0000160691 00000 n
+0000160728 00000 n
+0000160900 00000 n
+0000160969 00000 n
+0000161008 00000 n
+0000161351 00000 n
+0000161420 00000 n
+0000161459 00000 n
+0000161605 00000 n
+0000161673 00000 n
+0000161712 00000 n
+0000161780 00000 n
+0000161848 00000 n
+0000161887 00000 n
+0000161956 00000 n
+0000162025 00000 n
+0000162064 00000 n
+0000162208 00000 n
+0000162307 00000 n
+0000162447 00000 n
+0000162502 00000 n
+0000163087 00000 n
+0000163109 00000 n
+0000163658 00000 n
+0000163680 00000 n
+0000164586 00000 n
+0000164608 00000 n
+0000165441 00000 n
+0000165463 00000 n
+0000166200 00000 n
+0000166222 00000 n
+trailer<</Size 466/Info 453 0 R /Root 452 0 R /ID[<9bc0dbbdd7f8a9e8b061a458cc308e30><1d054c942b47630e9aa1f7bab9236774>]>>startxref166276%%EOF

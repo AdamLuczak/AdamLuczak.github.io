@@ -329,7 +329,7 @@ Visual Communication and Image Processing, 1999, pp. 1018-1025
 ### Hybrid coding of video with spatio-temporal scalability using subband decomposition
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński  
 9th European Signal Processing Conference (EUSIPCO 1998), Rhodes, Greece, 1998, pp. 53-56  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (IEEEXplore)](https://ieeexplore.ieee.org/document/7089769)
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.bib) | 
-<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.ris)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (IEEEXplore)](./publications/Hybrid-coding-of-video-with-spatio-temporal-scalability-using-subband-decomposition_1.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Hybrid-coding-of-video-with-spatio-temporal-scalability-using-subband-decomposition_1.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Hybrid-coding-of-video-with-spatio-temporal-scalability-using-subband-decomposition_1.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Hybrid-coding-of-video-with-spatio-temporal-scalability-using-subband-decomposition_1.ris)
