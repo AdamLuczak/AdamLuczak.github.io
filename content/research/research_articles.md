@@ -257,6 +257,10 @@ European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 Septembe
 ### Reconfigurable architecture of AVC/H.264 Integer Transform  
 > Marta Stępniewska, ***Adam Łuczak***  
 European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 September 2006  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Reconfigurable-architecture-of-AVCH264-Integer-Transform.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Reconfigurable-architecture-of-AVCH264-Integer-Transform.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Reconfigurable-architecture-of-AVCH264-Integer-Transform.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Reconfigurable-architecture-of-AVCH264-Integer-Transform.ris)
 
 ### A Bit-serial Architecture for H.264/AVC Encoder  
 > Marta Stępniewska, ***Adam Łuczak***  

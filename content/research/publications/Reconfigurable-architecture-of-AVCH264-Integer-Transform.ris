@@ -1,0 +1,26 @@
+﻿﻿TY  - CONF
+TI  - Reconfigurable architecture of AVC/H.264 integer transform
+T2  - 2006 14th European Signal Processing Conference
+SP  - 1
+EP  - 5
+AU  - A. Łuczak
+AU  - M. Stępniewska
+PY  - 2006
+KW  - IEC standards
+KW  - Abstracts
+KW  - Video coding
+KW  - Read only memory
+KW  - Quantization (signal)
+KW  - Transforms
+DO  - 
+JO  - 2006 14th European Signal Processing Conference
+IS  - 
+SN  - 2219-5491
+VO  - 
+VL  - 
+JA  - 2006 14th European Signal Processing Conference
+Y1  - 4-8 Sept. 2006
+AB  - The paper presents an original reconfigurable architecture of inverse integer transformation for H.264/AVC decoder. Proposed design can perform integer 4×4, 8×8 and Hadamard inverse transform including inverse quantization process as well. The design exploits pipelined architecture and supports FPGA devices. Simulation result indicates that proposed structure is characterized by low implementation cost and high efficiency. Final synthesis and test has been made for Xilinx Virtex family devices.
+ER  - 
+
+
