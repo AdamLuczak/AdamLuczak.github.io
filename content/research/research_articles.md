@@ -199,7 +199,7 @@ Journal of Telecommunications and Information Technology, No. 3/2011, 2011, pp. 
 ### Internet based subjective assessment of image quality experiment  
 > Tomasz Grzywalski, ***Adam Łuczak***, Ryszard Stasiński  
 18th International Conference on Systems, Signals and Image Processing IWSSIP 2011, Sarajevo, Bosnia and Herzegovina, 16-18 June 2011  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (IEEEXplore)](https://ieeexplore.ieee.org/document/5977389) | 
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Internet-based-subjective-assessment-of-image-quality-experiment.txt) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Internet-based-subjective-assessment-of-image-quality-experiment.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Internet-based-subjective-assessment-of-image-quality-experiment.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Internet-based-subjective-assessment-of-image-quality-experiment.ris)
