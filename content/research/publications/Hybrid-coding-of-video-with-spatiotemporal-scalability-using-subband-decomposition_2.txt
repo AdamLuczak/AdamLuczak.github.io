@@ -1,0 +1,1 @@
+Marek Domanski, Adam Luczak, Slawomir Mackowiak, Roger Swierczynski, "Hybrid coding of video with spatiotemporal scalability using subband decomposition," Proc. SPIE 3653, Visual Communications and Image Processing '99, (28 December 1998)
