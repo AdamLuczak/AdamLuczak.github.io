@@ -249,7 +249,7 @@ Picture Coding Symposium 2007, Lisbon, Portugal, November 7-9 2007
 ### A bit-serial architecture forH.264/AVC interframe decoding  
 > Paweł Garstecki, ***Adam Łuczak***, Tomasz Żernicki  
 European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 September 2006  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (IEEEXplore)](https://ieeexplore.ieee.org/abstract/document/7071579) | 
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-bit-serial-architecture-forH264AVC-interframe-decoding.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-bit-serial-architecture-forH264AVC-interframe-decoding.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-bit-serial-architecture-forH264AVC-interframe-decoding.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-bit-serial-architecture-forH264AVC-interframe-decoding.ris)
