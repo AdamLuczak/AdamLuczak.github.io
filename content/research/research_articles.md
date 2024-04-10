@@ -220,6 +220,14 @@ Journal of Telecommunications and Information Technology, No. 3/2011, 2011, pp. 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Embedded-debugging-for-NoCs.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Embedded-debugging-for-NoCs.ris)
 
+### Interfejs komunikacyjny dla układów FPGA serii Virtex
+> ***Adam Łuczak***, Maciej Kurc, Marta Stępniewska, Jakub Siast,
+Pomiary Automatyka Kontrola, PAK, 2010, pp. 749-751  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Interfejs-komunikacyjny-dla-ukladow-FPGA-serii-Virtex.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Interfejs-komunikacyjny-dla-ukladow-FPGA-serii-Virtex.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Interfejs-komunikacyjny-dla-ukladow-FPGA-serii-Virtex.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Interfejs-komunikacyjny-dla-ukladow-FPGA-serii-Virtex.ris)
+
 ### An experimental Free-view Television System  
 > Marek Domański, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
 1st International Conference on Image Processing & Communications (IPC), Bydgoszcz, Polska, September 2009, pp. 175-184  
