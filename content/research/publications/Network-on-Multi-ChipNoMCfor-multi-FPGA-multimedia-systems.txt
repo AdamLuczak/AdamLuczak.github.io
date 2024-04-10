@@ -1,0 +1,1 @@
+M. Stepniewska, A. Luczak and J. Siast, "Network-on-Multi-Chip (NoMC) for Multi-FPGA Multimedia Systems," 2010 13th Euromicro Conference on Digital System Design: Architectures, Methods and Tools, Lille, France, 2010, pp. 475-481

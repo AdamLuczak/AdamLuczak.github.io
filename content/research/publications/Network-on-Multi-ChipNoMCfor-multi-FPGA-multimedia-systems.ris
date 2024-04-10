@@ -1,0 +1,27 @@
+TY  - CONF
+TI  - Network-on-Multi-Chip (NoMC) for Multi-FPGA Multimedia Systems
+T2  - 2010 13th Euromicro Conference on Digital System Design: Architectures, Methods and Tools
+SP  - 475
+EP  - 481
+AU  - M. Stepniewska
+AU  - A. Luczak
+AU  - J. Siast
+PY  - 2010
+KW  - Logic gates
+KW  - Routing protocols
+KW  - Network interfaces
+KW  - Encoding
+KW  - Field programmable gate arrays
+KW  - Network topology
+DO  - 10.1109/DSD.2010.106
+JO  - 2010 13th Euromicro Conference on Digital System Design: Architectures, Methods and Tools
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2010 13th Euromicro Conference on Digital System Design: Architectures, Methods and Tools
+Y1  - 1-3 Sept. 2010
+AB  - Some applications, especially in the area of multimedia processing, need to be implemented in a multichip platform, due to their size. An efficient communication infrastructure for such systems may be designed with the use of the Networks-on-Chip (NoCs). However, a network for multi-chip systems require a scalable architecture. Moreover, for multimedia purposes, such NoC should support a multicast transmission mode. In order to meet this requirements, we propose the NoMC (Network-on-Multi-Chip) which is a hierarchical interconnect system, designed for multi-chip systems. A performance of the proposed network is assessed utilizing a model of the MVC (Multiview Video Coding) coder. In such system, the multicast transmission mode may yield an overall bandwidth gain up to 30%. Moreover, the synthesis results show that the proposed network elements are easily synthesizable for the FPGA devices.
+ER  - 
+
+
