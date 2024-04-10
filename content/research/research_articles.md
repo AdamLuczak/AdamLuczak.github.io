@@ -172,15 +172,23 @@ Przegląd Telekomunikacyjny, nr 4/2012, vol. LXXXV, ss. 302-305, 2012
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Wykorzystanie-silnego-znieksztacenia-beczkowego-do-uzyskania-pynnej-zmiany-ogniskowej.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Wykorzystanie-silnego-znieksztacenia-beczkowego-do-uzyskania-pynnej-zmiany-ogniskowej.ris)
 
-===
-
 ### Architecture of Algorithmically Optimized MPEG-4 AVC/H.264 Video Encoder
 > T. Grajek, D. Karwowski, ***A. Łuczak***, S. Maćkowiak, M. Domański  
-Computer Vision and Graphics, L. Bolc et al. (ed.) vol. 7594, pp. 79-86, Springer 2012.  
+Computer Vision and Graphics, L. Bolc et al. (ed.) vol. 7594, pp. 79-86, Springer 2012  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Architecture-of-Algorithmically-Optimized-MPEG-4-AVCH264-Video-Encoder.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Architecture-of-Algorithmically-Optimized-MPEG-4-AVCH264-Video-Encoder.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Architecture-of-Algorithmically-Optimized-MPEG-4-AVCH264-Video-Encoder.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Architecture-of-Algorithmically-Optimized-MPEG-4-AVCH264-Video-Encoder.ris)
 
 ### Diamond scanning order of image blocks for massively parallel HEVC compression
 > T. Grajek, D. Karwowski, ***A. Łuczak***, S. Maćkowiak  
 Computer Vision and Graphics, L. Bolc et al. (ed.) vol.7594, pp. 172-179, Springer 2012  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Diamond-scanning-order-of-image-blocks-for-massively-parallel-HEVC-compression.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Diamond-scanning-order-of-image-blocks-for-massively-parallel-HEVC-compression.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Diamond-scanning-order-of-image-blocks-for-massively-parallel-HEVC-compression.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Diamond-scanning-order-of-image-blocks-for-massively-parallel-HEVC-compression.ris)
+
+===
 
 ### Internet based subjective assessment of image quality experiment  
 > Tomasz Grzywalski, ***Adam Łuczak***, Ryszard Stasiński  

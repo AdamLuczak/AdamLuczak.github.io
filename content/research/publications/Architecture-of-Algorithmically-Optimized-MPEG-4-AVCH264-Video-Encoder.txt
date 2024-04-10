@@ -1,0 +1,1 @@
+﻿﻿﻿﻿﻿﻿﻿T. Grajek, D. Karwowski, A. Łuczak, S. Maćkowiak, M. Domański, “Architecture of Algorithmically Optimized MPEG-4 AVC/H.264 Video Encoder”, Lecture Notes in Computer Science, Proceedings of International Conference on Computer Vision and Graphics ICCVG 2012, Warsaw, Poland, 24-26 September 2012, pp. 79-86, 
