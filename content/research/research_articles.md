@@ -164,11 +164,15 @@ Lecture notes in computer science. 2012. 7594. 164-171
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-Large-Barrel-Distortion-in-an-Acquisition-System-for-Multifocal-Images-Extraction.ris)
 
-==================
-
 ### Wykorzystanie silnego zniekształcenia beczkowego do uzyskania płynnej zmiany ogniskowej
 > ***Adam Łuczak***, Sławomi Maćkowiak  
 Przegląd Telekomunikacyjny, nr 4/2012, vol. LXXXV, ss. 302-305, 2012  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[unavailable](0) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Wykorzystanie-silnego-znieksztacenia-beczkowego-do-uzyskania-pynnej-zmiany-ogniskowej.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Wykorzystanie-silnego-znieksztacenia-beczkowego-do-uzyskania-pynnej-zmiany-ogniskowej.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Wykorzystanie-silnego-znieksztacenia-beczkowego-do-uzyskania-pynnej-zmiany-ogniskowej.ris)
+
+===
 
 ### Architecture of Algorithmically Optimized MPEG-4 AVC/H.264 Video Encoder
 > T. Grajek, D. Karwowski, ***A. Łuczak***, S. Maćkowiak, M. Domański  
