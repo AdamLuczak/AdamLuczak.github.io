@@ -1,0 +1,22 @@
+TY  - CONF
+TI  - Hybrid coding of video with spatio-temporal scalability using subband decomposition
+T2  - 9th European Signal Processing Conference (EUSIPCO 1998)
+SP  - 1
+EP  - 4
+AU  - M. Domański
+AU  - A. Łuczak
+AU  - S. Maćkowiak
+AU  - R. Świerczyński
+PY  - 1998
+DO  - 
+JO  - 9th European Signal Processing Conference (EUSIPCO 1998)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 9th European Signal Processing Conference (EUSIPCO 1998)
+Y1  - 8-11 Sept. 1998
+AB  - The paper deals with scalable (hierarchical) coding of video at bitrates in the range of about 2–5 Mbps. A practical goal is to obtain comparable bitrates in a base layer and an enhancement layer. The solution proposed in the paper is based on both temporal and spatial resolution reduction performed for data transmitted in a base layer. Two principal variants are presented: systems with three-dimensional filter banks for spatio-temporal analysis and systems where some B-frames are allocated to an enhancement layer but subband analysis is purely spatial. The assumption is that a base layer is fully MPEG-2 compatible. Bitstreams related to high spatial frequencies are encoded either using DCT-based MPEG-like coding or a technique that exploits mutual dependencies between low- and high-spatial-frequency subchannels.
+ER  - 
+
+

@@ -1,0 +1,1 @@
+M. Domański, A. Łuczak, S. Maćkowiak and R. Świerczyński, "Hybrid coding of video with spatio-temporal scalability using subband decomposition," 9th European Signal Processing Conference (EUSIPCO 1998), Rhodes, Greece, 1998, pp. 1-4.

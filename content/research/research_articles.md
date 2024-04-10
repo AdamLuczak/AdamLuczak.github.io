@@ -308,13 +308,15 @@ X European Signal Processing Conference: Theories and Applications Eusipco 2000,
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Spatio-temporal-scalability-using-modified-MPEG-2-predictive-video-coding.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Spatio-temporal-scalability-using-modified-MPEG-2-predictive-video-coding.ris)
 
-====
-
 ### MPEG-Based Scalable Video Codec with 3-D Subband Decomposition
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński  
 Bulletin of the Polish Academy of Sciences. Technical Sciences, Vol. 47, No. 3, Warsaw, Poland, 1999, pp. 247-253  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.ris)
 
-### Hybrid coding of video with spatio-temporal scalability using subband decomposition,
+### Hybrid coding of video with spatio-temporal scalability using subband decomposition
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński  
 Visual Communication and Image Processing, 1999, pp. 1018-1025  
 
@@ -322,8 +324,12 @@ Visual Communication and Image Processing, 1999, pp. 1018-1025
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
 6th International Workshop on Systems, Signals and Image Processing, Bratislava, Slovakia, 1999, pp. 34-37  
 
+=====
+
 ### Hybrid coding of video with spatio-temporal scalability using subband decomposition
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński  
-Signal Processing IX: Theories and Applications, Athens, Greece, 1998, pp. 53-56  
-
-===============
+9th European Signal Processing Conference (EUSIPCO 1998), Rhodes, Greece, 1998, pp. 53-56  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (IEEEXplore)](https://ieeexplore.ieee.org/document/7089769)
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/MPEG-Based-Scalable-Video-Codec-with-3-D-Subband-Decomposition.ris)
