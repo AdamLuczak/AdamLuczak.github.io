@@ -1,0 +1,1 @@
+﻿﻿﻿﻿﻿﻿M. Domański, A. Łuczak, S. Maćkowiak, “MPEG-2 Compatible Hierarchical Video Coders with B-frame Data Partitioning”, 6th International Workshop on Systems, Signals and Image Processing, Bratislava, Slovakia, 1999, pp. 34-37, 
