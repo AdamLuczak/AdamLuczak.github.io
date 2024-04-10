@@ -319,6 +319,10 @@ Bulletin of the Polish Academy of Sciences. Technical Sciences, Vol. 47, No. 3, 
 ### Hybrid coding of video with spatio-temporal scalability using subband decomposition
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak, Roger Świerczyński  
 Visual Communication and Image Processing, 1999, pp. 1018-1025  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (IEEEXplore)](./publications/Hybrid-coding-of-video-with-spatiotemporal-scalability-using-subband-decomposition_2.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Hybrid-coding-of-video-with-spatio-temporalscalability-using-subband-decomposition_2.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Hybrid-coding-of-video-with-spatio-temporalscalability-using-subband-decomposition_2.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Hybrid-coding-of-video-with-spatio-temporalscalability-using-subband-decomposition_2.ris)
 
 ### MPEG-2 Compatible Hierarchical Video Coders with B-frame Data Partitioning
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  

@@ -1,0 +1,16 @@
+TY  - CONF
+TI  - Hybrid coding of video with spatiotemporal scalability using subband decomposition
+AU  - Marek Domanski
+AU  - Adam Luczak
+AU  - Slawomir Mackowiak
+AU  - Roger Swierczynski
+T2  - Proc.SPIE
+VL  - 3653
+SP  - 1018
+EP  - 1025
+AB  - The paper deals with scalable coding of video with SDTV or HDTV resolution. A new technique of scalable coding is proposed for bitrates of about 3 - 10 Mbps. The technique has been implemented for BT.601 resolution and progressive scan, therefore problems related to an interlaced scan are omitted here. The goal is to improve spatial scalability of MPEG-2 by introducing spatio-temporal scalability. The technique proposed needs less coding overhead than in MPEG-2 spatially scalable scheme and an enhancement layer bitstream with its bitrate not less than the bitrate in a base layer. The solution proposed in the paper is based on both temporal and spatial resolution reduction performed for data transmitted in a base layer. The temporal resolution reduction is obtained by placing each second frame (B-frame) in the enhancement layer. The enhancement layer includes also high-frequency spatial subbands from other frames. A variant of the system based on three-dimensional spatio-temporal analysis is also described. In both cases the assumption is that a base layer is fully MPEG-2 compatible.
+
+UR  - https://doi.org/10.1117/12.334607
+PY  - 1998/12/28
+DO  - 10.1117/12.334607
+ER  - 
