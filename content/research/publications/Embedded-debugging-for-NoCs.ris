@@ -1,0 +1,34 @@
+TY  - CONF
+TI  - Embedded debugging for NoCs
+T2  - Proceedings of the 17th International Conference Mixed Design of Integrated Circuits and Systems - MIXDES 2010
+SP  - 601
+EP  - 606
+AU  - M. Stȩpniewska
+AU  - O. Stankiewicz
+AU  - A. Łuczak
+AU  - J. Siast
+PY  - 2010
+KW  - Debugging
+KW  - Hardware
+KW  - Software
+KW  - Automatic voltage control
+KW  - Decoding
+KW  - Monitoring
+KW  - Protocols
+KW  - NoC
+KW  - debugging
+KW  - H.264
+KW  - AVC
+KW  - design-fordebug
+DO  - 
+JO  - Proceedings of the 17th International Conference Mixed Design of Integrated Circuits and Systems - MIXDES 2010
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - Proceedings of the 17th International Conference Mixed Design of Integrated Circuits and Systems - MIXDES 2010
+Y1  - 24-26 June 2010
+AB  - This paper presents a proposal of debugging enhancements embedded in Network-on-Chip. Such approach makes debugging functionality hardly attainable in classical hardware methodology. We introduce real-time packet sniffing and monitoring with the use of multicast transmission. Each packet in the debug mode is additionally sent to an off-chip control device, called Off-chip Debugging Host (ODH), as a multicast stream. This enables packet sniffing similar to the one that is available in computer networks. Protocol enhancements also include mechanisms for fast and simple configuration. Thanks to introduced control packets, Off-chip Debugging Host is able to remotely read NoC's settings as well. The proposal has been assessed basing on hardware implementation.
+ER  - 
+
+

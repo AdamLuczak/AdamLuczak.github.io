@@ -1,0 +1,1 @@
+M. Stȩpniewska, O. Stankiewicz, A. Łuczak and J. Siast, "Embedded debugging for NoCs," Proceedings of the 17th International Conference Mixed Design of Integrated Circuits and Systems - MIXDES 2010, Wroclaw, Poland, 2010, pp. 601-606

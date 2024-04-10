@@ -204,11 +204,15 @@ Computer Vision and Graphics, L. Bolc et al. (ed.) vol.7594, pp. 172-179, Spring
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Network-on-Multi-ChipNoMCfor-multi-FPGA-multimedia-systems.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Network-on-Multi-ChipNoMCfor-multi-FPGA-multimedia-systems.ris)
 
-===
-
 ### Embedded debugging for NoCs  
 > Marta Stępniewska, Olgierd Stankiewicz, ***Adam Łuczak***, Jakub Siast  
 17th International Conference on Mixed Design of Integrated Circuits and Systems, Wrocław, Poland, 24-26 June 2010  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Embedded-debugging-for-NoCs.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Embedded-debugging-for-NoCs.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Embedded-debugging-for-NoCs.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Embedded-debugging-for-NoCs.ris)
+
+==
 
 ### An experimental Free-view Television System  
 > Marek Domański, Krzysztof Klimaszewski, Jacek Konieczny, Maciej Kurc, ***Adam Łuczak***, Olgierd Stankiewicz, Krzysztof Wegner  
