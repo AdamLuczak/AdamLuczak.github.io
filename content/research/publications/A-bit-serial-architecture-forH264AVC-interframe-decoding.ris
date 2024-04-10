@@ -1,0 +1,27 @@
+﻿﻿TY  - CONF
+TI  - A bit-serial architecture for H.264/AVC interframe decoding
+T2  - 2006 14th European Signal Processing Conference
+SP  - 1
+EP  - 5
+AU  - P. Garstecki
+AU  - A. Łuczak
+AU  - T. Żernicki
+PY  - 2006
+KW  - Clocks
+KW  - Decoding
+KW  - Abstracts
+KW  - Information filters
+KW  - Digital signal processing
+KW  - Random access memory
+DO  - 
+JO  - 2006 14th European Signal Processing Conference
+IS  - 
+SN  - 2219-5491
+VO  - 
+VL  - 
+JA  - 2006 14th European Signal Processing Conference
+Y1  - 4-8 Sept. 2006
+AB  - The H.264/AVC is the most recent standard of video compression. In this paper, an original and efficient architecture of inter prediction block in an H.264/AVC decoder is presented. It is shown that the bit-serial arithmetic can be successfully used for interpolation filter implementation and the resulting architecture is fully pipelined. The inter prediction module was implemented in Verilog HDL and synthesized and then tested on Xilinx Virtex IV family devices. The simulation results indicate that the proposed bit-serial architecture of interpolation filter is very efficient and clock frequency close to the image sampling frequency is enough to perform image reconstruction.
+ER  - 
+
+

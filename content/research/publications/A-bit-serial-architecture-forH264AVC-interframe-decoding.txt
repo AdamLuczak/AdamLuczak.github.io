@@ -1,0 +1,1 @@
+﻿﻿﻿﻿﻿﻿﻿P. Garstecki, A. Łuczak, T. Żernicki, “A bit-serial architecture forH.264/AVC interframe decoding”, European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 September 2006, 
