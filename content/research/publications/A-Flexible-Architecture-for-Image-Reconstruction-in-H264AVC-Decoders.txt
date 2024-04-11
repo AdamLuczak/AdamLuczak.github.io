@@ -1,0 +1,1 @@
+﻿﻿﻿﻿﻿﻿﻿P. Garstecki, A. Łuczak, “A Flexible Architecture for Image Reconstruction in H.264/AVC Decoders”, European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005, 

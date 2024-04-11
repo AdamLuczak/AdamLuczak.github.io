@@ -293,6 +293,10 @@ European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005
 ### Hybrid Video Coder Modeling using Histograms of Transform Coefficients  
 > ***Adam Łuczak***, Marek Domański  
 5th International Workshop on Image Analysis for Multimedia Interactive Services, Lisboa, Portugal, 21-23 April 2004  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Hybrid-Video-Coder-Modeling-using-Histograms-of-Transform-Coefficients.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Hybrid-Video-Coder-Modeling-using-Histograms-of-Transform-Coefficients.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Hybrid-Video-Coder-Modeling-using-Histograms-of-Transform-Coefficients.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Hybrid-Video-Coder-Modeling-using-Histograms-of-Transform-Coefficients.ris)
 
 ### Response to SVC CE2 tasks: testing of SNR scalability technologies  
 > Łukasz Błaszak, Marek Domański, Rafał Lange, ***Adam Łuczak***  
