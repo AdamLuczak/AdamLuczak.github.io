@@ -304,17 +304,17 @@ European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005
 > Łukasz Błaszak, Marek Domański, Rafał Lange, ***Adam Łuczak***  
 Redmond, USA, 19-23 July 2004  
 
-### Cosine Transform Analysis with Applications to MPEG-2 Video Coder Control  
+## Cosine Transform Analysis with Applications to MPEG-2 Video Coder Control  
 > ***Adam Łuczak***, Marek Domański  
 International Workshop on Systems, Signals and Image Processing, Poznań, Poland, 13-15 September 2004, pp. 279-282  
+
+### MPEG Video Bitrate Control Using Coder Modeling  
+> ***Adam Łuczak***, Marek Domański  
+Picture Coding Symposium, Saint Malo, France, 23-25 April 2003, pp. 93-98  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.ris)
-
-## MPEG Video Bitrate Control Using Coder Modeling  
-> ***Adam Łuczak***, Marek Domański  
-Picture Coding Symposium, Saint Malo, France, 23-25 April 2003, pp. 93-98  
 
 ### Simple Global Model of an MPEG-2 Bitstream   
 > Marek Domański, ***Adam Łuczak***  
@@ -332,9 +332,13 @@ Proceedings of ISCE'2002, Erfurt, Germany, 23-26 September 2002
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Modeling-of-bitstreams-produced-by-hybrid-video-coders.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Modeling-of-bitstreams-produced-by-hybrid-video-coders.ris)
 
-## Spatio-Temporal Scalability in DCT-based Hybrid Video Coders  
+### Spatio-Temporal Scalability in DCT-based Hybrid Video Coders  
 > Łukasz Błaszak, Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
 MPEG 2002, ISO/IEC JTC1/SC29/WG11 MPEG2002/M8672, Klagenfurt, Austria, July 2002  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Spatio-Temporal-Scalability-in-DCT-based-Hybrid-Video-Coders.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Spatio-Temporal-Scalability-in-DCT-based-Hybrid-Video-Coders.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Spatio-Temporal-Scalability-in-DCT-based-Hybrid-Video-Coders.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Spatio-Temporal-Scalability-in-DCT-based-Hybrid-Video-Coders.ris)
 
 ### A simple Algorithm for Ordering and Compression of Vector Codebooks  
 > Maciej Bartkowiak, ***Adam Łuczak***  
