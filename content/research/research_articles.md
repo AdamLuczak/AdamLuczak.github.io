@@ -329,6 +329,10 @@ Proceedings of IEEE International Conference on Multimedia and Expo ICME'2002, L
 ### Modeling of bitstreams produced by hybrid video coders  
 > Marek Domański,***Adam Łuczak***  
 Proceedings of ISCE'2002, Erfurt, Germany, 23-26 September 2002  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Modeling-of-bitstreams-produced-by-hybrid-video-coders.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Modeling-of-bitstreams-produced-by-hybrid-video-coders.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Modeling-of-bitstreams-produced-by-hybrid-video-coders.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Modeling-of-bitstreams-produced-by-hybrid-video-coders.ris)
 
 ### Spatio-Temporal Scalability in DCT-based Hybrid Video Coders  
 > Łukasz Błaszak, Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
