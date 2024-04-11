@@ -236,23 +236,29 @@ Pomiary Automatyka Kontrola, PAK, 2010, pp. 749-751
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/An-experimental-Free-view-Television-System.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/An-experimental-Free-view-Television-System.ris)
 
-===============================
-
-### Network-On-Chip Based Architecture of H. 264 Video Decoder  
+### Network-On-Chip Based Architecture of H.264 Video Decoder  
 > ***Adam Łuczak***, Paweł Garstecki, Olgierd Stankiewicz, Marta Stępniewska  
 International Conference on Signals and Electronic Systems, Krakow, Poland, 14-17 September 2008  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/An-experimental-Free-view-Television-System.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/An-experimental-Free-view-Television-System.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/An-experimental-Free-view-Television-System.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/An-experimental-Free-view-Television-System.ris)
 
 ### Flexible processor architecture optimized for advanced coding algorithms  
-> Olgierd Stankiewicz, ***Adam Łuczak***  
+> ***Adam Łuczak***, Olgierd Stankiewicz  
 Picture Coding Symposium 2007, Lisbon, Portugal, November 7-9 2007  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Flexible-processor-architecture-optimized-for-advanced-coding-algorithms.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Flexible-processor-architecture-optimized-for-advanced-coding-algorithms.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Flexible-processor-architecture-optimized-for-advanced-coding-algorithms.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Flexible-processor-architecture-optimized-for-advanced-coding-algorithms.ris)
 
 ### A bit-serial architecture forH.264/AVC interframe decoding  
 > Paweł Garstecki, ***Adam Łuczak***, Tomasz Żernicki  
 European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 September 2006  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-bit-serial-architecture-forH264AVC-interframe-decoding.pdf) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-bit-serial-architecture-forH264AVC-interframe-decoding.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-bit-serial-architecture-forH264AVC-interframe-decoding.bib) | 
-<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-bit-serial-architecture-forH264AVC-interframe-decoding.ris)
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Network-On-Chip-Based-Architecture-of-H-264-Video-Decoder.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Network-On-Chip-Based-Architecture-of-H-264-Video-Decoder.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Network-On-Chip-Based-Architecture-of-H-264-Video-Decoder.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Network-On-Chip-Based-Architecture-of-H-264-Video-Decoder.ris)
 
 ### Reconfigurable architecture of AVC/H.264 Integer Transform  
 > Marta Stępniewska, ***Adam Łuczak***  
@@ -267,7 +273,7 @@ European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 Septembe
 IEEE Intenational Symposium on Circuits and Systems ISCAS 2006, 2006  
 
 ### A bit-serial implementation of mode decision algorithm for AVC encoders
-P. Garstecki, ***A. Luczak***, M. Stepniewska  
+> P. Garstecki, ***A. Luczak***, M. Stepniewska  
 IEEE International Symposium on Circuits and Systems, Kos, Greece, 2006, pp. 4 pp.-3845  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/A-bit-serial-implementation-of-mode-decision-algorithm-for-AVC-encoders.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-bit-serial-implementation-of-mode-decision-algorithm-for-AVC-encoders.txt) | 

@@ -1,0 +1,32 @@
+TY  - CONF
+TI  - Network-on-chip based architecture of H.264 video decoder
+T2  - 2008 International Conference on Signals and Electronic Systems
+SP  - 419
+EP  - 422
+AU  - A. Luczak
+AU  - P. Garstecki
+AU  - O. Stankiewicz
+AU  - M. Stepniewska
+PY  - 2008
+KW  - Network-on-a-chip
+KW  - Decoding
+KW  - Automatic voltage control
+KW  - Streaming media
+KW  - Image reconstruction
+KW  - Image coding
+KW  - Codecs
+KW  - Read-write memory
+KW  - Video compression
+KW  - Hardware
+DO  - 10.1109/ICSES.2008.4673454
+JO  - 2008 International Conference on Signals and Electronic Systems
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2008 International Conference on Signals and Electronic Systems
+Y1  - 14-17 Sept. 2008
+AB  - In this paper we describe architecture for H.264/AVC video decoder. This architecture exploits NoC (Network-on-Chip) for data transport between decoder blocks and is optimized for efficient processing, simple data flow and management. Proposed solution enables flexible device structure configuration and supports testing and verification environments. The presented original architecture is general and can be adopted to develop any modern video and audio codec.
+ER  - 
+
+

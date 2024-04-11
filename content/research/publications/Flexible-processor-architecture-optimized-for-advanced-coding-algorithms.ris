@@ -1,0 +1,8 @@
+TY  - JOUR
+AU  - Łuczak, Adam
+AU  - Stankiewicz, Olgierd
+SP  - 
+N2  - Many modern multimedia applications exploiting complex coding standards like AVC/H.264 or AAC-HE, require processing that implies synergy of both software and hardware solutions for real-time operation. This paper presents a new architecture of processor designed to achieve efficiency and convenience in such cases. The paper proposes an efficient processing architecture based on the use of fast and lightweight "hardware function calls". This approach reduces hardware-to-software bottlenecks, allowing a smooth transition from software to hardware solution. The presented concepts were implemented on Xilinx Virtex4-SX35 FPGA. It is worth noticing that the core is small enough to be treated as a robust soft-core. In this paper, specificities on the developed instruction set are provided as well as on the module inter-connection. Results of tests conducted using standard implementations of H.264/AVC and AAC algorithms are also presented.
+T1  - FLEXBLE PROCESSOR ARCHITECTURE OPTIMIZED FOR ADVANCED CODING ALGORITHMS
+VL  - 
+ER  - 
