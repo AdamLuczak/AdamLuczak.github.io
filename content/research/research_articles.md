@@ -314,7 +314,7 @@ International Workshop on Systems, Signals and Image Processing, Poznań, Poland
 > ***Adam Łuczak***, Marek Domański  
 Picture Coding Symposium, Saint Malo, France, 23-25 April 2003, pp. 93-98  
 
-### Simple Global Model of an MPEG-2 Bitstream  
+### Simple Global Model of an MPEG-2 Bitstream   
 > Marek Domański, ***Adam Łuczak***  
 Proceedings of IEEE International Conference on Multimedia and Expo ICME'2002, Lausanne, Switzerland, 26-29 August 2002  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text ???? ](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.pdf) | 
