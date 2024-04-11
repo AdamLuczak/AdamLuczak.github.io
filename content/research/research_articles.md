@@ -317,7 +317,7 @@ Picture Coding Symposium, Saint Malo, France, 23-25 April 2003, pp. 93-98
 ### Simple Global Model of an MPEG-2 Bitstream   
 > Marek Domański, ***Adam Łuczak***  
 Proceedings of IEEE International Conference on Multimedia and Expo ICME'2002, Lausanne, Switzerland, 26-29 August 2002  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text ???? ](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.pdf) | 
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.ris)
@@ -335,18 +335,18 @@ MPEG 2002, ISO/IEC JTC1/SC29/WG11 MPEG2002/M8672, Klagenfurt, Austria, July 2002
 ### A simple Algorithm for Ordering and Compression of Vector Codebooks  
 > Maciej Bartkowiak, ***Adam Łuczak***  
 9th International Conference on Computer Analysis of Images and Patterns, Springer, Warsaw, Poland, 5-7 September 2001, pp. 103-109  
-<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](...) | 
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](A-Simple-Algorithm-for-Ordering-and-Compression-of-Vector-Codebooks.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-Simple-Algorithm-for-Ordering-and-Compression-of-Vector-Codebooks.txt) | 
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Simple-Algorithm-for-Ordering-and-Compression-of-Vector-Codebooks.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-Simple-Algorithm-for-Ordering-and-Compression-of-Vector-Codebooks.ris)
 
-### Spatio-Temporal Scalability for MPEG
+### Spatio-Temporal Scalability for MPEG video coding
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
 IEEE Transactions on Circuits and Systems for Video Technology, Vol. 10, No. 7, October 2000, pp. 1088-1093  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text (IEEEXplore)](https://ieeexplore.ieee.org/abstract/document/875513) | 
-<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Spatio-Temporal-Scalability-for-MPEG.txt) | 
-<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Spatio-Temporal-Scalability-for-MPEG.bib) | 
-<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Spatio-Temporal-Scalability-for-MPEG.ris)
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Spatio-Temporal-Scalability-for-MPEG-Video-Coding.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Spatio-Temporal-Scalability-for-MPEG-Video-Coding.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Spatio-Temporal-Scalability-for-MPEG-Video-Coding.ris)
 
 ### On improving MPEG Spatial Scalability
 > Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
