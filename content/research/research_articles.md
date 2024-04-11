@@ -284,8 +284,6 @@ International Conference on Signals and Electronic Systems ICSES'06, Łódź, 18
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Temporal-noise-reduction-for-preprocessing-of-video-streams-in-monitoring-systems.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Temporal-noise-reduction-for-preprocessing-of-video-streams-in-monitoring-systems.ris)
 
-===============================
-
 ### A Flexible Architecture for Image Reconstruction in H.264/AVC Decoders  
 > Paweł Garstecki, ***Adam Łuczak***  
 European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005  
@@ -302,7 +300,7 @@ European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Hybrid-Video-Coder-Modeling-using-Histograms-of-Transform-Coefficients.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Hybrid-Video-Coder-Modeling-using-Histograms-of-Transform-Coefficients.ris)
 
-### Response to SVC CE2 tasks: testing of SNR scalability technologies  
+## Response to SVC CE2 tasks: testing of SNR scalability technologies  
 > Łukasz Błaszak, Marek Domański, Rafał Lange, ***Adam Łuczak***  
 Redmond, USA, 19-23 July 2004  
 
@@ -314,7 +312,7 @@ International Workshop on Systems, Signals and Image Processing, Poznań, Poland
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.ris)
 
-### MPEG Video Bitrate Control Using Coder Modeling  
+## MPEG Video Bitrate Control Using Coder Modeling  
 > ***Adam Łuczak***, Marek Domański  
 Picture Coding Symposium, Saint Malo, France, 23-25 April 2003, pp. 93-98  
 
@@ -334,11 +332,9 @@ Proceedings of ISCE'2002, Erfurt, Germany, 23-26 September 2002
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Modeling-of-bitstreams-produced-by-hybrid-video-coders.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Modeling-of-bitstreams-produced-by-hybrid-video-coders.ris)
 
-### Spatio-Temporal Scalability in DCT-based Hybrid Video Coders  
+## Spatio-Temporal Scalability in DCT-based Hybrid Video Coders  
 > Łukasz Błaszak, Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
 MPEG 2002, ISO/IEC JTC1/SC29/WG11 MPEG2002/M8672, Klagenfurt, Austria, July 2002  
-
-===============================
 
 ### A simple Algorithm for Ordering and Compression of Vector Codebooks  
 > Maciej Bartkowiak, ***Adam Łuczak***  
