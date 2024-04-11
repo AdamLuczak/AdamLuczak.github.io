@@ -1,0 +1,10 @@
+TY  - JOUR
+AU  - Stankiewicz, Olgierd
+AU  - Roszak, Antoni
+AU  - Łuczak, Adam
+PY  - 2000/01/01
+SP  - 
+N2  - This paper presents an efficient preprocessing algorithm for dealing with noise in video sequences. The algo-rithm is based on simple thresholding and linear filtering. First stage of proposed technique is motion detection which separates steady regions from moving ones. Second stage involves tempo-ral filtering of steady regions. That yields with "freezed" blocks that are more susceptible for compression. The proposed algo-rithm is appropriate for preprocessing stage before compres-sion of video sequences.
+T1  - Temporal noise reduction for preprocessing of video streams in monitoring systems
+VL  - 
+ER  - 

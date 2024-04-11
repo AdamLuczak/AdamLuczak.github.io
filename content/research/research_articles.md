@@ -268,10 +268,6 @@ European Signal Processing Conference EUSIPCO2006, Florence, Italy, 4-8 Septembe
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Reconfigurable-architecture-of-AVCH264-Integer-Transform.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Reconfigurable-architecture-of-AVCH264-Integer-Transform.ris)
 
-### A Bit-serial Architecture for H.264/AVC Encoder  
-> Marta Stępniewska, ***Adam Łuczak***  
-IEEE Intenational Symposium on Circuits and Systems ISCAS 2006, 2006  
-
 ### A bit-serial implementation of mode decision algorithm for AVC encoders
 > P. Garstecki, ***A. Luczak***, M. Stepniewska  
 IEEE International Symposium on Circuits and Systems, Kos, Greece, 2006, pp. 4 pp.-3845  
@@ -283,6 +279,10 @@ IEEE International Symposium on Circuits and Systems, Kos, Greece, 2006, pp. 4 p
 ### Temporal noise reduction for preprocessing of video streams in monitoring systems  
 > Olgierd Stankiewicz, ***Adam Łuczak***, Antoni Roszak  
 International Conference on Signals and Electronic Systems ICSES'06, Łódź, 18-20 września 2006, pp. 231-234  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Temporal-noise-reduction-for-preprocessing-of-video-streams-in-monitoring-systems.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Temporal-noise-reduction-for-preprocessing-of-video-streams-in-monitoring-systems.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Temporal-noise-reduction-for-preprocessing-of-video-streams-in-monitoring-systems.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Temporal-noise-reduction-for-preprocessing-of-video-streams-in-monitoring-systems.ris)
 
 ### A Flexible Architecture for Image Reconstruction in H.264/AVC Decoders  
 > Paweł Garstecki, ***Adam Łuczak***  
