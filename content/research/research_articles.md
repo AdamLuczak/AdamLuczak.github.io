@@ -284,6 +284,8 @@ International Conference on Signals and Electronic Systems ICSES'06, Łódź, 18
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Temporal-noise-reduction-for-preprocessing-of-video-streams-in-monitoring-systems.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Temporal-noise-reduction-for-preprocessing-of-video-streams-in-monitoring-systems.ris)
 
+===============================
+
 ### A Flexible Architecture for Image Reconstruction in H.264/AVC Decoders  
 > Paweł Garstecki, ***Adam Łuczak***  
 European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005  
