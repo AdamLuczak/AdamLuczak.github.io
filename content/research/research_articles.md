@@ -365,7 +365,7 @@ IEEE International Conference on Image Processing, Vancouver, Canada, 10-13 Sept
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/On-improving-MPEG-Spatial-Scalability.ris)
 
 ### Spatio-Temporal Scalability for MPEG-2 Video Coding,
-> Marek Domański, ***Adam Łuczak***, Sławomir Maćkowiak  
+> ***Adam Łuczak***, Marek Domański, Sławomir Maćkowiak  
 X European Signal Processing Conference: Theories and Applications Eusipco 2000, Tampere, Finland, 4-8 September 2000  
 <i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/Spatio-Temporal-Scalability-for-MPEG-2-Video-Coding.pdf) | 
 <i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Spatio-Temporal-Scalability-for-MPEG-2-Video-Coding.txt) | 
