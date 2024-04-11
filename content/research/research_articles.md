@@ -305,6 +305,10 @@ Redmond, USA, 19-23 July 2004
 ### Cosine Transform Analysis with Applications to MPEG-2 Video Coder Control  
 > ***Adam Łuczak***, Marek Domański  
 International Workshop on Systems, Signals and Image Processing, Poznań, Poland, 13-15 September 2004, pp. 279-282  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/MPEG-Video-Bitrate-Control-Using-Coder-Modeling.ris)
 
 ### MPEG Video Bitrate Control Using Coder Modeling  
 > ***Adam Łuczak***, Marek Domański  

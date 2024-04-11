@@ -1,0 +1,10 @@
+TY  - JOUR
+AU  - Luczak, Adam
+AU  - Domaki, Marek
+PY  - 2003/05/28
+SP  - 
+N2  - The problem considered is how to estimate the value of the quantizer scale factor Q that corresponds to a given number of bits B in a given frame of a sequence. The solution exploits two statistical models B(Q) of I-, Pand B-frames coded by an MPEG coder. These models B(Q) depend on some parameters related to video content. In the first model, there are very few such parameters that can to be estimated from a previous similar frame. In the second model, the content parameters are the AC coefficients of DCT. Accurate choice of the value of the quantizer scale factor Q can be made using these two models. The experimental results have been presented for MPEG-2 MPML coders but some other experiments show that similar approach is useful for other hybrid coders like H.263 and MPEG-4.
+T1  - Mpeg Video Bitrate Control Using Coder Modeling
+VL  - 
+JO  - Picture Coding Symposium
+ER  - 
