@@ -1,0 +1,30 @@
+TY  - CONF
+TI  - A flexible architecture for image reconstruction in H.264/AVC decoders
+T2  - Proceedings of the 2005 European Conference on Circuit Theory and Design, 2005.
+SP  - I/217
+EP  - I/220 vol. 1
+AU  - A. Luczak
+AU  - P. Garstecki
+PY  - 2005
+KW  - Image reconstruction
+KW  - Automatic voltage control
+KW  - Decoding
+KW  - Hardware design languages
+KW  - Video compression
+KW  - Circuit synthesis
+KW  - Circuit testing
+KW  - Circuit simulation
+KW  - Clocks
+KW  - Image sampling
+DO  - 10.1109/ECCTD.2005.1522949
+JO  - Proceedings of the 2005 European Conference on Circuit Theory and Design, 2005.
+IS  - 
+SN  - 
+VO  - 1
+VL  - 1
+JA  - Proceedings of the 2005 European Conference on Circuit Theory and Design, 2005.
+Y1  - 2-2 Sept. 2005
+AB  - The H.264/AVC is the most recent standard of video compression. In this paper original and flexible architecture of image reconstruction block for H.264/AVC decoder is presented. Depending on application requirements the proposed design may be configured as low complexity simple unit with good performance or as fully pipelined construction with high performance. The architecture was implemented in Verilog HDL and synthesized and then tested on Xilinx VirtexII family device. The simulation results indicate that the implemented circuit is capable to process real-time video at clock close to the image sampling frequency.
+ER  - 
+
+

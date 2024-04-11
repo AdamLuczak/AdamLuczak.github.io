@@ -289,6 +289,10 @@ International Conference on Signals and Electronic Systems ICSES'06, Łódź, 18
 ### A Flexible Architecture for Image Reconstruction in H.264/AVC Decoders  
 > Paweł Garstecki, ***Adam Łuczak***  
 European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text ???? ](./publications/A-Flexible-Architecture-for-Image-Reconstruction-in-H264AVC-Decoders.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/A-Flexible-Architecture-for-Image-Reconstruction-in-H264AVC-Decoders.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/A-Flexible-Architecture-for-Image-Reconstruction-in-H264AVC-Decoders.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/A-Flexible-Architecture-for-Image-Reconstruction-in-H264AVC-Decoders.ris)
 
 ### Hybrid Video Coder Modeling using Histograms of Transform Coefficients  
 > ***Adam Łuczak***, Marek Domański  
