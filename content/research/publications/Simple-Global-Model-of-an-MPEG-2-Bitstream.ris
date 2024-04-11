@@ -1,0 +1,30 @@
+﻿﻿TY  - CONF
+TI  - Simple global model of an MPEG-2 bitstream
+T2  - Proceedings. IEEE International Conference on Multimedia and Expo
+SP  - 645
+EP  - 648 vol.1
+AU  - M. Domanski
+AU  - A. Luczak
+PY  - 2002
+KW  - Bit rate
+KW  - Transform coding
+KW  - Quantization
+KW  - Code standards
+KW  - Video coding
+KW  - Video compression
+KW  - ISO standards
+KW  - Software standards
+KW  - Communication system control
+KW  - Paper technology
+DO  - 10.1109/ICME.2002.1035864
+JO  - Proceedings. IEEE International Conference on Multimedia and Expo
+IS  - 
+SN  - 
+VO  - 1
+VL  - 1
+JA  - Proceedings. IEEE International Conference on Multimedia and Expo
+Y1  - 26-29 Aug. 2002
+AB  - The paper describes a simple empirical model of bitstreams produced by MPEG-2 video coders. The number of bits that represent an I- or P-frame is expressed as a function of the quantization factor Q. This model is global in the sense that it describes the total number of bits in a frame thus ignoring local bitrate variation within a frame as well as changes of Q within a frame. This five-parameter model fits well to experimental data. Four of these parameters may be fixed thus obtaining a less accurate one-parameter model that can be used for coder control. The experimental results are reported for some video test sequences in the BT.601/4CIF format encoded by an MPEG-2 MP@ML coder.
+ER  - 
+
+

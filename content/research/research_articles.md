@@ -317,6 +317,10 @@ Picture Coding Symposium, Saint Malo, France, 23-25 April 2003, pp. 93-98
 ### Simple Global Model of an MPEG-2 Bitstream  
 > Marek Domański, ***Adam Łuczak***  
 Proceedings of IEEE International Conference on Multimedia and Expo ICME'2002, Lausanne, Switzerland, 26-29 August 2002  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[Full text ???? ](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.pdf) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Simple-Global-Model-of-an-MPEG-2-Bitstream.ris)
 
 ### Modeling of bitstreams produced by hybrid video coders  
 > Marek Domański,***Adam Łuczak***  
