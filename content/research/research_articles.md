@@ -300,13 +300,21 @@ European Conference on Circuit Theory and Design ECCTD 2005, Cork, Ireland, 2005
 <i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Hybrid-Video-Coder-Modeling-using-Histograms-of-Transform-Coefficients.bib) | 
 <i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Hybrid-Video-Coder-Modeling-using-Histograms-of-Transform-Coefficients.ris)
 
-## Response to SVC CE2 tasks: testing of SNR scalability technologies  
+### Response to SVC CE2 tasks: testing of SNR scalability technologies  
 > Łukasz Błaszak, Marek Domański, Rafał Lange, ***Adam Łuczak***  
 Redmond, USA, 19-23 July 2004  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[unavailable](0) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Response-to-SVC-CE2-tasks-testing-of-SNR-scalability-technologies.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Response-to-SVC-CE2-tasks-testing-of-SNR-scalability-technologies.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Response-to-SVC-CE2-tasks-testing-of-SNR-scalability-technologies.ris)
 
-## Cosine Transform Analysis with Applications to MPEG-2 Video Coder Control  
+### Cosine Transform Analysis with Applications to MPEG-2 Video Coder Control  
 > ***Adam Łuczak***, Marek Domański  
 International Workshop on Systems, Signals and Image Processing, Poznań, Poland, 13-15 September 2004, pp. 279-282  
+<i class="fa-solid fa-file-pdf custom-icon"></i>[unavailable](0) | 
+<i class="fa-solid fa-quote-right custom-icon"></i>[Citation](./publications/Cosine-Transform-Analysis-with-Applications-to-MPEG-2-Video-Coder-Control.txt) | 
+<i class="fa-solid fa-code custom-icon"></i>[Citation (BibTeX)](./publications/Cosine-Transform-Analysis-with-Applications-to-MPEG-2-Video-Coder-Control.bib) | 
+<i class="fa-solid fa-book custom-icon"></i>[Citation (RIS)](./publications/Cosine-Transform-Analysis-with-Applications-to-MPEG-2-Video-Coder-Control.ris)
 
 ### MPEG Video Bitrate Control Using Coder Modeling  
 > ***Adam Łuczak***, Marek Domański  
