@@ -83,6 +83,10 @@ main {
   .sidebar {
     flex: 0 0 400px; /* Sidebar ma stałą szerokość 400px, nie rośnie i nie kurczy się */
     max-width: 400px; /* Zapobiega przekroczeniu szerokości 400px */
+    box-sizing: border-box !important; /* Wymusza box-sizing */
+    overflow: hidden !important; /* Zapobiega wypływaniu treści */
+    padding-right: 15px !important; /* Stały padding z prawej */
+    margin-right: 0 !important; /* Brak marginesu z prawej */
   }
 
   .main-content {

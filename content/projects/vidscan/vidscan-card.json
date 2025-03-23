@@ -1,0 +1,17 @@
+{
+    "title": "VidScan - 3D Scanning System based on video",
+    "image": null,
+    "description": "VidScan to zaawansowany system generowania modeli 3D z nagrań wideo, wykorzystujący sieci neuronowe do segmentacji obiektów i fotogrametrię do rekonstrukcji trójwymiarowej. Został opracowany głównie do zastosowań medycznych, umożliwiając precyzyjne skanowanie kończyn pacjentów z amputacjami w celu lepszego dopasowania protez.",
+    "authors": 
+    {
+        "Adam Łuczak": {}
+    },
+    "tags": 
+    {
+        "skanowanie 3D": {},
+        "fotogrametria": {},
+        "modelowanie 3D": {},
+        "sieci neuronowe": {},
+        "przetwarzanie obrazów": {}
+    }
+} 

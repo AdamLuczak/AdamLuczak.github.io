@@ -47,7 +47,16 @@ function loadMarkdownContent(path, elementId, className)
 
             container.appendChild(cardContainer);
 
-    fetch(path)
+    // Dodaję timestamp, aby zapobiec cachowaniu
+    const pathWithTimestamp = `${path}?t=${new Date().getTime()}`;
+    
+    fetch(pathWithTimestamp, {
+        cache: 'no-store',  // Wymusza brak cachowania
+        headers: {
+            'Pragma': 'no-cache',
+            'Cache-Control': 'no-cache'
+        }
+    })
         .then(response => response.text())
         .then(markdown => 
         {
